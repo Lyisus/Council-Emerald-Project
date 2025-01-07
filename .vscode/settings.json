@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "international_string_util.h": "c",
-        "data.h": "c",
-        "text_window.h": "c",
-        "trainer_pokemon_sprites.h": "c"
-    }
-}

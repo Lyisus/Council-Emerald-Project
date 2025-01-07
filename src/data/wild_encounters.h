@@ -90,8 +90,8 @@ const struct WildPokemon gRoute102_WaterMons[] =
 const struct WildPokemonInfo gRoute102_WaterMonsInfo = { 4, gRoute102_WaterMons };
 const struct WildPokemon gRoute102_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_GOLDEEN },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_DEWPIDER },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_GOLDEEN },
     { 10, 30, SPECIES_CORPHISH },
@@ -132,8 +132,8 @@ const struct WildPokemon gRoute103_WaterMons[] =
 const struct WildPokemonInfo gRoute103_WaterMonsInfo = { 4, gRoute103_WaterMons };
 const struct WildPokemon gRoute103_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },
@@ -174,8 +174,8 @@ const struct WildPokemon gRoute104_WaterMons[] =
 const struct WildPokemonInfo gRoute104_WaterMonsInfo = { 4, gRoute104_WaterMons };
 const struct WildPokemon gRoute104_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_MAGIKARP },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_MAGIKARP },
@@ -199,8 +199,8 @@ const struct WildPokemon gRoute105_WaterMons[] =
 const struct WildPokemonInfo gRoute105_WaterMonsInfo = { 4, gRoute105_WaterMons };
 const struct WildPokemon gRoute105_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },
@@ -787,8 +787,8 @@ const struct WildPokemon gRoute106_WaterMons[] =
 const struct WildPokemonInfo gRoute106_WaterMonsInfo = { 4, gRoute106_WaterMons };
 const struct WildPokemon gRoute106_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },
@@ -812,8 +812,8 @@ const struct WildPokemon gRoute107_WaterMons[] =
 const struct WildPokemonInfo gRoute107_WaterMonsInfo = { 4, gRoute107_WaterMons };
 const struct WildPokemon gRoute107_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },
@@ -837,8 +837,8 @@ const struct WildPokemon gRoute108_WaterMons[] =
 const struct WildPokemonInfo gRoute108_WaterMonsInfo = { 4, gRoute108_WaterMons };
 const struct WildPokemon gRoute108_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },
@@ -862,8 +862,8 @@ const struct WildPokemon gRoute109_WaterMons[] =
 const struct WildPokemonInfo gRoute109_WaterMonsInfo = { 4, gRoute109_WaterMons };
 const struct WildPokemon gRoute109_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },
@@ -2329,8 +2329,8 @@ const struct WildPokemon gDewfordTown_WaterMons[] =
 const struct WildPokemonInfo gDewfordTown_WaterMonsInfo = { 4, gDewfordTown_WaterMons };
 const struct WildPokemon gDewfordTown_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_TENTACOOL },
     { 10, 30, SPECIES_WAILMER },
@@ -2454,8 +2454,8 @@ const struct WildPokemon gPetalburgCity_WaterMons[] =
 const struct WildPokemonInfo gPetalburgCity_WaterMonsInfo = { 1, gPetalburgCity_WaterMons };
 const struct WildPokemon gPetalburgCity_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_GOLDEEN },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_GOLDEEN },
     { 10, 30, SPECIES_MAGIKARP },
     { 10, 30, SPECIES_GOLDEEN },
     { 10, 30, SPECIES_CORPHISH },

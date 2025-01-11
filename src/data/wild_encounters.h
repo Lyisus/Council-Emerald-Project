@@ -554,35 +554,35 @@ const struct WildPokemon gRusturfTunnel_LandMons[] =
 const struct WildPokemonInfo gRusturfTunnel_LandMonsInfo = { 10, gRusturfTunnel_LandMons };
 const struct WildPokemon gGraniteCave_1F_LandMons[] =
 {
-    { 7, 7, SPECIES_ZUBAT },
-    { 8, 8, SPECIES_MAKUHITA },
-    { 7, 7, SPECIES_MAKUHITA },
-    { 8, 8, SPECIES_ZUBAT },
-    { 9, 9, SPECIES_MAKUHITA },
-    { 8, 8, SPECIES_ABRA },
-    { 10, 10, SPECIES_MAKUHITA },
-    { 6, 6, SPECIES_MAKUHITA },
-    { 7, 7, SPECIES_GEODUDE },
-    { 8, 8, SPECIES_GEODUDE },
-    { 6, 6, SPECIES_GEODUDE },
-    { 9, 9, SPECIES_GEODUDE },
+    { 15, 17, SPECIES_ZUBAT },
+    { 15, 17, SPECIES_ARON },
+    { 16, 18, SPECIES_MAKUHITA },
+    { 16, 18, SPECIES_MAKUHITA },
+    { 16, 18, SPECIES_DIGLETT },
+    { 16, 18, SPECIES_DIGLETT_ALOLA },
+    { 16, 19, SPECIES_ONIX },
+    { 16, 19, SPECIES_ONIX },
+    { 17, 19, SPECIES_KLAWF },
+    { 17, 19, SPECIES_LARVITAR },
+    { 17, 19, SPECIES_LARVITAR },
+    { 17, 19, SPECIES_KLAWF },
 };
 
 const struct WildPokemonInfo gGraniteCave_1F_LandMonsInfo = { 10, gGraniteCave_1F_LandMons };
 const struct WildPokemon gGraniteCave_B1F_LandMons[] =
 {
-    { 9, 9, SPECIES_ZUBAT },
-    { 10, 10, SPECIES_ARON },
-    { 9, 9, SPECIES_ARON },
-    { 11, 11, SPECIES_ARON },
-    { 10, 10, SPECIES_ZUBAT },
-    { 9, 9, SPECIES_ABRA },
-    { 10, 10, SPECIES_MAKUHITA },
-    { 11, 11, SPECIES_MAKUHITA },
-    { 10, 10, SPECIES_SABLEYE },
-    { 10, 10, SPECIES_SABLEYE },
-    { 9, 9, SPECIES_SABLEYE },
-    { 11, 11, SPECIES_SABLEYE },
+    { 15, 17, SPECIES_ZUBAT },
+    { 15, 17, SPECIES_ARON },
+    { 15, 18, SPECIES_ZUBAT },
+    { 15, 18, SPECIES_SCRAGGY },
+    { 15, 18, SPECIES_DIGLETT },
+    { 15, 18, SPECIES_DIGLETT_ALOLA },
+    { 16, 19, SPECIES_MAWILE },
+    { 16, 19, SPECIES_SABLEYE },
+    { 17, 20, SPECIES_NOIBAT },
+    { 17, 20, SPECIES_LARVITAR },
+    { 18, 20, SPECIES_LARVITAR },
+    { 18, 20, SPECIES_AXEW },
 };
 
 const struct WildPokemonInfo gGraniteCave_B1F_LandMonsInfo = { 10, gGraniteCave_B1F_LandMons };
@@ -674,18 +674,18 @@ const struct WildPokemon gAbandonedShip_Rooms_B1F_FishingMons[] =
 const struct WildPokemonInfo gAbandonedShip_Rooms_B1F_FishingMonsInfo = { 20, gAbandonedShip_Rooms_B1F_FishingMons };
 const struct WildPokemon gGraniteCave_B2F_LandMons[] =
 {
-    { 10, 10, SPECIES_ZUBAT },
-    { 11, 11, SPECIES_ARON },
-    { 10, 10, SPECIES_ARON },
-    { 11, 11, SPECIES_ZUBAT },
-    { 12, 12, SPECIES_ARON },
-    { 10, 10, SPECIES_ABRA },
-    { 10, 10, SPECIES_SABLEYE },
-    { 11, 11, SPECIES_SABLEYE },
-    { 12, 12, SPECIES_SABLEYE },
-    { 10, 10, SPECIES_SABLEYE },
-    { 12, 12, SPECIES_SABLEYE },
-    { 10, 10, SPECIES_SABLEYE },
+    { 16, 18, SPECIES_ZUBAT },
+    { 16, 18, SPECIES_ARON },
+    { 16, 19, SPECIES_ZUBAT },
+    { 16, 19, SPECIES_SCRAGGY },
+    { 16, 19, SPECIES_DIGLETT },
+    { 16, 19, SPECIES_DIGLETT_ALOLA },
+    { 17, 19, SPECIES_MAWILE },
+    { 17, 19, SPECIES_SABLEYE },
+    { 18, 20, SPECIES_NOIBAT },
+    { 18, 20, SPECIES_LARVITAR },
+    { 19, 21, SPECIES_LARVITAR },
+    { 19, 21, SPECIES_AXEW },
 };
 
 const struct WildPokemonInfo gGraniteCave_B2F_LandMonsInfo = { 10, gGraniteCave_B2F_LandMons };
@@ -1248,18 +1248,18 @@ const struct WildPokemon gMtPyre_Summit_LandMons[] =
 const struct WildPokemonInfo gMtPyre_Summit_LandMonsInfo = { 10, gMtPyre_Summit_LandMons };
 const struct WildPokemon gGraniteCave_StevensRoom_LandMons[] =
 {
-    { 7, 7, SPECIES_ZUBAT },
-    { 8, 8, SPECIES_MAKUHITA },
-    { 7, 7, SPECIES_MAKUHITA },
-    { 8, 8, SPECIES_ZUBAT },
-    { 9, 9, SPECIES_MAKUHITA },
-    { 8, 8, SPECIES_ABRA },
-    { 10, 10, SPECIES_MAKUHITA },
-    { 6, 6, SPECIES_MAKUHITA },
-    { 7, 7, SPECIES_ARON },
-    { 8, 8, SPECIES_ARON },
-    { 7, 7, SPECIES_ARON },
-    { 8, 8, SPECIES_ARON },
+    { 17, 19, SPECIES_ZUBAT },
+    { 17, 19, SPECIES_ARON },
+    { 17, 20, SPECIES_ZUBAT },
+    { 17, 20, SPECIES_ARON },
+    { 17, 20, SPECIES_DIGLETT },
+    { 17, 20, SPECIES_DIGLETT_ALOLA },
+    { 18, 20, SPECIES_ONIX },
+    { 18, 20, SPECIES_ONIX },
+    { 18, 21, SPECIES_TINKATINK },
+    { 18, 21, SPECIES_LARVITAR },
+    { 19, 21, SPECIES_LARVITAR },
+    { 19, 21, SPECIES_BELDUM },
 };
 
 const struct WildPokemonInfo gGraniteCave_StevensRoom_LandMonsInfo = { 10, gGraniteCave_StevensRoom_LandMons };

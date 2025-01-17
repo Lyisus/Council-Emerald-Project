@@ -17081,24 +17081,120 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
+Double Battle: Yes
+AI: Smart Trainer
+
+Aipom  
+Ability: Pickup  
+Level: 22  
+IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+- Return  
+- Swift  
+- Fury Swipes  
+- Tickle  
+
+Simisage @ Occa Berry  
+Ability: Overgrow  
+Level: 24  
+IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+- Return  
+- Grass Pledge  
+- Bite  
+- Leech Seed  
+
+Simipour @ Rindo Berry  
+Ability: Torrent  
+Level: 24  
+IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+- Return  
+- Water Pledge  
+- Bite  
+- Water Sport  
+
+Simisear @ Passho Berry  
+Ability: Blaze  
+Level: 25  
+IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+- Return  
+- Fire Pledge  
+- Bite  
+- Yawn  
+
+=== TRAINER_JOHN_FEY ===
+Name: FEY
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
 Double Battle: No
 AI: Smart Trainer
 
-Aipom
-Level: 22
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+Wobbuffet @ Custap Berry  
+Ability: Shadow Tag  
+Level: 29  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe 
+- Counter  
+- Destiny Bond  
+- Mirror Coat  
+- Safeguard  
 
-Simisage
-Level: 24
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+Minior @ Absorb Bulb  
+Ability: Shields Down  
+Level: 32  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe 
+- Power Gem  
+- Acrobatics  
+- Self-Destruct  
+- Shell Smash  
 
-Simipour
-Level: 24
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+Klawf  
+Ability: Anger Shell  
+Level: 32  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe 
+- Rock Throw  
+- X-Scissor  
+- Rock Smash  
+- Smack Down  
 
-Simisear
-Level: 25
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+Naclstack  
+Ability: Purifying Salt  
+Level: 31  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe 
+- Salt Cure  
+- Sandstorm  
+- Iron Defense  
+- Stealth Rock  
+
+Hot Wheels (Carkol) @ Heat Rock  
+Ability: Steam Engine  
+Level: 31  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe 
+- Flame Charge  
+- Flame Wheel  
+- Rock Polish  
+- Sunny Day  
+
+Coalossal @ Weakness Policy  
+Ability: Steam Engine  
+Level: 34  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe 
+- Flamethrower  
+- Ancient Power  
+- Solar Beam  
+- Will-O-Wisp  
+
+=== TRAINER_HOLDEN_WOLF ===
+Name: HOLDEN
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Basic Trainer
+
+Oricorio
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SIMON_BOS ===
 Name: SIMON
@@ -17123,32 +17219,6 @@ Double Battle: No
 AI: Basic Trainer
 
 Ursaring
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_JOHN_FEY ===
-Name: FEY
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Basic Trainer
-
-Wobbuffet
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HOLDEN_WOLF ===
-Name: HOLDEN
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Basic Trainer
-
-Oricorio
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -17218,7 +17288,7 @@ Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LUKE_COT ===
-Name: LUKE C
+Name: LUKE
 Class: Hiker
 Pic: Hiker
 Gender: Male

@@ -72,71 +72,30 @@ Route102_EventScript_Allen::
 	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
 	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
 	end
-
-Route102_EventScript_Jacob_Walt::
-	trainerbattle_single TRAINER_JACOB_WALT, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Simon_Bos::
-	trainerbattle_single TRAINER_SIMON_BOS, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Jim_Mor::
-	trainerbattle_single TRAINER_JIM_MOR, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
 	
-Route102_EventScript_John_Fey::
-	trainerbattle_single TRAINER_JOHN_FEY, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Holden_Wolf::
-	trainerbattle_single TRAINER_HOLDEN_WOLF, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-	
-Route102_EventScript_Robert_Mea::
-	trainerbattle_single TRAINER_ROBERT_MEA, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_David_Wis::
-	trainerbattle_single TRAINER_DAVID_WIS, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-	
-Route102_EventScript_Nick_Pea::
-	trainerbattle_single TRAINER_NICK_PEA, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Luis_Riera::
-	trainerbattle_single TRAINER_LUIS_RIE, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-	
-Route102_EventScript_Kyle_Bass::
-	trainerbattle_single TRAINER_KYLE_BASS, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-Route102_EventScript_Luke_Cot::
-	trainerbattle_single TRAINER_LUKE_COT, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-	
-Route102_EventScript_Luke_Hen::
-	trainerbattle_single TRAINER_LUKE_HEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-	
-Route102_EventScript_Peyton_Oka::
+Route102_EventScript_Random_Trainer_Team_Test::
 	trainerbattle_single TRAINER_PEYTON_OKA, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
 	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+random_team_trainer_test::
+	random 2
+	compare VAR_RESULT, 0
+	goto_if_eq random_team_trainer_test_2
+	compare VAR_RESULT, 1
+	goto_if_eq random_team_trainer_test_3
+
+random_team_trainer_test_1:
+	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+random_team_trainer_test_2:
+	trainerbattle_single TRAINER_KYLE_BASS, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
+	goto random_team_trainer_test_1
+
+random_team_trainer_test_3:
+	trainerbattle_single TRAINER_LUKE_HEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
+	goto random_team_trainer_test_1
 
 Route102_Text_WatchMeCatchPokemon:
 	.string "WALLY: {PLAYER}…\n"

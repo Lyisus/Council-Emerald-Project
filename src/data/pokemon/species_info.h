@@ -204,6 +204,202 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconSprite = gMonIcon_Egg,
         .iconPalIndex = 1,
     },
+#if P_CUSTOM_FORMS
+#if P_FAMILY_BUNEARY
+    [SPECIES_BUNEARY_KURIA] =
+    {
+        .baseHP        = 50,
+        .baseAttack    = 66,
+        .baseDefense   = 44,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 44,
+        .baseSpDefense = 56,
+        .types = MON_TYPES(TYPE_GHOST, TYPE_NORMAL),
+        .catchRate = 190,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 70 : 84,
+        .evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 0,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
+        .abilities = { ABILITY_UNNERVE, ABILITY_FLUFFY, ABILITY_LIMBER },
+        .bodyColor = BODY_COLOR_PURPLE,
+        .speciesName = _("Buneary"),
+        .cryId = CRY_BUNEARY,
+        .natDexNum = NATIONAL_DEX_BUNEARY,
+        .categoryName = _("Rabbit"),
+        .height = 4,
+        .weight = 17,
+        .description = COMPOUND_STRING(
+            "Some Buneary are taken from the world\n"
+            "too young and refuse to accept their fate.\n"
+            "This leads them to possess Buneary Dolls\n" 
+            "that are found in the Kuria region."),
+        .pokemonScale = 491,
+        .pokemonOffset = 16,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_BunearyKuria,
+        .frontPicSize = MON_COORDS_SIZE(32, 64),
+        .frontPicYOffset = 9,
+        .frontAnimFrames = sAnims_BunearyKuria,
+        .frontAnimId = ANIM_H_JUMPS_V_STRETCH,
+        .backPic = gMonBackPic_BunearyKuria,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_BunearyKuria,
+        .shinyPalette = gMonShinyPalette_BunearyKuria,
+        .iconSprite = gMonIcon_BunearyKuria,
+        .iconPalIndex = 6,
+        SHADOW(3, 5, SHADOW_SIZE_S)
+        FOOTPRINT(Buneary)
+        OVERWORLD(
+            sPicTable_BunearyKuria,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            gOverworldPalette_BunearyKuria,
+            gShinyOverworldPalette_BunearyKuria
+        )
+        .isCustomForm = TRUE,
+        .levelUpLearnset = sBunearyKuriaLevelUpLearnset,
+        .teachableLearnset = sBunearyKuriaTeachableLearnset,
+        .eggMoveLearnset = sBunearyKuriaEggMoveLearnset,
+        .evolutions = EVOLUTION({EVO_FRIENDSHIP, 0, SPECIES_LOPUNNY_KURIA}),        
+        .formSpeciesIdTable = sBunearyFormSpeciesIdTable,
+        //.formChangeTable = sNoneFormChangeTable,
+        //.perfectIVCount = NUM_STATS,
+    },
+
+    [SPECIES_LOPUNNY_KURIA] =
+    {
+        .baseHP        = 60,
+        .baseAttack    = 76,
+        .baseDefense   = 84,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 54,
+        .baseSpDefense = 96,
+        .types = MON_TYPES(TYPE_GHOST, TYPE_NORMAL),
+        .catchRate = 60,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 168 : 178,
+        .evYield_Speed = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 140,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
+        .abilities = { ABILITY_UNNERVE, ABILITY_FLUFFY, ABILITY_LIMBER },
+        .bodyColor = BODY_COLOR_PURPLE,
+        .speciesName = _("Lopunny"),
+        .cryId = CRY_LOPUNNY,
+        .natDexNum = NATIONAL_DEX_LOPUNNY,
+        .categoryName = _("Rabbit"),
+        .height = 12,
+        .weight = 136,
+        .description = COMPOUND_STRING(
+            "It's very thankful for the affection\n"
+            "it had received as a Buneary and it\n"
+            "feels forever in its trainer's favor.\n"
+            "The plush body and the soul are fully\n"
+            "linked due to the affection of its Trainer."),
+        .pokemonScale = 282,
+        .pokemonOffset = 4,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_LopunnyKuria,
+        .frontPicSize = MON_COORDS_SIZE(56, 56),
+        .frontPicYOffset = 4,
+        .frontAnimFrames = sAnims_LopunnyKuria,
+        .frontAnimId = ANIM_SHRINK_GROW,
+        .backPic = gMonBackPic_LopunnyKuria,
+        .backPicSize = MON_COORDS_SIZE(64, 56),
+        .backPicYOffset = 5,
+        .backAnimId = BACK_ANIM_SHRINK_GROW_VIBRATE,
+        .palette = gMonPalette_LopunnyKuria,
+        .shinyPalette = gMonShinyPalette_LopunnyKuria,
+        .iconSprite = gMonIcon_LopunnyKuria,
+        .iconPalIndex = 6,
+        SHADOW(0, 10, SHADOW_SIZE_S)
+        FOOTPRINT(Lopunny)
+        OVERWORLD(
+            sPicTable_LopunnyKuria,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            gOverworldPalette_LopunnyKuria,
+            gShinyOverworldPalette_LopunnyKuria
+        )
+        .isCustomForm = TRUE,
+        .levelUpLearnset = sLopunnyKuriaLevelUpLearnset,
+        .teachableLearnset = sLopunnyKuriaTeachableLearnset,
+        .formSpeciesIdTable = sLopunnyFormSpeciesIdTable,
+        .formChangeTable = sLopunnyKuriaFormChangeTable,
+        //.perfectIVCount = NUM_STATS,
+    },
+    
+#if P_MEGA_EVOLUTIONS
+    [SPECIES_LOPUNNY_KURIA_MEGA] =
+    {
+        .baseHP        = 60,
+        .baseAttack    = 136,
+        .baseDefense   = 140,
+        .baseSpeed     = 140,
+        .baseSpAttack  = 54,
+        .baseSpDefense = 50,
+        .types = MON_TYPES(TYPE_GHOST, TYPE_FIGHTING),
+        .catchRate = 60,
+        .expYield = 203,
+        .evYield_Speed = 2,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 140,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE),
+        .abilities = { ABILITY_NO_GUARD, ABILITY_NO_GUARD, ABILITY_NO_GUARD },
+        .bodyColor = BODY_COLOR_PURPLE,
+        .speciesName = _("Lopunny"),
+        .cryId = CRY_LOPUNNY_MEGA,
+        .natDexNum = NATIONAL_DEX_LOPUNNY,
+        .categoryName = _("Rabbit"),
+        .height = 13,
+        .weight = 120,
+        .description = COMPOUND_STRING(
+            "During Mega Evolution, Lopunny re-experiences\n"
+            "the time it passed as a Buneary. The realization\n" 
+            "and denial corrupts the soul. It forces Lopunny\n"
+            "to think that it needs to fight viciously to survive."),
+        .pokemonScale = 282,
+        .pokemonOffset = 4,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_LopunnyKuriaMega,
+        .frontPicSize = MON_COORDS_SIZE(56, 64),
+        .frontPicYOffset = 1,
+        .frontAnimFrames = sAnims_LopunnyKuriaMega,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_LopunnyKuriaMega,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 3,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_LARGE,
+        .palette = gMonPalette_LopunnyKuriaMega,
+        .shinyPalette = gMonShinyPalette_LopunnyKuriaMega,
+        .iconSprite = gMonIcon_LopunnyKuriaMega,
+        .iconPalIndex = 6,
+        SHADOW(0, 13, SHADOW_SIZE_S)
+        FOOTPRINT(Lopunny)
+        .isCustomForm = TRUE,
+        .isMegaEvolution = TRUE,
+        .levelUpLearnset = sLopunnyKuriaLevelUpLearnset,
+        .teachableLearnset = sLopunnyKuriaTeachableLearnset,
+        .formSpeciesIdTable = sLopunnyFormSpeciesIdTable,
+        .formChangeTable = sLopunnyKuriaFormChangeTable,
+        //.perfectIVCount = NUM_STATS,
+    },
+#endif //P_MEGA_EVOLUTIONS.
+#endif //P_FAMILY_BUNEARY
+#endif //P_CUSTOM_FORMS
 
     /* You may add any custom species below this point based on the following structure: */
 

@@ -3251,6 +3251,20 @@ static const struct SpriteFrameImage sPicTable_Lopunny[] = {
     overworld_ascending_frames(gObjectEventPic_LopunnyMega, 4, 4),
 };*/
 #endif //P_MEGA_EVOLUTIONS
+
+#if P_CUSTOM_FORMS
+static const struct SpriteFrameImage sPicTable_BunearyKuria[] = {
+    overworld_ascending_frames(gObjectEventPic_BunearyKuria, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_LopunnyKuria[] = {
+    overworld_ascending_frames(gObjectEventPic_LopunnyKuria, 4, 4),
+};
+#if P_MEGA_EVOLUTIONS
+/*static const struct SpriteFrameImage sPicTable_LopunnyKuriaMega[] = {
+    overworld_ascending_frames(gObjectEventPic_LopunnyKuriaMega, 4, 4),
+};*/
+#endif //P_MEGA_EVOLUTIONS
+#endif //P_CUSTOM_FORMS
 #endif //P_FAMILY_BUNEARY
 
 #if P_FAMILY_GLAMEOW

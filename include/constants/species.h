@@ -1638,7 +1638,13 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
-#define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
+//Custom species not in the base game
+#define SPECIES_BUNEARY_KURIA                           1524 //Borrowed from Pokemon Azurite
+#define SPECIES_LOPUNNY_KURIA                           1525 //Borrowed from Pokemon Azurite
+#define SPECIES_LOPUNNY_KURIA_MEGA                      1526 //Borrowed from Pokemon Azurite
+
+
+#define SPECIES_EGG                                     (SPECIES_LOPUNNY_KURIA_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

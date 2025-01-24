@@ -14839,6 +14839,54 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_MEGA_EVOLUTIONS
+#if P_CUSTOM_FORMS
+    const u32 gMonFrontPic_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/anim_front.4bpp.lz");
+    const u32 gMonPalette_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/normal.gbapal.lz");
+    const u32 gMonBackPic_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/back.4bpp.lz");
+    const u32 gMonShinyPalette_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/shiny.gbapal.lz");
+    const u8 gMonIcon_BunearyKuria[] = INCBIN_U8("graphics/pokemon/buneary/kuria/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_BunearyKuria[] = INCBIN_U8("graphics/pokemon/buneary/kuria/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_BunearyKuria[] = INCBIN_COMP("graphics/pokemon/buneary/kuria/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u32 gOverworldPalette_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/overworld_normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/overworld_shiny.gbapal.lz");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+
+    const u32 gMonFrontPic_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/anim_front.4bpp.lz");
+    const u32 gMonPalette_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/normal.gbapal.lz");
+    const u32 gMonBackPic_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/back.4bpp.lz");
+    const u32 gMonShinyPalette_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/shiny.gbapal.lz");
+    const u8 gMonIcon_LopunnyKuria[] = INCBIN_U8("graphics/pokemon/lopunny/kuria/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_LopunnyKuria[] = INCBIN_U8("graphics/pokemon/lopunny/kuria/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_LopunnyKuria[] = INCBIN_COMP("graphics/pokemon/lopunny/kuria/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u32 gOverworldPalette_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/overworld_normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/overworld_shiny.gbapal.lz");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+
+#if P_MEGA_EVOLUTIONS
+    const u32 gMonFrontPic_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/front.4bpp.lz");
+    const u32 gMonPalette_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/normal.gbapal.lz");
+    const u32 gMonBackPic_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/back.4bpp.lz");
+    const u32 gMonShinyPalette_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/shiny.gbapal.lz");
+    const u8 gMonIcon_LopunnyKuriaMega[] = INCBIN_U8("graphics/pokemon/lopunny/kuria/mega/icon.4bpp");
+#if OW_POKEMON_OBJECT_EVENTS
+    // const u32 gObjectEventPic_LopunnyKuriaMega[] = INCBIN_COMP("graphics/pokemon/lopunny/kuria/mega/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    // const u32 gOverworldPalette_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/overworld_normal.gbapal.lz");
+    // const u32 gShinyOverworldPalette_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/overworld_shiny.gbapal.lz");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+#endif //P_MEGA_EVOLUTIONS
+#endif //P_CUSTOM_FORMS
 #endif //P_FAMILY_BUNEARY
 
 #if P_FAMILY_GLAMEOW

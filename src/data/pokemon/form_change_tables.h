@@ -554,6 +554,14 @@ static const struct FormChange sLopunnyFormChangeTable[] = {
 #endif
     {FORM_CHANGE_TERMINATOR},
 };
+#if P_CUSTOM_FORMS
+static const struct FormChange sLopunnyKuriaFormChangeTable[] = {
+#if P_MEGA_EVOLUTIONS
+    {FORM_CHANGE_BATTLE_MEGA_EVOLUTION_ITEM,    SPECIES_LOPUNNY_KURIA_MEGA, ITEM_LOPUNNITE},
+#endif
+    {FORM_CHANGE_TERMINATOR},
+};
+#endif //P_CUSTOM_FORMS
 #endif //P_FAMILY_BUNEARY
 
 #if P_FAMILY_GIBLE

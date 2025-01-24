@@ -43124,7 +43124,7 @@ F_TRAINER_FEMALE |
     [TRAINER_LUKE_COT] =
     {
 #line 17291
-        .trainerName = _("LUKE C"),
+        .trainerName = _("LUKE"),
 #line 17292
         .trainerClass = TRAINER_CLASS_HIKER,
 #line 17293
@@ -43158,7 +43158,7 @@ F_TRAINER_FEMALE |
     [TRAINER_LUKE_HEN] =
     {
 #line 17304
-        .trainerName = _("Luke H"),
+        .trainerName = _("LUKE H"),
 #line 17305
         .trainerClass = TRAINER_CLASS_HIKER,
 #line 17306

@@ -1035,11 +1035,25 @@ static const u16 sGastrodonFormSpeciesIdTable[] = {
 #endif //P_FAMILY_SHELLOS
 
 #if P_FAMILY_BUNEARY
+static const u16 sBunearyFormSpeciesIdTable[] = {
+    SPECIES_BUNEARY,
+#if P_CUSTOM_FORMS
+    SPECIES_BUNEARY_KURIA,
+#endif //P_CUSTOM_FORMS
+    FORM_SPECIES_END,
+};
+
 static const u16 sLopunnyFormSpeciesIdTable[] = {
     SPECIES_LOPUNNY,
 #if P_MEGA_EVOLUTIONS
     SPECIES_LOPUNNY_MEGA,
-#endif
+#endif //P_MEGA_EVOLUTIONS
+#if P_CUSTOM_FORMS
+    SPECIES_LOPUNNY_KURIA,
+#if P_MEGA_EVOLUTIONS
+    SPECIES_LOPUNNY_KURIA_MEGA,
+#endif //P_MEGA_EVOLUTIONS
+#endif //P_CUSTOMFORMS
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_BUNEARY

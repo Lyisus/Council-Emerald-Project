@@ -42,6 +42,13 @@ Route104_EventScript_TrySetRivalPos::
 Route104_EventScript_DontSetRivalPos::
 	return
 
+Route104_EventScript_FaceDown::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
+	waitmovement 0
+	releaseall
+	goto Route104_EventScript_Rival
+
 Route104_EventScript_Rival::
 	lockall
 	setvar VAR_0x8008, 1
@@ -115,8 +122,8 @@ Route104_EventScript_MayEncounter::
 	applymovement LOCALID_RIVAL, Route104_Movement_RivalApproachPlayer
 	waitmovement 0
 	copyobjectxytoperm LOCALID_RIVAL
-	msgbox Route104_Text_MayMinesDecentLetsBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, Route104_EventScript_BattleMay
+	msgbox Route104_Text_MayMinesDecentLetsBattle
+	goto Route104_EventScript_BattleMay
 	msgbox Route104_Text_MayHaventRaisedPokemon, MSGBOX_DEFAULT
 	call Route104_EventScript_RestoreMusic
 	releaseall
@@ -137,15 +144,16 @@ Route104_Movement_PlayerFaceRival:
 	step_end
 
 Route104_EventScript_MayAskToBattle::
-	msgbox Route104_Text_MayLetsBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, Route104_EventScript_BattleMay
+	msgbox Route104_Text_MayLetsBattle
+	goto Route104_EventScript_BattleMay
 	msgbox Route104_Text_MayHaventRaisedPokemon, MSGBOX_DEFAULT
 	releaseall
 	end
 
 Route104_EventScript_BattleMay::
 	msgbox Route104_Text_MayIntro, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
+	random 3
+	switch VAR_RESULT
 	case 0, Route104_EventScript_BattleMayTreecko
 	case 1, Route104_EventScript_BattleMayTorchic
 	case 2, Route104_EventScript_BattleMayMudkip
@@ -154,6 +162,7 @@ Route104_EventScript_BattleMay::
 Route104_EventScript_MayDefeated::
 	msgbox Route104_Text_MayPostBattle, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
+	setvar VAR_ROUTE104_STATE, 3
 	releaseall
 	end
 
@@ -201,23 +210,24 @@ Route104_EventScript_BrendanEncounter::
 	applymovement LOCALID_RIVAL, Route104_Movement_RivalApproachPlayer
 	waitmovement 0
 	copyobjectxytoperm LOCALID_RIVAL
-	msgbox Route104_Text_BrendanDoingGreatLetsBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, Route104_EventScript_BattleBrendan
+	msgbox Route104_Text_BrendanDoingGreatLetsBattle
+	goto Route104_EventScript_BattleBrendan
 	msgbox Route104_Text_BrendanNoConfidence, MSGBOX_DEFAULT
 	call Route104_EventScript_RestoreMusic
 	releaseall
 	end
 
 Route104_EventScript_BrendanAskToBattle::
-	msgbox Route104_Text_BrendanLetsBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, Route104_EventScript_BattleBrendan
+	msgbox Route104_Text_BrendanLetsBattle
+	goto Route104_EventScript_BattleBrendan
 	msgbox Route104_Text_BrendanNoConfidence, MSGBOX_DEFAULT
 	releaseall
 	end
 
 Route104_EventScript_BattleBrendan::
 	msgbox Route104_Text_BrendanIntro, MSGBOX_DEFAULT
-	switch VAR_STARTER_MON
+	random 3
+	switch VAR_RESULT
 	case 0, Route104_EventScript_BattleBrendanTreecko
 	case 1, Route104_EventScript_BattleBrendanTorchic
 	case 2, Route104_EventScript_BattleBrendanMudkip
@@ -226,6 +236,7 @@ Route104_EventScript_BattleBrendan::
 Route104_EventScript_BrendanDefeated::
 	msgbox Route104_Text_BrendanPostBattle, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
+	setvar VAR_ROUTE104_STATE, 3
 	releaseall
 	end
 

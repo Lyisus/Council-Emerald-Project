@@ -52,6 +52,7 @@ Route104_MapWarps:
 
 Route104_MapCoordEvents:
 	coord_event 17, 51, 3, VAR_ROUTE104_STATE, 1, Route104_EventScript_RivalTrigger
+	coord_event 17, 51, 0, VAR_ROUTE104_STATE, 2, Route104_EventScript_FaceDown
 
 Route104_MapBGEvents:
 	bg_sign_event 20, 50, 0, BG_EVENT_PLAYER_FACING_ANY, Route104_EventScript_BrineysCottageSign

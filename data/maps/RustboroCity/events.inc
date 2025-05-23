@@ -18,9 +18,8 @@ RustboroCity_ObjectEvents:
 	object_event 11, OBJ_EVENT_GFX_DEVON_EMPLOYEE, 13, 34, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, RustboroCity_EventScript_DevonEmployee2, 0
 	object_event 12, OBJ_EVENT_GFX_ITEM_BALL, 36, 51, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, TRAINER_TYPE_NONE, ITEM_X_DEFEND, Common_EventScript_FindItem, FLAG_ITEM_RUSTBORO_CITY_X_DEFEND
 	object_event 13, OBJ_EVENT_GFX_MAN_4, 19, 27, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 1, TRAINER_TYPE_NONE, 0, RustboroCity_EventScript_Man2, 0
-	object_event 14, OBJ_EVENT_GFX_VAR_0, 16, 50, 3, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, RustboroCity_EventScript_Rival, FLAG_HIDE_RUSTBORO_CITY_RIVAL
-	object_event 15, OBJ_EVENT_GFX_SCIENTIST_1, 11, 15, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, 0x0, FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
-	object_event 16, OBJ_EVENT_GFX_BOY_1, 31, 36, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 1, TRAINER_TYPE_NONE, 0, RustboroCity_EventScript_Boy1, 0
+	object_event 14, OBJ_EVENT_GFX_SCIENTIST_1, 11, 15, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, 0x0, FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+	object_event 15, OBJ_EVENT_GFX_BOY_1, 31, 36, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 1, TRAINER_TYPE_NONE, 0, RustboroCity_EventScript_Boy1, 0
 
 RustboroCity_MapWarps:
 	warp_def 27, 19, 0, 0, MAP_RUSTBORO_CITY_GYM
@@ -50,14 +49,6 @@ RustboroCity_MapCoordEvents:
 	coord_event 31, 10, 3, VAR_RUSTBORO_CITY_STATE, 4, RustboroCity_EventScript_ReturnGoodsTrigger1
 	coord_event 30, 11, 3, VAR_RUSTBORO_CITY_STATE, 4, RustboroCity_EventScript_ReturnGoodsTrigger2
 	coord_event 30, 12, 3, VAR_RUSTBORO_CITY_STATE, 4, RustboroCity_EventScript_ReturnGoodsTrigger3
-	coord_event 12, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger0
-	coord_event 13, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger1
-	coord_event 14, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger2
-	coord_event 15, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger3
-	coord_event 16, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger4
-	coord_event 17, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger5
-	coord_event 18, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger6
-	coord_event 19, 53, 3, VAR_RUSTBORO_CITY_STATE, 7, RustboroCity_EventScript_RivalTrigger7
 
 RustboroCity_MapBGEvents:
 	bg_sign_event 23, 19, 0, BG_EVENT_PLAYER_FACING_ANY, RustboroCity_EventScript_GymSign

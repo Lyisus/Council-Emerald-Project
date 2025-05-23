@@ -17889,15 +17889,6 @@ Music: Cool
 Double Battle: Yes
 AI: Smart Trainer
 
-Oricorio @ Focus Sash  
-Ability: Dancer  
-Level: 42  
-IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
-- Quiver Dance  
-- Revelation Dance  
-- Swift  
-- Icy Wind  
-
 Oricorio-Pom-Pom @ Sitrus Berry  
 Ability: Dancer  
 Level: 41  
@@ -17932,7 +17923,16 @@ IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe
 - Teeter Dance  
 - Grassy Glide  
 - Brick Break  
-- Victory Dance  
+- Victory Dance
+
+Oricorio @ Focus Sash  
+Ability: Dancer  
+Level: 42  
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+- Quiver Dance  
+- Revelation Dance  
+- Swift  
+- Icy Wind  
 
 === TRAINER_SIMON_BOS ===
 Name: SIMON

@@ -72,30 +72,6 @@ Route102_EventScript_Allen::
 	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
 	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
 	end
-	
-Route102_EventScript_Random_Trainer_Team_Test::
-	trainerbattle_single TRAINER_PEYTON_OKA, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-random_team_trainer_test::
-	random 2
-	compare VAR_RESULT, 0
-	goto_if_eq random_team_trainer_test_2
-	compare VAR_RESULT, 1
-	goto_if_eq random_team_trainer_test_3
-
-random_team_trainer_test_1:
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-random_team_trainer_test_2:
-	trainerbattle_single TRAINER_KYLE_BASS, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	goto random_team_trainer_test_1
-
-random_team_trainer_test_3:
-	trainerbattle_single TRAINER_LUKE_HEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	goto random_team_trainer_test_1
 
 Route102_Text_WatchMeCatchPokemon:
 	.string "WALLY: {PLAYER}…\n"

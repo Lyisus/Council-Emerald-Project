@@ -462,6 +462,26 @@
 #define TRAINER_DUSTY_4                     378
 #define TRAINER_DUSTY_5                     379
 
+// Mirage Tower Trainers
+
+// Desert Underpass Trainers
+
+// Petalburg City Trainers
+
+// Petalburg Gym Trainers
+#define TRAINER_RANDALL                     380
+#define TRAINER_MARY                        381
+#define TRAINER_PARKER                      382
+#define TRAINER_ALEXIA                      383
+#define TRAINER_GEORGE                      384
+#define TRAINER_JODY                        385
+#define TRAINER_BERKE                       386
+#define TRAINER_NORMAN_1                    387
+#define TRAINER_NORMAN_2                    388
+#define TRAINER_NORMAN_3                    389
+#define TRAINER_NORMAN_4                    390
+#define TRAINER_NORMAN_5                    391
+
 // Trick House Puzzle #1 Trainers
 // Trick House Puzzle #2 Trainers
 // Trick House Puzzle #3 Trainers
@@ -473,34 +493,22 @@
 
 // ONWARDS
 
-#define TRAINER_ISAIAH_1                    380
-#define TRAINER_ISAIAH_2                    381
-#define TRAINER_ISAIAH_3                    382
-#define TRAINER_ISAIAH_4                    383
-#define TRAINER_ISAIAH_5                    384
-#define TRAINER_TALIA                       385
-#define TRAINER_KATELYN_1                   386
-#define TRAINER_ALLISON                     387
-#define TRAINER_KATELYN_2                   388
-#define TRAINER_KATELYN_3                   389
-#define TRAINER_KATELYN_4                   390
-#define TRAINER_KATELYN_5                   391
-#define TRAINER_BRAXTON                     392
-#define TRAINER_GRUNT_AQUA_HIDEOUT_1        393
-#define TRAINER_GRUNT_AQUA_HIDEOUT_2        394
-#define TRAINER_GRUNT_AQUA_HIDEOUT_3        395
-#define TRAINER_GRUNT_AQUA_HIDEOUT_4        396
-#define TRAINER_AARON                       397
-#define TRAINER_CAMERON_4                   398
-#define TRAINER_HUGH                        399
-#define TRAINER_PHIL                        400
-#define TRAINER_JARED                       401
-#define TRAINER_HUMBERTO                    402
-#define TRAINER_PRESLEY                     403
-#define TRAINER_EDWARDO                     404
-#define TRAINER_COLIN                       405
-#define TRAINER_ROBERT_1                    406
-#define TRAINER_BENNY                       407
+#define TRAINER_ISAIAH_1                    392
+#define TRAINER_ISAIAH_2                    393
+#define TRAINER_ISAIAH_3                    394
+#define TRAINER_ISAIAH_4                    395
+#define TRAINER_ISAIAH_5                    396
+#define TRAINER_KATELYN_1                   397
+#define TRAINER_KATELYN_2                   398
+#define TRAINER_KATELYN_3                   399
+#define TRAINER_KATELYN_4                   400
+#define TRAINER_KATELYN_5                   401
+#define TRAINER_GRUNT_AQUA_HIDEOUT_1        402
+#define TRAINER_GRUNT_AQUA_HIDEOUT_2        403
+#define TRAINER_GRUNT_AQUA_HIDEOUT_3        404
+#define TRAINER_GRUNT_AQUA_HIDEOUT_4        405
+#define TRAINER_CAMERON_4                   406
+#define TRAINER_ROBERT_1                    407
 #define TRAINER_CAMERON_5                   408
 #define TRAINER_ROBERT_2                    409
 #define TRAINER_ROBERT_3                    410
@@ -531,8 +539,8 @@
 #define TRAINER_CLARISSA                    435
 #define TRAINER_ANGELICA                    436
 #define TRAINER_ALEXIS                      437
-#define TRAINER_JODY                        438
-#define TRAINER_NORMAN_1                    439
+#define TRAINER_JARED                       438
+#define TRAINER_HUMBERTO                    439
 #define TRAINER_WINONA_1                    440
 #define TRAINER_BEVERLY                     441
 #define TRAINER_IMANI                       442
@@ -623,7 +631,7 @@
 #define TRAINER_FERNANDO_4                  527
 #define TRAINER_FERNANDO_5                  528
 #define TRAINER_WARREN                      529
-#define TRAINER_MARY                        530
+#define TRAINER_ALLISON                     530
 #define TRAINER_RONALD                      531
 #define TRAINER_MARK                        532
 #define TRAINER_GABRIELLE_2                 533
@@ -787,8 +795,8 @@
 #define TRAINER_LILA_AND_ROY_5              691
 #define TRAINER_CAROLINE                    692
 #define TRAINER_CHRIS                       693
-#define TRAINER_RANDALL                     694
-#define TRAINER_PARKER                      695
+#define TRAINER_TALIA                       694
+#define TRAINER_BRAXTON                     695
 #define TRAINER_FOSTER                      696
 #define TRAINER_BRIDGET                     697
 #define TRAINER_OLIVIA                      698
@@ -842,12 +850,12 @@
 #define TRAINER_PHOEBE                      746
 #define TRAINER_GLACIA                      747
 #define TRAINER_SPENCER                     748
-#define TRAINER_ALEXIA                      749
+#define TRAINER_AARON                       749
 #define TRAINER_THALIA_1                    750
 #define TRAINER_SHELLY_SEAFLOOR_CAVERN      751
 #define TRAINER_VIRGIL                      752
-#define TRAINER_GEORGE                      753
-#define TRAINER_BERKE                       754
+#define TRAINER_HUGH                        753
+#define TRAINER_PHIL                        754
 #define TRAINER_JEFFREY_1                   755
 #define TRAINER_CHASE                       756
 #define TRAINER_JEFFREY_2                   757
@@ -879,10 +887,10 @@
 #define TRAINER_WENDY                       783
 #define TRAINER_CAMDEN                      784
 #define TRAINER_DEMETRIUS                   785
-#define TRAINER_NORMAN_2                    786
-#define TRAINER_NORMAN_3                    787
-#define TRAINER_NORMAN_4                    788
-#define TRAINER_NORMAN_5                    789
+#define TRAINER_PRESLEY                     786
+#define TRAINER_EDWARDO                     787
+#define TRAINER_COLIN                       788
+#define TRAINER_BENNY                       789
 #define TRAINER_WINONA_2                    790
 #define TRAINER_WINONA_3                    791
 #define TRAINER_WINONA_4                    792

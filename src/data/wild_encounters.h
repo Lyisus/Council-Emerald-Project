@@ -2845,18 +2845,18 @@ const struct WildPokemon gMirageTower_4F_LandMons[] =
 const struct WildPokemonInfo gMirageTower_4F_LandMonsInfo = { 10, gMirageTower_4F_LandMons };
 const struct WildPokemon gDesertUnderpass_LandMons[] =
 {
-    { 38, 38, SPECIES_DITTO },
-    { 35, 35, SPECIES_WHISMUR },
-    { 40, 40, SPECIES_DITTO },
-    { 40, 40, SPECIES_LOUDRED },
-    { 41, 41, SPECIES_DITTO },
-    { 36, 36, SPECIES_WHISMUR },
-    { 38, 38, SPECIES_LOUDRED },
-    { 42, 42, SPECIES_DITTO },
-    { 38, 38, SPECIES_WHISMUR },
-    { 43, 43, SPECIES_DITTO },
-    { 44, 44, SPECIES_LOUDRED },
-    { 45, 45, SPECIES_DITTO },
+    { 28, 31, SPECIES_CRANIDOS },
+    { 28, 31, SPECIES_SHIELDON },
+    { 29, 32, SPECIES_TIRTOUGA },
+    { 29, 32, SPECIES_TYRUNT },
+    { 30, 32, SPECIES_AMAURA },
+    { 30, 32, SPECIES_KABUTO },
+    { 30, 33, SPECIES_OMANYTE },
+    { 30, 33, SPECIES_ARCHEN },
+    { 31, 33, SPECIES_DRACOVISH },
+    { 31, 33, SPECIES_DRACOZOLT },
+    { 32, 34, SPECIES_ARCTOVISH },
+    { 32, 34, SPECIES_ARCTOZOLT },
 };
 
 const struct WildPokemonInfo gDesertUnderpass_LandMonsInfo = { 10, gDesertUnderpass_LandMons };

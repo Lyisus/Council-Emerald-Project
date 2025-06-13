@@ -3,9 +3,8 @@
 @
 
 UnusedContestHall1_MapConnectionsList:
-	connection up, -20, MAP_ROUTE102
 
 UnusedContestHall1_MapConnections:
-	.4byte 1
+	.4byte 0
 	.4byte UnusedContestHall1_MapConnectionsList
 

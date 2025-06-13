@@ -1848,9 +1848,13 @@ Magikarp
 Level: 18
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Gyarados
+Magikarp (Gyarados)
 Level: 20
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+- Splash
+- Tackle
+- Whirlpool
+- Scary Face
 
 === TRAINER_ELLIOT_2 ===
 Name: ELLIOT
@@ -8210,12 +8214,13 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Totodile @ Life Orb
-Level: 66
+Totodile @ Metronome
+Ability: Truant
+Level: 76
 EVs: 252 HP / 252 Atk / 252 Def / 252 SpA / 252 SpD / 252 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
-- Hydro Cannon
-- Water Gun
+- Rain Dance
+- Swords Dance
 - Dragon Dance
 - Metronome
 
@@ -17865,7 +17870,8 @@ Double Battle: Yes
 AI: Smart Trainer
 
 Aipom  
-Ability: Pickup  
+Ability: Pickup 
+Happiness: 165   
 Level: 22  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Return  
@@ -17875,6 +17881,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 Simisage @ Occa Berry  
 Ability: Overgrow  
+Happiness: 165  
 Level: 24  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Return  
@@ -17884,6 +17891,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 Simipour @ Rindo Berry  
 Ability: Torrent  
+Happiness: 165  
 Level: 24  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Return  
@@ -17893,6 +17901,7 @@ IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 Simisear @ Passho Berry  
 Ability: Blaze  
+Happiness: 165  
 Level: 25  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 - Return  

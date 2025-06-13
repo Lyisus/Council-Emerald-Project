@@ -6,7 +6,7 @@ UnusedContestHall1:
 	.4byte UnusedContestHall1_Layout
 	.4byte ContestHall_MapEvents
 	.4byte ContestHall_MapScripts
-	.4byte UnusedContestHall1_MapConnections
+	.4byte NULL
 	.2byte MUS_ROUTE101
 	.2byte LAYOUT_UNUSED_CONTEST_HALL1
 	.byte MAPSEC_NONE

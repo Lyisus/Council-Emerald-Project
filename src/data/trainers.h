@@ -20567,7 +20567,7 @@ F_TRAINER_FEMALE |
 #line 8214
         .doubleBattle = FALSE,
 #line 8215
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .aiFlags = AI_FLAG_SMART_TRAINER,
         .partySize = 1,
         .party = (const struct TrainerMon[])
         {
@@ -45293,10 +45293,10 @@ F_TRAINER_FEMALE |
         },
     },
 #line 18144
-    [TRAINER_LUIS_RIE] =
+    [TRAINER_KYLE_BASS] =
     {
 #line 18145
-        .trainerName = _("LUIS"),
+        .trainerName = _("KYLE"),
 #line 18146
         .trainerClass = TRAINER_CLASS_HIKER,
 #line 18147
@@ -45313,7 +45313,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 18153
-            .species = SPECIES_NINETALES_ALOLA,
+            .species = SPECIES_LAIRON,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 18155
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -45325,14 +45325,14 @@ F_TRAINER_FEMALE |
         },
     },
 #line 18157
-    [TRAINER_KYLE_BASS] =
+    [TRAINER_LUKE_COT] =
     {
 #line 18158
-        .trainerName = _("KYLE"),
+        .trainerName = _("LUKE"),
 #line 18159
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_FROMUNDA_MAN,
 #line 18160
-        .trainerPic = TRAINER_PIC_HIKER,
+        .trainerPic = TRAINER_PIC_FROMUNDA_MAN,
         .encounterMusic_gender = 
 #line 18162
             TRAINER_ENCOUNTER_MUSIC_HIKER,
@@ -45345,7 +45345,9 @@ F_TRAINER_FEMALE |
         {
             {
 #line 18166
-            .species = SPECIES_LAIRON,
+            .nickname = COMPOUND_STRING("Gyarauno"),
+#line 18166
+            .species = SPECIES_GYARADOS,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 18168
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -45357,10 +45359,10 @@ F_TRAINER_FEMALE |
         },
     },
 #line 18170
-    [TRAINER_LUKE_COT] =
+    [TRAINER_LUKE_HEN] =
     {
 #line 18171
-        .trainerName = _("LUKE"),
+        .trainerName = _("LUKE H"),
 #line 18172
         .trainerClass = TRAINER_CLASS_HIKER,
 #line 18173
@@ -45377,9 +45379,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 18179
-            .nickname = COMPOUND_STRING("Gyarauno"),
-#line 18179
-            .species = SPECIES_GYARADOS,
+            .species = SPECIES_ALTARIA,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 18181
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -45391,10 +45391,10 @@ F_TRAINER_FEMALE |
         },
     },
 #line 18183
-    [TRAINER_LUKE_HEN] =
+    [TRAINER_PEYTON_OKA] =
     {
 #line 18184
-        .trainerName = _("LUKE H"),
+        .trainerName = _("PEYTON"),
 #line 18185
         .trainerClass = TRAINER_CLASS_HIKER,
 #line 18186
@@ -45411,8 +45411,10 @@ F_TRAINER_FEMALE |
         {
             {
 #line 18192
-            .species = SPECIES_ALTARIA,
+            .species = SPECIES_OGERPON,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 18192
+            .heldItem = ITEM_WELLSPRING_MASK,
 #line 18194
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 18193
@@ -45423,10 +45425,10 @@ F_TRAINER_FEMALE |
         },
     },
 #line 18196
-    [TRAINER_PEYTON_OKA] =
+    [TRAINER_LUIS_RIE] =
     {
 #line 18197
-        .trainerName = _("PEYTON"),
+        .trainerName = _("LUIS"),
 #line 18198
         .trainerClass = TRAINER_CLASS_HIKER,
 #line 18199
@@ -45443,10 +45445,8 @@ F_TRAINER_FEMALE |
         {
             {
 #line 18205
-            .species = SPECIES_OGERPON,
+            .species = SPECIES_NINETALES_ALOLA,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 18205
-            .heldItem = ITEM_WELLSPRING_MASK,
 #line 18207
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 18206

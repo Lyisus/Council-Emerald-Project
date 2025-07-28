@@ -8212,7 +8212,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Check Bad Move
+AI: Smart Trainer
 
 Totodile @ Metronome
 Ability: Truant
@@ -18141,19 +18141,6 @@ Gengar
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_LUIS_RIE ===
-Name: LUIS
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Basic Trainer
-
-Ninetales-Alola
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_KYLE_BASS ===
 Name: KYLE
 Class: Hiker
@@ -18169,8 +18156,8 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LUKE_COT ===
 Name: LUKE
-Class: Hiker
-Pic: Hiker
+Class: Fromunda Man
+Pic: Fromunda Man
 Gender: Male
 Music: Hiker
 Double Battle: No
@@ -18203,5 +18190,18 @@ Double Battle: No
 AI: Basic Trainer
 
 Ogerpon-Wellspring
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LUIS_RIE ===
+Name: LUIS
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Basic Trainer
+
+Ninetales-Alola
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe

@@ -591,6 +591,8 @@
 #define TRAINER_SHELLY_WEATHER_INSTITUTE    458
 
 // Fortree City Trainers
+
+// Fortree Gym Trainers
 #define TRAINER_JARED                       459
 #define TRAINER_EDWARDO                     460
 #define TRAINER_FLINT                       461
@@ -602,8 +604,6 @@
 #define TRAINER_WINONA_3                    467
 #define TRAINER_WINONA_4                    468
 #define TRAINER_WINONA_5                    469
-
-// Fortree Gym Trainers
 
 // Route Trainers
 // Route Trainers

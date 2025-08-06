@@ -10,12 +10,17 @@ FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner::
 	goto_if_set FLAG_TEMP_1, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
 	msgbox FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor, MSGBOX_DEFAULT
 	setflag FLAG_TEMP_1
+	goto FallarborTown_MoveRelearnersHouse_EventScript_HeartScaleCheck
+	end
+
+FallarborTown_MoveRelearnersHouse_EventScript_HeartScaleCheck::
+	checkitem ITEM_HEART_SCALE
+	goto_if_eq VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
+	msgbox FallarborTown_MoveRelearnersHouse_Text_YouHaveHeartScale, MSGBOX_DEFAULT
 	goto FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove
 	end
 
-FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
-	checkitem ITEM_HEART_SCALE
-	goto_if_eq VAR_RESULT, TRUE, FallarborTown_MoveRelearnersHouse_Text_YouHaveHeartScale
+FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::	
 	msgbox FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove, MSGBOX_YESNO
 	switch VAR_RESULT
 	case NO, FallarborTown_MoveRelearnersHouse_EventScript_ComeBack
@@ -72,7 +77,7 @@ FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
 
 FallarborTown_MoveRelearnersHouse_Text_YouHaveHeartScale:
 	.string "Oh! You have one too! That's an honest to\n"
-	.string "goodness HEART SCALE!\p"
+	.string "goodness HEART SCALE! I love them!\p"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
 	.string "Which POKéMON needs tutoring?$"

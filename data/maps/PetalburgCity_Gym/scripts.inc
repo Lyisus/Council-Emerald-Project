@@ -371,9 +371,25 @@ PetalburgCity_Gym_EventScript_GiveEnigmaBerry::
 	release
 	end
 
-PetalburgCity_Gym_EventScript_NormanBattle::
+PetalburgCity_Gym_EventScript_NormanBattleIntro::
 	msgbox PetalburgCity_Gym_Text_NormanIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat
+	random 2
+	switch VAR_RESULT
+	case 0, PetalburgCity_Gym_EventScript_NormanBattle
+	case 1, PetalburgCity_Gym_EventScript_NormanBattleALT
+	end
+	
+PetalburgCity_Gym_EventScript_NormanBattle::
+	trainerbattle_no_intro TRAINER_SIMON_BOS, PetalburgCity_Gym_Text_NormanDefeat
+	goto PetalburgCity_Gym_EventScript_NormanBattleIntroEnd
+	end
+
+PetalburgCity_Gym_EventScript_NormanBattleALT::
+	trainerbattle_no_intro TRAINER_SIMON_BOS_ALT, PetalburgCity_Gym_Text_NormanDefeat
+	goto PetalburgCity_Gym_EventScript_NormanBattleIntroEnd
+	end
+
+PetalburgCity_Gym_EventScript_NormanBattleIntroEnd::
 	message PetalburgCity_Gym_Text_ReceivedBalanceBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare

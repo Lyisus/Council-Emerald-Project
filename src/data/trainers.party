@@ -8762,64 +8762,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Shadow Ball
 
-=== TRAINER_NORMAN_5 ===
-Name: NORMAN
-Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
-AI: Basic Trainer
-
-Slaking @ Sitrus Berry
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
-
-Blissey
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Sing
-- Skill Swap
-- Focus Punch
-
-Kangaskhan
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
-
-Tauros
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Protect
-- Fire Blast
-- Earthquake
-
-Spinda
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
-- Facade
-- Hypnosis
-
-Slaking @ Sitrus Berry
-Level: 60
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
-
 /*====================== ROUTE  TRAINERS ========================================================================================*/
 /*====================== ROUTE  TRAINERS ========================================================================================*/
 /*====================== ROUTE  TRAINERS ========================================================================================*/
@@ -18035,46 +17977,50 @@ Music: Hiker
 Double Battle: No
 AI: Smart Trainer
 
-Raichu-Alola  
-Ability: Surge Surfer  
+Raichu  
+Ability: Lightning Rod  
 Level: 45  
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
+Tera Type: Electric  
+IVs: 0 Atk  
 - Thunderbolt  
 - Volt Switch  
-- Psychic  
+- Grass Knot  
 - Thunder Wave  
 
-Sneasel  
+Sneasel-Hisui  
 Ability: Pickpocket  
 Level: 43  
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
+Tera Type: Fighting  
 - Slash  
-- Throat Chop  
-- Ice Punch  
+- Poison Jab  
+- Brick Break  
 - Taunt  
 
-Polteageist-Antique  
-Ability: Cursed Body  
+Sinistcha-Masterpiece  
+Ability: Heatproof  
 Level: 44  
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
-- Shadow Ball  
-- Giga Drain  
-- Will-O-Wisp  
+Tera Type: Ghost  
+IVs: 0 Atk  
+- Matcha Gotcha  
+- Hex  
+- Stun Spore  
 - Substitute  
 
-Toedscruel  
-Ability: Mycelium Might  
+Tentacruel  
+Ability: Clear Body  
 Level: 44  
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
-- Giga Drain  
-- Mud Shot  
+Tera Type: Water  
+IVs: 0 Atk  
+- Surf  
+- Venoshock  
 - Hex  
-- Spore  
+- Toxic  
 
 Houndoom @ Houndoominite  
 Ability: Flash Fire  
 Level: 45  
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
+Tera Type: Dark  
+IVs: 0 Atk  
 - Flamethrower  
 - Overheat  
 - Dark Pulse  
@@ -18083,11 +18029,82 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 Greninja  
 Ability: Protean  
 Level: 46  
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
+Tera Type: Water  
+IVs: 0 Atk  
 - Surf  
 - Dark Pulse  
 - Ice Beam  
 - Water Shuriken  
+
+=== TRAINER_SIMON_BOS_ALT ===
+Name: SIMON
+Class: Leader
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Smart Trainer
+
+Raichu-Alola  
+Ability: Surge Surfer  
+Level: 45  
+Tera Type: Electric  
+IVs: 0 Atk  
+- Thunderbolt  
+- Volt Switch  
+- Psychic  
+- Thunder Wave  
+
+Sneasel  
+Ability: Pickpocket  
+Level: 43  
+Tera Type: Dark  
+- Slash  
+- Throat Chop  
+- Ice Punch  
+- Taunt  
+
+Polteageist-Antique  
+Ability: Cursed Body  
+Level: 44  
+Tera Type: Ghost  
+IVs: 0 Atk  
+- Shadow Ball  
+- Giga Drain  
+- Will-O-Wisp  
+- Substitute  
+
+Toedscruel  
+Ability: Mycelium Might  
+Level: 44  
+Tera Type: Ground  
+IVs: 0 Atk  
+- Giga Drain  
+- Mud Shot  
+- Hex  
+- Spore  
+
+Houndoom @ Houndoominite  
+Ability: Flash Fire  
+Level: 45  
+Tera Type: Dark  
+IVs: 0 Atk  
+- Flamethrower  
+- Overheat  
+- Dark Pulse  
+- Destiny Bond  
+
+Greninja  
+Ability: Protean  
+Level: 46  
+Tera Type: Water  
+IVs: 0 Atk  
+- Surf  
+- Dark Pulse  
+- Ice Beam  
+- Water Shuriken  
+
+
 
 === TRAINER_JIM_MOR ===
 Name: JIMMOTHY

@@ -44767,7 +44767,7 @@ F_TRAINER_FEMALE |
 #line 17922
             .ability = ABILITY_SHIELDS_DOWN,
 #line 17923
-            .lvl = 32,
+            .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -44789,7 +44789,7 @@ F_TRAINER_FEMALE |
 #line 17931
             .ability = ABILITY_SHADOW_TAG,
 #line 17932
-            .lvl = 29,
+            .lvl = 31,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -44811,7 +44811,7 @@ F_TRAINER_FEMALE |
 #line 17940
             .ability = ABILITY_ANGER_SHELL,
 #line 17941
-            .lvl = 32,
+            .lvl = 34,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -44831,7 +44831,7 @@ F_TRAINER_FEMALE |
 #line 17949
             .ability = ABILITY_PURIFYING_SALT,
 #line 17950
-            .lvl = 31,
+            .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -44855,7 +44855,7 @@ F_TRAINER_FEMALE |
 #line 17958
             .ability = ABILITY_STEAM_ENGINE,
 #line 17959
-            .lvl = 31,
+            .lvl = 33,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
@@ -44877,7 +44877,7 @@ F_TRAINER_FEMALE |
 #line 17967
             .ability = ABILITY_STEAM_ENGINE,
 #line 17968
-            .lvl = 34,
+            .lvl = 36,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {

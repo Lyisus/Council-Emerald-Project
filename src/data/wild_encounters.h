@@ -136,7 +136,7 @@ const struct WildPokemon gRoute103_FishingMons[] =
     { 10, 20, SPECIES_TENTACOOL },
     { 15, 20, SPECIES_MAGIKARP },
     { 20, 30, SPECIES_TENTACOOL },
-    { 20, 30, SPECIES_BRIONNE },
+    { 20, 30, SPECIES_POPPLIO },
     { 30, 35, SPECIES_SHARPEDO },
     { 30, 35, SPECIES_WAILMER },
     { 25, 30, SPECIES_WAILMER },

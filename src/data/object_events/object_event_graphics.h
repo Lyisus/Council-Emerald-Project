@@ -37,8 +37,13 @@ const u16 gObjectEventPal_MayReflection[] = INCBIN_U16("graphics/object_events/p
 const u32 gObjectEventPic_RubySapphireMayNormal[] = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_may/walking.4bpp");
 const u32 gObjectEventPic_RubySapphireMayRunning[] = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_may/running.4bpp");
 const u16 gObjectEventPal_RubySapphireMay[] = INCBIN_U16("graphics/object_events/palettes/ruby_sapphire_may.gbapal");
+
 const u32 gObjectEventPic_FromundaMan[] = INCBIN_U32("graphics/object_events/pics/people/fromunda_man.4bpp");
+const u16 gObjectEventPal_FromundaMan[] = INCBIN_U16("graphics/object_events/pics/people/fromunda_man.gbapal");
+
 const u32 gObjectEventPic_ChloeVasiliou[] = INCBIN_U32("graphics/object_events/pics/people/chloe_vasiliou.4bpp");
+const u16 gObjectEventPal_ChloeVasiliou[] = INCBIN_U16("graphics/object_events/pics/people/chloe_vasiliou.gbapal");
+
 const u16 gUnusedObjectEventPalette[] = INCBIN_U16("graphics/object_events/palettes/unused_palette.gbapal");
 const u16 gObjectEventPal_Null16[16] = {};
 const u16 gObjectEventPal_Null17[16] = {};

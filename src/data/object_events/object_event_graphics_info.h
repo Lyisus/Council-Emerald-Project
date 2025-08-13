@@ -4674,12 +4674,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FromundaMan = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
+    .paletteTag = OBJ_EVENT_PAL_TAG_FROMUNDA_MAN,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_2,
+    .paletteSlot = PALSLOT_NPC_1,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -4693,7 +4693,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FromundaMan = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChloeVasiliou = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
+    .paletteTag = OBJ_EVENT_PAL_TAG_CHLOE_VASILIOU,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,

@@ -288,6 +288,14 @@ Route103_EventScript_Isabelle::
 	msgbox Route103_Text_IsabellePostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route103_EventScript_ChangeAlteringCaveEncounters::
+	msgbox Route103_Text_AlteringCaveChange, MSGBOX_NPC
+	end
+
+Route103_Text_AlteringCaveChange:
+	.string "THIS IS A TEST TEXT TO SEE IF\n" 
+	.string "ALTERING CAVE WORKS.$"
+
 Route103_Text_MayRoute103Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"
 	.string "on ROUTE 103 include…$"

@@ -528,9 +528,13 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Frillish
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Lumineon
+Level: 38
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_ISABELLE ===
 Name: ISABELLE
@@ -541,9 +545,9 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Primarina
+Level: 40
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 /*====================== ROUTE 104 TRAINERS ========================================================================================*/
 === TRAINER_IVAN ===
@@ -1786,16 +1790,21 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Tentacool
-Level: 24
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+Dondozo
+Level: 40
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+- Order Up
+- Aqua Tail
+- Body Slam
+- Soak
 
-Tentacool
-Level: 24
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+Tatsugiri-Droopy
+Ability: Commander
+Level: 38
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_KYLA ===
 Name: KYLA
@@ -1803,12 +1812,21 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Wailmer
-Level: 26
-IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+Dondozo
+Level: 40
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+- Order Up
+- Aqua Tail
+- Body Slam
+- Soak
+
+Tatsugiri-Curly
+Ability: Commander
+Level: 38
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_NED ===
 Name: NED
@@ -1963,17 +1981,17 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Clauncher
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Wingull
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Clawitzer
+Level: 37
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Tentacool
-Level: 24
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Palafin
+Level: 41
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_DENISE ===
 Name: DENISE
@@ -1984,13 +2002,13 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wingull
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Feebas
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Goldeen
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Milotic
+Level: 40
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_BETH ===
 Name: BETH
@@ -2001,9 +2019,17 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Palafin
+Level: 41
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Horsea
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Seadra
+Level: 37
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_CAMRON ===
 Name: CAMRON
@@ -2014,9 +2040,21 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Staryu
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Poliwrath
+Level: 37
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Politoed
+Level: 37
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Seismitoad
+Level: 39
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Frogadier
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_LISA_AND_RAY ===
 Name: LISA & RAY
@@ -2027,13 +2065,21 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Goldeen
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gastrodon-East
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Tentacool
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gastrodon-West
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Jellicent (M)
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Jellicent (F)
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_TONY_1 ===
 Name: TONY
@@ -2044,9 +2090,9 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dragonair (Gyarados)
+Level: 43
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_TONY_2 ===
 Name: TONY
@@ -2418,13 +2464,29 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 25
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
+Empoleon
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Carvanha
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Greninja
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Samurott
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Blastoise
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Primarina
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Samurott-Hisui
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_ALICE ===
 Name: ALICE
@@ -2435,17 +2497,25 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cramorant
+Level: 40
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Wingull
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pelipper
+Level: 39
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Goldeen
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mantine
+Level: 38
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Swanna
+Level: 37
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Gyarados
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_HUEY ===
 Name: HUEY
@@ -2495,9 +2565,9 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Swampert
+Level: 43
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_GWEN ===
 Name: GWEN
@@ -2508,9 +2578,21 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Azumarill
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Golduck
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Linoone
+Level: 39
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Clefable
+Level: 38
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_CARTER ===
 Name: CARTER
@@ -2521,13 +2603,17 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Wailmer
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Basculin-Red-Striped
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Tentacruel
-Level: 25
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+Basculin-Blue-Striped
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Basculin-White-Striped
+Level: 35
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_MEL_AND_PAUL ===
 Name: MEL & PAUL
@@ -2538,21 +2624,21 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Dustox
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
-- Psybeam
-- Toxic
-- Protect
+Mothim
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
-Beautifly
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Gust
-- Mega Drain
-- Attract
-- Stun Spore
+Wormadam
+Level: 36
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Nidoking
+Level: 40
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
+
+Nidoqueen
+Level: 40
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_CHANDLER ===
 Name: CHANDLER
@@ -2606,13 +2692,9 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Skarmory
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Skarmory
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corviknight
+Level: 43
+IVs: 16 HP / 16 Atk / 16 Def / 16 SpA / 16 SpD / 16 Spe 
 
 === TRAINER_RICKY_1 ===
 Name: RICKY
@@ -8762,10 +8844,32 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
 - Shadow Ball
 
-/*====================== ROUTE  TRAINERS ========================================================================================*/
-/*====================== ROUTE  TRAINERS ========================================================================================*/
-/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE 105 TRAINERS ========================================================================================*/
 
+/*====================== ROUTE 108 TRAINERS ========================================================================================*/
+
+/*====================== ABANDONE SHIP TRAINERS ========================================================================================*/
+
+/*====================== ROUTE 119 TRAINERS ========================================================================================*/
+
+/*====================== WEATHER INSTITUTE TRAINERS ========================================================================================*/
+
+/*====================== FORTREE CITY TRAINERS ========================================================================================*/
+
+/*====================== FORTREE GYM TRAINERS ========================================================================================*/
+
+
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
+/*====================== ROUTE  TRAINERS ========================================================================================*/
 /*====================== TRICK HOUSE PUZZLE #1 TRAINERS ========================================================================================*/
 /*====================== TRICK HOUSE PUZZLE #2 TRAINERS ========================================================================================*/
 /*====================== TRICK HOUSE PUZZLE #3 TRAINERS ========================================================================================*/
@@ -17980,8 +18084,7 @@ AI: Smart Trainer
 Raichu  
 Ability: Lightning Rod  
 Level: 45  
-Tera Type: Electric  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Thunderbolt  
 - Volt Switch  
 - Grass Knot  
@@ -17990,7 +18093,7 @@ IVs: 0 Atk
 Sneasel-Hisui  
 Ability: Pickpocket  
 Level: 43  
-Tera Type: Fighting  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Slash  
 - Poison Jab  
 - Brick Break  
@@ -17999,8 +18102,7 @@ Tera Type: Fighting
 Sinistcha-Masterpiece  
 Ability: Heatproof  
 Level: 44  
-Tera Type: Ghost  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Matcha Gotcha  
 - Hex  
 - Stun Spore  
@@ -18009,8 +18111,7 @@ IVs: 0 Atk
 Tentacruel  
 Ability: Clear Body  
 Level: 44  
-Tera Type: Water  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Surf  
 - Venoshock  
 - Hex  
@@ -18019,8 +18120,7 @@ IVs: 0 Atk
 Houndoom @ Houndoominite  
 Ability: Flash Fire  
 Level: 45  
-Tera Type: Dark  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Flamethrower  
 - Overheat  
 - Dark Pulse  
@@ -18029,8 +18129,7 @@ IVs: 0 Atk
 Greninja  
 Ability: Protean  
 Level: 46  
-Tera Type: Water  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Surf  
 - Dark Pulse  
 - Ice Beam  
@@ -18048,8 +18147,7 @@ AI: Smart Trainer
 Raichu-Alola  
 Ability: Surge Surfer  
 Level: 45  
-Tera Type: Electric  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Thunderbolt  
 - Volt Switch  
 - Psychic  
@@ -18058,7 +18156,7 @@ IVs: 0 Atk
 Sneasel  
 Ability: Pickpocket  
 Level: 43  
-Tera Type: Dark  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Slash  
 - Throat Chop  
 - Ice Punch  
@@ -18067,8 +18165,7 @@ Tera Type: Dark
 Polteageist-Antique  
 Ability: Cursed Body  
 Level: 44  
-Tera Type: Ghost  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Shadow Ball  
 - Giga Drain  
 - Will-O-Wisp  
@@ -18077,8 +18174,7 @@ IVs: 0 Atk
 Toedscruel  
 Ability: Mycelium Might  
 Level: 44  
-Tera Type: Ground  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Giga Drain  
 - Mud Shot  
 - Hex  
@@ -18087,8 +18183,7 @@ IVs: 0 Atk
 Houndoom @ Houndoominite  
 Ability: Flash Fire  
 Level: 45  
-Tera Type: Dark  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Flamethrower  
 - Overheat  
 - Dark Pulse  
@@ -18097,40 +18192,65 @@ IVs: 0 Atk
 Greninja  
 Ability: Protean  
 Level: 46  
-Tera Type: Water  
-IVs: 0 Atk  
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Surf  
 - Dark Pulse  
 - Ice Beam  
 - Water Shuriken  
 
-
-
 === TRAINER_JIM_MOR ===
 Name: JIMMOTHY
-Class: Hiker
-Pic: Hiker
+Class: Leader
+Pic: Leader Winona
 Gender: Male
-Music: Hiker
+Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
-Ursaring
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ursaring @ Toxic Orb  
+Ability: Quick Feet  
+Level: 47  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Double-Edge  
+- Power-Up Punch  
+- Aerial Ace  
+- Counter  
 
-=== TRAINER_ROBERT_MEA ===
-Name: ROBERT
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Basic Trainer
+Bewear @ Chople Berry  
+Ability: Fluffy  
+Level: 49  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Body Slam  
+- Body Press  
+- Darkest Lariat  
+- Taunt  
 
-Clodsire
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Pangoro @ Focus Sash  
+Ability: Scrappy  
+Level: 50  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Darkest Lariat  
+- Close Combat  
+- Bullet Punch  
+- Bulk Up  
+
+Slaking @ Choice Band  
+Ability: Truant  
+Level: 47  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Giga Impact  
+- Giga Impact  
+- Giga Impact  
+- Giga Impact  
+
+Ursaluna @ Flame Orb  
+Ability: Guts  
+Level: 51  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Facade  
+- Headlong Rush  
+- Close Combat  
+- Drain Punch  
 
 === TRAINER_DAVID_WIS ===
 Name: DAVID
@@ -18155,6 +18275,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Gengar
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_ROBERT_MEA ===
+Name: ROBERT
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Basic Trainer
+
+Clodsire
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

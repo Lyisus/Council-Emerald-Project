@@ -25,8 +25,7 @@ Route103_ObjectEvents:
 	object_event 18, OBJ_EVENT_GFX_SWIMMER_F, 36, 6, 1, MOVEMENT_TYPE_WALK_DOWN_AND_UP, 1, 3, TRAINER_TYPE_NORMAL, 5, Route103_EventScript_Isabelle, 0
 	object_event 19, OBJ_EVENT_GFX_SWIMMER_M, 36, 13, 1, MOVEMENT_TYPE_WALK_UP_AND_DOWN, 1, 3, TRAINER_TYPE_NORMAL, 5, Route103_EventScript_Pete, 0
 	object_event 20, OBJ_EVENT_GFX_ITEM_BALL, 64, 7, 0, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, TRAINER_TYPE_NONE, ITEM_PP_UP, Common_EventScript_FindItem, FLAG_ITEM_ROUTE_103_PP_UP
-	object_event 21, OBJ_EVENT_GFX_CHLOE_VASILIOU, 44, 7, 3, MOVEMENT_TYPE_NONE, 0, 0, TRAINER_TYPE_NONE, 0, Route103_EventScript_ChangeAlteringCaveEncounters, 0
-	object_event 22, OBJ_EVENT_GFX_FROMUNDA_MAN, 46, 7, 3, MOVEMENT_TYPE_NONE, 0, 0, TRAINER_TYPE_NONE, 0, Route103_EventScript_ChangeAlteringCaveEncounters, 0
+	object_event 21, OBJ_EVENT_GFX_FROMUNDA_MAN, 44, 7, 3, MOVEMENT_TYPE_NONE, 0, 0, TRAINER_TYPE_NONE, 0, Route103_EventScript_ChangeAlteringCaveEncounters, 0
 
 Route103_MapWarps:
 	warp_def 45, 6, 0, 0, MAP_ALTERING_CAVE

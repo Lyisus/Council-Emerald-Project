@@ -293,8 +293,11 @@ Route103_EventScript_ChangeAlteringCaveEncounters::
 	end
 
 Route103_Text_AlteringCaveChange:
-	.string "THIS IS A TEST TEXT TO SEE IF\n" 
-	.string "ALTERING CAVE WORKS.$"
+	.string "If you're reading this, that means\n"
+	.string "I do not do anything, yet.\p"
+	.string "Please keep checking until the dev\n"
+	.string "gets shit done.\p"   
+	.string "SKADOOSH$"
 
 Route103_Text_MayRoute103Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"

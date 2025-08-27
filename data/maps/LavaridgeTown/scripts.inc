@@ -245,7 +245,38 @@ LavaridgeTown_EventScript_EggWoman::
 	playfanfare MUS_OBTAIN_ITEM
 	message LavaridgeTown_Text_ReceivedTheEgg
 	waitfanfare
+	random 5
+	switch VAR_RESULT
+	case 0, LavaridgeTown_EventScript_ReceiveMagbyEgg
+	case 1, LavaridgeTown_EventScript_ReceiveElekidEgg
+	case 2, LavaridgeTown_EventScript_ReceiveSmoochumEgg
+	case 3, LavaridgeTown_EventScript_ReceiveWynautEgg
+	case 4, LavaridgeTown_EventScript_ReceiveRioluEgg
+	release
+	end
+
+LavaridgeTown_EventScript_ReceiveMagbyEgg::
+	giveegg SPECIES_MAGBY
+	release
+	end
+
+LavaridgeTown_EventScript_ReceiveElekidEgg::
+	giveegg SPECIES_ELEKID
+	release
+	end
+
+LavaridgeTown_EventScript_ReceiveSmoochumEgg::
+	giveegg SPECIES_SMOOCHUM
+	release
+	end
+
+LavaridgeTown_EventScript_ReceiveWynautEgg::
 	giveegg SPECIES_WYNAUT
+	release
+	end
+
+LavaridgeTown_EventScript_ReceiveRioluEgg::
+	giveegg SPECIES_RIOLU
 	release
 	end
 

@@ -2793,35 +2793,35 @@ Route119_Text_JacksonPostRematch:
 	.string "Believe in yourself.\p"
 	.string "The road will reveal itself to you.$"
 
-Route119_Text_CatherineIntro:
+Route119_Text_ChloeVasiliouIntro:
 	.string "Oh? Look at you.\p"
 	.string "For someone on an adventure,\n"
 	.string "you're traveling awfully light.$"
 
-Route119_Text_CatherineDefeat:
+Route119_Text_ChloeVasiliouDefeat:
 	.string "Accidents happen when you're not\n"
 	.string "prepared!$"
 
-Route119_Text_CatherinePostBattle:
+Route119_Text_ChloeVasiliouPostBattle:
 	.string "You're traveling light but you have\n"
 	.string "everything you need.\p"
 	.string "You're on top of things mentally and\n"
 	.string "physically, too.$"
 
-Route119_Text_CatherineRegister:
+Route119_Text_ChloeVasiliouRegister:
 	.string "Do you have a POKéNAV?\n"
 	.string "It's a must-have tool for any TRAINER.\p"
 	.string "Oh, you do have one!\n"
 	.string "Let's register each other, then!$"
 
-Route119_Text_CatherineRematchIntro:
+Route119_Text_ChloeVasiliouRematchIntro:
 	.string "How's your journey with POKéMON\n"
 	.string "going?$"
 
-Route119_Text_CatherineRematchDefeat:
+Route119_Text_ChloeVasiliouRematchDefeat:
 	.string "I'm still missing something…$"
 
-Route119_Text_CatherinePostRematch:
+Route119_Text_ChloeVasiliouPostRematch:
 	.string "In the same way that you, as a TRAINER,\n"
 	.string "rely on your POKéMON, your POKéMON\l"
 	.string "rely on you.$"

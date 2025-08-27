@@ -374,25 +374,25 @@ Route119_EventScript_RematchJackson::
 	msgbox Route119_Text_JacksonPostRematch, MSGBOX_AUTOCLOSE
 	end
 
-Route119_EventScript_Catherine::
-	trainerbattle_single TRAINER_CATHERINE_1, Route119_Text_CatherineIntro, Route119_Text_CatherineDefeat, Route119_EventScript_RegisterCatherine
+Route119_EventScript_Chloe_Vasiliou::
+	trainerbattle_single TRAINER_CHLOE_VASILIOU_1, Route119_Text_ChloeVasiliouIntro, Route119_Text_ChloeVasiliouDefeat, Route119_EventScript_RegisterChloeVasiliou
 	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route119_EventScript_RematchCatherine
-	msgbox Route119_Text_CatherinePostBattle, MSGBOX_DEFAULT
+	goto_if_eq VAR_RESULT, TRUE, Route119_EventScript_RematchChloeVasiliou
+	msgbox Route119_Text_ChloeVasiliouPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-Route119_EventScript_RegisterCatherine::
+Route119_EventScript_RegisterChloeVasiliou::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
-	msgbox Route119_Text_CatherineRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_CATHERINE_1
+	msgbox Route119_Text_ChloeVasiliouRegister, MSGBOX_DEFAULT
+	register_matchcall TRAINER_CHLOE_VASILIOU_1
 	release
 	end
 
-Route119_EventScript_RematchCatherine::
-	trainerbattle_rematch TRAINER_CATHERINE_1, Route119_Text_CatherineRematchIntro, Route119_Text_CatherineRematchDefeat
-	msgbox Route119_Text_CatherinePostRematch, MSGBOX_AUTOCLOSE
+Route119_EventScript_RematchChloeVasiliou::
+	trainerbattle_rematch TRAINER_CHLOE_VASILIOU_1, Route119_Text_ChloeVasiliouRematchIntro, Route119_Text_ChloeVasiliouRematchDefeat
+	msgbox Route119_Text_ChloeVasiliouPostRematch, MSGBOX_AUTOCLOSE
 	end
 
 Route119_EventScript_Hugh::

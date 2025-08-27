@@ -283,10 +283,10 @@ const u8 gText_MatchCallPkmnBreeder_Gabrielle_Pokemon[] = _("Fun-to-raise POKéM
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro1[] = _("Treat every POKéMON you");
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro2[] = _("meet with respect.");
 
-const u8 gText_MatchCallPkmnRanger_Catherine_Strategy[] = _("I believe in my POKéMON.");
-const u8 gText_MatchCallPkmnRanger_Catherine_Pokemon[] = _("I like strong POKéMON.");
-const u8 gText_MatchCallPkmnRanger_Catherine_Intro1[] = _("I'm training for rescue");
-const u8 gText_MatchCallPkmnRanger_Catherine_Intro2[] = _("work with my POKéMON.");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Strategy[] = _("I believe in my POKéMON.");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Pokemon[] = _("I like strong POKéMON.");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro1[] = _("I'm training for rescue");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro2[] = _("work with my POKéMON.");
 
 const u8 gText_MatchCallPkmnRanger_Jackson_Strategy[] = _("Attack in waves!");
 const u8 gText_MatchCallPkmnRanger_Jackson_Pokemon[] = _("I use different types.");
@@ -447,7 +447,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_LYDIA] = MCFLAVOR(PkmnBreeder_Lydia),
     [REMATCH_ISAAC] = MCFLAVOR(PkmnBreeder_Isaac),
     [REMATCH_GABRIELLE] = MCFLAVOR(PkmnBreeder_Gabrielle),
-    [REMATCH_CATHERINE] = MCFLAVOR(PkmnRanger_Catherine),
+    [REMATCH_CHLOE_VASILIOU] = MCFLAVOR(NtarasDawn_ChloeVasiliou),
     [REMATCH_JACKSON] = MCFLAVOR(PkmnRanger_Jackson),
     [REMATCH_HALEY] = MCFLAVOR(Lass_Haley),
     [REMATCH_JAMES] = MCFLAVOR(BugCatcher_James),

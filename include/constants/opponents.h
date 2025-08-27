@@ -574,11 +574,11 @@
 #define TRAINER_JACKSON_3                   444
 #define TRAINER_JACKSON_4                   445
 #define TRAINER_JACKSON_5                   446
-#define TRAINER_CATHERINE_1                 447
-#define TRAINER_CATHERINE_2                 448
-#define TRAINER_CATHERINE_3                 449
-#define TRAINER_CATHERINE_4                 450
-#define TRAINER_CATHERINE_5                 451
+#define TRAINER_CHLOE_VASILIOU_1            447
+#define TRAINER_CHLOE_VASILIOU_2            448
+#define TRAINER_CHLOE_VASILIOU_3            449
+#define TRAINER_CHLOE_VASILIOU_4            450
+#define TRAINER_CHLOE_VASILIOU_5            451
 
 // Weather Institute 1F Trainers
 #define TRAINER_GRUNT_WEATHER_INST_1        452

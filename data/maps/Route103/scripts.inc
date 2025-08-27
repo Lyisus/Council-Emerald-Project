@@ -297,7 +297,7 @@ Route103_Text_AlteringCaveChange:
 	.string "I do not do anything, yet.\p"
 	.string "Please keep checking until the dev\n"
 	.string "gets shit done.\p"   
-	.string "SKADOOSH$"
+	.string "SKADOOSH!$"
 
 Route103_Text_MayRoute103Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"

@@ -44339,6 +44339,8 @@ F_TRAINER_FEMALE |
             },
             {
 #line 17740
+            .nickname = COMPOUND_STRING("Utgarda"),
+#line 17740
             .species = SPECIES_ZOROARK_HISUI,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 17740
@@ -44413,6 +44415,8 @@ F_TRAINER_FEMALE |
             },
             },
             {
+#line 17769
+            .nickname = COMPOUND_STRING("Cynder"),
 #line 17769
             .species = SPECIES_TYPHLOSION_HISUI,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -44786,6 +44790,8 @@ F_TRAINER_FEMALE |
             },
             },
             {
+#line 17916
+            .nickname = COMPOUND_STRING("Orlan"),
 #line 17916
             .species = SPECIES_EMBOAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -45340,6 +45346,8 @@ F_TRAINER_FEMALE |
             },
             {
 #line 18134
+            .nickname = COMPOUND_STRING("Utgarda"),
+#line 18134
             .species = SPECIES_ZOROARK_HISUI,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 18134
@@ -45414,6 +45422,8 @@ F_TRAINER_FEMALE |
             },
             },
             {
+#line 18163
+            .nickname = COMPOUND_STRING("Cynder"),
 #line 18163
             .species = SPECIES_TYPHLOSION_HISUI,
             .gender = TRAINER_MON_RANDOM_GENDER,
@@ -45797,6 +45807,8 @@ F_TRAINER_FEMALE |
             },
             },
             {
+#line 18310
+            .nickname = COMPOUND_STRING("Orlan"),
 #line 18310
             .species = SPECIES_EMBOAR,
             .gender = TRAINER_MON_RANDOM_GENDER,

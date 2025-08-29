@@ -8352,7 +8352,7 @@ Pic: Picnicker
 Gender: Female
 Music: Girl
 Double Battle: No
-AI: Smart Trainer
+AI: Basic Trainer
 
 Totodile @ Metronome
 Ability: Truant
@@ -17710,26 +17710,70 @@ Pignite
 Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_BRENDAN_ROUTE_119_TREECKO ===
+=== TRAINER_BRENDAN_ROUTE_119_SUN ===
 Name: BRENDAN
 Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Yidaro (Torkoal) (M) @ Eject Pack  
+Ability: Drought  
+Level: 48  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Overheat  
+- Weather Ball  
+- Scorching Sands  
+- Will-O-Wisp  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Thiccums (Venusaur) (M) @ Focus Sash  
+Ability: Chlorophyll  
+Level: 50  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Leaf Storm  
+- Sludge Bomb  
+- Earth Power  
+- Light Screen  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Zoroark-Hisui @ Life Orb  
+Ability: Illusion  
+Level: 50  
+Shiny: Yes  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Hyper Voice  
+- Bitter Malice  
+- Hyper Beam  
+- Memento  
+
+Maria (Alcremie) @ Sitrus Berry  
+Ability: Sweet Veil  
+Level: 48  
+Shiny: Yes  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Alluring Voice  
+- Decorate  
+- Encore  
+- Endeavor  
+
+Majo (Mawile) (F) @ Mawilite  
+Ability: Intimidate  
+Level: 52  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Iron Head  
+- Play Rough  
+- Fire Fang  
+- Taunt  
+
+Typhlosion-Hisui @ Charcoal  
+Ability: Blaze  
+Level: 48  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Heat Wave  
+- Flamethrower  
+- Infernal Parade  
+- Will-O-Wisp  
 
 === TRAINER_BRENDAN_LILYCOVE_TREECKO ===
 Name: BRENDAN
@@ -17811,26 +17855,72 @@ Brionne
 Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_BRENDAN_ROUTE_119_TORCHIC ===
+=== TRAINER_BRENDAN_ROUTE_119_SNOW ===
 Name: BRENDAN
 Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Lily (Ninetales-Alola) (F) @ Light Clay  
+Ability: Snow Warning  
+Level: 48  
+Shiny: Yes  
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Blizzard  
+- Moonblast  
+- Aurora Veil  
+- Encore  
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Zeke (Arctozolt) @ Life Orb  
+Ability: Slush Rush  
+Level: 50  
+IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Bolt Beak  
+- Blizzard  
+- Freeze-Dry  
+- Thunder Wave  
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Byleth (Primarina) (M) @ Mystic Water  
+Ability: Liquid Voice  
+Level: 50  
+Shiny: Yes  
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Hyper Voice  
+- Moonblast  
+- Icy Wind  
+- Haze  
+
+Mare (Indeedee-F) @ Psychic Seed  
+Ability: Psychic Surge  
+Level: 48  
+Shiny: Yes  
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Expanding Force  
+- Healing Wish  
+- Trick Room  
+- Helping Hand  
+
+Haku (Lopunny) (M) @ Lopunnite  
+Ability: Limber  
+Level: 52  
+Shiny: Yes  
+IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Fake Out  
+- High Jump Kick  
+- Return  
+- Encore  
+
+Emboar @ Sitrus Berry  
+Ability: Reckless  
+Level: 48  
+IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Flare Blitz  
+- Head Smash  
+- Wild Charge  
+- Heat Crash  
 
 === TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
 Name: BRENDAN
@@ -18014,27 +18104,70 @@ Pignite
 Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_MAY_ROUTE_119_TREECKO ===
+=== TRAINER_MAY_ROUTE_119_SUN ===
 Name: MAY
 Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Pelipper
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Yidaro (Torkoal) (M) @ Eject Pack  
+Ability: Drought  
+Level: 48  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Overheat  
+- Weather Ball  
+- Scorching Sands  
+- Will-O-Wisp  
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Thiccums (Venusaur) (M) @ Focus Sash  
+Ability: Chlorophyll  
+Level: 50  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Leaf Storm  
+- Sludge Bomb  
+- Earth Power  
+- Light Screen  
 
-Combusken
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Zoroark-Hisui @ Life Orb  
+Ability: Illusion  
+Level: 50  
+Shiny: Yes  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Hyper Voice  
+- Bitter Malice  
+- Hyper Beam  
+- Memento  
 
+Maria (Alcremie) @ Sitrus Berry  
+Ability: Sweet Veil  
+Level: 48  
+Shiny: Yes  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Alluring Voice  
+- Decorate  
+- Encore  
+- Endeavor  
+
+Majo (Mawile) (F) @ Mawilite  
+Ability: Intimidate  
+Level: 52  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Iron Head  
+- Play Rough  
+- Fire Fang  
+- Taunt  
+
+Typhlosion-Hisui @ Charcoal  
+Ability: Blaze  
+Level: 48  
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Heat Wave  
+- Flamethrower  
+- Infernal Parade  
+- Will-O-Wisp  
 
 === TRAINER_MAY_LILYCOVE_TREECKO ===
 Name: MAY
@@ -18116,26 +18249,72 @@ Brionne
 Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-=== TRAINER_MAY_ROUTE_119_TORCHIC ===
+=== TRAINER_MAY_ROUTE_119_SNOW ===
 Name: MAY
 Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: No
-AI: Basic Trainer
+Double Battle: Yes
+AI: Smart Trainer
 
-Lombre
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Lily (Ninetales-Alola) (F) @ Light Clay  
+Ability: Snow Warning  
+Level: 48  
+Shiny: Yes  
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Blizzard  
+- Moonblast  
+- Aurora Veil  
+- Encore  
 
-Slugma
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Zeke (Arctozolt) @ Life Orb  
+Ability: Slush Rush  
+Level: 50  
+IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Bolt Beak  
+- Blizzard  
+- Freeze-Dry  
+- Thunder Wave  
 
-Marshtomp
-Level: 31
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Byleth (Primarina) (M) @ Mystic Water  
+Ability: Liquid Voice  
+Level: 50  
+Shiny: Yes  
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Hyper Voice  
+- Moonblast  
+- Icy Wind  
+- Haze  
+
+Mare (Indeedee-F) @ Psychic Seed  
+Ability: Psychic Surge  
+Level: 48  
+Shiny: Yes  
+IVs: 24 HP / 0 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Expanding Force  
+- Healing Wish  
+- Trick Room  
+- Helping Hand  
+
+Haku (Lopunny) (M) @ Lopunnite  
+Ability: Limber  
+Level: 52  
+Shiny: Yes  
+IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Fake Out  
+- High Jump Kick  
+- Return  
+- Encore  
+
+Emboar @ Sitrus Berry  
+Ability: Reckless  
+Level: 48  
+IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
+- Flare Blitz  
+- Head Smash  
+- Wild Charge  
+- Heat Crash  
 
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
 Name: MAY

@@ -8,3 +8,11 @@ gText_PleaseComeAgain::
 gText_PlayerWhatCanIDoForYou::
 	.string "{PLAYER}{STRING 5}, welcome!\p"
 	.string "What can I do for you?$"
+
+gText_FromundaSells::
+	.string "I'm selling some rare items.\p"
+	.string "You buyin' anything?$"
+
+gText_FromundaByes::
+	.string "You'll come back.\p"
+	.string "They always come back.$"

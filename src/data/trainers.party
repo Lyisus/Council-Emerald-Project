@@ -2252,7 +2252,7 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Boldore
+Carkol
 Level: 20
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -3524,9 +3524,9 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 /*====================== ROUTE 111 WINSTRATE HOUSE TRAINERS ========================================================================================*/
 
 === TRAINER_VICTOR ===
-Name: VICTOR
-Class: Winstrate
-Pic: Pokefan M
+Name: Luke
+Class: Fromunda Man
+Pic: Fromunda Man
 Gender: Male
 Music: Twins
 Double Battle: No
@@ -3536,12 +3536,11 @@ Rotom
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-
 === TRAINER_VICKY ===
-Name: VICKY
-Class: Winstrate
-Pic: Expert F
-Gender: Female
+Name: lukE
+Class: Fromunda Man
+Pic: Fromunda Man
+Gender: Male
 Music: Intense
 Double Battle: No
 AI: Basic Trainer
@@ -3559,10 +3558,10 @@ Level: 30
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 === TRAINER_VIVI ===
-Name: VIVI
-Class: Winstrate
-Pic: Lass
-Gender: Female
+Name: luKe
+Class: Fromunda Man
+Pic: Fromunda Man
+Gender: Male
 Music: Female
 Double Battle: No
 AI: Basic Trainer
@@ -3572,10 +3571,10 @@ Level: 27
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 === TRAINER_VICTORIA ===
-Name: VICTORIA
-Class: Winstrate
-Pic: Pokefan F
-Gender: Female
+Name: lUke
+Class: Fromunda Man
+Pic: Fromunda Man
+Gender: Male
 Music: Twins
 Double Battle: No
 AI: Check Bad Move / Try To Faint
@@ -7235,7 +7234,7 @@ Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MAXIE_MT_CHIMNEY ===
-Name: MAXIE
+Name: MIKE H
 Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
@@ -7244,7 +7243,8 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Smart Trainer
 
-Mightyena
+Torkoal
+Ability: Drought
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -7252,15 +7252,17 @@ Crobat
 Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Flareon
+Venusaur
+Ability: Chlorophyll
 Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Typhlosion-Hisui
+Greninja
+Ability: Protean
 Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Camerupt
+Arcanine
 Level: 41
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -18493,7 +18495,7 @@ Name: SIMON
 Class: Leader
 Pic: Hiker
 Gender: Male
-Music: Hiker
+Music: Male
 Double Battle: No
 AI: Smart Trainer
 
@@ -18556,7 +18558,7 @@ Name: SIMON
 Class: Leader
 Pic: Hiker
 Gender: Male
-Music: Hiker
+Music: Male
 Double Battle: No
 AI: Smart Trainer
 
@@ -18725,7 +18727,7 @@ Name: LUKE
 Class: Fromunda Man
 Pic: Fromunda Man
 Gender: Male
-Music: Hiker
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 

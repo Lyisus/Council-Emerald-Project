@@ -31,7 +31,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_1",
+      "graphics_id": "OBJ_EVENT_GFX_FROMUNDA_MAN",
       "x": 13,
       "y": 114,
       "elevation": 3,
@@ -44,7 +44,7 @@
       "flag": "FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
+      "graphics_id": "OBJ_EVENT_GFX_FROMUNDA_MAN",
       "x": 13,
       "y": 113,
       "elevation": 0,
@@ -57,7 +57,7 @@
       "flag": "FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_FROMUNDA_MAN",
       "x": 13,
       "y": 113,
       "elevation": 0,
@@ -70,7 +70,7 @@
       "flag": "FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+      "graphics_id": "OBJ_EVENT_GFX_FROMUNDA_MAN",
       "x": 13,
       "y": 113,
       "elevation": 0,

@@ -711,7 +711,7 @@ const struct WildPokemon gFieryPath_LandMons[] =
     { 26, 29, SPECIES_CARKOL },
     { 27, 29, SPECIES_GRIMER },
     { 27, 29, SPECIES_DARUMAKA },
-    { 28, 30, SPECIES_DARUMAKA },
+    { 28, 30, SPECIES_TORCHIC },
     { 28, 30, SPECIES_GRIMER_ALOLA },
 };
 
@@ -945,7 +945,7 @@ const struct WildPokemon gRoute119_LandMons[] =
     { 32, 35, SPECIES_URSARING },
     { 32, 35, SPECIES_TROPIUS },
     { 33, 35, SPECIES_LINOONE },
-    { 33, 35, SPECIES_GROVYLE },
+    { 33, 35, SPECIES_MIGHTYENA },
     { 34, 36, SPECIES_GROVYLE },
     { 34, 36, SPECIES_LINOONE_GALAR },
 };

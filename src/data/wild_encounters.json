@@ -2586,7 +2586,7 @@
               {
                 "min_level": 28,
                 "max_level": 30,
-                "species": "SPECIES_DARUMAKA"
+                "species": "SPECIES_TORCHIC"
               },
               {
                 "min_level": 28,
@@ -3452,7 +3452,7 @@
               {
                 "min_level": 33,
                 "max_level": 35,
-                "species": "SPECIES_GROVYLE"
+                "species": "SPECIES_MIGHTYENA"
               },
               {
                 "min_level": 34,

@@ -5,10 +5,20 @@
 #define TRADE_PARTNER 1
 
 // In-game Trade IDs
-#define INGAME_TRADE_SEEDOT 0
-#define INGAME_TRADE_PLUSLE 1
-#define INGAME_TRADE_HORSEA 2
-#define INGAME_TRADE_MEOWTH 3
+// Oldale
+#define INGAME_TRADE_D_BULBASAUR    0 // Rustboro Delta Bulbasaur
+#define INGAME_TRADE_PLUSLE         1 // Fortree Feebas
+#define INGAME_TRADE_HORSEA         2 // Pacifilog Poltchageist
+#define INGAME_TRADE_MEOWTH         3
+#define INGAME_TRADE_G_DARUMAKA     4 // Petalburg Galarian Darumaka
+#define INGAME_TRADE_A_VULPIX       5 // Dewford Alolan Vulpix
+// Slateport
+// Mauville
+#define INGAME_TRADE_DELTA_FROAKIE  6 // Verdanturf Delta Froakie
+#define INGAME_TRADE_DELTA_BELDUM   7 // Fallarbor Delta Beldum
+#define INGAME_TRADE_G_SLOWPOKE     8 // Lilycove Galarian Slowpoke
+// Mossdeep
+// Sootopolis
 
 // Return values for CanTradeSelectedMon and CanSpinTradeMon
 #define CAN_TRADE_MON              0

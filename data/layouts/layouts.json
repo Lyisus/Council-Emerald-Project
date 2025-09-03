@@ -2254,8 +2254,8 @@
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL1",
       "name": "UnusedContestHall1_Layout",
-      "width": 31,
-      "height": 32,
+      "width": 60,
+      "height": 60,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/UnusedContestHall1/border.bin",

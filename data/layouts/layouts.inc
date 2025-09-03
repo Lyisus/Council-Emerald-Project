@@ -3385,8 +3385,8 @@ UnusedContestHall1_Layout_Blockdata::
 
 	.align 2
 UnusedContestHall1_Layout::
-	.4byte 31
-	.4byte 32
+	.4byte 60
+	.4byte 60
 	.4byte UnusedContestHall1_Layout_Border
 	.4byte UnusedContestHall1_Layout_Blockdata
 	.4byte gTileset_General

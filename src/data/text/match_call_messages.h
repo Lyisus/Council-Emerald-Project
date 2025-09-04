@@ -284,7 +284,6 @@ const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro1[] = _("Treat every POKéMON
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro2[] = _("meet with respect.");
 
 const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Strategy[] = _("Perfect mix of rain & sun.");
-// const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Strategy[] = _("I believe in my POKéMON.");
 const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Pokemon[] = _("I like flower & fairies.");
 const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro1[] = _("Collecting Lots of Grass");
 const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro2[] = _("types is my specialty.");

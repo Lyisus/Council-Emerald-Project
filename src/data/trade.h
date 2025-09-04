@@ -986,16 +986,16 @@ static const struct InGameTrade sIngameTrades[] =
 {    
     [INGAME_TRADE_SPHEAL] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Hugz"),
         .species = SPECIES_SPHEAL,
         .ivs = {20, 20, 20, 20, 20, 20},
-        .abilityNum = 3,
-        .otId = 38726,
+        .abilityNum = 1,
+        .otId = 32849,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x82,
         .heldItem = ITEM_NEVER_MELT_ICE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("Kazik"),
         .otGender = MALE,
         .sheen = 0,
         .requestedSpecies = SPECIES_WHISMUR
@@ -1048,7 +1048,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 0,
         .requestedSpecies = SPECIES_PANSAGE
     },    
-    [INGAME_TRADE_SLATEPORT] =
+    [INGAME_TRADE_ESPURR] =
     {
         .nickname = _("Saur Saur"),
         .species = SPECIES_BULBASAUR,
@@ -1064,7 +1064,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 0,
         .requestedSpecies = SPECIES_PANSAGE
     },    
-    [INGAME_TRADE_MAUVILLE] =
+    [INGAME_TRADE_H_SNEASEL] =
     {
         .nickname = _("Saur Saur"),
         .species = SPECIES_BULBASAUR,
@@ -1112,7 +1112,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 0,
         .requestedSpecies = SPECIES_PANSAGE
     },
-    [INGAME_TRADE_LAVARIDGE] =
+    [INGAME_TRADE_GOTHITA] =
     {
         .nickname = _("Saur Saur"),
         .species = SPECIES_BULBASAUR,
@@ -1160,7 +1160,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 0,
         .requestedSpecies = SPECIES_PANSAGE
     },
-    [INGAME_TRADE_MOSSDEEP] =
+    [INGAME_TRADE_LUCARIO] =
     {
         .nickname = _("Saur Saur"),
         .species = SPECIES_BULBASAUR,
@@ -1176,7 +1176,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 0,
         .requestedSpecies = SPECIES_PANSAGE
     },
-    [INGAME_TRADE_POLTCHAGEIST] =
+    [INGAME_TRADE_SINISTCHA] =
     {
         .nickname = _("SEASOR"),
         .species = SPECIES_HORSEA,
@@ -1192,7 +1192,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_BAGON
     },
-    [INGAME_TRADE_SOOTOPOLIS] =
+    [INGAME_TRADE_SALAZZLE] =
     {
         .nickname = _("Saur Saur"),
         .species = SPECIES_BULBASAUR,

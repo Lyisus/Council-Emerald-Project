@@ -283,10 +283,11 @@ const u8 gText_MatchCallPkmnBreeder_Gabrielle_Pokemon[] = _("Fun-to-raise POKéM
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro1[] = _("Treat every POKéMON you");
 const u8 gText_MatchCallPkmnBreeder_Gabrielle_Intro2[] = _("meet with respect.");
 
-const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Strategy[] = _("I believe in my POKéMON.");
-const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Pokemon[] = _("I like strong POKéMON.");
-const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro1[] = _("I'm training for rescue");
-const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro2[] = _("work with my POKéMON.");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Strategy[] = _("Perfect mix of rain & sun.");
+// const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Strategy[] = _("I believe in my POKéMON.");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Pokemon[] = _("I like flower & fairies.");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro1[] = _("Collecting Lots of Grass");
+const u8 gText_MatchCallNtarasDawn_ChloeVasiliou_Intro2[] = _("types is my specialty.");
 
 const u8 gText_MatchCallPkmnRanger_Jackson_Strategy[] = _("Attack in waves!");
 const u8 gText_MatchCallPkmnRanger_Jackson_Pokemon[] = _("I use different types.");

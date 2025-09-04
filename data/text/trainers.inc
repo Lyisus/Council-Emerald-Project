@@ -2794,37 +2794,31 @@ Route119_Text_JacksonPostRematch:
 	.string "The road will reveal itself to you.$"
 
 Route119_Text_ChloeVasiliouIntro:
-	.string "Oh? Look at you.\p"
-	.string "For someone on an adventure,\n"
-	.string "you're traveling awfully light.$"
+	.string "The sun always blesses me and\n"
+	.string "my flowers!$"
 
 Route119_Text_ChloeVasiliouDefeat:
-	.string "Accidents happen when you're not\n"
-	.string "prepared!$"
+	.string "Oh no, my bag! Can you help me\n"
+	.string "pick up my Dryad Militants?$"
 
 Route119_Text_ChloeVasiliouPostBattle:
-	.string "You're traveling light but you have\n"
-	.string "everything you need.\p"
-	.string "You're on top of things mentally and\n"
-	.string "physically, too.$"
+	.string "That was almost a disaster.\n"
+	.string "Thanks for the help!$"
 
 Route119_Text_ChloeVasiliouRegister:
-	.string "Do you have a POKéNAV?\n"
-	.string "It's a must-have tool for any TRAINER.\p"
-	.string "Oh, you do have one!\n"
-	.string "Let's register each other, then!$"
+	.string "How about we head over to Applebee's?$"
 
 Route119_Text_ChloeVasiliouRematchIntro:
-	.string "How's your journey with POKéMON\n"
-	.string "going?$"
+	.string "My flowers have grown more beautiful!\n"
+	.string "Would you like to see?$"
 
 Route119_Text_ChloeVasiliouRematchDefeat:
-	.string "I'm still missing something…$"
+	.string "It turns out the faithful were not\n"
+	.string "rewarded…$"
 
 Route119_Text_ChloeVasiliouPostRematch:
-	.string "In the same way that you, as a TRAINER,\n"
-	.string "rely on your POKéMON, your POKéMON\l"
-	.string "rely on you.$"
+	.string "Maybe next time I can try catching some\n"
+	.string "Rabbit POKéMON.$"
 
 Route119_Text_HughIntro:
 	.string "The vast sky holds untold promise!\p"

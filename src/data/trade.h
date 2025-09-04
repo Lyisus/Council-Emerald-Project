@@ -983,8 +983,24 @@ static const union AffineAnimCmd *const sAffineAnims_CrossingMonPics[] =
 };
 
 static const struct InGameTrade sIngameTrades[] =
-{
-    [INGAME_TRADE_D_BULBASAUR] =
+{    
+    [INGAME_TRADE_SPHEAL] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_SPHEAL,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_NEVER_MELT_ICE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_WHISMUR
+    },
+    [INGAME_TRADE_G_DARUMAKA] =
     {
         .nickname = _("Saur Saur"),
         .species = SPECIES_BULBASAUR,
@@ -998,9 +1014,121 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_RALTS
+        .requestedSpecies = SPECIES_PANSAGE
     },
-    [INGAME_TRADE_PLUSLE] =
+    [INGAME_TRADE_DELTA_BULBASAUR] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },
+    [INGAME_TRADE_A_VULPIX] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },    
+    [INGAME_TRADE_SLATEPORT] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },    
+    [INGAME_TRADE_MAUVILLE] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },
+    [INGAME_TRADE_DELTA_FROAKIE] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },
+    [INGAME_TRADE_DELTA_BELDUM] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },
+    [INGAME_TRADE_LAVARIDGE] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },
+    [INGAME_TRADE_FEEBAS] =
     {
         .nickname = _("PLUSES"),
         .species = SPECIES_PLUSLE,
@@ -1016,7 +1144,39 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_VOLBEAT
     },
-    [INGAME_TRADE_HORSEA] =
+    [INGAME_TRADE_G_SLOWPOKE] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },
+    [INGAME_TRADE_MOSSDEEP] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
+    },
+    [INGAME_TRADE_POLTCHAGEIST] =
     {
         .nickname = _("SEASOR"),
         .species = SPECIES_HORSEA,
@@ -1031,6 +1191,22 @@ static const struct InGameTrade sIngameTrades[] =
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_BAGON
+    },
+    [INGAME_TRADE_SOOTOPOLIS] =
+    {
+        .nickname = _("Saur Saur"),
+        .species = SPECIES_BULBASAUR,
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 3,
+        .otId = 38726,
+        .conditions = {0, 0, 0, 0, 0},
+        .personality = 0x78,
+        .heldItem = ITEM_VENUSAURITE,
+        .mailNum = -1,
+        .otName = _("KOBE"),
+        .otGender = MALE,
+        .sheen = 0,
+        .requestedSpecies = SPECIES_PANSAGE
     },
     [INGAME_TRADE_MEOWTH] =
     {

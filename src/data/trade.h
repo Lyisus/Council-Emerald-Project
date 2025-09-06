@@ -992,7 +992,7 @@ static const struct InGameTrade sIngameTrades[] =
         .abilityNum = 1,
         .otId = 32849,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x82,
+        .personality = 0x93, //Male Sassy
         .heldItem = ITEM_NEVER_MELT_ICE,
         .mailNum = -1,
         .otName = _("Kazik"),
@@ -1003,18 +1003,18 @@ static const struct InGameTrade sIngameTrades[] =
     [INGAME_TRADE_G_DARUMAKA] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_DARUMAKA_GALAR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x81, //Male Naughty
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_SPHEAL
     },
     [INGAME_TRADE_DELTA_BULBASAUR] =
     {
@@ -1024,10 +1024,10 @@ static const struct InGameTrade sIngameTrades[] =
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x14, //Female Calm
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("Nolan"),
         .otGender = MALE,
         .sheen = 0,
         .requestedSpecies = SPECIES_PANSAGE
@@ -1035,178 +1035,178 @@ static const struct InGameTrade sIngameTrades[] =
     [INGAME_TRADE_A_VULPIX] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_VULPIX_ALOLA,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0xA, //Female Timid
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_DARUMAKA_GALAR
     },    
     [INGAME_TRADE_ESPURR] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_ESPURR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0xF, //Female Modest
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_VULPIX_ALOLA
     },    
     [INGAME_TRADE_H_SNEASEL] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_SNEASEL_HISUI,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x16, //Female Sassy
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_ESPURR
     },
     [INGAME_TRADE_DELTA_FROAKIE] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_FROAKIE,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x24, //Male Hasty
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_DARUMAKA_GALAR
     },
     [INGAME_TRADE_DELTA_BELDUM] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_BELDUM,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x80, //Adamant
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_FROAKIE
     },
     [INGAME_TRADE_GOTHITA] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_GOTHITA,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x7A, //Sassy
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_BELDUM
     },
     [INGAME_TRADE_FEEBAS] =
     {
         .nickname = _("PLUSES"),
-        .species = SPECIES_PLUSLE,
+        .species = SPECIES_FEEBAS,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
         .otId = 73996,
         .conditions = {5, 5, 30, 5, 5},
-        .personality = 0x6F,
+        .personality = 0xF, //Female Modest
         .heldItem = ITEM_WOOD_MAIL,
         .mailNum = 0,
         .otName = _("ROMAN"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_VOLBEAT
+        .requestedSpecies = SPECIES_GOTHITA
     },
     [INGAME_TRADE_G_SLOWPOKE] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_SLOWPOKE_GALAR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x8E, //Male Quiet
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_DARUMAKA_GALAR
     },
     [INGAME_TRADE_LUCARIO] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_LUCARIO,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
-        .heldItem = ITEM_VENUSAURITE,
+        .personality = 0x27, //Male Naive
+        .heldItem = ITEM_LUCARIONITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_SLOWPOKE_GALAR
     },
     [INGAME_TRADE_SINISTCHA] =
     {
         .nickname = _("SEASOR"),
-        .species = SPECIES_HORSEA,
+        .species = SPECIES_SINISTCHA_MASTERPIECE,
         .ivs = {5, 4, 4, 4, 5, 4},
         .abilityNum = 0,
         .otId = 46285,
         .conditions = {5, 5, 5, 5, 30},
-        .personality = 0x7F,
+        .personality = 0x69, //Bold
         .heldItem = ITEM_WAVE_MAIL,
         .mailNum = 1,
         .otName = _("SKYLAR"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_BAGON
+        .requestedSpecies = SPECIES_LUCARIO
     },
     [INGAME_TRADE_SALAZZLE] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_SALAZZLE,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 38726,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x78,
+        .personality = 0x55, //Timid
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
         .otName = _("KOBE"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_PANSAGE
+        .requestedSpecies = SPECIES_SINISTCHA_MASTERPIECE
     },
     [INGAME_TRADE_MEOWTH] =
     {

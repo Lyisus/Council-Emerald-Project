@@ -6247,7 +6247,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp (Gyarados)
+Gyarados
 Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -8912,7 +8912,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-The Top (Wugtrio) (M)
+Wugtrio (M)
 Level: 41
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Dig
@@ -8920,7 +8920,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Throat Chop
 - Endure
 
-The Front (Wugtrio) (M)
+Wugtrio (M)
 Level: 42
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Dig
@@ -8928,7 +8928,7 @@ IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 - Slam
 - Water Gun
 
-The Back (Wugtrio) (M)
+Wugtrio (M)
 Level: 43
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 - Dig
@@ -11480,7 +11480,7 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Mawile
+Mawile 
 Level: 46
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -17666,7 +17666,7 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Tepig
+Orlan (Tepig) (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -17681,11 +17681,12 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Zorua-Hisui
+Utgarda (Zorua-Hisui) (M)
 Level: 16
+Shiny: Yes  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Pignite
+Orlan (Pignite) (M)
 Level: 20
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
@@ -17698,15 +17699,16 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Zorua-Hisui
+Utgarda (Zorua-Hisui) (M)
 Level: 26
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Mawile
+Majo (Mawile) (F)
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Pignite
+Orlan (Pignite) (M)
 Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -17737,7 +17739,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Earth Power  
 - Light Screen  
 
-Utgarda (Zoroark-Hisui) @ Life Orb  
+Utgarda (Zoroark-Hisui) (M) @ Life Orb  
 Ability: Illusion  
 Level: 50  
 Shiny: Yes  
@@ -17747,7 +17749,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Hyper Beam  
 - Memento  
 
-Maria (Alcremie) @ Sitrus Berry  
+Maria (Alcremie) (F) @ Sitrus Berry  
 Ability: Sweet Veil  
 Level: 48  
 Shiny: Yes  
@@ -17766,7 +17768,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fire Fang  
 - Taunt  
 
-Cynder (Typhlosion-Hisui) @ Charcoal  
+Cynder (Typhlosion-Hisui) (M) @ Charcoal  
 Ability: Blaze  
 Level: 48  
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
@@ -17811,8 +17813,9 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Popplio
+Byleth (Popplio) (M)
 Level: 5
+Shiny: Yes  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pound
 - Growl
@@ -17826,12 +17829,14 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Vulpix-Alola
+Lily (Vulpix-Alola) (F)
 Level: 16
+Shiny: Yes  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Brionne
+Byleth (Brionne) (M)
 Level: 20
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_TORCHIC ===
@@ -17843,16 +17848,18 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Vulpix-Alola
+Lily (Vulpix-Alola) (F)
 Level: 26
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Arctozolt
+Zeke (Arctozolt)
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Brionne
+Byleth (Brionne) (M)
 Level: 28
+Shiny: Yes  
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_SNOW ===
@@ -17913,7 +17920,7 @@ IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Return  
 - Encore  
 
-Orlan (Emboar) @ Sitrus Berry  
+Orlan (Emboar) (M) @ Sitrus Berry  
 Ability: Reckless  
 Level: 48  
 IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
@@ -17959,7 +17966,7 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Bulbasaur
+Thiccums (Bulbasaur) (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -17974,11 +17981,12 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Milcery
+Maria (Milcery) (F)
 Level: 16
+Shiny: Yes  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Ivysaur
+Thiccums (Ivysaur) (M)
 Level: 20
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
@@ -17991,16 +17999,19 @@ Music: Male
 Double Battle: No
 AI: Smart Trainer
 
-Milcery
+Maria (Milcery) (F)
 Level: 26
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Torkoal
+Yidaro (Torkoal) (M)
+Ability: Drought
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Brionne
+Byleth (Brionne) (M)
 Level: 28
+Shiny: Yes  
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
@@ -18060,7 +18071,7 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Tepig
+Orlan (Tepig) (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -18075,11 +18086,12 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Zorua-Hisui
+Utgarda (Zorua-Hisui) (M)
 Level: 16
+Shiny: Yes  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Pignite
+Orlan (Pignite) (M)
 Level: 20
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
@@ -18092,15 +18104,16 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Zorua-Hisui
+Utgarda (Zorua-Hisui) (M)
 Level: 26
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Mawile
+Majo (Mawile) (F)
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Pignite
+Orlan (Pignite) (M)
 Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -18131,7 +18144,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Earth Power  
 - Light Screen  
 
-Utgarda (Zoroark-Hisui) @ Life Orb  
+Utgarda (Zoroark-Hisui) (M) @ Life Orb  
 Ability: Illusion  
 Level: 50  
 Shiny: Yes  
@@ -18141,7 +18154,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Hyper Beam  
 - Memento  
 
-Maria (Alcremie) @ Sitrus Berry  
+Maria (Alcremie) (F) @ Sitrus Berry  
 Ability: Sweet Veil  
 Level: 48  
 Shiny: Yes  
@@ -18160,7 +18173,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fire Fang  
 - Taunt  
 
-Cynder (Typhlosion-Hisui) @ Charcoal  
+Cynder (Typhlosion-Hisui) (M) @ Charcoal  
 Ability: Blaze  
 Level: 48  
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe  
@@ -18205,8 +18218,9 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Popplio
+Byleth (Popplio) (M)
 Level: 5
+Shiny: Yes  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pound
 - Growl
@@ -18220,12 +18234,14 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Vulpix-Alola
+Lily (Vulpix-Alola) (F)
 Level: 16
+Shiny: Yes  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Brionne
+Byleth (Brionne) (M)
 Level: 20
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
@@ -18237,16 +18253,18 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Vulpix-Alola
+Lily (Vulpix-Alola) (F)
 Level: 26
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Arctozolt
+Zeke (Arctozolt)
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Brionne
+Byleth (Brionne) (M)
 Level: 28
+Shiny: Yes  
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MAY_ROUTE_119_SNOW ===
@@ -18307,7 +18325,7 @@ IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Return  
 - Encore  
 
-Orlan (Emboar) @ Sitrus Berry  
+Orlan (Emboar) (M) @ Sitrus Berry  
 Ability: Reckless  
 Level: 48  
 IVs: 24 HP / 24 Def / 24 SpA / 24 SpD / 24 Spe  
@@ -18352,7 +18370,7 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Bulbasaur
+Thiccums (Bulbasaur) (M)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
@@ -18367,11 +18385,12 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Milcery
+Maria (Milcery) (F)
 Level: 16
+Shiny: Yes  
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Ivysaur
+Thiccums (Ivysaur) (M)
 Level: 20
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
@@ -18384,15 +18403,17 @@ Music: Female
 Double Battle: No
 AI: Smart Trainer
 
-Milcery
+Maria (Milcery) (F)
 Level: 26
+Shiny: Yes  
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Torkoal
+Yidaro (Torkoal) (M)
+Ability: Drought
 Level: 25
 IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
 
-Brionne
+Byleth (Brionne) (M)
 Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -18495,7 +18516,7 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Metronome
 - Charm
 
-El Fuego (Magby)
+El Fuego (Magby) (M)
 Level: 18
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Clear Smog

@@ -74,16 +74,25 @@ DewfordTown_House1_EventScript_NotRequestedMon::
 	end
 
 DewfordTown_House1_Text_StartTrade:
-	.string "My {STR_VAR_2} for your {STR_VAR_1}.$"
+	.string "I moved here from SLATEPORT CITY\n"
+	.string "when I married my husband.\p"
+	.string "I'd like a POKéMON to remind me\n"
+	.string "of SLATEPORT CITY.\p"
+	.string "I remember seeing wild {STR_VAR_1}\n"
+	.string "around there.\p"
+	.string "Will you help me get a {STR_VAR_1}?\n"
+	.string "I'll trade you my {STR_VAR_2} for it.$"
 
 DewfordTown_House1_Text_Thanks:
-	.string "Thanks.$"
+	.string "Thank you so much!\p"
+	.string "Now I will always have a part of\n"
+	.string "my beloved SLATEPORT CITY with me.$"
 
 DewfordTown_House1_Text_WrongPokemon:
-	.string "That's not a {STR_VAR_1}.$"
+	.string "I don't remember seeing that POKéMON\n"
+	.string "around SLATEPORT CITY…$"
 
 DewfordTown_House1_Text_Decline:
-	.string "No trade?$"
+	.string "Oh… Is that so…$"
 
-DewfordTown_House1_Text_AlreadyTraded:
-	.string "Already traded.$"
+

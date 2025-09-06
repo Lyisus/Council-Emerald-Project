@@ -1034,7 +1034,7 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_A_VULPIX] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Lilac"),
         .species = SPECIES_VULPIX_ALOLA,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
@@ -1043,10 +1043,10 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0xA, //Female Timid
         .heldItem = ITEM_VENUSAURITE,
         .mailNum = -1,
-        .otName = _("KOBE"),
-        .otGender = MALE,
+        .otName = _("Fretia"),
+        .otGender = FEMALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_DARUMAKA_GALAR
+        .requestedSpecies = SPECIES_BUIZEL
     },    
     [INGAME_TRADE_ESPURR] =
     {

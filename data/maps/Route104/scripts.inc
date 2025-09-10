@@ -160,6 +160,7 @@ Route104_EventScript_BattleMay::
 	end
 
 Route104_EventScript_MayDefeated::
+	goto_if_unset FLAG_RECEIVED_ROUTE_104_RIVAL_EGG, Route104_EventScript_MayGiveEgg
 	msgbox Route104_Text_MayPostBattle, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
 	setvar VAR_ROUTE104_STATE, 3
@@ -174,20 +175,43 @@ Route104_EventScript_RestoreMusic::
 Route104_EventScript_BattleMayTreecko::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, Route104_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
-	goto Route104_EventScript_MayDefeated
+	goto Route104_EventScript_MayGiveEgg
 	end
 
 Route104_EventScript_BattleMayTorchic::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TORCHIC, Route104_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
-	goto Route104_EventScript_MayDefeated
+	goto Route104_EventScript_MayGiveEgg
 	end
 
 Route104_EventScript_BattleMayMudkip::
 	trainerbattle_no_intro TRAINER_MAY_RUSTBORO_MUDKIP, Route104_Text_MayDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
-	goto Route104_EventScript_MayDefeated
+	goto Route104_EventScript_MayGiveEgg
 	end
+
+Route104_EventScript_MayGiveEgg::
+	msgbox Route104_Text_MayHaveEgg, MSGBOX_DEFAULT
+	getpartysize
+	goto_if_eq VAR_RESULT, PARTY_SIZE, Route104_EventScript_NoRoomForEgg
+	msgbox Route104_Text_EggGreatFriends, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_ROUTE_104_RIVAL_EGG
+	playfanfare MUS_OBTAIN_ITEM
+	message Route104_Text_ReceivedTheEgg
+	waitfanfare
+	giveegg SPECIES_ROOKIDEE
+	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
+	setvar VAR_ROUTE104_STATE, 3
+	releaseall
+	end
+
+Route104_EventScript_NoRoomForEgg::
+	msgbox Route104_Text_NoRoomForEgg, MSGBOX_DEFAULT
+	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
+	setvar VAR_ROUTE104_STATE, 3
+	releaseall
+	end
+
 
 Route104_EventScript_BrendanEncounter::
 	goto_if_set FLAG_DEFEATED_RIVAL_ROUTE_104, Route104_EventScript_BrendanDefeated
@@ -243,19 +267,27 @@ Route104_EventScript_BrendanDefeated::
 Route104_EventScript_BattleBrendanTreecko::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TREECKO, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
-	goto Route104_EventScript_BrendanDefeated
+	goto Route104_EventScript_BrendanGiveEgg
 	end
 
 Route104_EventScript_BattleBrendanTorchic::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_TORCHIC, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
-	goto Route104_EventScript_BrendanDefeated
+	goto Route104_EventScript_BrendanGiveEgg
 	end
 
 Route104_EventScript_BattleBrendanMudkip::
 	trainerbattle_no_intro TRAINER_BRENDAN_RUSTBORO_MUDKIP, Route104_Text_BrendanDefeat
 	setflag FLAG_DEFEATED_RIVAL_ROUTE_104
-	goto Route104_EventScript_BrendanDefeated
+	goto Route104_EventScript_BrendanGiveEgg
+	end
+
+Route104_EventScript_BrendanGiveEgg::
+	msgbox Route104_Text_BrendanHaveEgg, MSGBOX_DEFAULT
+	giveegg SPECIES_ROOKIDEE
+	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
+	setvar VAR_ROUTE104_STATE, 3
+	releaseall
 	end
 
 Route104_Movement_PlayerBackUp:
@@ -1181,3 +1213,30 @@ Route104_Text_BrendanPostBattle:
 	.string "making POKéMON battle.\p"
 	.string "Like MR. BRINEY, it's important to\n"
 	.string "become friends with your POKéMON.$"
+
+Route104_Text_BrendanHaveEgg:
+	.string "BRENDAN: That was tough! By the way,\n"
+	.string "PROF. BIRCH sent you this gift.\p"
+	.string "It's a POKéMON EGG.\n"
+	.string "You'll have to keep with your other\l"
+	.string "POKéMON until it hatches.\p"
+	.string "I'm sure you will become great friends!$"
+
+Route104_Text_MayHaveEgg:
+	.string "MAY: PROF. BIRCH sent you this gift.\n"
+	.string "It's a POKéMON EGG!\p"
+	.string "You'll have to keep with your other\n"
+	.string "POKéMON until it hatches.$"
+
+Route104_Text_EggGreatFriends:
+	.string "I'm sure you will become great friends!$"
+
+Route104_Text_NoRoomForEgg:
+	.string "Oh…\n"
+	.string "You don't have room for this egg.\p"
+	.string "I will be here for a while longer.\n"
+	.string "I can wait for you until you leave\l"
+	.string "for DEWFORD TOWN.$"
+
+Route104_Text_ReceivedTheEgg:
+	.string "{PLAYER} received the EGG.$"

@@ -258,6 +258,7 @@ Route104_EventScript_BattleBrendan::
 	end
 
 Route104_EventScript_BrendanDefeated::
+	goto_if_unset FLAG_RECEIVED_ROUTE_104_RIVAL_EGG, Route104_EventScript_BrendanGiveEgg
 	msgbox Route104_Text_BrendanPostBattle, MSGBOX_DEFAULT
 	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
 	setvar VAR_ROUTE104_STATE, 3
@@ -284,6 +285,13 @@ Route104_EventScript_BattleBrendanMudkip::
 
 Route104_EventScript_BrendanGiveEgg::
 	msgbox Route104_Text_BrendanHaveEgg, MSGBOX_DEFAULT
+	getpartysize
+	goto_if_eq VAR_RESULT, PARTY_SIZE, Route104_EventScript_NoRoomForEgg
+	msgbox Route104_Text_EggGreatFriends, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_ROUTE_104_RIVAL_EGG
+	playfanfare MUS_OBTAIN_ITEM
+	message Route104_Text_ReceivedTheEgg
+	waitfanfare
 	giveegg SPECIES_ROOKIDEE
 	call_if_eq VAR_0x8008, 0, Route104_EventScript_RestoreMusic
 	setvar VAR_ROUTE104_STATE, 3
@@ -1215,12 +1223,10 @@ Route104_Text_BrendanPostBattle:
 	.string "become friends with your POKéMON.$"
 
 Route104_Text_BrendanHaveEgg:
-	.string "BRENDAN: That was tough! By the way,\n"
-	.string "PROF. BIRCH sent you this gift.\p"
-	.string "It's a POKéMON EGG.\n"
-	.string "You'll have to keep with your other\l"
-	.string "POKéMON until it hatches.\p"
-	.string "I'm sure you will become great friends!$"
+	.string "BRENDAN: PROF. BIRCH sent you this gift.\n"
+	.string "It's a POKéMON EGG.\p"
+	.string "You'll have to keep with your other\n"
+	.string "POKéMON until it hatches.$"
 
 Route104_Text_MayHaveEgg:
 	.string "MAY: PROF. BIRCH sent you this gift.\n"

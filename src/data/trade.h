@@ -1002,19 +1002,19 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_G_DARUMAKA] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Riki"),
         .species = SPECIES_DARUMAKA_GALAR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 00000,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x81, //Male Naughty
-        .heldItem = ITEM_VENUSAURITE,
+        .heldItem = ITEM_EXPERT_BELT,
         .mailNum = -1,
-        .otName = _("KOBE"),
-        .otGender = MALE,
+        .otName = _("Fiora"),
+        .otGender = FEMALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_SPHEAL
+        .requestedSpecies = SPECIES_LARVITAR
     },
     [INGAME_TRADE_DELTA_BULBASAUR] =
     {

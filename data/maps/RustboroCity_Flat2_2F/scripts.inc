@@ -108,7 +108,7 @@ RustboroCity_Flat2_2F_Text_WillYouTakeEevee:
 
 RustboroCity_Flat2_2F_Text_RejectEevee:
 	.string "You will not?\n"
-	.string "That's unfortunate.$"
+	.string "That is such a shame.$"
 
 RustboroCity_Flat2_2F_Text_AcceptEevee:
 	.string "Thank you.\n"

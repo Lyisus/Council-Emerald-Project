@@ -5,7 +5,7 @@
 #define TRADE_PARTNER 1
 
 // In-game Trade IDs
-#define INGAME_TRADE_SPHEAL          0  // Oldale
+#define INGAME_TRADE_SPHEAL          0  // Oldale Spheal
 #define INGAME_TRADE_G_DARUMAKA      1  // Petalburg Galarian Darumaka
 #define INGAME_TRADE_DELTA_BULBASAUR 2  // Rustboro Delta Bulbasaur
 #define INGAME_TRADE_A_VULPIX        3  // Dewford Alolan Vulpix

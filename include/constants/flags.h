@@ -55,21 +55,21 @@
 #define FLAG_MOSSDEEP_NPC_TRADE_COMPLETED    0x29 
 #define FLAG_SOOTOPOLIS_NPC_TRADE_COMPLETED  0x2A 
 #define FLAG_RECEIVED_ROUTE_104_RIVAL_EGG    0x2B
-#define FLAG_UNUSED_0x02C    0x2C // Unused Flag
-#define FLAG_UNUSED_0x02D    0x2D // Unused Flag
-#define FLAG_UNUSED_0x02E    0x2E // Unused Flag
-#define FLAG_UNUSED_0x02F    0x2F // Unused Flag
-#define FLAG_UNUSED_0x030    0x30 // Unused Flag
-#define FLAG_UNUSED_0x031    0x31 // Unused Flag
-#define FLAG_UNUSED_0x032    0x32 // Unused Flag
-#define FLAG_UNUSED_0x033    0x33 // Unused Flag
-#define FLAG_UNUSED_0x034    0x34 // Unused Flag
-#define FLAG_UNUSED_0x035    0x35 // Unused Flag
-#define FLAG_UNUSED_0x036    0x36 // Unused Flag
-#define FLAG_UNUSED_0x037    0x37 // Unused Flag
-#define FLAG_UNUSED_0x038    0x38 // Unused Flag
-#define FLAG_UNUSED_0x039    0x39 // Unused Flag
-#define FLAG_UNUSED_0x03A    0x3A // Unused Flag
+#define FLAG_OLDALE_GIFT_RECEIVED            0x2C // Unused Flag
+#define FLAG_PETALBURG_GIFT_RECEIVED         0x2D // Unused Flag
+#define FLAG_RUSTBORO_EEVEE_RECEIVED         0x2E // Unused Flag
+#define FLAG_DEWFORD_GIFT_RECEIVED           0x2F // Unused Flag
+#define FLAG_SLATEPORT_GIFT_RECEIVED         0x30 // Unused Flag
+#define FLAG_MAUVILLE_GIFT_RECEIVED          0x31 // Unused Flag
+#define FLAG_VERDANTURF_GIFT_RECEIVED        0x32 // Unused Flag
+#define FLAG_FALLARBOR_GIFT_RECEIVED         0x33 // Unused Flag
+#define FLAG_LAVARIDGE_GIFT_RECEIVED         0x34 // Unused Flag
+#define FLAG_FORTREE_GIFT_RECEIVED           0x35 // Unused Flag
+#define FLAG_LILYCOVE_GIFT_RECEIVED          0x36 // Unused Flag
+#define FLAG_MOSSDEEP_GIFT_RECEIVED          0x37 // Unused Flag
+#define FLAG_PACIFILOG_GIFT_RECEIVED         0x38 // Unused Flag
+#define FLAG_SOOTOPOLIS_GIFT_RECEIVED        0x39 // Unused Flag
+#define FLAG_EVER_GRANDE_GIFT_RECEIVED       0x3A // Unused Flag
 #define FLAG_UNUSED_0x03B    0x3B // Unused Flag
 #define FLAG_UNUSED_0x03C    0x3C // Unused Flag
 #define FLAG_UNUSED_0x03D    0x3D // Unused Flag

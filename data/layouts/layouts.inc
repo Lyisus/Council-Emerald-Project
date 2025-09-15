@@ -3385,7 +3385,7 @@ UnusedContestHall1_Layout_Blockdata::
 
 	.align 2
 UnusedContestHall1_Layout::
-	.4byte 60
+	.4byte 40
 	.4byte 60
 	.4byte UnusedContestHall1_Layout_Border
 	.4byte UnusedContestHall1_Layout_Blockdata
@@ -3715,12 +3715,12 @@ Route110_TrickHousePuzzle2_Layout_Blockdata::
 
 	.align 2
 Route110_TrickHousePuzzle2_Layout::
-	.4byte 15
-	.4byte 22
+	.4byte 49
+	.4byte 62
 	.4byte Route110_TrickHousePuzzle2_Layout_Border
 	.4byte Route110_TrickHousePuzzle2_Layout_Blockdata
-	.4byte gTileset_Building
-	.4byte gTileset_TrickHousePuzzle
+	.4byte gTileset_General
+	.4byte gTileset_Fortree
 
 Route110_TrickHousePuzzle3_Layout_Border::
 	.incbin "data/layouts/Route110_TrickHousePuzzle3/border.bin"

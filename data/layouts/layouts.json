@@ -2254,7 +2254,7 @@
     {
       "id": "LAYOUT_UNUSED_CONTEST_HALL1",
       "name": "UnusedContestHall1_Layout",
-      "width": 60,
+      "width": 40,
       "height": 60,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fortree",
@@ -2474,10 +2474,10 @@
     {
       "id": "LAYOUT_ROUTE110_TRICK_HOUSE_PUZZLE2",
       "name": "Route110_TrickHousePuzzle2_Layout",
-      "width": 15,
-      "height": 22,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_TrickHousePuzzle",
+      "width": 49,
+      "height": 62,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/Route110_TrickHousePuzzle2/border.bin",
       "blockdata_filepath": "data/layouts/Route110_TrickHousePuzzle2/map.bin"
     },

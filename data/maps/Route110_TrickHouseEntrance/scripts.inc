@@ -493,7 +493,7 @@ Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom1::
 	end
 
 Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom2::
-	warp MAP_ROUTE110_TRICK_HOUSE_PUZZLE2, 0, 21
+	warp MAP_ROUTE110_TRICK_HOUSE_PUZZLE2, 31, 46
 	waitstate
 	releaseall
 	end

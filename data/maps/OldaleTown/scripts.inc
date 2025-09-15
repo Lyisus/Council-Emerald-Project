@@ -219,6 +219,25 @@ OldaleTown_EventScript_NotBlockingPath::
 	release
 	end
 
+LavaridgeTown_EventScript_EggWoman::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_LAVARIDGE_EGG, LavaridgeTown_EventScript_ReceivedEgg
+	msgbox LavaridgeTown_Text_HaveEggWillYouTakeIt, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LavaridgeTown_EventScript_DeclineEgg
+	getpartysize
+	goto_if_eq VAR_RESULT, PARTY_SIZE, LavaridgeTown_EventScript_NoRoomForEgg
+	msgbox LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_LAVARIDGE_EGG
+	playfanfare MUS_OBTAIN_ITEM
+	message LavaridgeTown_Text_ReceivedTheEgg
+	waitfanfare
+	giveegg SPECIES_TOXEL
+
+	release
+	end
+
+
 OldaleTown_EventScript_Rival::
 	lockall
 	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer

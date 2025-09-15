@@ -233,8 +233,64 @@ PetalburgCity_EventScript_CitySign::
 	end
 
 PetalburgCity_EventScript_Gentleman::
+	lock
+	faceplayer
+	goto_if_unset FLAG_PETALBURG_MAREEP_RECEIVED, PetalburgCity_EventScript_GentlemanGiveMareep
 	msgbox PetalburgCity_Text_FullPartyExplanation, MSGBOX_NPC
 	end
+
+PetalburgCity_EventScript_GentlemanGiveMareep::
+	msgbox PetalburgCity_Text_WouldYouLikeAMareep, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PetalburgCity_EventScript_RejectMareep
+	msgbox PetalburgCity_Text_AcceptMareep
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_MAREEP
+	givemon SPECIES_MAREEP, 5
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, PetalburgCity_EventScript_SendMareepParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, PetalburgCity_EventScript_SendMareepPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+PetalburgCity_EventScript_RejectMareep:
+	msgbox PetalburgCity_Text_RejectMareep, MSGBOX_NPC
+	end
+
+PetalburgCity_EventScript_SendMareepParty::
+	call PetalburgCity_EventScript_ReceivedMareepFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PetalburgCity_EventScript_ReceivedMareep
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto PetalburgCity_EventScript_ReceivedMareep
+	end
+
+PetalburgCity_EventScript_SendMareepPC::
+	call PetalburgCity_EventScript_ReceivedMareepFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PetalburgCity_EventScript_MareepTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto PetalburgCity_EventScript_MareepTransferredToPC
+	end
+
+PetalburgCity_EventScript_MareepTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto PetalburgCity_EventScript_ReceivedMareep
+	end
+
+PetalburgCity_EventScript_ReceivedMareepFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_MAREEP
+	playfanfare MUS_OBTAIN_ITEM
+	message PetalburgCity_Text_ObtainedMareep
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_MAREEP
+	return
+
+PetalburgCity_EventScript_ReceivedMareep::
+	setflag FLAG_PETALBURG_MAREEP_RECEIVED
+	releaseall
+	end
+
+
 
 PetalburgCity_EventScript_WallyHouseSign::
 	msgbox PetalburgCity_Text_WallyHouseSign, MSGBOX_SIGN
@@ -731,12 +787,6 @@ PetalburgCity_Text_WaterReflection:
 	.string "struggling with fear…\p"
 	.string "What do you see reflected in your face?$"
 
-PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you have six POKéMON.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
-
 PetalburgCity_Text_GymSign:
 	.string "PETALBURG CITY POKéMON GYM\n"
 	.string "LEADER: NORMAN\l"
@@ -765,3 +815,31 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+
+PetalburgCity_Text_FullPartyExplanation:
+	.string "Let's say you have six POKéMON.\n"
+	.string "If you catch another one…\p"
+	.string "It is automatically sent to a STORAGE\n"
+	.string "BOX over a PC connection.$"
+
+PetalburgCity_Text_WouldYouLikeAMareep:
+	.string "Let's say you have six POKéMON.\n"
+	.string "If you catch another one…\p"
+	.string "It is automatically sent to a STORAGE\n"
+	.string "BOX over a PC connection.\p"
+	.string "Speaking of having six POKéMON.\n"
+	.string "I have MAREEP to help new TRAINERS\l"
+	.string "get started.\p"
+	.string "Would you like a MAREEP?$"
+
+PetalburgCity_Text_RejectMareep:
+	.string "Very well. I will wait for a new\n"
+	.string "TRAINER who will accept this MAREEP.$"
+
+PetalburgCity_Text_AcceptMareep:
+	.string "Fantastic. MAREEP are quite\n"
+	.string "popular amongst the youth.$"
+
+PetalburgCity_Text_ObtainedMareep:
+	.string "{PLAYER} obtained a MAREEP.$"
+

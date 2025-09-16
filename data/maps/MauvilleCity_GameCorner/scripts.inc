@@ -488,13 +488,6 @@ MauvilleCity_GameCorner_EventScript_NPCReturnToSlots::
 	release
 	end
 
-MauvilleCity_GameCorner_EventScript_Maniac::
-	lock
-	faceplayer
-	msgbox MauvilleCity_GameCorner_Text_DifficultToStopOn7, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
-	end
-
 MauvilleCity_GameCorner_EventScript_Woman::
 	lock
 	faceplayer
@@ -755,12 +748,6 @@ MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
 	.string "Up to three COINS can be used to play\n"
 	.string "the SLOTS.$"
 
-MauvilleCity_GameCorner_Text_DifficultToStopOn7:
-	.string "It's very difficult to make it stop\n"
-	.string "right on “7.”\p"
-	.string "If it stops on “7” during the REEL TIME\n"
-	.string "bonus game, you'll receive extra COINS.$"
-
 MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
 	.string "Here's some information for you\n"
 	.string "about the SLOTS.\p"
@@ -777,3 +764,111 @@ MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
 	.string "You can't play if you don't have\n"
 	.string "a COIN CASE.$"
 
+MauvilleCity_GameCorner_EventScript_Maniac::
+	lock
+	faceplayer
+	goto_if_unset FLAG_MAUVILLE_CYNDAQUIL_RECEIVED, MauvilleCity_GameCorner_EventScript_ManiacGiveCyndaquil
+	msgbox MauvilleCity_GameCorner_Text_DifficultToStopOn7, MSGBOX_DEFAULT
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
+	end
+
+MauvilleCity_GameCorner_Text_DifficultToStopOn7:
+	.string "It's very difficult to make it stop\n"
+	.string "right on “7.”\p"
+	.string "If it stops on “7” during the REEL TIME\n"
+	.string "bonus game, you'll receive extra COINS.$"
+
+MauvilleCity_GameCorner_EventScript_ManiacGiveCyndaquil::
+	msgbox MauvilleCity_GameCorner_Text_WillYouTakeCyndaquil, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MauvilleCity_GameCorner_EventScript_RejectCyndaquil
+	checkitem ITEM_COIN_CASE
+	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_LackCoinCase
+	checkcoins VAR_TEMP_2
+	goto_if_lt VAR_TEMP_2, 6000, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForCyndaquil
+	removecoins 6000
+	msgbox MauvilleCity_GameCorner_Text_AcceptCyndaquil
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CYNDAQUIL
+	givemon SPECIES_CYNDAQUIL, 25
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, MauvilleCity_GameCorner_EventScript_SendCyndaquilParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, MauvilleCity_GameCorner_EventScript_SendCyndaquilPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+MauvilleCity_GameCorner_EventScript_RejectCyndaquil:
+	msgbox MauvilleCity_GameCorner_Text_RejectCyndaquil, MSGBOX_NPC
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
+	end
+
+MauvilleCity_GameCorner_EventScript_LackCoinCase::
+	msgbox MauvilleCity_GameCorner_Text_LackCoinCase, MSGBOX_NPC
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
+	end
+
+MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForCyndaquil::
+	msgbox MauvilleCity_GameCorner_Text_NotEnoughCoinsForCyndaquil, MSGBOX_NPC
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
+	end
+
+MauvilleCity_GameCorner_EventScript_SendCyndaquilParty::
+	call MauvilleCity_GameCorner_EventScript_ReceivedCyndaquilFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MauvilleCity_GameCorner_EventScript_ReceivedCyndaquil
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto MauvilleCity_GameCorner_EventScript_ReceivedCyndaquil
+	end
+
+MauvilleCity_GameCorner_EventScript_SendCyndaquilPC::
+	call MauvilleCity_GameCorner_EventScript_ReceivedCyndaquilFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MauvilleCity_GameCorner_EventScript_CyndaquilTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto MauvilleCity_GameCorner_EventScript_CyndaquilTransferredToPC
+	end
+
+MauvilleCity_GameCorner_EventScript_CyndaquilTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto MauvilleCity_GameCorner_EventScript_ReceivedCyndaquil
+	end
+
+MauvilleCity_GameCorner_EventScript_ReceivedCyndaquilFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_CYNDAQUIL
+	playfanfare MUS_OBTAIN_ITEM
+	message MauvilleCity_GameCorner_Text_ObtainedCyndaquil
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
+	return
+
+MauvilleCity_GameCorner_EventScript_ReceivedCyndaquil::
+	setflag FLAG_MAUVILLE_CYNDAQUIL_RECEIVED
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
+	releaseall
+	end
+
+MauvilleCity_GameCorner_Text_WillYouTakeCyndaquil:
+	.string "I'm about to stop right on “7.”\n"
+	.string "I am so close to making it big!\p"
+	.string "But I just ran out of COINS…\p"
+	.string "You look like you have COINS…\p"
+	.string "What do you say?\n"
+	.string "I'll give you this POKéMON for 6000 COINS.$"
+
+MauvilleCity_GameCorner_Text_RejectCyndaquil:
+	.string "I need one more game, bro!\n"
+	.string "Just one more game! Please, bro!$"
+
+MauvilleCity_GameCorner_Text_LackCoinCase:
+	.string "You don't even have a COINS CASE.\n"
+	.string "Come back when you have enough COINS.$"
+
+MauvilleCity_GameCorner_Text_NotEnoughCoinsForCyndaquil:
+	.string "You don't have enough COINS.\n"
+	.string "Come back when you have enough COINS.$"
+
+MauvilleCity_GameCorner_Text_AcceptCyndaquil:
+	.string "Thanks, bro!\n"
+	.string "I won't miss my chance to be a BIG SHOT!!!$"
+
+MauvilleCity_GameCorner_Text_ObtainedCyndaquil:
+	.string "{PLAYER} obtained a Cyndaquil.$"

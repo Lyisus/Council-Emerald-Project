@@ -60,8 +60,8 @@
 #define FLAG_PETALBURG_MAREEP_RECEIVED       0x2D
 #define FLAG_RUSTBORO_EEVEE_RECEIVED         0x2E
 #define FLAG_DEWFORD_ZORUA_RECEIVED          0x2F 
-#define FLAG_SLATEPORT_BUNEARY_RECEIVED      0x30 // Unused Flag
-#define FLAG_MAUVILLE_GIFT_RECEIVED          0x31 // Unused Flag
+#define FLAG_SLATEPORT_BUNEARY_RECEIVED      0x30
+#define FLAG_MAUVILLE_CYNDAQUIL_RECEIVED     0x31 // Unused Flag
 #define FLAG_VERDANTURF_GIFT_RECEIVED        0x32 // Unused Flag
 #define FLAG_FALLARBOR_GIFT_RECEIVED         0x33 // Unused Flag
 #define FLAG_LAVARIDGE_GIFT_RECEIVED         0x34 // Unused Flag

@@ -22,7 +22,8 @@ Route111_Walmart_EventScript_FromundaMartShop::
 	msgbox gText_FromundaByes, MSGBOX_DEFAULT
 	goto Route111_Walmart_EventScript_FaceOriginalDirection
 	end
-
+	
+	.align 2
 Route111_Fromunda_Mart:
 	.2byte ITEM_FIRE_STONE
 	.2byte ITEM_WATER_STONE

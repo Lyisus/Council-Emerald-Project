@@ -17,7 +17,7 @@ gText_FromundaByes::
 	.string "I be smoking these rocks.$"
 
 gText_FromundaSellsCandies::
-	.string "Hey, kid…\p"
+	.string "Hey, kid…\n"
 	.string "You want some candy?$"
 
 gText_FromundaByesCandies::

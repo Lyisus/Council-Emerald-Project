@@ -329,7 +329,7 @@
 #define ITEM_ZAP_PLATE 252
 #define ITEM_MEADOW_PLATE 253
 #define ITEM_ICICLE_PLATE 254
-#define ITEM_FIST_PLATE 255 // Last time that can be sold normally
+#define ITEM_FIST_PLATE 255
 #define ITEM_TOXIC_PLATE 256
 #define ITEM_EARTH_PLATE 257
 #define ITEM_SKY_PLATE 258

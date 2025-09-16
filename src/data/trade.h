@@ -1006,7 +1006,7 @@ static const struct InGameTrade sIngameTrades[] =
         .species = SPECIES_DARUMAKA_GALAR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
-        .otId = 00000,
+        .otId = 15836,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x81, //Male Naughty
         .heldItem = ITEM_EXPERT_BELT,
@@ -1022,7 +1022,7 @@ static const struct InGameTrade sIngameTrades[] =
         .species = SPECIES_BULBASAUR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
-        .otId = 00000,
+        .otId = 96473,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x14, //Female Calm
         .heldItem = ITEM_VENUSAURITE,
@@ -1050,19 +1050,19 @@ static const struct InGameTrade sIngameTrades[] =
     },    
     [INGAME_TRADE_ESPURR] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Miyabi"),
         .species = SPECIES_ESPURR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
-        .otId = 00000,
+        .otId = 15935,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0xF, //Female Modest
-        .heldItem = ITEM_VENUSAURITE,
+        .heldItem = ITEM_TWISTED_SPOON,
         .mailNum = -1,
-        .otName = _("KOBE"),
-        .otGender = MALE,
+        .otName = _("Drina"),
+        .otGender = FEMALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_VULPIX_ALOLA
+        .requestedSpecies = SPECIES_SCRAGGY
     },    
     [INGAME_TRADE_H_SNEASEL] =
     {

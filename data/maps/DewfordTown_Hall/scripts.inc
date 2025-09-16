@@ -80,9 +80,62 @@ DewfordTown_Hall_EventScript_LittleBoy::
 	end
 
 DewfordTown_Hall_EventScript_Bookshelf::
-	lockall
+	lock
+	goto_if_unset FLAG_DEWFORD_ZORUA_RECEIVED, DewfordTown_Hall_EventScript_BookshelfPokeBall
 	call Common_EventScript_BufferTrendyPhrase
 	msgbox DewfordTown_Hall_Text_BooksAboutTrend, MSGBOX_DEFAULT
+	releaseall
+	end
+
+DewfordTown_Hall_EventScript_BookshelfPokeBall::
+	msgbox DewfordTown_Hall_Text_WillYouTakePokeBall, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, DewfordTown_Hall_EventScript_RejectPokeBall
+	msgbox DewfordTown_Hall_Text_AcceptPokeBall
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_ZORUA_HISUI
+	givemon SPECIES_ZORUA_HISUI, 18
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, DewfordTown_Hall_EventScript_SendZoruaParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, DewfordTown_Hall_EventScript_SendZoruaPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	releaseall
+	end
+
+DewfordTown_Hall_EventScript_RejectPokeBall:
+	msgbox DewfordTown_Hall_Text_RejectPokeBall, MSGBOX_NPC
+	end
+
+DewfordTown_Hall_EventScript_SendZoruaParty::
+	call DewfordTown_Hall_EventScript_ReceivedZoruaFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, DewfordTown_Hall_EventScript_ReceivedZorua
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto DewfordTown_Hall_EventScript_ReceivedZorua
+	end
+
+DewfordTown_Hall_EventScript_SendZoruaPC::
+	call DewfordTown_Hall_EventScript_ReceivedZoruaFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, DewfordTown_Hall_EventScript_ZoruaTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto DewfordTown_Hall_EventScript_ZoruaTransferredToPC
+	end
+
+DewfordTown_Hall_EventScript_ZoruaTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto DewfordTown_Hall_EventScript_ReceivedZorua
+	end
+
+DewfordTown_Hall_EventScript_ReceivedZoruaFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_ZORUA_HISUI
+	playfanfare MUS_OBTAIN_ITEM
+	message DewfordTown_Hall_Text_ObtainedZorua
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_ZORUA_HISUI
+	return
+
+DewfordTown_Hall_EventScript_ReceivedZorua::
+	setflag FLAG_DEWFORD_ZORUA_RECEIVED
 	releaseall
 	end
 
@@ -443,3 +496,15 @@ DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
 	.string "“{STR_VAR_1}”\l"
 	.string "are in, too.$"
 
+DewfordTown_Hall_Text_WillYouTakePokeBall:
+	.string "You see a POKé BALL behind the books.\n"
+	.string "Will you take it?$"
+
+DewfordTown_Hall_Text_RejectPokeBall:
+	.string "You left the POKé BALL alone.$"
+
+DewfordTown_Hall_Text_AcceptPokeBall:
+	.string "You took the POKé BALL.$"
+
+DewfordTown_Hall_Text_ObtainedZorua:
+	.string "{PLAYER} obtained a ZORUA.$"

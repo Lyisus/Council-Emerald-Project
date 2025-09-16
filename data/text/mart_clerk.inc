@@ -14,5 +14,4 @@ gText_FromundaSells::
 	.string "You buyin' anything?$"
 
 gText_FromundaByes::
-	.string "You'll come back.\p"
-	.string "They always come back.$"
+	.string "I be smoking these rocks.$"

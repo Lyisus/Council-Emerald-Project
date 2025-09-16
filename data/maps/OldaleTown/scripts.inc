@@ -215,28 +215,36 @@ OldaleTown_EventScript_BlockedPath::
 	end
 
 OldaleTown_EventScript_NotBlockingPath::
+	lock
+	faceplayer
+	goto_if_unset FLAG_OLDALE_TOXEL_EGG_RECEIVED, OldaleTown_EventScript_SketchEgg
 	msgbox OldaleTown_Text_FinishedSketchingFootprints, MSGBOX_DEFAULT
 	release
 	end
 
-LavaridgeTown_EventScript_EggWoman::
-	lock
-	faceplayer
-	goto_if_set FLAG_RECEIVED_LAVARIDGE_EGG, LavaridgeTown_EventScript_ReceivedEgg
-	msgbox LavaridgeTown_Text_HaveEggWillYouTakeIt, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, LavaridgeTown_EventScript_DeclineEgg
+OldaleTown_EventScript_SketchEgg::
+	msgbox OldaleTown_Text_DoYouWantEgg, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, OldaleTown_EventScript_DeclineEgg
 	getpartysize
-	goto_if_eq VAR_RESULT, PARTY_SIZE, LavaridgeTown_EventScript_NoRoomForEgg
-	msgbox LavaridgeTown_Text_HopeYoullWalkPlentyWithEgg, MSGBOX_DEFAULT
-	setflag FLAG_RECEIVED_LAVARIDGE_EGG
+	goto_if_eq VAR_RESULT, PARTY_SIZE, OldaleTown_EventScript_NoRoomForEgg
+	msgbox OldaleTown_Text_FinishSketch, MSGBOX_DEFAULT
+	setflag FLAG_OLDALE_TOXEL_EGG_RECEIVED
 	playfanfare MUS_OBTAIN_ITEM
-	message LavaridgeTown_Text_ReceivedTheEgg
+	message OldaleTown_Text_ReceivedTheEgg
 	waitfanfare
 	giveegg SPECIES_TOXEL
-
 	release
 	end
 
+OldaleTown_EventScript_NoRoomForEgg::
+	msgbox OldaleTown_Text_NoRoomForThisEgg, MSGBOX_DEFAULT
+	release
+	end
+
+OldaleTown_EventScript_DeclineEgg::
+	msgbox OldaleTown_Text_CantFinishSketch, MSGBOX_DEFAULT
+	release
+	end
 
 OldaleTown_EventScript_Rival::
 	lockall
@@ -418,3 +426,21 @@ OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
 	.string "“Where things start off scarce.”$"
 
+OldaleTown_Text_DoYouWantEgg:
+	.string "While sketching these footprints I\n"
+	.string "found a POKéMON EGG.\l"
+	.string "Do you want it?$"
+
+OldaleTown_Text_FinishSketch:
+	.string "Great! Now I can finish my sketch!$"
+
+OldaleTown_Text_ReceivedTheEgg:
+	.string "{PLAYER} received the EGG.$"
+
+OldaleTown_Text_NoRoomForThisEgg:
+	.string "You've no space for this EGG.\n"
+	.string "Come back later when you have space.$"
+
+OldaleTown_Text_CantFinishSketch:
+	.string "But I cannot finish my sketch\n"
+	.string "while I take care of this EGG…$"

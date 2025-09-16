@@ -54,11 +54,12 @@
 #define FLAG_LILYCOVE_NPC_TRADE_COMPLETED    0x28 
 #define FLAG_MOSSDEEP_NPC_TRADE_COMPLETED    0x29 
 #define FLAG_SOOTOPOLIS_NPC_TRADE_COMPLETED  0x2A 
+
 #define FLAG_RECEIVED_ROUTE_104_RIVAL_EGG    0x2B
-#define FLAG_OLDALE_GIFT_RECEIVED            0x2C // Unused Flag
-#define FLAG_PETALBURG_MAREEP_RECEIVED       0x2D // Unused Flag
-#define FLAG_RUSTBORO_EEVEE_RECEIVED         0x2E 
-#define FLAG_DEWFORD_GIFT_RECEIVED           0x2F // Unused Flag
+#define FLAG_OLDALE_TOXEL_EGG_RECEIVED       0x2C
+#define FLAG_PETALBURG_MAREEP_RECEIVED       0x2D
+#define FLAG_RUSTBORO_EEVEE_RECEIVED         0x2E
+#define FLAG_DEWFORD_ZORUA_RECEIVED          0x2F 
 #define FLAG_SLATEPORT_GIFT_RECEIVED         0x30 // Unused Flag
 #define FLAG_MAUVILLE_GIFT_RECEIVED          0x31 // Unused Flag
 #define FLAG_VERDANTURF_GIFT_RECEIVED        0x32 // Unused Flag
@@ -70,6 +71,7 @@
 #define FLAG_PACIFILOG_GIFT_RECEIVED         0x38 // Unused Flag
 #define FLAG_SOOTOPOLIS_GIFT_RECEIVED        0x39 // Unused Flag
 #define FLAG_EVER_GRANDE_GIFT_RECEIVED       0x3A // Unused Flag
+
 #define FLAG_UNUSED_0x03B    0x3B // Unused Flag
 #define FLAG_UNUSED_0x03C    0x3C // Unused Flag
 #define FLAG_UNUSED_0x03D    0x3D // Unused Flag

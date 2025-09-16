@@ -82,8 +82,8 @@ SlateportCity_SternsShipyard_2F_Text_WillYouTakeBuneary:
 	.string "Will you take BUNEARY with you?$"
 
 SlateportCity_SternsShipyard_2F_Text_RejectBuneary:
-	.string "Such a shame…"
-	.string "This is quite the rare specimen…"
+	.string "Such a shame…\n"
+	.string "This is quite the rare specimen…$"
 
 SlateportCity_SternsShipyard_2F_Text_AcceptBuneary:
 	.string "Excellent.\n"

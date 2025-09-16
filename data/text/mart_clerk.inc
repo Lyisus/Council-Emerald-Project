@@ -15,3 +15,10 @@ gText_FromundaSells::
 
 gText_FromundaByes::
 	.string "I be smoking these rocks.$"
+
+gText_FromundaSellsCandies::
+	.string "Hey, kid…\p"
+	.string "You want some candy?$"
+
+gText_FromundaByesCandies::
+	.string "Come back if you want another fix.$"

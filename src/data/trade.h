@@ -1066,19 +1066,19 @@ static const struct InGameTrade sIngameTrades[] =
     },    
     [INGAME_TRADE_H_SNEASEL] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Heyelie"),
         .species = SPECIES_SNEASEL_HISUI,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
-        .otId = 00000,
+        .otId = 59675,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x16, //Female Sassy
-        .heldItem = ITEM_VENUSAURITE,
+        .heldItem = ITEM_BLACK_SLUDGE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("Wilford"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_ESPURR
+        .requestedSpecies = (SPECIES_NONE)
     },
     [INGAME_TRADE_DELTA_FROAKIE] =
     {

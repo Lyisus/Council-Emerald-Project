@@ -474,13 +474,6 @@ MauvilleCity_GameCorner_EventScript_Cook::
 	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
 	end
 
-MauvilleCity_GameCorner_EventScript_Man::
-	lock
-	faceplayer
-	msgbox MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed, MSGBOX_DEFAULT
-	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
-	end
-
 MauvilleCity_GameCorner_EventScript_NPCReturnToSlots::
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
@@ -744,10 +737,6 @@ MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
 	.string "It's rather demanding.\p"
 	.string "Win or lose, it's only by luck.$"
 
-MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
-	.string "Up to three COINS can be used to play\n"
-	.string "the SLOTS.$"
-
 MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
 	.string "Here's some information for you\n"
 	.string "about the SLOTS.\p"
@@ -768,15 +757,12 @@ MauvilleCity_GameCorner_EventScript_Maniac::
 	lock
 	faceplayer
 	goto_if_unset FLAG_MAUVILLE_CYNDAQUIL_RECEIVED, MauvilleCity_GameCorner_EventScript_ManiacGiveCyndaquil
-	msgbox MauvilleCity_GameCorner_Text_DifficultToStopOn7, MSGBOX_DEFAULT
+	msgbox MauvilleCity_GameCorner_Text_LostTheHouse, MSGBOX_DEFAULT
 	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
 	end
 
-MauvilleCity_GameCorner_Text_DifficultToStopOn7:
-	.string "It's very difficult to make it stop\n"
-	.string "right on “7.”\p"
-	.string "If it stops on “7” during the REEL TIME\n"
-	.string "bonus game, you'll receive extra COINS.$"
+MauvilleCity_GameCorner_Text_LostTheHouse:
+	.string "I lost the house…$"
 
 MauvilleCity_GameCorner_EventScript_ManiacGiveCyndaquil::
 	msgbox MauvilleCity_GameCorner_Text_WillYouTakeCyndaquil, MSGBOX_YESNO
@@ -872,3 +858,60 @@ MauvilleCity_GameCorner_Text_AcceptCyndaquil:
 
 MauvilleCity_GameCorner_Text_ObtainedCyndaquil:
 	.string "{PLAYER} obtained a Cyndaquil.$"
+
+MauvilleCity_GameCorner_EventScript_Man::
+	lock
+	faceplayer
+	goto_if_unset FLAG_MAUVILLE_NPC_TRADE_COMPLETED, MauvilleCity_GameCorner_EventScript_Trader_H_Sneasel
+	msgbox MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed, MSGBOX_DEFAULT
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
+	end
+
+MauvilleCity_GameCorner_EventScript_Trader_H_Sneasel::
+	lock
+	faceplayer
+	setvar VAR_0x8008, INGAME_TRADE_H_SNEASEL
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	msgbox MauvilleCity_GameCorner_Text_StartTrade, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, MauvilleCity_GameCorner_EventScript_DeclineTrade
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, MauvilleCity_GameCorner_EventScript_DeclineTrade
+	msgbox MauvilleCity_GameCorner_Text_Thanks, MSGBOX_DEFAULT
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	setflag FLAG_MAUVILLE_NPC_TRADE_COMPLETED
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots
+	release
+	end
+
+MauvilleCity_GameCorner_EventScript_DeclineTrade::
+	msgbox MauvilleCity_GameCorner_Text_Decline, MSGBOX_DEFAULT
+	goto MauvilleCity_GameCorner_EventScript_NPCReturnToSlots	
+	release
+	end
+
+MauvilleCity_GameCorner_Text_UpTo3CoinsCanBeUsed:
+	.string "Did you know that 90% of gamblers stop\n"
+	.string "gambling right before they hit it big?$"
+
+MauvilleCity_GameCorner_Text_StartTrade:
+	.string "Wanna gamble, kid?\n"
+	.string "I'll trade you a surprise POKéMON for\l"
+	.string "any POKéMON of yours. You in?$"
+
+MauvilleCity_GameCorner_Text_Thanks:
+	.string "Let's go! Gambling!$"
+
+MauvilleCity_GameCorner_Text_Decline:
+	.string "You sure?\n"
+	.string "It could be anything.\l"
+	.string "It could even be a boat.$"

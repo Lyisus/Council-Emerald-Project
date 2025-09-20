@@ -1078,23 +1078,23 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("Wilford"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = (SPECIES_NONE)
+        .requestedSpecies = SPECIES_NONE //Accepts any Pokemon
     },
     [INGAME_TRADE_DELTA_FROAKIE] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Geoff"),
         .species = SPECIES_FROAKIE,
         .ivs = {20, 20, 20, 20, 20, 20},
-        .abilityNum = 3,
-        .otId = 00000,
+        .abilityNum = 1,
+        .otId = 42517,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x24, //Male Hasty
-        .heldItem = ITEM_VENUSAURITE,
+        .heldItem = ITEM_LIFE_ORB,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("Shui"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_DARUMAKA_GALAR
+        .requestedSpecies = SPECIES_NONE //Accepts any Pokemon
     },
     [INGAME_TRADE_DELTA_BELDUM] =
     {

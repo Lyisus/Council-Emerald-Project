@@ -30,10 +30,6 @@ VerdanturfTown_EventScript_Man::
 	msgbox VerdanturfTown_Text_AirCleanHere, MSGBOX_NPC
 	end
 
-VerdanturfTown_EventScript_Camper::
-	msgbox VerdanturfTown_Text_MakeBattleTentDebut, MSGBOX_NPC
-	end
-
 VerdanturfTown_EventScript_Boy::
 	lock
 	faceplayer
@@ -86,12 +82,6 @@ VerdanturfTown_Text_AirCleanHere:
 	.string "Living here should do wonders for even\l"
 	.string "frail and sickly people.$"
 
-VerdanturfTown_Text_MakeBattleTentDebut:
-	.string "My POKéMON and I, we've been riding\n"
-	.string "a hot winning streak.\p"
-	.string "So I decided to make my BATTLE TENT\n"
-	.string "debut in this town.$"
-
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
 	.string "Did you see the cave next to the\n"
 	.string "POKéMON MART?\p"
@@ -125,3 +115,72 @@ VerdanturfTown_Text_RusturfTunnelSign:
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 
+VerdanturfTown_EventScript_Camper::
+	lock
+	faceplayer
+	goto_if_unset FLAG_RUSTURF_TUNNEL_OPENED, VerdanturfTown_EventScript_OpenTunnel
+	goto_if_unset FLAG_VERDANTURF_NPC_TRADE_COMPLETED, VerdanturfTown_EventScript_Trader_Delta_Froakie		
+	msgbox VerdanturfTown_Text_MakeBattleTentDebut, MSGBOX_NPC
+	end
+
+VerdanturfTown_EventScript_Trader_Delta_Froakie::
+	lock
+	faceplayer
+	setvar VAR_0x8008, INGAME_TRADE_DELTA_FROAKIE
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	copyvar VAR_0x8009, VAR_RESULT
+	msgbox VerdanturfTown_Text_StartTrade, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, VerdanturfTown_EventScript_DeclineTrade
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, VerdanturfTown_EventScript_DeclineTrade
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox VerdanturfTown_Text_Thanks, MSGBOX_DEFAULT
+	setflag FLAG_VERDANTURF_NPC_TRADE_COMPLETED
+	release
+	end
+
+VerdanturfTown_EventScript_DeclineTrade::
+	msgbox VerdanturfTown_Text_Decline, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_EventScript_OpenTunnel::
+	msgbox VerdanturfTown_Text_OpenTunnel, MSGBOX_DEFAULT
+	release
+	end
+
+VerdanturfTown_Text_MakeBattleTentDebut:
+	.string "My POKéMON and I, we've been riding\n"
+	.string "a hot winning streak.\p"
+	.string "So I decided to make my BATTLE TENT\n"
+	.string "debut in this town.$"
+
+VerdanturfTown_Text_StartTrade:
+	.string "I heard you were the one to open the\n"
+	.string "tunnel.\p"
+	.string "For that, I want to thank you by\n"
+	.string "trading a rare POKéMON with you.\p"
+	.string "Do you want my {STR_VAR_2}?\n"
+	.string "I'll accept anything in return.$"
+
+VerdanturfTown_Text_Thanks:
+	.string "Take care of {STR_VAR_2}.$"
+
+VerdanturfTown_Text_Decline:
+	.string "You don't want this POKéMON?$"
+
+VerdanturfTown_Text_OpenTunnel:
+	.string "The Rusturf Tunnel has been blocked\n"
+	.string "for quite a while.\p"
+	.string "I'm offering to trade a rare POKéMON\n"
+	.string "to anyone who removes the rocks.$"

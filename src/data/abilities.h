@@ -226,7 +226,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_CLEAR_BODY] =
     {
         .name = _("Clear Body"),
-        .description = COMPOUND_STRING("Prevents ability reduction."),
+        .description = COMPOUND_STRING("Prevents stat reduction."),
         .aiRating = 4,
         .breakable = TRUE,
     },

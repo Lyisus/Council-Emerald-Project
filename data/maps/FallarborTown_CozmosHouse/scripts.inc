@@ -21,6 +21,7 @@ FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite::
 	setvar VAR_0x8004, ITEM_METEORITE
 	call Common_EventScript_PlayerHandedOverTheItem
 	setflag FLAG_RECEIVED_TM_RETURN
+	goto FallarborTown_CozmosHouse_EventScript_CozmoGiveBeldum
 	msgbox FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch, MSGBOX_DEFAULT
 	release
 	end
@@ -41,6 +42,7 @@ FallarborTown_CozmosHouse_EventScript_DeclineGiveMeteorite::
 	end
 
 FallarborTown_CozmosHouse_EventScript_GaveMeteorite::
+	goto_if_unset FLAG_FALLARBOR_BELDUM_RECEIVED, FallarborTown_CozmosHouse_EventScript_CozmoGiveBeldum
 	msgbox FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch, MSGBOX_DEFAULT
 	release
 	end
@@ -116,3 +118,56 @@ FallarborTown_CozmosHouse_Text_CozmoIsSoHappy:
 	.string "Look at PROF. COZMO…\n"
 	.string "He's so happy! I think it's cute.$"
 
+FallarborTown_CozmosHouse_EventScript_CozmoGiveBeldum::
+	msgbox FallarborTown_CozmosHouse_Text_HaveThisBeldum, MSGBOX_DEFAULT
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_BELDUM
+	givemon SPECIES_BELDUM, 28
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, FallarborTown_CozmosHouse_EventScript_SendBeldumParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, FallarborTown_CozmosHouse_EventScript_SendBeldumPC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+FallarborTown_CozmosHouse_EventScript_SendBeldumParty::
+	call FallarborTown_CozmosHouse_EventScript_ReceivedBeldumFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FallarborTown_CozmosHouse_EventScript_ReceivedBeldum
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto FallarborTown_CozmosHouse_EventScript_ReceivedBeldum
+	end
+
+FallarborTown_CozmosHouse_EventScript_SendBeldumPC::
+	call FallarborTown_CozmosHouse_EventScript_ReceivedBeldumFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, FallarborTown_CozmosHouse_EventScript_BeldumTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto FallarborTown_CozmosHouse_EventScript_BeldumTransferredToPC
+	end
+
+FallarborTown_CozmosHouse_EventScript_BeldumTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto FallarborTown_CozmosHouse_EventScript_ReceivedBeldum
+	end
+
+FallarborTown_CozmosHouse_EventScript_ReceivedBeldumFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_BELDUM
+	playfanfare MUS_OBTAIN_ITEM
+	message FallarborTown_CozmosHouse_Text_ObtainedBeldum
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_BELDUM
+	return
+
+FallarborTown_CozmosHouse_EventScript_ReceivedBeldum::
+	setflag FLAG_FALLARBOR_BELDUM_RECEIVED
+	releaseall
+	end
+
+FallarborTown_CozmosHouse_Text_HaveThisBeldum:
+	.string "PROF. COZMO: Have this POKéMON, too.\n"
+	.string "It is rare around here.\p"
+	.string "I believe it'll prove useful in your\n"
+	.string "adventure.$"
+
+FallarborTown_CozmosHouse_Text_ObtainedBeldum:
+	.string "{PLAYER} obtained a BELDUM.$"

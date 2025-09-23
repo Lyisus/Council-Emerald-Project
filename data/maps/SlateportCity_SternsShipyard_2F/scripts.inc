@@ -75,8 +75,8 @@ SlateportCity_SternsShipyard_2F_EventScript_ReceivedBuneary::
 SlateportCity_SternsShipyard_2F_Text_WillYouTakeBuneary:
 	.string "I have been studying this BUNEARY for\n"
 	.string "quite a long time.\p"
-	.string "My studies have been…\n"
-	.string "inconclusive…\p"
+	.string "My studies have been…\p"
+	.string "Inconclusive…\p"
 	.string "I'd like to let this BUNEARY grow in a\n"
 	.string "different environment.\l"
 	.string "Will you take BUNEARY with you?$"

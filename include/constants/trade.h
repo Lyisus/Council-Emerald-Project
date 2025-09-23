@@ -12,11 +12,11 @@
 #define INGAME_TRADE_ESPURR          4  // Slateport Espurr
 #define INGAME_TRADE_H_SNEASEL       5  // Mauville Hisuian Sneasel
 #define INGAME_TRADE_DELTA_FROAKIE   6  // Verdanturf Delta Froakie
-#define INGAME_TRADE_TRUBBISH        7  // Fallarbor Trubbish
-#define INGAME_TRADE_GOTHITA         8  // Lavaridge  
+#define INGAME_TRADE_TRUBBISH        7  // Route 113 Trubbish
+#define INGAME_TRADE_GOTHITA         8  // Lavaridge Gothita
 #define INGAME_TRADE_FEEBAS          9  // Fortree Feebas
 #define INGAME_TRADE_G_SLOWPOKE      10 // Lilycove Galarian Slowpoke
-#define INGAME_TRADE_LUCARIO         11 // Mossdeep
+#define INGAME_TRADE_LUCARIO         11 // Mossdeep Lucario
 #define INGAME_TRADE_SINISTCHA       12 // Pacifilog Poltchageist
 #define INGAME_TRADE_SALAZZLE        13 // Sootopolis
 #define INGAME_TRADE_MEOWTH          14 // Battle Frontier

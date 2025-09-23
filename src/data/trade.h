@@ -1073,7 +1073,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otId = 59675,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x16, //Female Sassy
-        .heldItem = ITEM_BLACK_SLUDGE,
+        .heldItem = ITEM_POISON_BARB,
         .mailNum = -1,
         .otName = _("Wilford"),
         .otGender = MALE,
@@ -1098,19 +1098,19 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_TRUBBISH] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Skye"),
         .species = SPECIES_TRUBBISH,
         .ivs = {20, 20, 20, 20, 20, 20},
-        .abilityNum = 3,
-        .otId = 00000,
+        .abilityNum = 2,
+        .otId = 96344,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x80, //Adamant
-        .heldItem = ITEM_VENUSAURITE,
+        .heldItem = ITEM_BLACK_SLUDGE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("Jakub"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_FROAKIE
+        .requestedSpecies = SPECIES_SHROOMISH
     },
     [INGAME_TRADE_GOTHITA] =
     {

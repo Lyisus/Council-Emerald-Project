@@ -288,10 +288,6 @@ Route113_GlassWorkshop_EventScript_TryGiveItemAgain::
 	release
 	end
 
-Route113_GlassWorkshop_EventScript_NinjaBoy::
-	msgbox Route113_GlassWorkshop_Text_FunToBlowGlassFlute, MSGBOX_NPC
-	end
-
 Route113_GlassWorkshop_Text_GoCollectAshWithThis:
 	.string "This area is covered in volcanic ash,\n"
 	.string "huff-puff!\p"
@@ -374,8 +370,69 @@ Route113_GlassWorkshop_Text_HaventGotYourSootSack:
 	.string "You have to keep it with you to collect\n"
 	.string "volcanic ash, huff-puff.$"
 
+Route113_GlassWorkshop_EventScript_NinjaBoy::
+	goto_if_unset FLAG_ROUTE113_NPC_TRADE_COMPLETED, Route113_GlassWorkshop_EventScript_Trader_Trubbish
+	msgbox Route113_GlassWorkshop_Text_FunToBlowGlassFlute, MSGBOX_NPC
+	end
+
 Route113_GlassWorkshop_Text_FunToBlowGlassFlute:
 	.string "It's fun to blow a glass flute while\n"
 	.string "my boss is talking.\p"
 	.string "Huff-huff! Puff-puff!$"
 
+Route113_GlassWorkshop_EventScript_Trader_Trubbish::
+	lock
+	faceplayer
+	setvar VAR_0x8008, INGAME_TRADE_TRUBBISH
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	copyvar VAR_0x8009, VAR_RESULT
+	msgbox Route113_GlassWorkshop_Text_StartTrade, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route113_GlassWorkshop_EventScript_DeclineTrade
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, Route113_GlassWorkshop_EventScript_DeclineTrade
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	goto_if_ne VAR_RESULT, VAR_0x8009, Route113_GlassWorkshop_EventScript_NotRequestedMon
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox Route113_GlassWorkshop_Text_Thanks, MSGBOX_DEFAULT
+	setflag FLAG_ROUTE113_NPC_TRADE_COMPLETED
+	release
+	end
+
+Route113_GlassWorkshop_EventScript_DeclineTrade::
+	msgbox Route113_GlassWorkshop_Text_Decline, MSGBOX_DEFAULT
+	release
+	end
+
+Route113_GlassWorkshop_EventScript_NotRequestedMon::
+	bufferspeciesname STR_VAR_1, VAR_0x8009
+	msgbox Route113_GlassWorkshop_Text_WrongPokemon, MSGBOX_DEFAULT
+	release
+	end
+
+Route113_GlassWorkshop_Text_StartTrade:
+	.string "I've always wanted a {STR_VAR_1}\n"
+	.string "but my boss won't let me go catch one…\p"
+	.string "He says that it's too dangerous\n"
+	.string "for me to go without him…\p"
+	.string "Do you have a {STR_VAR_1}?\n"
+	.string "I can trade you my {STR_VAR_2} for it.$"
+
+Route113_GlassWorkshop_Text_Thanks:
+	.string "Thank you so much!$"
+
+Route113_GlassWorkshop_Text_WrongPokemon:
+	.string "That doesn't look like a {STR_VAR_1}.$"
+
+Route113_GlassWorkshop_Text_Decline:
+	.string "Oh…\p"
+	.string "That's ok…\p"
+	.string "I guess…$"

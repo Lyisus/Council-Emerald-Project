@@ -857,7 +857,7 @@ MauvilleCity_GameCorner_Text_AcceptCyndaquil:
 	.string "I won't miss my chance to be a BIG SHOT!!!$"
 
 MauvilleCity_GameCorner_Text_ObtainedCyndaquil:
-	.string "{PLAYER} obtained a Cyndaquil.$"
+	.string "{PLAYER} obtained a CYNDAQUIL.$"
 
 MauvilleCity_GameCorner_EventScript_Man::
 	lock

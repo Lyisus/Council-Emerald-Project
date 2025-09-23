@@ -1096,10 +1096,10 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 0,
         .requestedSpecies = SPECIES_NONE //Accepts any Pokemon
     },
-    [INGAME_TRADE_DELTA_BELDUM] =
+    [INGAME_TRADE_TRUBBISH] =
     {
         .nickname = _("Saur Saur"),
-        .species = SPECIES_BELDUM,
+        .species = SPECIES_TRUBBISH,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 00000,

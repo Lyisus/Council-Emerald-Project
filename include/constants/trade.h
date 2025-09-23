@@ -9,10 +9,10 @@
 #define INGAME_TRADE_G_DARUMAKA      1  // Petalburg Galarian Darumaka
 #define INGAME_TRADE_DELTA_BULBASAUR 2  // Rustboro Delta Bulbasaur
 #define INGAME_TRADE_A_VULPIX        3  // Dewford Alolan Vulpix
-#define INGAME_TRADE_ESPURR          4  // Slateport
-#define INGAME_TRADE_H_SNEASEL       5  // Mauville
+#define INGAME_TRADE_ESPURR          4  // Slateport Espurr
+#define INGAME_TRADE_H_SNEASEL       5  // Mauville Hisuian Sneasel
 #define INGAME_TRADE_DELTA_FROAKIE   6  // Verdanturf Delta Froakie
-#define INGAME_TRADE_DELTA_BELDUM    7  // Fallarbor Delta Beldum
+#define INGAME_TRADE_TRUBBISH        7  // Fallarbor Trubbish
 #define INGAME_TRADE_GOTHITA         8  // Lavaridge  
 #define INGAME_TRADE_FEEBAS          9  // Fortree Feebas
 #define INGAME_TRADE_G_SLOWPOKE      10 // Lilycove Galarian Slowpoke

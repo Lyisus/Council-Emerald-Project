@@ -1114,19 +1114,19 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_GOTHITA] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Poppi"),
         .species = SPECIES_GOTHITA,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
-        .otId = 00000,
+        .otId = 58008,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x7A, //Sassy
-        .heldItem = ITEM_VENUSAURITE,
+        .heldItem = ITEM_ROOM_SERVICE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("Tora"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_BELDUM
+        .requestedSpecies = SPECIES_YAMASK_GALAR //Accepts any Yamask form
     },
     [INGAME_TRADE_FEEBAS] =
     {

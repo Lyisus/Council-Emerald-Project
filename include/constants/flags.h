@@ -64,14 +64,14 @@
 #define FLAG_MAUVILLE_CYNDAQUIL_RECEIVED     0x31
 #define FLAG_VERDANTURF_PHANPY_RECEIVED      0x32
 #define FLAG_FALLARBOR_BELDUM_RECEIVED       0x33
-#define FLAG_LAVARIDGE_GIFT_RECEIVED         0x34 // Unused Flag
-#define FLAG_FORTREE_GIFT_RECEIVED           0x35 // Unused Flag
-#define FLAG_LILYCOVE_GIFT_RECEIVED          0x36 // Unused Flag
-#define FLAG_MOSSDEEP_GIFT_RECEIVED          0x37 // Unused Flag
-#define FLAG_PACIFILOG_GIFT_RECEIVED         0x38 // Unused Flag
-#define FLAG_SOOTOPOLIS_GIFT_RECEIVED        0x39 // Unused Flag
-#define FLAG_EVER_GRANDE_GIFT_RECEIVED       0x3A // Unused Flag
+#define FLAG_FORTREE_GIFT_RECEIVED           0x34 // Unused Flag
+#define FLAG_LILYCOVE_GIFT_RECEIVED          0x35 // Unused Flag
+#define FLAG_MOSSDEEP_GIFT_RECEIVED          0x36 // Unused Flag
+#define FLAG_PACIFILOG_GIFT_RECEIVED         0x37 // Unused Flag
+#define FLAG_SOOTOPOLIS_GIFT_RECEIVED        0x38 // Unused Flag
+#define FLAG_EVER_GRANDE_GIFT_RECEIVED       0x39 // Unused Flag
 
+#define FLAG_UNUSED_0x03A    0x3A // Unused Flag
 #define FLAG_UNUSED_0x03B    0x3B // Unused Flag
 #define FLAG_UNUSED_0x03C    0x3C // Unused Flag
 #define FLAG_UNUSED_0x03D    0x3D // Unused Flag

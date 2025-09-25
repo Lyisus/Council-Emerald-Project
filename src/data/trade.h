@@ -1130,19 +1130,19 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_FEEBAS] =
     {
-        .nickname = _("PLUSES"),
+        .nickname = _("Mariana"),
         .species = SPECIES_FEEBAS,
-        .ivs = {4, 4, 4, 5, 5, 4},
-        .abilityNum = 0,
-        .otId = 00000,
-        .conditions = {5, 5, 30, 5, 5},
+        .ivs = {20, 20, 20, 20, 20, 20},
+        .abilityNum = 1,
+        .otId = 60199,
+        .conditions = {0, 0, 0, 0, 0},
         .personality = 0xF, //Female Modest
-        .heldItem = ITEM_WOOD_MAIL,
+        .heldItem = ITEM_PRISM_SCALE,
         .mailNum = 0,
-        .otName = _("ROMAN"),
+        .otName = _("Ruben"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_GOTHITA
+        .requestedSpecies = SPECIES_BASCULIN_WHITE_STRIPED
     },
     [INGAME_TRADE_G_SLOWPOKE] =
     {

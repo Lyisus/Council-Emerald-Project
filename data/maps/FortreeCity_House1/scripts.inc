@@ -67,8 +67,8 @@ FortreeCity_House1_Text_YouWillTradeWontYou:
 	.string "…Uh… Did you hear that?\n"
 	.string "My shout from the bottom of my heart?\p"
 	.string "Having heard that, you will trade\n"
-	.string "your {STR_VAR_1} for my {STR_VAR_2},\l"
-	.string "won't you?$"
+	.string "your {STR_VAR_1} with a white stripe\l"
+	.string "for my {STR_VAR_2}, won't you?$"
 
 FortreeCity_House1_Text_MonYouTakeCare:
 	.string "Oh, yeah, right on!\p"
@@ -77,7 +77,7 @@ FortreeCity_House1_Text_MonYouTakeCare:
 
 FortreeCity_House1_Text_ThisIsntAMon:
 	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "That isn't the right {STR_VAR_1}.$"
 
 FortreeCity_House1_Text_YouWontTradeMe:
 	.string "No? You won't trade me?\n"

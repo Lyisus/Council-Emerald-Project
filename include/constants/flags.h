@@ -64,7 +64,7 @@
 #define FLAG_MAUVILLE_CYNDAQUIL_RECEIVED     0x31
 #define FLAG_VERDANTURF_PHANPY_RECEIVED      0x32
 #define FLAG_FALLARBOR_BELDUM_RECEIVED       0x33
-#define FLAG_FORTREE_GIFT_RECEIVED           0x34 // Unused Flag
+#define FLAG_FORTREE_TANGELA_RECEIVED        0x34 // Unused Flag
 #define FLAG_LILYCOVE_GIFT_RECEIVED          0x35 // Unused Flag
 #define FLAG_MOSSDEEP_GIFT_RECEIVED          0x36 // Unused Flag
 #define FLAG_PACIFILOG_GIFT_RECEIVED         0x37 // Unused Flag

@@ -70,13 +70,25 @@ Lavaridgetown_House_EventScript_NotRequestedMon::
 	end
 
 Lavaridgetown_House_Text_StartTrade:
-	.string "My {STR_VAR_2} for your {STR_VAR_1}.$"
+	.string "My wife hatched this {STR_VAR_2} from a\n"
+	.string "POKéMON egg.\p"
+	.string "We were hoping it hatched into a\n"
+	.string "different POKéMON.\p"
+	.string "We don't know the name, but it\n"
+	.string "carries a mask everywhere it goes.\p"
+	.string "Can you help us get that POKéMON?\p"
+	.string "I can trade this {STR_VAR_2} for the\n"
+	.string "POKéMON known for the mask it carries.$"
 
 Lavaridgetown_House_Text_Thanks:
-	.string "Thanks.$"
+	.string "Thank you for helping this old.\n"
+	.string "man and his wife.\p"
+	.string "Please take good care of {STR_VAR_2}.$"
 
 Lavaridgetown_House_Text_WrongPokemon:
-	.string "That's not a {STR_VAR_1}.$"
+	.string "That POKéMON is not the one\n"
+	.string "known for the mask it carries.$"
 
 Lavaridgetown_House_Text_Decline:
-	.string "No trade?$"
+	.string "I hope we can find someone\n"
+	.string "else willing to help us.$"

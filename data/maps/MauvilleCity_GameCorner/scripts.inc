@@ -773,8 +773,8 @@ MauvilleCity_GameCorner_EventScript_ManiacGiveCyndaquil::
 	goto_if_lt VAR_TEMP_2, 6000, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForCyndaquil
 	removecoins 6000
 	msgbox MauvilleCity_GameCorner_Text_AcceptCyndaquil
-	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CYNDAQUIL
-	givemon SPECIES_CYNDAQUIL, 25
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CYNDAQUIL_DELTA
+	givemon SPECIES_CYNDAQUIL_DELTA, 25
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, MauvilleCity_GameCorner_EventScript_SendCyndaquilParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, MauvilleCity_GameCorner_EventScript_SendCyndaquilPC
 	goto Common_EventScript_NoMoreRoomForPokemon
@@ -818,12 +818,12 @@ MauvilleCity_GameCorner_EventScript_CyndaquilTransferredToPC::
 	end
 
 MauvilleCity_GameCorner_EventScript_ReceivedCyndaquilFanfare::
-	bufferspeciesname STR_VAR_2, SPECIES_CYNDAQUIL
+	bufferspeciesname STR_VAR_2, SPECIES_CYNDAQUIL_DELTA
 	playfanfare MUS_OBTAIN_ITEM
 	message MauvilleCity_GameCorner_Text_ObtainedCyndaquil
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL
+	bufferspeciesname STR_VAR_1, SPECIES_CYNDAQUIL_DELTA
 	return
 
 MauvilleCity_GameCorner_EventScript_ReceivedCyndaquil::

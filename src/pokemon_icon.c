@@ -21,6 +21,7 @@ struct MonIconSpriteTemplate
 static u8 CreateMonIconSprite(struct MonIconSpriteTemplate *, s16, s16, u8);
 static void FreeAndDestroyMonIconSprite_(struct Sprite *sprite);
 
+// IMPORTANT: Here to implement Palettes
 const struct SpritePalette gMonIconPaletteTable[] =
 {
     { gMonIconPalettes[0], POKE_ICON_BASE_PAL_TAG + 0 },
@@ -30,6 +31,7 @@ const struct SpritePalette gMonIconPaletteTable[] =
     { gMonIconPalettes[4], POKE_ICON_BASE_PAL_TAG + 4 },
     { gMonIconPalettes[5], POKE_ICON_BASE_PAL_TAG + 5 },
     { gMonIconPalettes[6], POKE_ICON_BASE_PAL_TAG + 6 },
+    { gMonIconPalettes[7], POKE_ICON_BASE_PAL_TAG + 7 },
 };
 
 static const struct OamData sMonIconOamData =

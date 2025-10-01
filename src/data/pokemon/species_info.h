@@ -399,6 +399,207 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 #endif //P_MEGA_EVOLUTIONS.
 #endif //P_FAMILY_BUNEARY
+#if P_FAMILY_CYNDAQUIL
+    [SPECIES_CYNDAQUIL_DELTA] =
+    {
+        .baseHP        = 39,
+        .baseAttack    = 52,
+        .baseDefense   = 43,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 50,
+        .types = MON_TYPES(TYPE_ELECTRIC),
+        .catchRate = 45,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 62 : 65,
+        .evYield_Speed = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD },
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("Cyndaquil"),
+        .cryId = CRY_CYNDAQUIL,
+        .natDexNum = NATIONAL_DEX_CYNDAQUIL,
+        .categoryName = _("Shock Mouse"),
+        .height = 5,
+        .weight = 79,
+        .description = COMPOUND_STRING(
+            "  A Delta Species from the Holon Region.\n"
+            "  When placed in darkness, it will \n"
+            "  automatically generate more and more\n"
+            "  electricity from its tesla coil."),
+        .pokemonScale = 539,
+        .pokemonOffset = 21,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_CyndaquilDelta,
+        .frontPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(40, 40) : MON_COORDS_SIZE(48, 40),
+        .frontPicYOffset = 14,
+        .frontAnimFrames = sAnims_Cyndaquil,
+        .frontAnimId = P_GBA_STYLE_SPECIES_GFX ? ANIM_V_JUMPS_SMALL : ANIM_V_STRETCH,
+        .backPic = gMonBackPic_CyndaquilDelta,
+        .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(56, 48) : MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 9 : 3,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_CyndaquilDelta,
+        .shinyPalette = gMonShinyPalette_CyndaquilDelta,
+        .iconSprite = gMonIcon_CyndaquilDelta,
+        .iconPalIndex = 7,
+        SHADOW(0, -1, SHADOW_SIZE_S)
+        FOOTPRINT(Cyndaquil)
+        OVERWORLD(
+            sPicTable_CyndaquilDelta,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            gOverworldPalette_CyndaquilDelta,
+            gShinyOverworldPalette_CyndaquilDelta
+        )
+        .levelUpLearnset = sCyndaquilDeltaLevelUpLearnset,
+        .teachableLearnset = sCyndaquilDeltaTeachableLearnset,
+        .eggMoveLearnset = sCyndaquilEggMoveLearnset,
+        .formSpeciesIdTable = sCyndaquilFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_LEVEL, 14, SPECIES_QUILAVA_DELTA}),
+    },
+
+    [SPECIES_QUILAVA_DELTA] =
+    {
+        .baseHP        = 58,
+        .baseAttack    = 64,
+        .baseDefense   = 58,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 65,
+        .types = MON_TYPES(TYPE_ELECTRIC, TYPE_STEEL),
+        .catchRate = 45,
+        .expYield = 142,
+        .evYield_Speed = 1,
+        .evYield_SpAttack = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_STATIC, ABILITY_NONE, ABILITY_LIGHTNING_ROD },
+        .bodyColor = BODY_COLOR_YELLOW,
+        .speciesName = _("Quilava"),
+        .cryId = CRY_QUILAVA,
+        .natDexNum = NATIONAL_DEX_QUILAVA,
+        .categoryName = _("Volcano"),
+        .height = 9,
+        .weight = 190,
+        .description = COMPOUND_STRING(
+            "It intimidates foes with intense gusts of\n"
+            "flames and superheated air. Its quick\n"
+            "nimbleness lets it dodge attacks even\n"
+            "while scorching an enemy."),
+        .pokemonScale = 329,
+        .pokemonOffset = 11,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_QuilavaDelta,
+        .frontPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(56, 48) : MON_COORDS_SIZE(64, 48),
+        .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 8 : 9,
+        .frontAnimFrames = sAnims_Quilava,
+        .frontAnimId = P_GBA_STYLE_SPECIES_GFX ? ANIM_V_STRETCH : ANIM_H_STRETCH,
+        .backPic = gMonBackPic_QuilavaDelta,
+        .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(64, 56) : MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 4 : 0,
+        .backAnimId = BACK_ANIM_JOLT_RIGHT,
+        .palette = gMonPalette_QuilavaDelta,
+        .shinyPalette = gMonShinyPalette_QuilavaDelta,
+        .iconSprite = gMonIcon_QuilavaDelta,
+        .iconPalIndex = 7,
+        SHADOW(0, 2, SHADOW_SIZE_M)
+        FOOTPRINT(Quilava)
+        OVERWORLD(
+            sPicTable_QuilavaDelta,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            gOverworldPalette_QuilavaDelta,
+            gShinyOverworldPalette_QuilavaDelta
+        )
+        .levelUpLearnset = sQuilavaDeltaLevelUpLearnset,
+        .teachableLearnset = sQuilavaDeltaTeachableLearnset,
+        .formSpeciesIdTable = sQuilavaFormSpeciesIdTable,
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_TYPHLOSION_DELTA}),
+    },
+
+#if P_UPDATED_EXP_YIELDS >= GEN_8
+    #define TYPHLOSION_EXP_YIELD 267
+#elif P_UPDATED_EXP_YIELDS >= GEN_5
+    #define TYPHLOSION_EXP_YIELD 240
+#else
+    #define TYPHLOSION_EXP_YIELD 209
+#endif
+
+    [SPECIES_TYPHLOSION_DELTA] =
+    {
+        .baseHP        = 78,
+        .baseAttack    = 84,
+        .baseDefense   = 78,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 109,
+        .baseSpDefense = 85,
+        .types = MON_TYPES(TYPE_ELECTRIC, TYPE_STEEL),
+        .catchRate = 45,
+        .expYield = TYPHLOSION_EXP_YIELD,
+        .evYield_SpAttack = 3,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 20,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_MOTOR_DRIVE, ABILITY_NONE, ABILITY_LIGHTNING_ROD },
+        .bodyColor = BODY_COLOR_YELLOW,
+        .speciesName = _("Typhlosion"),
+        .cryId = CRY_TYPHLOSION,
+        .natDexNum = NATIONAL_DEX_TYPHLOSION,
+        .categoryName = _("Volcano"),
+        .height = 17,
+        .weight = 795,
+        .description = COMPOUND_STRING(
+            "It can hide behind a shimmering heat haze\n"
+            "that it creates using its intense flames.\n"
+            "Typhlosion create blazing explosive\n"
+            "blasts that burn everything to cinders."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 268,
+        .trainerOffset = 1,
+        .frontPic = gMonFrontPic_TyphlosionDelta,
+        .frontPicSize = MON_COORDS_SIZE(56, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_Typhlosion,
+        .frontAnimId = ANIM_V_SHAKE,
+        .frontAnimDelay = 20,
+        .backPic = gMonBackPic_TyphlosionDelta,
+        .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(64, 56) : MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 4 : 3,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
+        .palette = gMonPalette_TyphlosionDelta,
+        .shinyPalette = gMonShinyPalette_TyphlosionDelta,
+        .iconSprite = gMonIcon_TyphlosionDelta,
+        .iconPalIndex = 7,
+        SHADOW(4, 14, SHADOW_SIZE_L)
+        FOOTPRINT(Typhlosion)
+        OVERWORLD(
+            sPicTable_TyphlosionDelta,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            gOverworldPalette_TyphlosionDelta,
+            gShinyOverworldPalette_TyphlosionDelta
+        )
+        .levelUpLearnset = sTyphlosionDeltaLevelUpLearnset,
+        .teachableLearnset = sTyphlosionDeltaTeachableLearnset,
+        .formSpeciesIdTable = sTyphlosionFormSpeciesIdTable,
+    },
+
+#endif //P_FAMILY_CYNDAQUIL
 #endif //P_CUSTOM_FORMS
 
     /* You may add any custom species below this point based on the following structure: */

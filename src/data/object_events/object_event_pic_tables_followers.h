@@ -1392,6 +1392,17 @@ static const struct SpriteFrameImage sPicTable_TyphlosionHisui[] = {
     overworld_ascending_frames(gObjectEventPic_TyphlosionHisui, 4, 4),
 };
 #endif //P_HISUIAN_FORMS
+#if P_CUSTOM_FORMS
+static const struct SpriteFrameImage sPicTable_CyndaquilDelta[] = {
+    overworld_ascending_frames(gObjectEventPic_CyndaquilDelta, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_QuilavaDelta[] = {
+    overworld_ascending_frames(gObjectEventPic_QuilavaDelta, 4, 4),
+};
+static const struct SpriteFrameImage sPicTable_TyphlosionDelta[] = {
+    overworld_ascending_frames(gObjectEventPic_TyphlosionDelta, 4, 4),
+};
+#endif //P_CUSTOM_FORMS
 #endif //P_FAMILY_CYNDAQUIL
 
 #if P_FAMILY_TOTODILE

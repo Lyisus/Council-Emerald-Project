@@ -582,11 +582,29 @@ static const u16 sMewtwoFormSpeciesIdTable[] = {
 #endif //P_FAMILY_MEWTWO
 
 #if P_FAMILY_CYNDAQUIL
+static const u16 sCyndaquilFormSpeciesIdTable[] = {
+    SPECIES_CYNDAQUIL,
+#if P_CUSTOM_FORMS
+    SPECIES_CYNDAQUIL_DELTA,
+#endif
+    FORM_SPECIES_END,
+};
+static const u16 sQuilavaFormSpeciesIdTable[] = {
+    SPECIES_QUILAVA,
+#if P_CUSTOM_FORMS
+    SPECIES_QUILAVA_DELTA,
+#endif
+    FORM_SPECIES_END,
+};
 static const u16 sTyphlosionFormSpeciesIdTable[] = {
     SPECIES_TYPHLOSION,
 #if P_HISUIAN_FORMS
     SPECIES_TYPHLOSION_HISUI,
 #endif
+#if P_CUSTOM_FORMS
+    SPECIES_TYPHLOSION_DELTA,
+#endif //P_CUSTOM_FORMS
+
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_CYNDAQUIL

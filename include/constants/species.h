@@ -1642,9 +1642,12 @@
 #define SPECIES_BUNEARY_KURIA                           1524 //Borrowed from Pokemon Azurite
 #define SPECIES_LOPUNNY_KURIA                           1525 //Borrowed from Pokemon Azurite
 #define SPECIES_LOPUNNY_KURIA_MEGA                      1526 //Borrowed from Pokemon Azurite
+#define SPECIES_CYNDAQUIL_DELTA                         1527 //Borrowed from Pokemon Insurgence
+#define SPECIES_QUILAVA_DELTA                           1528 //Borrowed from Pokemon Insurgence
+#define SPECIES_TYPHLOSION_DELTA                        1529 //Borrowed from Pokemon Insurgence
 
 
-#define SPECIES_EGG                                     (SPECIES_LOPUNNY_KURIA_MEGA + 1)
+#define SPECIES_EGG                                     (SPECIES_TYPHLOSION_DELTA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

@@ -6606,6 +6606,55 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_HISUIAN_FORMS
+#if P_CUSTOM_FORMS
+    const u32 gMonFrontPic_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/anim_front.4bpp.lz");
+    const u32 gMonPalette_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/normal.gbapal.lz");
+    const u32 gMonBackPic_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/back.4bpp.lz");
+    const u32 gMonShinyPalette_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/shiny.gbapal.lz");
+    const u8 gMonIcon_CyndaquilDelta[] = INCBIN_U8("graphics/pokemon/cyndaquil/delta/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_CyndaquilDelta[] = INCBIN_U8("graphics/pokemon/cyndaquil/delta/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_CyndaquilDelta[] = INCBIN_COMP("graphics/pokemon/cyndaquil/delta/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u32 gOverworldPalette_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/shiny.gbapal.lz");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+
+    const u32 gMonFrontPic_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/anim_front.4bpp.lz");
+    const u32 gMonPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/normal.gbapal.lz");
+    const u32 gMonBackPic_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/back.4bpp.lz");
+    const u32 gMonShinyPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/shiny.gbapal.lz");
+    const u8 gMonIcon_QuilavaDelta[] = INCBIN_U8("graphics/pokemon/quilava/delta/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_QuilavaDelta[] = INCBIN_U8("graphics/pokemon/quilava/delta/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_QuilavaDelta[] = INCBIN_COMP("graphics/pokemon/quilava/delta/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u32 gOverworldPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/overworld_normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/overworld_shiny.gbapal.lz");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+
+    const u32 gMonFrontPic_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/anim_front.4bpp.lz");
+    const u32 gMonPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/normal.gbapal.lz");
+    const u32 gMonBackPic_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/back.4bpp.lz");
+    const u32 gMonShinyPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/shiny.gbapal.lz");
+    const u8 gMonIcon_TyphlosionDelta[] = INCBIN_U8("graphics/pokemon/typhlosion/delta/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_TyphlosionDelta[] = INCBIN_U8("graphics/pokemon/typhlosion/delta/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#if OW_POKEMON_OBJECT_EVENTS
+    const u32 gObjectEventPic_TyphlosionDelta[] = INCBIN_COMP("graphics/pokemon/typhlosion/delta/overworld.4bpp");
+#if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
+    const u32 gOverworldPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/overworld_normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/overworld_shiny.gbapal.lz");
+#endif //OW_PKMN_OBJECTS_SHARE_PALETTES
+#endif //OW_POKEMON_OBJECT_EVENTS
+#endif //P_CUSTOM_FORMS
 #endif //P_FAMILY_CYNDAQUIL
 
 #if P_FAMILY_TOTODILE

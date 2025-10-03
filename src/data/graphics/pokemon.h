@@ -6634,8 +6634,8 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #if OW_POKEMON_OBJECT_EVENTS
     const u32 gObjectEventPic_QuilavaDelta[] = INCBIN_COMP("graphics/pokemon/quilava/delta/overworld.4bpp");
 #if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
-    const u32 gOverworldPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/overworld_normal.gbapal.lz");
-    const u32 gShinyOverworldPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/overworld_shiny.gbapal.lz");
+    const u32 gOverworldPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 
@@ -6650,8 +6650,8 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #if OW_POKEMON_OBJECT_EVENTS
     const u32 gObjectEventPic_TyphlosionDelta[] = INCBIN_COMP("graphics/pokemon/typhlosion/delta/overworld.4bpp");
 #if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
-    const u32 gOverworldPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/overworld_normal.gbapal.lz");
-    const u32 gShinyOverworldPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/overworld_shiny.gbapal.lz");
+    const u32 gOverworldPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/normal.gbapal.lz");
+    const u32 gShinyOverworldPalette_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/shiny.gbapal.lz");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_CUSTOM_FORMS

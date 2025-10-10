@@ -426,10 +426,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 5,
         .weight = 79,
         .description = COMPOUND_STRING(
-            "  A Delta Species from the Holon Region.\n"
-            "  When placed in darkness, it will \n"
-            "  automatically generate more and more\n"
-            "  electricity from its tesla coil."),
+            "A Delta Species from the Holon Region.\n"
+            "When placed in darkness, it will \n"
+            "automatically generate more and more\n"
+            "electricity from its tesla coil."),
         .pokemonScale = 539,
         .pokemonOffset = 21,
         .trainerScale = 256,
@@ -487,14 +487,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .speciesName = _("Quilava"),
         .cryId = CRY_QUILAVA,
         .natDexNum = NATIONAL_DEX_QUILAVA,
-        .categoryName = _("Volcano"),
+        .categoryName = _("Generator"),
         .height = 9,
         .weight = 190,
         .description = COMPOUND_STRING(
-            "It intimidates foes with intense gusts of\n"
-            "flames and superheated air. Its quick\n"
-            "nimbleness lets it dodge attacks even\n"
-            "while scorching an enemy."),
+            "A Delta Species from the Holon Region.\n"
+            "Its DNA continuously reconstructs its\n"
+            "body into a machine. As its body mutates,\n"
+            "it makes its home in power plants"),
         .pokemonScale = 329,
         .pokemonOffset = 11,
         .trainerScale = 256,
@@ -558,14 +558,14 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .speciesName = _("Typhlosion"),
         .cryId = CRY_TYPHLOSION,
         .natDexNum = NATIONAL_DEX_TYPHLOSION,
-        .categoryName = _("Volcano"),
+        .categoryName = _("Generator"),
         .height = 17,
         .weight = 795,
         .description = COMPOUND_STRING(
-            "It can hide behind a shimmering heat haze\n"
-            "that it creates using its intense flames.\n"
-            "Typhlosion create blazing explosive\n"
-            "blasts that burn everything to cinders."),
+            "On stormy nights, it ventures outdoors\n"
+            "and pulsates in response to lightning\n"
+            "strikes. When calm, it can induce\n"
+            "macroshock in humans from 100 ft away."),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,

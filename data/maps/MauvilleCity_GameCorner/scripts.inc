@@ -2,12 +2,12 @@ MauvilleCity_GameCorner_MapScripts::
 	.byte 0
 
     @ Game Corner prices
-	.set TM_DOUBLE_TEAM_COINS, 1500
-	.set TM_PSYCHIC_COINS, 3500
-	.set TM_FLAMETHROWER_COINS, 4000
-	.set TM_THUNDERBOLT_COINS, 4000
-	.set TM_ICE_BEAM_COINS, 4000
-	.set DOLL_COINS, 1000
+	.set TM_DOUBLE_TEAM_COINS, 800
+	.set TM_PSYCHIC_COINS, 1000
+	.set TM_FLAMETHROWER_COINS, 1000
+	.set TM_THUNDERBOLT_COINS, 1000
+	.set TM_ICE_BEAM_COINS, 1000
+	.set DOLL_COINS, 100
 
 	.set COINS_PRICE_50,  1000
 	.set COINS_PRICE_500, 10000
@@ -770,8 +770,8 @@ MauvilleCity_GameCorner_EventScript_ManiacGiveCyndaquil::
 	checkitem ITEM_COIN_CASE
 	goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_LackCoinCase
 	checkcoins VAR_TEMP_2
-	goto_if_lt VAR_TEMP_2, 6000, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForCyndaquil
-	removecoins 6000
+	goto_if_lt VAR_TEMP_2, 600, MauvilleCity_GameCorner_EventScript_NotEnoughCoinsForCyndaquil
+	removecoins 600
 	msgbox MauvilleCity_GameCorner_Text_AcceptCyndaquil
 	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_CYNDAQUIL_DELTA
 	givemon SPECIES_CYNDAQUIL_DELTA, 25
@@ -838,7 +838,7 @@ MauvilleCity_GameCorner_Text_WillYouTakeCyndaquil:
 	.string "But I just ran out of COINS…\p"
 	.string "You look like you have COINS…\p"
 	.string "What do you say?\n"
-	.string "I'll give you this POKéMON for 6000 COINS.$"
+	.string "I'll give you this POKéMON for 600 COINS.$"
 
 MauvilleCity_GameCorner_Text_RejectCyndaquil:
 	.string "I need one more game, bro!\n"

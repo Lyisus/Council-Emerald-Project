@@ -2057,7 +2057,7 @@ const u16 gPokenavRibbonsSummaryBg_Pal[] = INCBIN_U16("graphics/pokenav/ribbons/
 const u32 gPokenavRibbonsSummaryBg_Gfx[] = INCBIN_U32("graphics/pokenav/ribbons/summary_bg.4bpp.lz");
 const u32 gPokenavRibbonsSummaryBg_Tilemap[] = INCBIN_U32("graphics/pokenav/ribbons/summary_bg.bin.lz");
 
-// IMPORTANT: Here to implement Palettes
+// IMPORTANT NOTE: Here to implement Palettes
 const u16 gMonIconPalettes[][16] =
 {
     INCBIN_U16("graphics/pokemon/icon_palettes/pal0.gbapal"),

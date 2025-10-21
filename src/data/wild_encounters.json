@@ -1613,7 +1613,7 @@
               {
                 "min_level": 30,
                 "max_level": 32,
-                "species": "SPECIES_TAUROS"
+                "species": "SPECIES_SKUNTANK"
               },
               {
                 "min_level": 30,
@@ -1633,12 +1633,12 @@
               {
                 "min_level": 31,
                 "max_level": 33,
-                "species": "SPECIES_TAUROS_PALDEA_COMBAT"
+                "species": "SPECIES_LOPUNNY"
               },
               {
                 "min_level": 32,
                 "max_level": 34,
-                "species": "SPECIES_TAUROS_PALDEA_BLAZE"
+                "species": "SPECIES_LOPUNNY"
               },
               {
                 "min_level": 32,

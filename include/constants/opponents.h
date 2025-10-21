@@ -124,7 +124,7 @@
 #define TRAINER_TONY_5                      100
 
 // Granite Cave Trainers
-// None, yet, but considering making Steven a mandatory battle
+// IMPORTANT NOTE: None, yet, but considering making Steven a mandatory battle
 
 // Dewford Gym Trainers
 #define TRAINER_TAKAO                       101
@@ -605,18 +605,24 @@
 #define TRAINER_WINONA_4                    467
 #define TRAINER_WINONA_5                    468
 
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
-// Route Trainers
+// Route 120 Trainers
+// Scorched Slab Trainers
+// Route 121 Trainers
+// Safari Zone Area 1 Trainers
+// Safari Zone Area 2 Trainers
+// Safari Zone Area 3 Trainers
+// Safari Zone Area 4 Trainers
+// Safari Zone Area 5 Trainers
+// Safari Zone Area 6 Trainers
+// Route 122 Trainers
+// Mt. Pyre Inside Trainers
+// Mt. Pyre Outside Trainers
+// Mt. Pyre Summit Trainers
+// Route 123 Trainers
+// Magma Hideout Trainers
+// Aqua Hideout Trainers
+// Lilicove City Trainers
+
 // Route Trainers
 // Route Trainers
 // Route Trainers

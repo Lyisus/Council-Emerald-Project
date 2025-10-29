@@ -12774,9 +12774,9 @@ const struct Item gItemsInfo[] =
         .name = _("Magma Emblem"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A medal-like item in\n"
-            "the same shape as\n"
-            "Team Magma's mark."),
+            "Team Magma's medal.\n"
+            "It reads something\n"
+            "about Jagged Pass…"),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,

@@ -770,21 +770,23 @@
 #define TRAINER_GRUNT_MAGMA_HIDEOUT_13      577
 #define TRAINER_TABITHA_MAGMA_HIDEOUT       578
 #define TRAINER_MAXIE_MAGMA_HIDEOUT         579
+#define TRAINER_MAXIE_GROUDON               580
+
 
 // Aqua Hideout F1 Trainers
-#define TRAINER_GRUNT_AQUA_HIDEOUT_1        580
+#define TRAINER_GRUNT_AQUA_HIDEOUT_1        581
 
 // Aqua Hideout B1F Trainers
-#define TRAINER_GRUNT_AQUA_HIDEOUT_2        581
-#define TRAINER_GRUNT_AQUA_HIDEOUT_3        582
-#define TRAINER_GRUNT_AQUA_HIDEOUT_5        583
-#define TRAINER_GRUNT_AQUA_HIDEOUT_7        584
+#define TRAINER_GRUNT_AQUA_HIDEOUT_2        582
+#define TRAINER_GRUNT_AQUA_HIDEOUT_3        583
+#define TRAINER_GRUNT_AQUA_HIDEOUT_5        584
+#define TRAINER_GRUNT_AQUA_HIDEOUT_7        585
 
 // Aqua Hideout B2F Trainers
-#define TRAINER_GRUNT_AQUA_HIDEOUT_4        585
-#define TRAINER_GRUNT_AQUA_HIDEOUT_6        586
-#define TRAINER_GRUNT_AQUA_HIDEOUT_8        587
-#define TRAINER_MATT                        588
+#define TRAINER_GRUNT_AQUA_HIDEOUT_4        586
+#define TRAINER_GRUNT_AQUA_HIDEOUT_6        587
+#define TRAINER_GRUNT_AQUA_HIDEOUT_8        588
+#define TRAINER_MATT                        589
 
 // Lilicove City Trainers
 
@@ -803,43 +805,41 @@
 // Trick House Puzzle #8 Trainers
 
 // ONWARDS
-#define TRAINER_ISAIAH_1                    589
-#define TRAINER_ISAIAH_2                    590
-#define TRAINER_ISAIAH_3                    591
-#define TRAINER_ISAIAH_4                    592
-#define TRAINER_ISAIAH_5                    593
-#define TRAINER_KATELYN_1                   594
-#define TRAINER_KATELYN_2                   595
-#define TRAINER_KATELYN_3                   596
-#define TRAINER_KATELYN_4                   597
-#define TRAINER_KATELYN_5                   598
-#define TRAINER_JENNY_1                     599
-#define TRAINER_JENNY_2                     600
-#define TRAINER_JENNY_3                     601
-#define TRAINER_JENNY_4                     602
-#define TRAINER_JENNY_5                     603
-#define TRAINER_ERNEST_1                    604
-#define TRAINER_ERNEST_2                    605
-#define TRAINER_ERNEST_3                    606
-#define TRAINER_ERNEST_4                    607
-#define TRAINER_ERNEST_5                    608
+#define TRAINER_ISAIAH_1                    590
+#define TRAINER_ISAIAH_2                    591
+#define TRAINER_ISAIAH_3                    592
+#define TRAINER_ISAIAH_4                    593
+#define TRAINER_ISAIAH_5                    594
+#define TRAINER_KATELYN_1                   595
+#define TRAINER_KATELYN_2                   596
+#define TRAINER_KATELYN_3                   597
+#define TRAINER_KATELYN_4                   598
+#define TRAINER_KATELYN_5                   599
+#define TRAINER_JENNY_1                     600
+#define TRAINER_JENNY_2                     601
+#define TRAINER_JENNY_3                     602
+#define TRAINER_JENNY_4                     603
+#define TRAINER_JENNY_5                     604
+#define TRAINER_ERNEST_1                    605
+#define TRAINER_ERNEST_2                    606
+#define TRAINER_ERNEST_3                    607
+#define TRAINER_ERNEST_4                    608
+#define TRAINER_ERNEST_5                    609
 
-#define TRAINER_TATE_AND_LIZA_1             609
+#define TRAINER_TATE_AND_LIZA_1             610
 
-#define TRAINER_JUAN_1                      610
+#define TRAINER_JUAN_1                      611
 
-#define TRAINER_ARCHIE                      611
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_4     612
-#define TRAINER_GRUNT_SEAFLOOR_CAVERN_5     613
+#define TRAINER_ARCHIE                      612
+#define TRAINER_GRUNT_SEAFLOOR_CAVERN_4     613
+#define TRAINER_GRUNT_SEAFLOOR_CAVERN_5     614
 
-#define TRAINER_TABITHA_MOSSDEEP            614
+#define TRAINER_TABITHA_MOSSDEEP            615
 
-#define TRAINER_PABLO_1                     615
-#define TRAINER_PABLO_2                     616
+#define TRAINER_PABLO_1                     616
+#define TRAINER_PABLO_2                     617
 
-#define TRAINER_KOJI_5                      617
-
-#define TRAINER_GRUNT_UNUSED                618
+#define TRAINER_KOJI_5                      618
 
 #define TRAINER_GRUNT_SPACE_CENTER_3        619
 #define TRAINER_GRUNT_SPACE_CENTER_4        620

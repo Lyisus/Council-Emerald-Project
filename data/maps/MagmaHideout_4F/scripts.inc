@@ -12,12 +12,18 @@ MagmaHideout_4F_MapScripts::
 MagmaHideout_4F_EventScript_Maxie::
 	lockall
 	playbgm MUS_ENCOUNTER_MAGMA, FALSE
-	msgbox MagmaHideout_4F_Text_MaxieAwakenGroudon, MSGBOX_DEFAULT
+	applymovement LOCALID_MAXIE, Common_Movement_FacePlayer
+	msgbox MagmaHideout_4F_Text_MaxieIWillAwakenGroudon, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_MAXIE_MAGMA_HIDEOUT, MagmaHideout_4F_Text_MaxieDefeat
+	applymovement LOCALID_MAXIE, Common_Movement_FaceRight
+	msgbox MagmaHideout_4F_Text_MaxieGroudonDefeatedAgain, MSGBOX_DEFAULT
+	applymovement LOCALID_MAXIE, Common_Movement_FaceUp
+	msgbox MagmaHideout_4F_Text_MaxieGroudonDefeatChild, MSGBOX_DEFAULT
 	closemessage
-	delay 20
+	delay 5
 	setvar VAR_RESULT, 1
 	playse SE_M_DETECT
-	dofieldeffectsparkle 18, 42, 0
+	dofieldeffectsparkle 16, 21, 0
 	waitfieldeffect FLDEFF_SPARKLE
 	setvar VAR_RESULT, 1
 	playfanfare MUS_AWAKEN_LEGEND
@@ -40,6 +46,9 @@ MagmaHideout_4F_EventScript_Maxie::
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
+	delay 20
+	trainerbattle_no_intro TRAINER_MAXIE_GROUDON, MagmaHideout_4F_Text_GroudonDefeat	
+	delay 20
 	applymovement LOCALID_GROUDON, MagmaHideout_4F_Movement_GroudonExit
 	waitmovement 0
 	removeobject LOCALID_GROUDON
@@ -60,9 +69,6 @@ MagmaHideout_4F_EventScript_Maxie::
 	delay 30
 	applymovement LOCALID_MAXIE, Common_Movement_FacePlayer
 	waitmovement 0
-	msgbox MagmaHideout_4F_Text_MaxieOhItWasYou, MSGBOX_DEFAULT
-	closemessage
-	trainerbattle_no_intro TRAINER_MAXIE_MAGMA_HIDEOUT, MagmaHideout_4F_Text_MaxieDefeat
 	msgbox MagmaHideout_4F_Text_MaxieImGoingAfterGroudon, MSGBOX_DEFAULT
 	closemessage
 	clearflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
@@ -82,6 +88,10 @@ MagmaHideout_4F_EventScript_Maxie::
 	end
 
 MagmaHideout_4F_Movement_GroudonApproach:
+	delay_16
+	delay_16
+	walk_slow_down
+	delay_16
 	delay_16
 	delay_16
 	walk_slow_down
@@ -188,30 +198,12 @@ MagmaHideout_4F_Text_TabithaPostBattle:
 	.string "…And while you wasted time with me,\n"
 	.string "MAXIE should have awakened GROUDON…$"
 
-MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "MAXIE: GROUDON…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This BLUE ORB is what you sought.\n"
-	.string "Wasn't it?\p"
-	.string "I have brought you the BLUE ORB.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And show me…\n"
-	.string "Show me the full extent of your power!$"
-
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
 	.string "MAXIE: GROUDON!\n"
 	.string "What's wrong?\p"
-	.string "Wasn't the BLUE ORB the key?\p"
+	.string "Wasn't the RED ORB the key?\p"
 	.string "GROUDON!\n"
 	.string "Where have you gone…$"
-
-MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "MAXIE: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
 
 MagmaHideout_4F_Text_MaxieDefeat:
 	.string "What makes you so adept at handling\n"
@@ -230,3 +222,29 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
 	.string "any need for this blasted volcano.\p"
 	.string "I am going after GROUDON, so this\n"
 	.string "is where we part!$"
+
+MagmaHideout_4F_Text_MaxieIWillAwakenGroudon:
+	.string "MAXIE: Oh, so it is you?\p"
+	.string "I've seen you poking around uninvited\n"
+	.string "here and there…\p"
+	.string "No matter…\p"
+	.string "I will awaken GROUDON.\p"
+	.string "But first, I must ensure you cannot\n"
+	.string "meddle with my plans any further.$"
+
+MagmaHideout_4F_Text_MaxieGroudonDefeatedAgain:
+	.string "MAXIE: Defeated again?\p"
+	.string "Impossible…\p"
+	.string "Regardless, I cannot stop.\p" 
+	.string "I can still awaken GROUDON\n"
+	.string "and harness its power…$"
+
+MagmaHideout_4F_Text_MaxieGroudonDefeatChild:
+	.string "MAXIE: GROUDON!\p"
+	.string "I have brought you the RED ORB!\n"
+	.string "Let its shine awaken you!\p"
+	.string "And show me…\n"
+	.string "Show me the full extent of your power!$"
+
+MagmaHideout_4F_Text_GroudonDefeat:
+	.string "GROUDON… defeated…$"

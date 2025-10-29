@@ -13338,6 +13338,18 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 - Dragon Claw  
 - Dragon Dance  
 
+=== TRAINER_MAXIE_GROUDON ===
+Name: MIKE H
+Class: Magma Leader
+Pic: Magma Leader Maxie
+Gender: Male
+Music: Magma
+Double Battle: Yes
+AI: Smart Trainer
+
+Groudon @ Red Orb
+Level: 80
+
 /*====================== AQUA HIDEOUT 1F TRAINERS ========================================================================================*/
 === TRAINER_GRUNT_AQUA_HIDEOUT_1 ===
 Name: GRUNT
@@ -16354,18 +16366,6 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 Golbat
 Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-=== TRAINER_GRUNT_UNUSED ===
-Name: GRUNT
-Class: Team Magma
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: Yes
-AI: Check Bad Move
-
-Groudon @ Red Orb
-Level: 100
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA

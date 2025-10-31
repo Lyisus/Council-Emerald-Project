@@ -73,13 +73,62 @@ Route110_TrickHouseEnd_EventScript_CompletedPuzzle2::
 	msgbox Route110_TrickHouseEnd_Text_AllNightToMakeMaze, MSGBOX_DEFAULT
 	msgbox Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward, MSGBOX_DEFAULT
 	setvar VAR_TRICK_HOUSE_PRIZE_PICKUP, 0
-	giveitem ITEM_TIMER_BALL
-	call_if_eq VAR_RESULT, FALSE, Route110_TrickHouseEnd_EventScript_BagFull
+	goto Route110_TrickHouseEnd_EventScript_TrickMasterGiveFloette
+
 	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
 	closemessage
 	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
 	release
 	end
+
+Route110_TrickHouseEnd_EventScript_TrickMasterGiveFloette::
+	setvar VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_FLOETTE_ETERNAL
+	givemon SPECIES_FLOETTE_ETERNAL, 20
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, Route110_TrickHouseEnd_EventScript_SendFloetteParty
+	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, Route110_TrickHouseEnd_EventScript_SendFloettePC
+	goto Common_EventScript_NoMoreRoomForPokemon
+	end
+
+Route110_TrickHouseEnd_EventScript_SendFloetteParty::
+	call Route110_TrickHouseEnd_EventScript_ReceivedFloetteFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route110_TrickHouseEnd_EventScript_ReceivedFloette
+	call Common_EventScript_GetGiftMonPartySlot
+	call Common_EventScript_NameReceivedPartyMon
+	goto Route110_TrickHouseEnd_EventScript_ReceivedFloette
+	end
+
+Route110_TrickHouseEnd_EventScript_SendFloettePC::
+	call Route110_TrickHouseEnd_EventScript_ReceivedFloetteFanfare
+	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route110_TrickHouseEnd_EventScript_FloetteTransferredToPC
+	call Common_EventScript_NameReceivedBoxMon
+	goto Route110_TrickHouseEnd_EventScript_FloetteTransferredToPC
+	end
+
+Route110_TrickHouseEnd_EventScript_FloetteTransferredToPC::
+	call Common_EventScript_TransferredToPC
+	goto Route110_TrickHouseEnd_EventScript_ReceivedFloette
+	end
+
+Route110_TrickHouseEnd_EventScript_ReceivedFloetteFanfare::
+	bufferspeciesname STR_VAR_2, SPECIES_FLOETTE_ETERNAL
+	playfanfare MUS_OBTAIN_ITEM
+	message Route110_TrickHouseEnd_Text_ObtainedFloette
+	waitmessage
+	waitfanfare
+	bufferspeciesname STR_VAR_1, SPECIES_FLOETTE_ETERNAL
+	return
+
+Route110_TrickHouseEnd_EventScript_ReceivedFloette::
+	msgbox Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou, MSGBOX_DEFAULT
+	closemessage
+	call Route110_TrickHouseEnd_EventScript_TrickMasterExit
+	release
+	end
+
+Route110_TrickHouseEnd_Text_ObtainedFloette:
+	.string "{PLAYER} obtained a FLOETTE.$"
 
 Route110_TrickHouseEnd_EventScript_CompletedPuzzle3::
 	msgbox Route110_TrickHouseEnd_Text_AllNightToPreparePanels, MSGBOX_DEFAULT

@@ -21,7 +21,7 @@ LilycoveCity_ObjectEvents:
 	object_event 14, OBJ_EVENT_GFX_AQUA_MEMBER_M, 45, 12, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_AquaGrunt2, FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
 	object_event 15, OBJ_EVENT_GFX_AQUA_MEMBER_M, 38, 9, 5, MOVEMENT_TYPE_FACE_LEFT, 0, 0, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_AquaGrunt3, FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS
 	object_event 16, OBJ_EVENT_GFX_GENTLEMAN, 50, 7, 5, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_BerryGentleman, 0
-	object_event 17, OBJ_EVENT_GFX_VAR_0, 27, 7, 5, MOVEMENT_TYPE_FACE_DOWN, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Rival, FLAG_HIDE_LILYCOVE_CITY_RIVAL
+	object_event 17, OBJ_EVENT_GFX_VAR_0, 34, 8, 5, MOVEMENT_TYPE_LOOK_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Rival, FLAG_HIDE_LILYCOVE_CITY_RIVAL
 	object_event 18, OBJ_EVENT_GFX_SCHOOL_KID_M, 16, 23, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_SchoolKidM, 0
 	object_event 19, OBJ_EVENT_GFX_WOMAN_3, 41, 25, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Woman1, 0
 	object_event 20, OBJ_EVENT_GFX_MAN_2, 40, 25, 3, MOVEMENT_TYPE_FACE_RIGHT, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Man1, 0
@@ -44,6 +44,10 @@ LilycoveCity_MapWarps:
 	warp_def 12, 32, 0, 0, MAP_LILYCOVE_CITY_HARBOR
 	warp_def 12, 5, 0, 1, MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F
 
+LilycoveCity_MapCoordEvents:
+	coord_event 34, 7, 0, VAR_TEMP_0, 0, LilycoveCity_EventScript_PlayerFaceDown
+	coord_event 34, 9, 0, VAR_TEMP_0, 0, LilycoveCity_EventScript_PlayerFaceUp
+
 LilycoveCity_MapBGEvents:
 	bg_sign_event 19, 7, 0, BG_EVENT_PLAYER_FACING_ANY, LilycoveCity_EventScript_MuseumSign
 	bg_sign_event 25, 14, 0, BG_EVENT_PLAYER_FACING_NORTH, Common_EventScript_ShowPokemonCenterSign
@@ -60,5 +64,5 @@ LilycoveCity_MapBGEvents:
 	bg_hidden_item_event 64, 31, 0, ITEM_POKE_BALL, FLAG_HIDDEN_ITEM_LILYCOVE_CITY_POKE_BALL
 
 LilycoveCity_MapEvents::
-	map_events LilycoveCity_ObjectEvents, LilycoveCity_MapWarps, NULL, LilycoveCity_MapBGEvents
+	map_events LilycoveCity_ObjectEvents, LilycoveCity_MapWarps, LilycoveCity_MapCoordEvents, LilycoveCity_MapBGEvents
 

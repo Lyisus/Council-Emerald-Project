@@ -13726,7 +13726,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Health Mochi"),
         .pluralName = _("Health Mochi"),
-        .price = 500,
+        .price = 100,
         .description = sHealthFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -13741,7 +13741,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Muscle Mochi"),
         .pluralName = _("Muscle Mochi"),
-        .price = 500,
+        .price = 100,
         .description = sMuscleFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -13756,7 +13756,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Resist Mochi"),
         .pluralName = _("Resist Mochi"),
-        .price = 500,
+        .price = 100,
         .description = sResistFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -13771,7 +13771,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Genius Mochi"),
         .pluralName = _("Genius Mochi"),
-        .price = 500,
+        .price = 100,
         .description = sGeniusFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -13786,7 +13786,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Clever Mochi"),
         .pluralName = _("Clever Mochi"),
-        .price = 500,
+        .price = 100,
         .description = sCleverFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -13801,7 +13801,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Swift Mochi"),
         .pluralName = _("Swift Mochi"),
-        .price = 500,
+        .price = 100,
         .description = sSwiftFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -13816,7 +13816,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Fresh Start Mochi"),
         .pluralName = _("Fresh Start Mochi"),
-        .price = 300,
+        .price = 100,
         .description = COMPOUND_STRING(
             "An item that resets\n"
             "all base points of\n"

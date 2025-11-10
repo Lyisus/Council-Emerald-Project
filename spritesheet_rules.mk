@@ -4937,7 +4937,7 @@ $(POKEMONGFXDIR)/buneary/kuria/overworld.4bpp: %.4bpp: %.png
 $(POKEMONGFXDIR)/lopunny/kuria/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(POKEMONGFXDIR)/lopunny/mega/overworld.4bpp: %.4bpp: %.png
+$(POKEMONGFXDIR)/lopunny/kuria/mega/overworld.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(POKEMONGFXDIR)/cyndaquil/delta/overworld.4bpp: %.4bpp: %.png

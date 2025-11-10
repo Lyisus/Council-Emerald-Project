@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_celadon_grp, voicegroup168
+	.equ	mus_rg_celadon_grp, voicegroup_rg_celadon
 	.equ	mus_rg_celadon_pri, 0
 	.equ	mus_rg_celadon_rev, reverb_set+50
 	.equ	mus_rg_celadon_mvl, 70

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_encounter_twins_grp, voicegroup095
+	.equ	mus_encounter_twins_grp, voicegroup_encounter_twins
 	.equ	mus_encounter_twins_pri, 0
 	.equ	mus_encounter_twins_rev, reverb_set+50
 	.equ	mus_encounter_twins_mvl, 75

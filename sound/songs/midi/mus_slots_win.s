@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_slots_win_grp, voicegroup012
+	.equ	mus_slots_win_grp, voicegroup_fanfare
 	.equ	mus_slots_win_pri, 5
 	.equ	mus_slots_win_rev, reverb_set+50
 	.equ	mus_slots_win_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_sevii_dungeon_grp, voicegroup146
+	.equ	mus_rg_sevii_dungeon_grp, voicegroup_rg_viridian_forest
 	.equ	mus_rg_sevii_dungeon_pri, 0
 	.equ	mus_rg_sevii_dungeon_rev, reverb_set+50
 	.equ	mus_rg_sevii_dungeon_mvl, 90

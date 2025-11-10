@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_sailing_grp, voicegroup077
+	.equ	mus_sailing_grp, voicegroup_sailing
 	.equ	mus_sailing_pri, 0
 	.equ	mus_sailing_rev, reverb_set+50
 	.equ	mus_sailing_mvl, 86

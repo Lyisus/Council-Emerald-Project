@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_fall_grp, voicegroup128
+	.equ	se_fall_grp, voicegroup_rs_sfx_2
 	.equ	se_fall_pri, 4
 	.equ	se_fall_rev, reverb_set+50
 	.equ	se_fall_mvl, 110

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_encounter_elite_four_grp, voicegroup096
+	.equ	mus_encounter_elite_four_grp, voicegroup_encounter_elite_four
 	.equ	mus_encounter_elite_four_pri, 0
 	.equ	mus_encounter_elite_four_rev, reverb_set+50
 	.equ	mus_encounter_elite_four_mvl, 78

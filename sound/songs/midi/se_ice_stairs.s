@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_ice_stairs_grp, voicegroup128
+	.equ	se_ice_stairs_grp, voicegroup_rs_sfx_2
 	.equ	se_ice_stairs_pri, 4
 	.equ	se_ice_stairs_rev, reverb_set+50
 	.equ	se_ice_stairs_mvl, 90

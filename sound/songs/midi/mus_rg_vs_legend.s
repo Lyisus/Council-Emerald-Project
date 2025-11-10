@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_vs_legend_grp, voicegroup157
+	.equ	mus_rg_vs_legend_grp, voicegroup_rg_vs_wild
 	.equ	mus_rg_vs_legend_pri, 0
 	.equ	mus_rg_vs_legend_rev, reverb_set+50
 	.equ	mus_rg_vs_legend_mvl, 90

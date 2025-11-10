@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_lilycove_museum_grp, voicegroup020
+	.equ	mus_lilycove_museum_grp, voicegroup_lilycove_museum
 	.equ	mus_lilycove_museum_pri, 0
 	.equ	mus_lilycove_museum_rev, reverb_set+50
 	.equ	mus_lilycove_museum_mvl, 80

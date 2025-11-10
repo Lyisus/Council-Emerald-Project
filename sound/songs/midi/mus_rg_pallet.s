@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_pallet_grp, voicegroup159
+	.equ	mus_rg_pallet_grp, voicegroup_rg_pallet
 	.equ	mus_rg_pallet_pri, 0
 	.equ	mus_rg_pallet_rev, reverb_set+50
 	.equ	mus_rg_pallet_mvl, 100

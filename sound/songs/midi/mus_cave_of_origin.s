@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_cave_of_origin_grp, voicegroup037
+	.equ	mus_cave_of_origin_grp, voicegroup_cave_of_origin
 	.equ	mus_cave_of_origin_pri, 0
 	.equ	mus_cave_of_origin_rev, reverb_set+50
 	.equ	mus_cave_of_origin_mvl, 80

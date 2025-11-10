@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rayquaza_appears_grp, voicegroup109
+	.equ	mus_rayquaza_appears_grp, voicegroup_rayquaza_appears
 	.equ	mus_rayquaza_appears_pri, 0
 	.equ	mus_rayquaza_appears_rev, reverb_set+50
 	.equ	mus_rayquaza_appears_mvl, 90

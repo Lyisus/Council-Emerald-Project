@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_vs_frontier_brain_grp, voicegroup115
+	.equ	mus_vs_frontier_brain_grp, voicegroup_vs_frontier_brain
 	.equ	mus_vs_frontier_brain_pri, 1
 	.equ	mus_vs_frontier_brain_rev, reverb_set+50
 	.equ	mus_vs_frontier_brain_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_underwater_grp, voicegroup057
+	.equ	mus_underwater_grp, voicegroup_underwater
 	.equ	mus_underwater_pri, 0
 	.equ	mus_underwater_rev, reverb_set+50
 	.equ	mus_underwater_mvl, 94

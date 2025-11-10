@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_berry_pick_grp, voicegroup132
+	.equ	mus_rg_berry_pick_grp, voicegroup_rg_game_corner
 	.equ	mus_rg_berry_pick_pri, 0
 	.equ	mus_rg_berry_pick_rev, reverb_set+50
 	.equ	mus_rg_berry_pick_mvl, 90

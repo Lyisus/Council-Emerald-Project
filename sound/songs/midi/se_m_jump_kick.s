@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_m_jump_kick_grp, voicegroup128
+	.equ	se_m_jump_kick_grp, voicegroup_rs_sfx_2
 	.equ	se_m_jump_kick_pri, 4
 	.equ	se_m_jump_kick_rev, reverb_set+50
 	.equ	se_m_jump_kick_mvl, 110

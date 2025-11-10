@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_sootopolis_grp, voicegroup091
+	.equ	mus_sootopolis_grp, voicegroup_sootopolis
 	.equ	mus_sootopolis_pri, 0
 	.equ	mus_sootopolis_rev, reverb_set+50
 	.equ	mus_sootopolis_mvl, 62

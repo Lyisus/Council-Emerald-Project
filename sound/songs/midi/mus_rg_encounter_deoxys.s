@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_encounter_deoxys_grp, voicegroup184
+	.equ	mus_rg_encounter_deoxys_grp, voicegroup_rg_encounter_deoxys
 	.equ	mus_rg_encounter_deoxys_pri, 0
 	.equ	mus_rg_encounter_deoxys_rev, reverb_set+50
 	.equ	mus_rg_encounter_deoxys_mvl, 79

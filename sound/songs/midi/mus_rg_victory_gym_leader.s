@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_victory_gym_leader_grp, voicegroup171
+	.equ	mus_rg_victory_gym_leader_grp, voicegroup_rg_victory_gym_leader
 	.equ	mus_rg_victory_gym_leader_pri, 0
 	.equ	mus_rg_victory_gym_leader_rev, reverb_set+50
 	.equ	mus_rg_victory_gym_leader_mvl, 90

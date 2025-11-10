@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_vs_champion_grp, voicegroup158
+	.equ	mus_rg_vs_champion_grp, voicegroup_rg_vs_champion
 	.equ	mus_rg_vs_champion_pri, 0
 	.equ	mus_rg_vs_champion_rev, reverb_set+50
 	.equ	mus_rg_vs_champion_mvl, 90

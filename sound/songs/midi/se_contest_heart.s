@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_contest_heart_grp, voicegroup128
+	.equ	se_contest_heart_grp, voicegroup_rs_sfx_2
 	.equ	se_contest_heart_pri, 5
 	.equ	se_contest_heart_rev, reverb_set+50
 	.equ	se_contest_heart_mvl, 90

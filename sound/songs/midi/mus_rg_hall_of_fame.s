@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_hall_of_fame_grp, voicegroup145
+	.equ	mus_rg_hall_of_fame_grp, voicegroup_rg_hall_of_fame
 	.equ	mus_rg_hall_of_fame_pri, 0
 	.equ	mus_rg_hall_of_fame_rev, reverb_set+50
 	.equ	mus_rg_hall_of_fame_mvl, 79

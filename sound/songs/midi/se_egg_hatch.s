@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_egg_hatch_grp, voicegroup128
+	.equ	se_egg_hatch_grp, voicegroup_rs_sfx_2
 	.equ	se_egg_hatch_pri, 5
 	.equ	se_egg_hatch_rev, reverb_set+50
 	.equ	se_egg_hatch_mvl, 120

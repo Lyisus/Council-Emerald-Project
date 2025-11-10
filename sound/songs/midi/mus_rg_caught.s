@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_caught_grp, voicegroup170
+	.equ	mus_rg_caught_grp, voicegroup_rg_victory_wild
 	.equ	mus_rg_caught_pri, 0
 	.equ	mus_rg_caught_rev, reverb_set+50
 	.equ	mus_rg_caught_mvl, 100

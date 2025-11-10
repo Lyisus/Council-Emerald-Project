@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_rg_bag_pocket_grp, voicegroup129
+	.equ	se_rg_bag_pocket_grp, voicegroup_frlg_sfx
 	.equ	se_rg_bag_pocket_pri, 5
 	.equ	se_rg_bag_pocket_rev, reverb_set+50
 	.equ	se_rg_bag_pocket_mvl, 127

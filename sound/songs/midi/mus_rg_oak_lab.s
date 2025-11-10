@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_oak_lab_grp, voicegroup160
+	.equ	mus_rg_oak_lab_grp, voicegroup_rg_oak_lab
 	.equ	mus_rg_oak_lab_pri, 0
 	.equ	mus_rg_oak_lab_rev, reverb_set+50
 	.equ	mus_rg_oak_lab_mvl, 75

@@ -3,8 +3,8 @@
 @
 
 Route102_MapConnectionsList:
-	connection right, 0, MAP_OLDALE_TOWN
 	connection left, -10, MAP_PETALBURG_CITY
+	connection right, 0, MAP_OLDALE_TOWN
 
 Route102_MapConnections:
 	.4byte 2

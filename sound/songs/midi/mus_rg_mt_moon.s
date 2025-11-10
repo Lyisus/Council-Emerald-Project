@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_mt_moon_grp, voicegroup147
+	.equ	mus_rg_mt_moon_grp, voicegroup_rg_mt_moon
 	.equ	mus_rg_mt_moon_pri, 0
 	.equ	mus_rg_mt_moon_rev, reverb_set+50
 	.equ	mus_rg_mt_moon_mvl, 90

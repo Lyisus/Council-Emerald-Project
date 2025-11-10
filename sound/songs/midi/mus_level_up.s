@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_level_up_grp, voicegroup012
+	.equ	mus_level_up_grp, voicegroup_fanfare
 	.equ	mus_level_up_pri, 5
 	.equ	mus_level_up_rev, reverb_set+50
 	.equ	mus_level_up_mvl, 90

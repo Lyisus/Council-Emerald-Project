@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_vs_mewtwo_grp, voicegroup157
+	.equ	mus_rg_vs_mewtwo_grp, voicegroup_rg_vs_wild
 	.equ	mus_rg_vs_mewtwo_pri, 0
 	.equ	mus_rg_vs_mewtwo_rev, reverb_set+50
 	.equ	mus_rg_vs_mewtwo_mvl, 90

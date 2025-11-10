@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_rg_card_open_grp, voicegroup129
+	.equ	se_rg_card_open_grp, voicegroup_frlg_sfx
 	.equ	se_rg_card_open_pri, 5
 	.equ	se_rg_card_open_rev, reverb_set+50
 	.equ	se_rg_card_open_mvl, 112

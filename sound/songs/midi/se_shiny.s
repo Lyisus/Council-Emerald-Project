@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_shiny_grp, voicegroup128
+	.equ	se_shiny_grp, voicegroup_rs_sfx_2
 	.equ	se_shiny_pri, 5
 	.equ	se_shiny_rev, reverb_set+50
 	.equ	se_shiny_mvl, 95

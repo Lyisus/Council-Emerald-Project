@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_poke_mansion_grp, voicegroup148
+	.equ	mus_rg_poke_mansion_grp, voicegroup_rg_poke_mansion
 	.equ	mus_rg_poke_mansion_pri, 0
 	.equ	mus_rg_poke_mansion_rev, reverb_set+50
 	.equ	mus_rg_poke_mansion_mvl, 90

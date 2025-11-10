@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_viridian_forest_grp, voicegroup146
+	.equ	mus_rg_viridian_forest_grp, voicegroup_rg_viridian_forest
 	.equ	mus_rg_viridian_forest_pri, 0
 	.equ	mus_rg_viridian_forest_rev, reverb_set+50
 	.equ	mus_rg_viridian_forest_mvl, 90

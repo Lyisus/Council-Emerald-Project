@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_poke_jump_grp, voicegroup132
+	.equ	mus_rg_poke_jump_grp, voicegroup_rg_game_corner
 	.equ	mus_rg_poke_jump_pri, 0
 	.equ	mus_rg_poke_jump_rev, reverb_set+50
 	.equ	mus_rg_poke_jump_mvl, 90

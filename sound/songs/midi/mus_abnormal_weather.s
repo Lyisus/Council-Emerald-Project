@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_abnormal_weather_grp, voicegroup089
+	.equ	mus_abnormal_weather_grp, voicegroup_abnormal_weather
 	.equ	mus_abnormal_weather_pri, 0
 	.equ	mus_abnormal_weather_rev, reverb_set+50
 	.equ	mus_abnormal_weather_mvl, 80

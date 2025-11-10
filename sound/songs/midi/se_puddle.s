@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_puddle_grp, voicegroup128
+	.equ	se_puddle_grp, voicegroup_rs_sfx_2
 	.equ	se_puddle_pri, 4
 	.equ	se_puddle_rev, reverb_set+50
 	.equ	se_puddle_mvl, 20

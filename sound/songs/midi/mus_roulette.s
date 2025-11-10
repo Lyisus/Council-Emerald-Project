@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_roulette_grp, voicegroup038
+	.equ	mus_roulette_grp, voicegroup_roulette
 	.equ	mus_roulette_pri, 0
 	.equ	mus_roulette_rev, reverb_set+50
 	.equ	mus_roulette_mvl, 80

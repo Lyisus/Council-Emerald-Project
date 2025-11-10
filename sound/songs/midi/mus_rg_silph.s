@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_silph_grp, voicegroup166
+	.equ	mus_rg_silph_grp, voicegroup_rg_silph
 	.equ	mus_rg_silph_pri, 0
 	.equ	mus_rg_silph_rev, reverb_set+50
 	.equ	mus_rg_silph_mvl, 76

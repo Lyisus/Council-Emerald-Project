@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_intro_fight_grp, voicegroup136
+	.equ	mus_rg_intro_fight_grp, voicegroup_rg_intro_fight
 	.equ	mus_rg_intro_fight_pri, 0
 	.equ	mus_rg_intro_fight_rev, reverb_set+50
 	.equ	mus_rg_intro_fight_mvl, 90

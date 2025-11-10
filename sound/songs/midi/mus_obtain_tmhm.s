@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_obtain_tmhm_grp, voicegroup012
+	.equ	mus_obtain_tmhm_grp, voicegroup_fanfare
 	.equ	mus_obtain_tmhm_pri, 5
 	.equ	mus_obtain_tmhm_rev, reverb_set+50
 	.equ	mus_obtain_tmhm_mvl, 90

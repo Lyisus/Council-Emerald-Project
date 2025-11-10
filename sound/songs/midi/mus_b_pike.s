@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_b_pike_grp, voicegroup112
+	.equ	mus_b_pike_grp, voicegroup_b_pike
 	.equ	mus_b_pike_pri, 0
 	.equ	mus_b_pike_rev, reverb_set+50
 	.equ	mus_b_pike_mvl, 92

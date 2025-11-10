@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_dex_rating_grp, voicegroup175
+	.equ	mus_rg_dex_rating_grp, voicegroup_rg_dex_rating
 	.equ	mus_rg_dex_rating_pri, 5
 	.equ	mus_rg_dex_rating_rev, reverb_set+50
 	.equ	mus_rg_dex_rating_mvl, 70

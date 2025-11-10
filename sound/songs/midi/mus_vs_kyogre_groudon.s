@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_vs_kyogre_groudon_grp, voicegroup123
+	.equ	mus_vs_kyogre_groudon_grp, voicegroup_vs_kyogre_groudon
 	.equ	mus_vs_kyogre_groudon_pri, 1
 	.equ	mus_vs_kyogre_groudon_rev, reverb_set+50
 	.equ	mus_vs_kyogre_groudon_mvl, 80

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_mt_pyre_exterior_grp, voicegroup080
+	.equ	mus_mt_pyre_exterior_grp, voicegroup_mt_pyre_exterior
 	.equ	mus_mt_pyre_exterior_pri, 0
 	.equ	mus_mt_pyre_exterior_rev, reverb_set+50
 	.equ	mus_mt_pyre_exterior_mvl, 80

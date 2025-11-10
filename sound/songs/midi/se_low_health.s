@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_low_health_grp, voicegroup127
+	.equ	se_low_health_grp, voicegroup_rs_sfx_1
 	.equ	se_low_health_pri, 3
 	.equ	se_low_health_rev, reverb_set+50
 	.equ	se_low_health_mvl, 100
@@ -31,12 +31,34 @@ se_low_health_1_B1:
 	.byte		BEND  , c_v+31
 	.byte		N12   , An3 
 	.byte	W12
-@ 002   ----------------------------------------
 	.byte	W12
-	.byte	GOTO
-	 .word	se_low_health_1_B1
-se_low_health_1_B2:
+@ 002   ----------------------------------------
+	.byte		BEND  , c_v+17
+	.byte		N12   , Dn4 
+	.byte	W12
 @ 003   ----------------------------------------
+	.byte		BEND  , c_v+31
+	.byte		N12   , An3 
+	.byte	W12
+	.byte	W12
+@ 004   ----------------------------------------
+	.byte		BEND  , c_v+17
+	.byte		N12   , Dn4 
+	.byte	W12
+@ 005   ----------------------------------------
+	.byte		BEND  , c_v+31
+	.byte		N12   , An3 
+	.byte	W12
+	.byte	W12
+@ 006   ----------------------------------------
+	.byte		BEND  , c_v+17
+	.byte		N12   , Dn4 
+	.byte	W12
+@ 007   ----------------------------------------
+	.byte		BEND  , c_v+31
+	.byte		N12   , An3 
+	.byte	W12
+	.byte	W12
 	.byte	FINE
 
 @******************************************************@

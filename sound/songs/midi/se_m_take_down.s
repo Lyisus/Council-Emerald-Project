@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_m_take_down_grp, voicegroup128
+	.equ	se_m_take_down_grp, voicegroup_rs_sfx_2
 	.equ	se_m_take_down_pri, 4
 	.equ	se_m_take_down_rev, reverb_set+50
 	.equ	se_m_take_down_mvl, 105

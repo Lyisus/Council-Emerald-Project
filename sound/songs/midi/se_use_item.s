@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_use_item_grp, voicegroup127
+	.equ	se_use_item_grp, voicegroup_rs_sfx_1
 	.equ	se_use_item_pri, 5
 	.equ	se_use_item_rev, reverb_set+50
 	.equ	se_use_item_mvl, 100

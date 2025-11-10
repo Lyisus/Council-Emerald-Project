@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_new_game_instruct_grp, voicegroup182
+	.equ	mus_rg_new_game_instruct_grp, voicegroup_rg_new_game
 	.equ	mus_rg_new_game_instruct_pri, 0
 	.equ	mus_rg_new_game_instruct_rev, reverb_set+50
 	.equ	mus_rg_new_game_instruct_mvl, 85

@@ -1,12 +1,9 @@
-.set LOCALID_FROMUNDA_MAN, 1
-
 Route111_WinstrateFamilysHouse_MapScripts::
 	.byte 0
 
 Route111_Walmart_EventScript_FromundaMart::
 	lock
 	faceplayer
-	setvar VAR_0x8008, LOCALID_FROMUNDA_MAN
 	goto_if_set FLAG_RECEIVED_MACHO_BRACE, Route111_Walmart_EventScript_FromundaMartShop
 	msgbox Route111_Walmart_Text_LikeYouToHaveMachoBrace, MSGBOX_DEFAULT
 	giveitem ITEM_MACHO_BRACE
@@ -37,14 +34,11 @@ Route111_Fromunda_Mart:
 	.2byte ITEM_ICE_STONE
 	.2byte ITEM_SWEET_APPLE
 	.2byte ITEM_TART_APPLE
-	.2byte ITEM_NONE
-	release
-	end
-
+	pokemartlistend
 
 Route111_Walmart_EventScript_FaceOriginalDirection::
 	closemessage
-	applymovement VAR_0x8008, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_WINSTRATE_HOUSE_FROMUNDA_MAN, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
 	end

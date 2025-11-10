@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_oldale_grp, voicegroup019
+	.equ	mus_oldale_grp, voicegroup_oldale
 	.equ	mus_oldale_pri, 0
 	.equ	mus_oldale_rev, reverb_set+50
 	.equ	mus_oldale_mvl, 80

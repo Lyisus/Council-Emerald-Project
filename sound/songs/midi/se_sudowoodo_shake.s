@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_sudowoodo_shake_grp, voicegroup129
+	.equ	se_sudowoodo_shake_grp, voicegroup_frlg_sfx
 	.equ	se_sudowoodo_shake_pri, 5
 	.equ	se_sudowoodo_shake_rev, reverb_set+50
 	.equ	se_sudowoodo_shake_mvl, 77

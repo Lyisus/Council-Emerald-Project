@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_sevii_67_grp, voicegroup189
+	.equ	mus_rg_sevii_67_grp, voicegroup_rg_sevii_67
 	.equ	mus_rg_sevii_67_pri, 0
 	.equ	mus_rg_sevii_67_rev, reverb_set+50
 	.equ	mus_rg_sevii_67_mvl, 84

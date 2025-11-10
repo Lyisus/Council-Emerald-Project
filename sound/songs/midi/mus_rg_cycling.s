@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_cycling_grp, voicegroup141
+	.equ	mus_rg_cycling_grp, voicegroup_rg_cycling
 	.equ	mus_rg_cycling_pri, 0
 	.equ	mus_rg_cycling_rev, reverb_set+50
 	.equ	mus_rg_cycling_mvl, 90

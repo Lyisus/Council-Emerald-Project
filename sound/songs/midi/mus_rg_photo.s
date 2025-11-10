@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_photo_grp, voicegroup180
+	.equ	mus_rg_photo_grp, voicegroup_rg_photo
 	.equ	mus_rg_photo_pri, 5
 	.equ	mus_rg_photo_rev, reverb_set+50
 	.equ	mus_rg_photo_mvl, 100

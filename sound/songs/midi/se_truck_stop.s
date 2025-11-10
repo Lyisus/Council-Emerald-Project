@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_truck_stop_grp, voicegroup128
+	.equ	se_truck_stop_grp, voicegroup_rs_sfx_2
 	.equ	se_truck_stop_pri, 4
 	.equ	se_truck_stop_rev, reverb_set+50
 	.equ	se_truck_stop_mvl, 127

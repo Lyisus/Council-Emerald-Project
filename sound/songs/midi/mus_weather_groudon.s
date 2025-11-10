@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_weather_groudon_grp, voicegroup090
+	.equ	mus_weather_groudon_grp, voicegroup_weather_groudon
 	.equ	mus_weather_groudon_pri, 0
 	.equ	mus_weather_groudon_rev, reverb_set+50
 	.equ	mus_weather_groudon_mvl, 50

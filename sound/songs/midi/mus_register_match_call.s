@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_register_match_call_grp, voicegroup105
+	.equ	mus_register_match_call_grp, voicegroup_register_match_call
 	.equ	mus_register_match_call_pri, 5
 	.equ	mus_register_match_call_rev, reverb_set+50
 	.equ	mus_register_match_call_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_mystery_gift_grp, voicegroup183
+	.equ	mus_rg_mystery_gift_grp, voicegroup_rg_mystery_gift
 	.equ	mus_rg_mystery_gift_pri, 0
 	.equ	mus_rg_mystery_gift_rev, reverb_set+50
 	.equ	mus_rg_mystery_gift_mvl, 100

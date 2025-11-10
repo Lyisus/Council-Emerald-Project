@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_trainer_tower_grp, voicegroup134
+	.equ	mus_rg_trainer_tower_grp, voicegroup_rg_gym
 	.equ	mus_rg_trainer_tower_pri, 0
 	.equ	mus_rg_trainer_tower_rev, reverb_set+50
 	.equ	mus_rg_trainer_tower_mvl, 90

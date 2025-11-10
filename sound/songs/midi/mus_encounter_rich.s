@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_encounter_rich_grp, voicegroup043
+	.equ	mus_encounter_rich_grp, voicegroup_encounter_rich
 	.equ	mus_encounter_rich_pri, 0
 	.equ	mus_encounter_rich_rev, reverb_set+50
 	.equ	mus_encounter_rich_mvl, 94

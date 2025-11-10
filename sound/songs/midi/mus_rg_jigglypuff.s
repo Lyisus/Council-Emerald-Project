@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_jigglypuff_grp, voicegroup135
+	.equ	mus_rg_jigglypuff_grp, voicegroup_rg_jigglypuff
 	.equ	mus_rg_jigglypuff_pri, 5
 	.equ	mus_rg_jigglypuff_rev, reverb_set+50
 	.equ	mus_rg_jigglypuff_mvl, 68

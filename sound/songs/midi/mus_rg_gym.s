@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_gym_grp, voicegroup134
+	.equ	mus_rg_gym_grp, voicegroup_rg_gym
 	.equ	mus_rg_gym_pri, 0
 	.equ	mus_rg_gym_rev, reverb_set+50
 	.equ	mus_rg_gym_mvl, 90

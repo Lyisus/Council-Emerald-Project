@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_note_c_high_grp, voicegroup128
+	.equ	se_note_c_high_grp, voicegroup_rs_sfx_2
 	.equ	se_note_c_high_pri, 4
 	.equ	se_note_c_high_rev, reverb_set+50
 	.equ	se_note_c_high_mvl, 110

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_m_razor_wind2_grp, voicegroup128
+	.equ	se_m_razor_wind2_grp, voicegroup_rs_sfx_2
 	.equ	se_m_razor_wind2_pri, 4
 	.equ	se_m_razor_wind2_rev, reverb_set+50
 	.equ	se_m_razor_wind2_mvl, 90

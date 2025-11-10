@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_ball_trade_grp, voicegroup127
+	.equ	se_ball_trade_grp, voicegroup_rs_sfx_1
 	.equ	se_ball_trade_pri, 5
 	.equ	se_ball_trade_rev, reverb_set+50
 	.equ	se_ball_trade_mvl, 100

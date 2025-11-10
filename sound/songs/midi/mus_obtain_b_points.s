@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_obtain_b_points_grp, voicegroup103
+	.equ	mus_obtain_b_points_grp, voicegroup_b_frontier
 	.equ	mus_obtain_b_points_pri, 5
 	.equ	mus_obtain_b_points_rev, reverb_set+50
 	.equ	mus_obtain_b_points_mvl, 90

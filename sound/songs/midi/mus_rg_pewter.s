@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_pewter_grp, voicegroup173
+	.equ	mus_rg_pewter_grp, voicegroup_rg_pewter
 	.equ	mus_rg_pewter_pri, 0
 	.equ	mus_rg_pewter_rev, reverb_set+50
 	.equ	mus_rg_pewter_mvl, 84

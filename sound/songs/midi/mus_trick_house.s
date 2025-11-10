@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_trick_house_grp, voicegroup094
+	.equ	mus_trick_house_grp, voicegroup_trick_house
 	.equ	mus_trick_house_pri, 0
 	.equ	mus_trick_house_rev, reverb_set+50
 	.equ	mus_trick_house_mvl, 70

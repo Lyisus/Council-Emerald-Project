@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_rotating_gate_grp, voicegroup128
+	.equ	se_rotating_gate_grp, voicegroup_rs_sfx_2
 	.equ	se_rotating_gate_pri, 4
 	.equ	se_rotating_gate_rev, reverb_set+50
 	.equ	se_rotating_gate_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_sealed_chamber_grp, voicegroup084
+	.equ	mus_sealed_chamber_grp, voicegroup_sealed_chamber
 	.equ	mus_sealed_chamber_pri, 0
 	.equ	mus_sealed_chamber_rev, reverb_set+50
 	.equ	mus_sealed_chamber_mvl, 100

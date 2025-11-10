@@ -107,8 +107,3 @@ Route102_Text_RouteSignOldale:
 Route102_Text_RouteSignPetalburg:
 	.string "ROUTE 102\n"
 	.string "{LEFT_ARROW} PETALBURG CITY$"
-
-Route102_EventScript_Simon_Bos::
-	trainerbattle_single TRAINER_SIMON_BOS, Route102_Text_CalvinIntro, Route102_Text_CalvinDefeated
-	msgbox Route102_Text_CalvinPostBattle, MSGBOX_AUTOCLOSE
-	end

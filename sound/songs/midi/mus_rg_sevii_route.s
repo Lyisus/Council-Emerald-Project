@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_sevii_route_grp, voicegroup187
+	.equ	mus_rg_sevii_route_grp, voicegroup_rg_sevii_route
 	.equ	mus_rg_sevii_route_pri, 0
 	.equ	mus_rg_sevii_route_rev, reverb_set+50
 	.equ	mus_rg_sevii_route_mvl, 80

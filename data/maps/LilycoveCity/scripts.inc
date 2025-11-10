@@ -1,7 +1,3 @@
-.set LOCALID_WOMAN_1, 19
-.set LOCALID_MAN_1, 20
-.set LOCALID_RIVAL, 17
-
 LilycoveCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, LilycoveCity_OnLoad
@@ -137,13 +133,13 @@ LilycoveCity_EventScript_FatMan::
 LilycoveCity_EventScript_Man1::
 	lockall
 	msgbox LilycoveCity_Text_JustArrivedAndSawRarePokemon, MSGBOX_NPC
-	applymovement LOCALID_MAN_1, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_LILYCOVE_MAN_1, Common_Movement_FaceOriginalDirection
 	end
 
 LilycoveCity_EventScript_Woman1::
 	lockall
 	msgbox LilycoveCity_Text_HoneymoonVowToSeeRarePokemon, MSGBOX_NPC
-	applymovement LOCALID_WOMAN_1, Common_Movement_FaceOriginalDirection
+	applymovement LOCALID_LILYCOVE_WOMAN_1, Common_Movement_FaceOriginalDirection
 	end
 
 LilycoveCity_EventScript_CitySign::
@@ -232,21 +228,21 @@ LilycoveCity_EventScript_AquaGrunt4::
 
 LilycoveCity_EventScript_PlayerFaceDown::
 	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
+	applymovement LOCALID_PLAYER, Common_Movement_FaceDown
 	waitmovement 0
 	goto LilycoveCity_EventScript_Rival
 	end
 
 LilycoveCity_EventScript_PlayerFaceUp::
 	lockall
-	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	applymovement LOCALID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
 	goto LilycoveCity_EventScript_Rival
 	end
 
 LilycoveCity_EventScript_Rival::
 	lock
-	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
+	applymovement LOCALID_LILYCOVE_RIVAL, Common_Movement_FacePlayer
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, LilycoveCity_EventScript_May
 	goto_if_eq VAR_RESULT, FEMALE, LilycoveCity_EventScript_Brendan

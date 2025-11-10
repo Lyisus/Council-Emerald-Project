@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_teachy_tv_show_grp, voicegroup131
+	.equ	mus_rg_teachy_tv_show_grp, voicegroup_rg_follow_me
 	.equ	mus_rg_teachy_tv_show_pri, 0
 	.equ	mus_rg_teachy_tv_show_rev, reverb_set+50
 	.equ	mus_rg_teachy_tv_show_mvl, 68

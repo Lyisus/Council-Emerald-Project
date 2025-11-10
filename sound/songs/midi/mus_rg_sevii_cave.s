@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_sevii_cave_grp, voicegroup147
+	.equ	mus_rg_sevii_cave_grp, voicegroup_rg_mt_moon
 	.equ	mus_rg_sevii_cave_pri, 0
 	.equ	mus_rg_sevii_cave_rev, reverb_set+50
 	.equ	mus_rg_sevii_cave_mvl, 90

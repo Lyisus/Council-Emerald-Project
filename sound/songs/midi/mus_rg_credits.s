@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_credits_grp, voicegroup149
+	.equ	mus_rg_credits_grp, voicegroup_rg_credits
 	.equ	mus_rg_credits_pri, 0
 	.equ	mus_rg_credits_rev, reverb_set+50
 	.equ	mus_rg_credits_mvl, 90

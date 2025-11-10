@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_lavender_grp, voicegroup139
+	.equ	mus_rg_lavender_grp, voicegroup_rg_lavender
 	.equ	mus_rg_lavender_pri, 0
 	.equ	mus_rg_lavender_rev, reverb_set+50
 	.equ	mus_rg_lavender_mvl, 90

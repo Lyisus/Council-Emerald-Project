@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_dewford_grp, voicegroup073
+	.equ	mus_dewford_grp, voicegroup_dewford
 	.equ	mus_dewford_pri, 0
 	.equ	mus_dewford_rev, reverb_set+50
 	.equ	mus_dewford_mvl, 78

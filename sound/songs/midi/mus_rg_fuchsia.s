@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_fuchsia_grp, voicegroup167
+	.equ	mus_rg_fuchsia_grp, voicegroup_rg_fuchsia
 	.equ	mus_rg_fuchsia_pri, 0
 	.equ	mus_rg_fuchsia_rev, reverb_set+50
 	.equ	mus_rg_fuchsia_mvl, 90

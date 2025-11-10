@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_pokenav_call_grp, voicegroup129
+	.equ	se_pokenav_call_grp, voicegroup_frlg_sfx
 	.equ	se_pokenav_call_pri, 5
 	.equ	se_pokenav_call_rev, reverb_set+50
 	.equ	se_pokenav_call_mvl, 120

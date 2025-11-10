@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_poke_flute_grp, voicegroup165
+	.equ	mus_rg_poke_flute_grp, voicegroup_rg_poke_tower
 	.equ	mus_rg_poke_flute_pri, 5
 	.equ	mus_rg_poke_flute_rev, reverb_set+50
 	.equ	mus_rg_poke_flute_mvl, 48

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_rocket_hideout_grp, voicegroup133
+	.equ	mus_rg_rocket_hideout_grp, voicegroup_rg_rocket_hideout
 	.equ	mus_rg_rocket_hideout_pri, 0
 	.equ	mus_rg_rocket_hideout_rev, reverb_set+50
 	.equ	mus_rg_rocket_hideout_mvl, 90

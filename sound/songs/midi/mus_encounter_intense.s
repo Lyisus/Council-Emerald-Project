@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_encounter_intense_grp, voicegroup062
+	.equ	mus_encounter_intense_grp, voicegroup_encounter_intense
 	.equ	mus_encounter_intense_pri, 0
 	.equ	mus_encounter_intense_rev, reverb_set+50
 	.equ	mus_encounter_intense_mvl, 78

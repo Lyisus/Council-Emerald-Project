@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_m_tail_whip_grp, voicegroup128
+	.equ	se_m_tail_whip_grp, voicegroup_rs_sfx_2
 	.equ	se_m_tail_whip_pri, 4
 	.equ	se_m_tail_whip_rev, reverb_set+50
 	.equ	se_m_tail_whip_mvl, 110

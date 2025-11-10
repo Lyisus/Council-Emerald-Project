@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_obtain_key_item_grp, voicegroup178
+	.equ	mus_rg_obtain_key_item_grp, voicegroup_rg_obtain_key_item
 	.equ	mus_rg_obtain_key_item_pri, 5
 	.equ	mus_rg_obtain_key_item_rev, reverb_set+50
 	.equ	mus_rg_obtain_key_item_mvl, 77

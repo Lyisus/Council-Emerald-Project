@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_intro_blast_grp, voicegroup127
+	.equ	se_intro_blast_grp, voicegroup_rs_sfx_1
 	.equ	se_intro_blast_pri, 5
 	.equ	se_intro_blast_rev, reverb_set+50
 	.equ	se_intro_blast_mvl, 100

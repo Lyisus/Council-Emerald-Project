@@ -5,21 +5,24 @@
 #define TRADE_PARTNER 1
 
 // In-game Trade IDs
-#define INGAME_TRADE_SPHEAL          0  // Oldale Spheal
-#define INGAME_TRADE_G_DARUMAKA      1  // Petalburg Galarian Darumaka
-#define INGAME_TRADE_DELTA_BULBASAUR 2  // Rustboro Delta Bulbasaur
-#define INGAME_TRADE_A_VULPIX        3  // Dewford Alolan Vulpix
-#define INGAME_TRADE_ESPURR          4  // Slateport Espurr
-#define INGAME_TRADE_H_SNEASEL       5  // Mauville Hisuian Sneasel
-#define INGAME_TRADE_DELTA_FROAKIE   6  // Verdanturf Delta Froakie
-#define INGAME_TRADE_TRUBBISH        7  // Route 113 Trubbish
-#define INGAME_TRADE_GOTHITA         8  // Lavaridge Gothita
-#define INGAME_TRADE_FEEBAS          9  // Fortree Feebas
-#define INGAME_TRADE_G_SLOWPOKE      10 // Lilycove Galarian Slowpoke
-#define INGAME_TRADE_LUCARIO         11 // Mossdeep Lucario
-#define INGAME_TRADE_SINISTCHA       12 // Pacifilog Poltchageist
-#define INGAME_TRADE_SALAZZLE        13 // Sootopolis
-#define INGAME_TRADE_MEOWTH          14 // Battle Frontier
+enum InGameTradeID
+{
+    INGAME_TRADE_SPHEAL,         // Oldale Spheal
+    INGAME_TRADE_G_DARUMAKA,     // Petalburg Galarian Darumaka
+    INGAME_TRADE_DELTA_BULBASAUR,// Rustboro Delta Bulbasaur
+    INGAME_TRADE_A_VULPIX,       // Dewford Alolan Vulpix
+    INGAME_TRADE_ESPURR,         // Slateport Espurr
+    INGAME_TRADE_H_SNEASEL,      // Mauville Hisuian Sneasel
+    INGAME_TRADE_DELTA_FROAKIE,  // Verdanturf Delta Froakie
+    INGAME_TRADE_TRUBBISH,       // Route 113 Trubbish
+    INGAME_TRADE_GOTHITA,        // Lavaridge Gothita
+    INGAME_TRADE_FEEBAS,         // Fortree Feebas
+    INGAME_TRADE_G_SLOWPOKE,     // Lilycove Galarian Slowpoke
+    INGAME_TRADE_LUCARIO,        // Mossdeep Lucario
+    INGAME_TRADE_SINISTCHA,      // Pacifilog Poltchageist
+    INGAME_TRADE_SALAZZLE,       // Sootopolis
+    INGAME_TRADE_MEOWTH,         // Battle Frontier
+};
 
 // Return values for CanTradeSelectedMon and CanSpinTradeMon
 #define CAN_TRADE_MON              0

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_b_tower_rs_grp, voicegroup035
+	.equ	mus_b_tower_rs_grp, voicegroup_b_tower_rs
 	.equ	mus_b_tower_rs_pri, 0
 	.equ	mus_b_tower_rs_rev, reverb_set+50
 	.equ	mus_b_tower_rs_mvl, 80

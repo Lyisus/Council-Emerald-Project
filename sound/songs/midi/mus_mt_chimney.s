@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_mt_chimney_grp, voicegroup052
+	.equ	mus_mt_chimney_grp, voicegroup_mt_chimney
 	.equ	mus_mt_chimney_pri, 0
 	.equ	mus_mt_chimney_rev, reverb_set+50
 	.equ	mus_mt_chimney_mvl, 78

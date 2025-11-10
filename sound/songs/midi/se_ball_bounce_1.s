@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_ball_bounce_1_grp, voicegroup128
+	.equ	se_ball_bounce_1_grp, voicegroup_rs_sfx_2
 	.equ	se_ball_bounce_1_pri, 4
 	.equ	se_ball_bounce_1_rev, reverb_set+50
 	.equ	se_ball_bounce_1_mvl, 100

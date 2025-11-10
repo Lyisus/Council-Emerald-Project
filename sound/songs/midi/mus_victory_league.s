@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_victory_league_grp, voicegroup029
+	.equ	mus_victory_league_grp, voicegroup_victory_league
 	.equ	mus_victory_league_pri, 0
 	.equ	mus_victory_league_rev, reverb_set+50
 	.equ	mus_victory_league_mvl, 80

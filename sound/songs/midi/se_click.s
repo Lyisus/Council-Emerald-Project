@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_click_grp, voicegroup127
+	.equ	se_click_grp, voicegroup_rs_sfx_1
 	.equ	se_click_pri, 4
 	.equ	se_click_rev, reverb_set+50
 	.equ	se_click_mvl, 110

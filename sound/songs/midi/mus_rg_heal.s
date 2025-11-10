@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_heal_grp, voicegroup140
+	.equ	mus_rg_heal_grp, voicegroup_rg_heal
 	.equ	mus_rg_heal_pri, 0
 	.equ	mus_rg_heal_rev, reverb_set+50
 	.equ	mus_rg_heal_mvl, 90

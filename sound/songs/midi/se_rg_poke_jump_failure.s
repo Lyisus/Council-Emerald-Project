@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_rg_poke_jump_failure_grp, voicegroup127
+	.equ	se_rg_poke_jump_failure_grp, voicegroup_rs_sfx_1
 	.equ	se_rg_poke_jump_failure_pri, 5
 	.equ	se_rg_poke_jump_failure_rev, reverb_set+50
 	.equ	se_rg_poke_jump_failure_mvl, 127

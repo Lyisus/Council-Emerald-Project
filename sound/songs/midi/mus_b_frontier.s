@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_b_frontier_grp, voicegroup103
+	.equ	mus_b_frontier_grp, voicegroup_b_frontier
 	.equ	mus_b_frontier_pri, 0
 	.equ	mus_b_frontier_rev, reverb_set+50
 	.equ	mus_b_frontier_mvl, 94

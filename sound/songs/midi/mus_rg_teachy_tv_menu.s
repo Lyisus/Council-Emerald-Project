@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_teachy_tv_menu_grp, voicegroup186
+	.equ	mus_rg_teachy_tv_menu_grp, voicegroup_rg_teachy_tv_menu
 	.equ	mus_rg_teachy_tv_menu_pri, 0
 	.equ	mus_rg_teachy_tv_menu_rev, reverb_set+50
 	.equ	mus_rg_teachy_tv_menu_mvl, 59

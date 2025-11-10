@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_c_comm_center_grp, voicegroup000
+	.equ	mus_c_comm_center_grp, voicegroup_dummy
 	.equ	mus_c_comm_center_pri, 0
 	.equ	mus_c_comm_center_rev, reverb_set+50
 	.equ	mus_c_comm_center_mvl, 80

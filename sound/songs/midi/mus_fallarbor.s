@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_fallarbor_grp, voicegroup083
+	.equ	mus_fallarbor_grp, voicegroup_fallarbor
 	.equ	mus_fallarbor_pri, 0
 	.equ	mus_fallarbor_rev, reverb_set+50
 	.equ	mus_fallarbor_mvl, 100

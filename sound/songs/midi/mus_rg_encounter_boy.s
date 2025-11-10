@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_encounter_boy_grp, voicegroup144
+	.equ	mus_rg_encounter_boy_grp, voicegroup_rg_encounter_boy
 	.equ	mus_rg_encounter_boy_pri, 0
 	.equ	mus_rg_encounter_boy_rev, reverb_set+50
 	.equ	mus_rg_encounter_boy_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_ss_anne_grp, voicegroup163
+	.equ	mus_rg_ss_anne_grp, voicegroup_rg_ss_anne
 	.equ	mus_rg_ss_anne_pri, 0
 	.equ	mus_rg_ss_anne_rev, reverb_set+50
 	.equ	mus_rg_ss_anne_mvl, 90

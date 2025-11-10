@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_obtain_badge_grp, voicegroup012
+	.equ	mus_obtain_badge_grp, voicegroup_fanfare
 	.equ	mus_obtain_badge_pri, 5
 	.equ	mus_obtain_badge_rev, reverb_set+50
 	.equ	mus_obtain_badge_mvl, 90

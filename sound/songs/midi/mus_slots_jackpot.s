@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_slots_jackpot_grp, voicegroup012
+	.equ	mus_slots_jackpot_grp, voicegroup_fanfare
 	.equ	mus_slots_jackpot_pri, 5
 	.equ	mus_slots_jackpot_rev, reverb_set+50
 	.equ	mus_slots_jackpot_mvl, 90

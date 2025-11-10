@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_follow_me_grp, voicegroup131
+	.equ	mus_rg_follow_me_grp, voicegroup_rg_follow_me
 	.equ	mus_rg_follow_me_pri, 0
 	.equ	mus_rg_follow_me_rev, reverb_set+50
 	.equ	mus_rg_follow_me_mvl, 68

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_rg_ss_anne_horn_grp, voicegroup129
+	.equ	se_rg_ss_anne_horn_grp, voicegroup_frlg_sfx
 	.equ	se_rg_ss_anne_horn_pri, 5
 	.equ	se_rg_ss_anne_horn_rev, reverb_set+50
 	.equ	se_rg_ss_anne_horn_mvl, 96

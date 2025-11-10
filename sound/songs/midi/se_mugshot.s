@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_mugshot_grp, voicegroup128
+	.equ	se_mugshot_grp, voicegroup_rs_sfx_2
 	.equ	se_mugshot_pri, 5
 	.equ	se_mugshot_rev, reverb_set+50
 	.equ	se_mugshot_mvl, 90

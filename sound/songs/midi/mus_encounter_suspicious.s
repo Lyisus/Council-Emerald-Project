@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_encounter_suspicious_grp, voicegroup069
+	.equ	mus_encounter_suspicious_grp, voicegroup_encounter_suspicious
 	.equ	mus_encounter_suspicious_pri, 0
 	.equ	mus_encounter_suspicious_rev, reverb_set+50
 	.equ	mus_encounter_suspicious_mvl, 78

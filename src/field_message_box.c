@@ -38,12 +38,10 @@ static void Task_DrawFieldMessage(u8 taskId)
                 LoadMessageBoxAndBorderGfx();
             task->tState++;
             break;
-           task->tState++;
-           break;
         case 1:
-           DrawDialogueFrame(0, TRUE);
-           task->tState++;
-           break;
+            DrawDialogueFrame(0, TRUE);
+            task->tState++;
+            break;
         case 2:
             if (RunTextPrintersAndIsPrinter0Active() != TRUE)
             {

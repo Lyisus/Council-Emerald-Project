@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_encounter_swimmer_grp, voicegroup036
+	.equ	mus_encounter_swimmer_grp, voicegroup_encounter_swimmer
 	.equ	mus_encounter_swimmer_pri, 0
 	.equ	mus_encounter_swimmer_rev, reverb_set+50
 	.equ	mus_encounter_swimmer_mvl, 80

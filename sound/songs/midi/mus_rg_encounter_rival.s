@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_encounter_rival_grp, voicegroup174
+	.equ	mus_rg_encounter_rival_grp, voicegroup_rg_encounter_rival
 	.equ	mus_rg_encounter_rival_pri, 0
 	.equ	mus_rg_encounter_rival_rev, reverb_set+50
 	.equ	mus_rg_encounter_rival_mvl, 79

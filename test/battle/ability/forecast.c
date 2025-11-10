@@ -110,10 +110,10 @@ DOUBLE_BATTLE_TEST("Forecast transforms all Castforms present in weather")
     PARAMETRIZE { move = MOVE_HAIL; }
     PARAMETRIZE { move = MOVE_SNOWSCAPE; }
     GIVEN {
-        PLAYER(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); }
-        PLAYER(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); }
-        OPPONENT(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); }
-        OPPONENT(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); }
+        PLAYER(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); Speed(10); }
+        PLAYER(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); Speed(5); }
+        OPPONENT(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); Speed(7); }
+        OPPONENT(SPECIES_CASTFORM_NORMAL) { Ability(ABILITY_FORECAST); Speed(1); }
     } WHEN {
         TURN { MOVE(playerRight, move); }
     } SCENE {
@@ -417,5 +417,24 @@ SINGLE_BATTLE_TEST("Forecast transforms Castform when Cloud Nine ability user le
         MESSAGE("2 sent out Wobbuffet!");
         ABILITY_POPUP(player, ABILITY_FORECAST);
         MESSAGE("Castform transformed!");
+    }
+}
+
+DOUBLE_BATTLE_TEST("Forecast reverts Castform back after Teraform Zero clears weather")
+{
+    GIVEN {
+        PLAYER(SPECIES_TERAPAGOS_TERASTAL);
+        PLAYER(SPECIES_CASTFORM) { Ability(ABILITY_FORECAST); }
+        OPPONENT(SPECIES_KYOGRE) { Ability(ABILITY_DRIZZLE); }
+        OPPONENT(SPECIES_WYNAUT);
+    } WHEN {
+        TURN { MOVE(playerLeft, MOVE_CELEBRATE, gimmick: GIMMICK_TERA); }
+    } SCENE {
+        ABILITY_POPUP(opponentLeft, ABILITY_DRIZZLE);
+        ABILITY_POPUP(playerRight, ABILITY_FORECAST);
+        ABILITY_POPUP(playerLeft, ABILITY_TERAFORM_ZERO);
+        ABILITY_POPUP(playerRight, ABILITY_FORECAST);
+    } THEN {
+        EXPECT_EQ(playerRight->species, SPECIES_CASTFORM_NORMAL);
     }
 }

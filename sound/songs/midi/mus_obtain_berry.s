@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_obtain_berry_grp, voicegroup012
+	.equ	mus_obtain_berry_grp, voicegroup_fanfare
 	.equ	mus_obtain_berry_pri, 5
 	.equ	mus_obtain_berry_rev, reverb_set+50
 	.equ	mus_obtain_berry_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_m_pay_day_grp, voicegroup128
+	.equ	se_m_pay_day_grp, voicegroup_rs_sfx_2
 	.equ	se_m_pay_day_pri, 4
 	.equ	se_m_pay_day_rev, reverb_set+50
 	.equ	se_m_pay_day_mvl, 95

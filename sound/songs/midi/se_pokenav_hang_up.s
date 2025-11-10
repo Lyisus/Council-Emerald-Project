@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_pokenav_hang_up_grp, voicegroup129
+	.equ	se_pokenav_hang_up_grp, voicegroup_frlg_sfx
 	.equ	se_pokenav_hang_up_pri, 5
 	.equ	se_pokenav_hang_up_rev, reverb_set+50
 	.equ	se_pokenav_hang_up_mvl, 110

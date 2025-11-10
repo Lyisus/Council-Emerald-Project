@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_vermillion_grp, voicegroup172
+	.equ	mus_rg_vermillion_grp, voicegroup_rg_vermillion
 	.equ	mus_rg_vermillion_pri, 0
 	.equ	mus_rg_vermillion_rev, reverb_set+50
 	.equ	mus_rg_vermillion_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_rg_new_game_exit_grp, voicegroup182
+	.equ	mus_rg_new_game_exit_grp, voicegroup_rg_new_game
 	.equ	mus_rg_new_game_exit_pri, 0
 	.equ	mus_rg_new_game_exit_rev, reverb_set+50
 	.equ	mus_rg_new_game_exit_mvl, 88

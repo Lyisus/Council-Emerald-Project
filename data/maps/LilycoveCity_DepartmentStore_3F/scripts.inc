@@ -33,8 +33,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_EVMaterials:
 	.2byte ITEM_CLEVER_FEATHER
 	.2byte ITEM_SWIFT_FEATHER
 	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight::
 	lock
@@ -70,8 +69,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_Mints:
 	.2byte ITEM_NAIVE_MINT
 	.2byte ITEM_SERIOUS_MINT
 	.2byte ITEM_NONE
-	release
-	end
+	pokemartlistend
 
 LilycoveCity_DepartmentStore_3F_EventScript_TriathleteM::
 	msgbox LilycoveCity_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon, MSGBOX_NPC

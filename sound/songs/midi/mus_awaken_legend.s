@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_awaken_legend_grp, voicegroup012
+	.equ	mus_awaken_legend_grp, voicegroup_fanfare
 	.equ	mus_awaken_legend_pri, 5
 	.equ	mus_awaken_legend_rev, reverb_set+50
 	.equ	mus_awaken_legend_mvl, 90

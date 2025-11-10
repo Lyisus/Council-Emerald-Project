@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_arena_timeup2_grp, voicegroup129
+	.equ	se_arena_timeup2_grp, voicegroup_frlg_sfx
 	.equ	se_arena_timeup2_pri, 5
 	.equ	se_arena_timeup2_rev, reverb_set+50
 	.equ	se_arena_timeup2_mvl, 127

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_surf_grp, voicegroup017
+	.equ	mus_surf_grp, voicegroup_surf
 	.equ	mus_surf_pri, 0
 	.equ	mus_surf_rev, reverb_set+50
 	.equ	mus_surf_mvl, 80

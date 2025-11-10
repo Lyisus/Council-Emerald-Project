@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_encounter_hiker_grp, voicegroup097
+	.equ	mus_encounter_hiker_grp, voicegroup_encounter_hiker
 	.equ	mus_encounter_hiker_pri, 0
 	.equ	mus_encounter_hiker_rev, reverb_set+50
 	.equ	mus_encounter_hiker_mvl, 76

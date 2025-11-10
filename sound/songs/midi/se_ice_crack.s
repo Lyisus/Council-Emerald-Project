@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	se_ice_crack_grp, voicegroup127
+	.equ	se_ice_crack_grp, voicegroup_rs_sfx_1
 	.equ	se_ice_crack_pri, 4
 	.equ	se_ice_crack_rev, reverb_set+50
 	.equ	se_ice_crack_mvl, 100

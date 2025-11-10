@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_too_bad_grp, voicegroup012
+	.equ	mus_too_bad_grp, voicegroup_fanfare
 	.equ	mus_too_bad_pri, 5
 	.equ	mus_too_bad_rev, reverb_set+50
 	.equ	mus_too_bad_mvl, 90

@@ -1,6 +1,6 @@
 	.include "MPlayDef.s"
 
-	.equ	mus_victory_road_grp, voicegroup075
+	.equ	mus_victory_road_grp, voicegroup_victory_road
 	.equ	mus_victory_road_pri, 0
 	.equ	mus_victory_road_rev, reverb_set+50
 	.equ	mus_victory_road_mvl, 76

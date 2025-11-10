@@ -6607,10 +6607,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_HISUIAN_FORMS
 #if P_CUSTOM_FORMS
-    const u32 gMonFrontPic_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/anim_front.4bpp.lz");
-    const u16 gMonPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/normal.gbapal.lz");
-    const u32 gMonBackPic_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/back.4bpp.lz");
-    const u16 gMonShinyPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/shiny.gbapal.lz");
+    const u32 gMonFrontPic_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/anim_front.4bpp.smol");
+    const u16 gMonPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/normal.gbapal");
+    const u32 gMonBackPic_CyndaquilDelta[] = INCBIN_U32("graphics/pokemon/cyndaquil/delta/back.4bpp.smol");
+    const u16 gMonShinyPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/shiny.gbapal");
     const u8 gMonIcon_CyndaquilDelta[] = INCBIN_U8("graphics/pokemon/cyndaquil/delta/icon.4bpp");
 #if P_FOOTPRINTS
     const u8 gMonFootprint_CyndaquilDelta[] = INCBIN_U8("graphics/pokemon/cyndaquil/delta/footprint.1bpp");
@@ -6618,14 +6618,14 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #if OW_POKEMON_OBJECT_EVENTS
     const u32 gObjectEventPic_CyndaquilDelta[] = INCBIN_COMP("graphics/pokemon/cyndaquil/delta/overworld.4bpp");
 #if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
-    const u16 gOverworldPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/normal.gbapal.lz");
-    const u16 gShinyOverworldPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/shiny.gbapal.lz");
+    const u16 gOverworldPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/normal.gbapal");
+    const u16 gShinyOverworldPalette_CyndaquilDelta[] = INCBIN_U16("graphics/pokemon/cyndaquil/delta/shiny.gbapal");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 
-    const u32 gMonFrontPic_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/anim_front.4bpp.smol");
     const u16 gMonPalette_QuilavaDelta[] = INCBIN_U16("graphics/pokemon/quilava/delta/normal.gbapal");
-    const u32 gMonBackPic_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/back.4bpp.lz");
+    const u32 gMonBackPic_QuilavaDelta[] = INCBIN_U32("graphics/pokemon/quilava/delta/back.4bpp.smol");
     const u16 gMonShinyPalette_QuilavaDelta[] = INCBIN_U16("graphics/pokemon/quilava/delta/shiny.gbapal");
     const u8 gMonIcon_QuilavaDelta[] = INCBIN_U8("graphics/pokemon/quilava/delta/icon.4bpp");
 #if P_FOOTPRINTS
@@ -6634,14 +6634,14 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #if OW_POKEMON_OBJECT_EVENTS
     const u32 gObjectEventPic_QuilavaDelta[] = INCBIN_COMP("graphics/pokemon/quilava/delta/overworld.4bpp");
 #if OW_PKMN_OBJECTS_SHARE_PALETTES == FALSE
-    const u16 gOverworldPalette_QuilavaDelta[] = INCBIN_U16("graphics/pokemon/quilava/delta/normal.gbapal.lz");
-    const u16 gShinyOverworldPalette_QuilavaDelta[] = INCBIN_U16("graphics/pokemon/quilava/delta/shiny.gbapal.lz");
+    const u16 gOverworldPalette_QuilavaDelta[] = INCBIN_U16("graphics/pokemon/quilava/delta/normal.gbapal");
+    const u16 gShinyOverworldPalette_QuilavaDelta[] = INCBIN_U16("graphics/pokemon/quilava/delta/shiny.gbapal");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 
-    const u32 gMonFrontPic_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/anim_front.4bpp.smol");
     const u16 gMonPalette_TyphlosionDelta[] = INCBIN_U16("graphics/pokemon/typhlosion/delta/normal.gbapal");
-    const u32 gMonBackPic_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/back.4bpp.lz");
+    const u32 gMonBackPic_TyphlosionDelta[] = INCBIN_U32("graphics/pokemon/typhlosion/delta/back.4bpp.smol");
     const u16 gMonShinyPalette_TyphlosionDelta[] = INCBIN_U16("graphics/pokemon/typhlosion/delta/shiny.gbapal");
     const u8 gMonIcon_TyphlosionDelta[] = INCBIN_U8("graphics/pokemon/typhlosion/delta/icon.4bpp");
 #if P_FOOTPRINTS
@@ -14889,9 +14889,9 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_POKEMON_OBJECT_EVENTS
 #endif //P_MEGA_EVOLUTIONS
 #if P_CUSTOM_FORMS
-    const u32 gMonFrontPic_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/anim_front.4bpp.smol");
     const u16 gMonPalette_BunearyKuria[] = INCBIN_U16("graphics/pokemon/buneary/kuria/normal.gbapal");
-    const u32 gMonBackPic_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/back.4bpp.lz");
+    const u32 gMonBackPic_BunearyKuria[] = INCBIN_U32("graphics/pokemon/buneary/kuria/back.4bpp.smol");
     const u16 gMonShinyPalette_BunearyKuria[] = INCBIN_U16("graphics/pokemon/buneary/kuria/shiny.gbapal");
     const u8 gMonIcon_BunearyKuria[] = INCBIN_U8("graphics/pokemon/buneary/kuria/icon.4bpp");
 #if P_FOOTPRINTS
@@ -14905,9 +14905,9 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
 
-    const u32 gMonFrontPic_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/anim_front.4bpp.lz");
+    const u32 gMonFrontPic_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/anim_front.4bpp.smol");
     const u16 gMonPalette_LopunnyKuria[] = INCBIN_U16("graphics/pokemon/lopunny/kuria/normal.gbapal");
-    const u32 gMonBackPic_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/back.4bpp.lz");
+    const u32 gMonBackPic_LopunnyKuria[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/back.4bpp.smol");
     const u16 gMonShinyPalette_LopunnyKuria[] = INCBIN_U16("graphics/pokemon/lopunny/kuria/shiny.gbapal");
     const u8 gMonIcon_LopunnyKuria[] = INCBIN_U8("graphics/pokemon/lopunny/kuria/icon.4bpp");
 #if P_FOOTPRINTS
@@ -14922,9 +14922,9 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
 #endif //OW_POKEMON_OBJECT_EVENTS
 
 #if P_MEGA_EVOLUTIONS
-    const u32 gMonFrontPic_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/front.4bpp.lz");
+    const u32 gMonFrontPic_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/front.4bpp.smol");
     const u16 gMonPalette_LopunnyKuriaMega[] = INCBIN_U16("graphics/pokemon/lopunny/kuria/mega/normal.gbapal");
-    const u32 gMonBackPic_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/back.4bpp.lz");
+    const u32 gMonBackPic_LopunnyKuriaMega[] = INCBIN_U32("graphics/pokemon/lopunny/kuria/mega/back.4bpp.smol");
     const u16 gMonShinyPalette_LopunnyKuriaMega[] = INCBIN_U16("graphics/pokemon/lopunny/kuria/mega/shiny.gbapal");
     const u8 gMonIcon_LopunnyKuriaMega[] = INCBIN_U8("graphics/pokemon/lopunny/kuria/mega/icon.4bpp");
 #if OW_POKEMON_OBJECT_EVENTS

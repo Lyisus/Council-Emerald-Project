@@ -2,6 +2,7 @@ LilycoveCity_House4_MapScripts::
 	.byte 0
 
 LilycoveCity_House4_EventScript_Man1::
+	lockall
 	goto_if_unset FLAG_LILYCOVE_EISCUE_RECEIVED, LilycoveCity_House4_EventScript_ManGiveEiscue
 	msgbox LilycoveCity_House4_Text_MysteriesAtBottomOfSea, MSGBOX_NPC
 	end
@@ -60,7 +61,7 @@ LilycoveCity_House4_EventScript_ReceivedEiscueFanfare::
 	return
 
 LilycoveCity_House4_EventScript_ReceivedEiscue::
-	msgbox LilycoveCity_House4_Text_AcceptEiscue
+	msgbox LilycoveCity_House4_Text_AcceptEiscue, MSGBOX_NPC
 	setflag FLAG_LILYCOVE_EISCUE_RECEIVED
 	releaseall
 	end

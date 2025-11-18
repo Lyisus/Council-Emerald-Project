@@ -13246,23 +13246,23 @@ Battle Type: Singles
 AI: Check Bad Move
 
 Mightyena
-Level: 51
+Level: 53
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Weezing
-Level: 51
+Level: 53
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Marowak-Alola
-Level: 53
+Level: 55
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Incineroar
-Level: 53
+Level: 55
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Aggron
-Level: 55
+Level: 57
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_MAXIE_MAGMA_HIDEOUT ===
@@ -13277,7 +13277,7 @@ AI: Smart Trainer
 
 Torkoal @ Eject Pack  
 Ability: Drought  
-Level: 53  
+Level: 55  
 EVs: 252 HP  
 IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe  
 - Protect  
@@ -13287,7 +13287,7 @@ IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Venusaur @ Life Orb  
 Ability: Chlorophyll  
-Level: 55  
+Level: 57  
 EVs: 252 Spe  
 Dynamax Level: 10
 Gigantamax: Yes
@@ -13299,7 +13299,7 @@ IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Crobat @ Black Sludge  
 Ability: Inner Focus  
-Level: 53  
+Level: 55  
 EVs: 248 HP  
 IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe  
 - Detect  
@@ -13309,7 +13309,7 @@ IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Greninja @ Utility Umbrella  
 Ability: Protean  
-Level: 55  
+Level: 57  
 EVs: 252 Spe  
 IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe  
 - Protect  
@@ -13319,7 +13319,7 @@ IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Arcanine @ Sitrus Berry  
 Ability: Intimidate  
-Level: 55  
+Level: 57  
 EVs: 252 HP  
 IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe  
 - Extreme Speed  
@@ -13329,7 +13329,7 @@ IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
 Roaring Moon @ Focus Sash  
 Ability: Protosynthesis  
-Level: 57  
+Level: 59  
 Tera Type: Flying  
 EVs: 252 Atk  
 IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe  
@@ -13517,24 +13517,24 @@ Battle Type: Singles
 AI: Basic Trainer
 
 Pelipper
-Level: 51
+Level: 53
 Ability: Drizzle
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Walrein
-Level: 53
+Level: 55
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Ampharos @ Ampharosite
-Level: 55
+Level: 57
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Muk-Alola
-Level: 53
+Level: 55
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 Ludicolo
-Level: 55
+Level: 57
 Ability: Swift Swim
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
@@ -14543,9 +14543,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Staryu
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Vigor (Vigoroth)
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Vigorer (Vigoroth)
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Vigorest (Vigoroth)
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ISAIAH_2 ===
 Name: ISAIAH

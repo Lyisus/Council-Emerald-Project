@@ -778,6 +778,19 @@ static const struct MenuAction MultichoiceList_BerryPlot[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_AlteringCaveChoice[] =
+{
+    {COMPOUND_STRING("KANTO")},
+    {COMPOUND_STRING("JOHTO")},
+    {COMPOUND_STRING("HOENN")},
+    {COMPOUND_STRING("SINNOH")},
+    {COMPOUND_STRING("UNOVA")},
+    {COMPOUND_STRING("KALOS")},
+    {COMPOUND_STRING("ALOLA")},
+    {COMPOUND_STRING("GALAR")},
+    {COMPOUND_STRING("PALDEA")},
+};
+
 static const struct MenuAction MultichoiceList_Exit[] =
 {
     {gText_Exit},
@@ -800,7 +813,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_BASE_PC_WITH_REGISTRY]      = MULTICHOICE(MultichoiceList_BasePCWithRegistry),
     [MULTI_REGISTER_MENU]              = MULTICHOICE(MultichoiceList_RegisterMenu),
     [MULTI_SSTIDAL_LILYCOVE]           = MULTICHOICE(MultichoiceList_Exit),
-    [MULTI_UNUSED_9]                   = MULTICHOICE(MultichoiceList_Exit),
+    [MULTI_ALTERING_CAVE_CHOICE]       = MULTICHOICE(MultichoiceList_AlteringCaveChoice),
     [MULTI_UNUSED_10]                  = MULTICHOICE(MultichoiceList_Exit),
     [MULTI_FRONTIER_PASS_INFO]         = MULTICHOICE(MultichoiceList_FrontierPassInfo),
     [MULTI_BIKE]                       = MULTICHOICE(MultichoiceList_Bike),

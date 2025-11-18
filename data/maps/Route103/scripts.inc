@@ -286,17 +286,6 @@ Route103_EventScript_Isabelle::
 	msgbox Route103_Text_IsabellePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route103_EventScript_ChangeAlteringCaveEncounters::
-	msgbox Route103_Text_AlteringCaveChange, MSGBOX_NPC
-	end
-
-Route103_Text_AlteringCaveChange:
-	.string "If you're reading this, that means\n"
-	.string "I do not do anything, yet.\p"
-	.string "Please keep checking until the dev\n"
-	.string "gets shit done.\p"   
-	.string "SKADOOSH!$"
-
 Route103_Text_MayRoute103Pokemon:
 	.string "MAY: Let's see… The POKéMON found\n"
 	.string "on ROUTE 103 include…$"
@@ -362,3 +351,109 @@ Route103_Text_RouteSign:
 	.string "ROUTE 103\n"
 	.string "{DOWN_ARROW} OLDALE TOWN$"
 
+Route103_EventScript_ChangeAlteringCaveEncounters::
+	msgbox Route103_Text_AlteringCaveChange, MSGBOX_NPC
+	multichoice 0, 0, MULTI_ALTERING_CAVE_CHOICE, TRUE
+	switch VAR_RESULT
+	case 0, Route103_EventScript_ChangeAlteringCaveToKanto
+	case 1, Route103_EventScript_ChangeAlteringCaveToJohto
+	case 2, Route103_EventScript_ChangeAlteringCaveToHoenn
+	case 3, Route103_EventScript_ChangeAlteringCaveToSinnoh
+	case 4, Route103_EventScript_ChangeAlteringCaveToUnova
+	case 5, Route103_EventScript_ChangeAlteringCaveToKalos
+	case 6, Route103_EventScript_ChangeAlteringCaveToAlola
+	case 7, Route103_EventScript_ChangeAlteringCaveToGalar
+	case 8, Route103_EventScript_ChangeAlteringCaveToPaldea
+	end
+
+Route103_EventScript_ChangeAlteringCaveToKanto::
+	msgbox Route103_Text_AlteringCaveChangeKanto, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 0
+	end
+
+Route103_EventScript_ChangeAlteringCaveToJohto::
+	msgbox Route103_Text_AlteringCaveChangeJohto, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 1
+	end
+Route103_EventScript_ChangeAlteringCaveToHoenn::
+	msgbox Route103_Text_AlteringCaveChangeHoenn, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 2
+	end
+
+Route103_EventScript_ChangeAlteringCaveToSinnoh::
+	msgbox Route103_Text_AlteringCaveChangeSinnoh, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 3
+	end
+
+Route103_EventScript_ChangeAlteringCaveToUnova::
+	msgbox Route103_Text_AlteringCaveChangeUnova, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 4
+	end
+
+Route103_EventScript_ChangeAlteringCaveToKalos::
+	msgbox Route103_Text_AlteringCaveChangeKalos, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 5
+	end
+
+Route103_EventScript_ChangeAlteringCaveToAlola::
+	msgbox Route103_Text_AlteringCaveChangeAlola, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 6
+	end
+
+Route103_EventScript_ChangeAlteringCaveToGalar::
+	msgbox Route103_Text_AlteringCaveChangeGalar, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 7
+	end
+
+Route103_EventScript_ChangeAlteringCaveToPaldea::
+	msgbox Route103_Text_AlteringCaveChangePaldea, MSGBOX_NPC
+	setvar VAR_ALTERING_CAVE_WILD_SET, 8
+	end
+
+
+Route103_Text_AlteringCaveChange:
+	.string "PICK SOMETHING!$"
+
+Route103_Text_AlteringCaveChangeKanto:
+	.string "Are you Green with envy?\n"
+	.string "Red with anger?\p"
+	.string "Blue with sadness?\n"
+	.string "Or Yellow with sickness?$"
+
+Route103_Text_AlteringCaveChangeJohto:
+	.string "The crystals told me to invest\n"
+	.string "in precious metals, like gold and\l"
+	.string "silver…\p"
+	.string "I should not have listened…$"
+
+Route103_Text_AlteringCaveChangeHoenn:
+	.string "My birthstone is an emerald.\n"
+	.string "Is yours a ruby, a sapphire, or\l"
+	.string "something else?$"
+
+Route103_Text_AlteringCaveChangeSinnoh:
+	.string "I need to buy a new ring\n"
+	.string "but I can't decide if I want\l"
+	.string "a diamond or a pearl.\p"
+	.string "I certainly want it to be a\n"
+	.string "platinum ring, though.$"
+
+Route103_Text_AlteringCaveChangeUnova:
+	.string "I don't know what to say.\p"
+	.string "Go bother the developer about it.$"
+
+Route103_Text_AlteringCaveChangeKalos:
+	.string "I don't know what to say.\p"
+	.string "Go bother the developer about it.$"
+
+Route103_Text_AlteringCaveChangeAlola:
+	.string "I don't know what to say.\p"
+	.string "Go bother the developer about it.$"
+
+Route103_Text_AlteringCaveChangeGalar:
+	.string "I don't know what to say.\p"
+	.string "Go bother the developer about it.$"
+
+Route103_Text_AlteringCaveChangePaldea:
+	.string "I don't know what to say.\p"
+	.string "Go bother the developer about it.$"

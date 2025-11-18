@@ -8,7 +8,7 @@ LilycoveCity_ObjectEvents:
 	object_event 1, OBJ_EVENT_GFX_SAILOR, 32, 20, 3, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 0, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Sailor2, 0
 	object_event 2, OBJ_EVENT_GFX_GIRL_1, 15, 18, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Girl, 0
 	object_event 3, OBJ_EVENT_GFX_MAN_1, 28, 28, 3, MOVEMENT_TYPE_LOOK_AROUND, 0, 0, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Man3, 0
-	object_event 4, OBJ_EVENT_GFX_RICH_BOY, 21, 15, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_RichBoy, 0
+	object_event 4, OBJ_EVENT_GFX_RICH_BOY, 21, 15, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Trader_G_Slowpoke, 0
 	object_event 5, OBJ_EVENT_GFX_MAN_2, 16, 9, 5, MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT, 1, 0, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Man2, 0
 	object_event 6, OBJ_EVENT_GFX_WOMAN_2, 35, 27, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_Woman2, 0
 	object_event 7, OBJ_EVENT_GFX_EXPERT_M, 35, 37, 5, MOVEMENT_TYPE_FACE_DOWN, 0, 0, TRAINER_TYPE_NONE, 0, LilycoveCity_EventScript_ExpertM1, 0

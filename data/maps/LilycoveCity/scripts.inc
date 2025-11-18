@@ -67,10 +67,6 @@ LilycoveCity_EventScript_GirlAquaGone::
 	release
 	end
 
-LilycoveCity_EventScript_RichBoy::
-	msgbox LilycoveCity_Text_ImFromKanto, MSGBOX_NPC
-	end
-
 LilycoveCity_EventScript_Sailor2::
 	lock
 	faceplayer
@@ -544,14 +540,6 @@ LilycoveCity_Text_GoingToMoveDeleterForHMs:
 	.string "So, I'm going to see the MOVE DELETER\n"
 	.string "and make it forget HM moves.$"
 
-LilycoveCity_Text_ImFromKanto:
-	.string "I came from KANTO.\p"
-	.string "The HOENN region is beautiful with\n"
-	.string "all its water and verdant nature.\p"
-	.string "Hunh? Wait a second…\p"
-	.string "Could there be rare POKéMON that live\n"
-	.string "only in this area?$"
-
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
 	.string "TEAM AQUA's been training their\n"
 	.string "WAILMER in the cove.\p"
@@ -706,3 +694,90 @@ LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "POKéMON as soon as we arrived.\p"
 	.string "I mean, we are totally happy!$"
 
+LilycoveCity_EventScript_Trader_G_Slowpoke::
+	lock
+	faceplayer
+	goto_if_set FLAG_LILYCOVE_NPC_TRADE_COMPLETED, LilycoveCity_EventScript_TradeCompleted
+	setvar VAR_0x8008, INGAME_TRADE_G_SLOWPOKE
+	copyvar VAR_0x8004, VAR_0x8008
+	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
+	copyvar VAR_0x8009, VAR_RESULT
+	msgbox LilycoveCity_Text_StartTrade, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, LilycoveCity_EventScript_DeclineTrade
+	special ChoosePartyMon
+	waitstate
+	copyvar VAR_0x800A, VAR_0x8004
+	goto_if_eq VAR_0x8004, PARTY_NOTHING_CHOSEN, LilycoveCity_EventScript_DeclineTrade
+	copyvar VAR_0x8005, VAR_0x800A
+	specialvar VAR_RESULT, GetTradeSpecies
+	copyvar VAR_0x800B, VAR_RESULT
+	goto_if_eq VAR_RESULT, SPECIES_ABSOL, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_CHIMECHO, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_TROPIUS, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_FEEBAS, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_BAGON, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_BELDUM, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_KECLEON, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_GROVYLE, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_DUSKULL, LilycoveCity_EventScript_CorrectSpecies
+	goto_if_eq VAR_RESULT, SPECIES_SHUPPET, LilycoveCity_EventScript_CorrectSpecies
+	goto LilycoveCity_EventScript_NotRequestedMon
+	release
+	end
+
+LilycoveCity_EventScript_CorrectSpecies::
+	copyvar VAR_0x8004, VAR_0x8008
+	copyvar VAR_0x8005, VAR_0x800A
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox LilycoveCity_Text_Thanks, MSGBOX_DEFAULT
+	setflag FLAG_LILYCOVE_NPC_TRADE_COMPLETED
+	release
+	end
+
+LilycoveCity_EventScript_DeclineTrade::
+	msgbox LilycoveCity_Text_Decline, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_NotRequestedMon::
+	msgbox LilycoveCity_Text_WrongPokemon, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_EventScript_TradeCompleted::
+	msgbox LilycoveCity_Text_AlreadyTraded, MSGBOX_DEFAULT
+	release
+	end
+
+LilycoveCity_Text_StartTrade:
+	.string "I came from KANTO.\p"
+	.string "The HOENN region is beautiful with\n"
+	.string "all its water and verdant nature.\p"
+	.string "Could there be rare POKéMON that live\n"
+	.string "only in this area?\p"
+	.string "Hunh? Wait a second…\p"	
+	.string "You look like a TRAINER.\p"
+	.string "I'll trade you my rare {STR_VAR_2}\n"
+	.string "for a rare HOENN POKéMON. Deal?$"
+
+LilycoveCity_Text_Thanks:
+	.string "I knew you could not resist\n"
+	.string "my rare {STR_VAR_2}.$"
+
+LilycoveCity_Text_WrongPokemon:
+	.string "That's not a rare HOENN POKéMON.\n"
+	.string "There are some on the way to FORTREE CITY.$"
+
+LilycoveCity_Text_Decline:
+	.string "Come back when you're willing\n"
+	.string "to trade a rare HOENN POKéMON.$"
+
+LilycoveCity_Text_AlreadyTraded:
+	.string "I came from KANTO.\p"
+	.string "The HOENN region is beautiful with\n"
+	.string "all its water and verdant nature.\p"
+	.string "Hunh? Wait a second…\p"
+	.string "Could there be even more rare POKéMON\n"
+	.string "that live only in this area?$"

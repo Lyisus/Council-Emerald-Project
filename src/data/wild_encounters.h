@@ -2296,7 +2296,7 @@ const struct WildPokemonInfo gShoalCave_LowTideEntranceRoom_Morning_FishingMonsI
 
 const struct WildPokemon gLilycoveCity_Morning_WaterMons[] =
 {
-    { 41, 44, SPECIES_TENTACRUEL },
+    { 41, 44, SPECIES_TENTACOOL },
     { 42, 45, SPECIES_PELIPPER },
     { 43, 45, SPECIES_WAILMER },
     { 43, 46, SPECIES_WAILMER },

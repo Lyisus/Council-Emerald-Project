@@ -1146,19 +1146,20 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_G_SLOWPOKE] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Goku"),
         .species = SPECIES_SLOWPOKE_GALAR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 00000,
         .conditions = {0, 0, 0, 0, 0},
-        .personality = 0x8E, //Male Quiet
-        .heldItem = ITEM_VENUSAURITE,
+        .personality = 0x107, //Male Quiet
+        .heldItem = ITEM_BLACK_SLUDGE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("DARIUS"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_DARUMAKA_GALAR
+        .requestedSpecies = SPECIES_ABSOL // Accepts rare Hoenn Pokemon
+                                          // Absol, Chimecho, Tropius, Grovyle, Feebas, Bagon, Beldum, Kecleon, Duskull, & Shuppet
     },
     [INGAME_TRADE_LUCARIO] =
     {

@@ -2235,7 +2235,7 @@ Heatmor
 Level: 20
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Basculin-white-striped
+Basculin-White-Striped
 Level: 20
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -9931,7 +9931,7 @@ Blaziken
 Level: 43
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 
-Sirfetch'd
+Sirfetch’d
 Level: 40
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe 
 
@@ -13550,13 +13550,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Tentacool
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Walrein
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Wingull
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bidoof
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Binacle
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Swanna
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Swampert
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ROLAND ===
 Name: ROLAND
@@ -13567,9 +13579,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Carvanha
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Feraligatr
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Lanturn
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Goldeen
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Wattrel
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Luvdisc
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Kabutops
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_GRACE ===
 Name: GRACE
@@ -13580,9 +13612,9 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Marill
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Luvdisc
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_CHAD ===
 Name: CHAD
@@ -13593,13 +13625,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Tentacool
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Inteleon
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Wailmer
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhydon
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Oshawott
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dratini
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Gliscor
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_DECLAN ===
 Name: DECLAN
@@ -13610,9 +13654,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gastrodon
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dondozo
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Eelektrik
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Horsea
+Level: 50
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Araquanid
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Tatsugiri
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ISABELLA ===
 Name: ISABELLA
@@ -13623,9 +13687,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Staryu
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Heliolisk
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Scovillain
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Furret
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_JENNY_1 ===
 Name: JENNY
@@ -13636,9 +13708,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Wailmer
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clamperl
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Marshtomp
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Krabby
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_JENNY_2 ===
 Name: JENNY
@@ -13713,13 +13793,21 @@ Music: Swimmer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Chinchou
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Carvanha
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Escavalier
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Shiftry
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Ludicolo
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_LILA_AND_ROY_2 ===
 Name: LILA & ROY
@@ -13799,9 +13887,9 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Tentacruel
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Swampert
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_STAN ===
 Name: STAN
@@ -13812,9 +13900,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Horsea
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dhelmise
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Drifblim
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Quaxwell
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_TANYA ===
 Name: TANYA
@@ -13825,9 +13921,9 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Luvdisc
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Braviary-Hisui
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_SHARON ===
 Name: SHARON
@@ -13838,9 +13934,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Seaking
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Revavroom
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Poliwrath
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Frogadier
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Qwilfish-Hisui
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Vespiquen
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KIM_AND_IRIS ===
 Name: KIM & IRIS
@@ -13851,21 +13963,21 @@ Music: Twins
 Battle Type: Doubles
 AI: Check Bad Move
 
-Swablu
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Sing
-- Fury Attack
-- Safeguard
-- Aerial Ace
+Umbreon
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Numel
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Flamethrower
-- Take Down
-- Rest
-- Earthquake
+Espeon
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Leafeon
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Glaceon
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_PRESLEY ===
 Name: PRESLEY
@@ -13876,13 +13988,25 @@ Music: Cool
 Battle Type: Singles
 AI: Check Bad Move
 
-Tropius
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Toucannon
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Xatu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ducklett
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Sigilyph
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Farfetchd
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Flygon
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_AURON ===
 Name: AURON
@@ -13893,13 +14017,29 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Manectric
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crabrawler
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Machamp
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Passimian
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Scraggy
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Infernape
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Slaking
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Annihilape
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ERNEST_1 ===
 Name: ERNEST
@@ -13910,13 +14050,17 @@ Music: Male
 Battle Type: Singles
 AI: Check Bad Move
 
-Wingull
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tangrowth
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Machoke
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Incineroar
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Toxapex
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ERNEST_2 ===
 Name: ERNEST
@@ -14017,7 +14161,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 /*====================== SHOAL CAVE ICE ROOM TRAINERS ========================================================================================*/
 
 /*====================== ROUTE 126 TRAINERS ========================================================================================*/
-
 === TRAINER_BARRY ===
 Name: BARRY
 Class: Swimmer M
@@ -14027,9 +14170,9 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Milotic
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_DEAN ===
 Name: DEAN
@@ -14040,17 +14183,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nidoking
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Wingull
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Chinchou
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Altaria
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Remoraid
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Cetitan
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Carracosta
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_NIKKI ===
 Name: NIKKI
@@ -14061,13 +14216,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Marill
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Poliwhirl
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Spheal
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tropius
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Quaquaval
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_BRENDA ===
 Name: BRENDA
@@ -14078,9 +14237,13 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Goldeen
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Basculin-White-Striped
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Basculegion (F)
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_LEONARDO ===
 Name: LEONARDO
@@ -14091,9 +14254,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
+Vaporeon
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Popplio
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Milotic
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
 Carvanha
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Ludicolo
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Lumineon
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ISOBEL ===
 Name: ISOBEL
@@ -14104,9 +14287,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Staryu
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Golduck
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Pawmo
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Mr. Rime
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_SIENNA ===
 Name: SIENNA
@@ -14117,13 +14308,21 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Luvdisc
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhyperior
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Luvdisc
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Goodra
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Starmie
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Hydro Pump
+- Surf
+- Swift
+- Recover
 
 === TRAINER_PABLO_1 ===
 Name: PABLO
@@ -14134,13 +14333,13 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cinccino
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Weavile
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_PABLO_2 ===
 Name: PABLO
@@ -14232,13 +14431,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mismagius
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Staryu
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Watchog
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Accelgor
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Veluza
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Cinderace
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_DONNY ===
 Name: DONNY
@@ -14249,13 +14460,21 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barraskewda
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Staryu
-Level: 34
-IVs: 19 HP / 19 Atk / 19 Def / 19 SpA / 19 SpD / 19 Spe
+Garchomp
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Talonflame
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Emolga
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_JONAH ===
 Name: JONAH
@@ -14266,17 +14485,29 @@ Music: Hiker
 Battle Type: Singles
 AI: Check Bad Move
 
-Wailmer
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Avalugg-Hisui
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Tentacool
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Feebas
+Level: 51
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Sharpedo
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Barbaracle
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Skrelp
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Grapploct
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Bruxish
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_HENRY ===
 Name: HENRY
@@ -14287,13 +14518,21 @@ Music: Hiker
 Battle Type: Singles
 AI: Check Bad Move
 
-Carvanha
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wiglett
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Tentacruel
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corphish
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Barraskewda
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Seaking
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ROGER ===
 Name: ROGER
@@ -14304,17 +14543,9 @@ Music: Hiker
 Battle Type: Singles
 AI: Check Bad Move
 
-Magikarp
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Magikarp
-Level: 25
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Gyarados
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Basculegion (M)
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_AIDAN ===
 Name: AIDAN
@@ -14325,13 +14556,17 @@ Music: Cool
 Battle Type: Singles
 AI: Check Bad Move
 
-Swellow
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Espathra
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Skarmory
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Togetic
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Mandibuzz
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ATHENA ===
 Name: ATHENA
@@ -14343,18 +14578,17 @@ Items: Hyper Potion
 Battle Type: Singles
 AI: Basic Trainer
 
-Manectric
-Level: 32
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder
-- Thunder Wave
-- Quick Attack
+Zorua-Hisui
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Linoone
-Level: 32
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Surf
-- Thief
+Sirfetch’d
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Delcatty
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KOJI_1 ===
 Name: KOJI
@@ -14365,9 +14599,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Machoke
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Meditite
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Monferno
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Gallade
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KOJI_2 ===
 Name: KOJI
@@ -14450,7 +14692,6 @@ Level: 43
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 /*====================== ROUTE 128 TRAINERS ========================================================================================*/
-
 === TRAINER_ALEXA ===
 Name: ALEXA
 Class: Cooltrainer
@@ -14461,31 +14702,48 @@ Items: Full Restore
 Battle Type: Singles
 AI: Basic Trainer
 
-Gloom
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Crawdaunt
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Azumarill
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Steelix
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Gengar
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_RUBEN ===
-Name: RUBEN
+Name: RuBeN
 Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Shiftry
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Nosepass
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Chispa (Infernape) (M)
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Staraptor
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Linda (Milotic) (F)
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Froslass
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Garchomp
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_WAYNE ===
 Name: WAYNE
@@ -14496,17 +14754,9 @@ Music: Hiker
 Battle Type: Singles
 AI: Check Bad Move
 
-Tentacool
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacool
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wailmer
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wishiwashi
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_HARRISON ===
 Name: HARRISON
@@ -14517,9 +14767,21 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Tentacruel
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Beartic
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Greninja
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Misdreavus
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Kingdra
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_CARLEE ===
 Name: CARLEE
@@ -14530,9 +14792,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Seaking
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mantyke
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dracovish
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dewgong
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ISAIAH_1 ===
 Name: ISAIAH
@@ -14616,9 +14886,13 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Staryu
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skarmory
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Torterra
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KATELYN_2 ===
 Name: KATELYN
@@ -14682,13 +14956,37 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Wingull
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ferroseed @ Eviolite
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Protect
+- Leech Seed
+- Gyro Ball
+- Power Whip
 
-Staryu
-Level: 34
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
+Ferroseed @ Eviolite
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Protect
+- Leech Seed
+- Gyro Ball
+- Power Whip
+
+Ferroseed @ Eviolite
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Protect
+- Leech Seed
+- Gyro Ball
+- Power Whip
+
+Ferrothorn @ Rocky Helmet
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Protect
+- Leech Seed
+- Gyro Ball
+- Power Whip
 
 === TRAINER_ALLISON ===
 Name: ALLISON
@@ -14699,13 +14997,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Wingull
-Level: 27
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kilowattrel
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Staryu
-Level: 33
-IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
+Palossand
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Farfetchd-Galar
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Aggron
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Mamoswine
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Golurk
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_REED ===
 Name: REED
@@ -14716,13 +15030,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Spheal
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zigzagoon-Galar
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Sharpedo
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Linoone-Galar
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Obstagoon
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_TISHA ===
 Name: TISHA
@@ -14733,9 +15051,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Chinchou
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cradily
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Overqwil
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Togekiss
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dartrix
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Ledian
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_CLARENCE ===
 Name: CLARENCE
@@ -14746,9 +15080,21 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Sharpedo
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Croconaw
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Totodile
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Feraligatr
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Totodile
+Level: 66
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 /*====================== EVER GRANDE CITY TRAINERS ========================================================================================*/
 
@@ -14762,9 +15108,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Simipour
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Wishiwashi
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Yanma
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Bellibolt
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Toedscruel
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Tentacruel
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KATIE ===
 Name: KATIE
@@ -14775,13 +15141,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Goldeen
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tirtouga
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Spheal
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Remoraid
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Mismagius
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Glalie
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Armaldo
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_SANTIAGO ===
 Name: SANTIAGO
@@ -14792,13 +15170,21 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Tentacruel
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Corvisquire
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Wailmer
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Floatzel
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Aerodactyl
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Eelektross
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 /*====================== MIRAGE INSLAND TRAINERS ========================================================================================*/
 
@@ -14812,9 +15198,21 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Pelipper
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crawdaunt
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Orbeetle
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Carvanha
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Poliwrath
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_HERMAN ===
 Name: HERMAN
@@ -14825,13 +15223,21 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Wingull
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dondozo
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Tentacruel
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Minior
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Swellow
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Seel
+Level: 66
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_SUSIE ===
 Name: SUSIE
@@ -14842,9 +15248,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Luvdisc
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Palafin
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Lunatone
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Togekiss
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KARA ===
 Name: KARA
@@ -14855,9 +15269,9 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Seaking
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kangaskhan
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_RELI_AND_IAN ===
 Name: RELI & IAN
@@ -14868,13 +15282,25 @@ Music: Swimmer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Azumarill
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Arctozolt
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Wingull
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dracovish
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dracozolt
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Arctovish
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Relicanth
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_TALIA ===
 Name: TALIA
@@ -14885,9 +15311,9 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Staryu
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Archeops
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KEVIN ===
 Name: KEVIN
@@ -14898,9 +15324,9 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Spheal
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dragapult
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 /*====================== PACIFILOG TOWN TRAINERS ========================================================================================*/
 
@@ -14914,9 +15340,22 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Sharpedo
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Jellicent
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Malamar
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Buizel
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Wailord @ Choice Band
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+- Explosion
 
 === TRAINER_DANA ===
 Name: DANA
@@ -14927,9 +15366,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Azumarill
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cradily
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Wingull
+Level: 54
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Crobat
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Cetoddle
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Kingdra
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_RONALD ===
 Name: RONALD
@@ -14940,29 +15395,29 @@ Music: Hiker
 Battle Type: Singles
 AI: Check Bad Move
 
-Magikarp
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Eiscue
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Gyarados
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Durant
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Gyarados
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Bergmite
+Level: 53
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Gyarados
-Level: 26
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Trubbish
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Gyarados
-Level: 30
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sinistcha
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Gyarados
-Level: 35
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Omastar
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KIYO ===
 Name: KIYO
@@ -14973,9 +15428,29 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Hariyama
-Level: 34
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Annihilape
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Heracross
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Hitmonlee
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Bisharp
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Scrafty
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Sandslash-Alola
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_PAXTON ===
 Name: PAXTON
@@ -14986,13 +15461,17 @@ Music: Intense
 Battle Type: Singles
 AI: Basic Trainer
 
-Swellow
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Grimmsnarl
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Breloom
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Dragonite
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Metagross
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_DARCY ===
 Name: DARCY
@@ -15004,13 +15483,17 @@ Items: Hyper Potion
 Battle Type: Singles
 AI: Basic Trainer
 
-Pelipper
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Decidueye-Hisui
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Camerupt
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Typhlosion-Hisui
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Samurott-Hisui
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN
@@ -15022,13 +15505,25 @@ Items: Hyper Potion
 Battle Type: Singles
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Kecleon
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Yanmega
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Loudred
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hatterene
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Manectric
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Gliscor
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Hydreigon
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_MAKAYLA ===
 Name: MAKAYLA
@@ -15040,13 +15535,13 @@ Items: Hyper Potion
 Battle Type: Singles
 AI: Basic Trainer
 
-Roselia
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Crabominable
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Medicham
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mienshao
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 /*====================== ROUTE 133 TRAINERS ========================================================================================*/
 === TRAINER_FRANKLIN ===
@@ -15058,9 +15553,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Sealeo
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gorebyss
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Huntail
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Solrock
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Mantine
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dusknoir
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Castform
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_DEBRA ===
 Name: DEBRA
@@ -15071,9 +15586,25 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Seaking
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Cursola
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Illumise
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Vaporeon
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Shellos
+Level: 52
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Cramorant
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_LINDA ===
 Name: LINDA
@@ -15084,13 +15615,29 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Horsea
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Alomomola
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Seadra
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Swalot
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Mareanie
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Weezing
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Feraligatr
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Wooper
+Level: 66
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_WARREN ===
 Name: WARREN
@@ -15102,13 +15649,29 @@ Items: Full Restore
 Battle Type: Singles
 AI: Basic Trainer
 
-Graveler
-Level: 33
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Azumarill
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Ludicolo
-Level: 33
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Polteageist
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Houndstone
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Eldegoss
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Meowstic (F)
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Samurott
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_BECK ===
 Name: BECK
@@ -15119,9 +15682,21 @@ Music: Cool
 Battle Type: Singles
 AI: Check Bad Move
 
-Tropius
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Xatu
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Bombirdier
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Swellow
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Empoleon
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -15132,13 +15707,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Whiscash
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Furfrou
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Meditite
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Orbeetle
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Floatzel
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_CONOR ===
 Name: CONOR
@@ -15149,13 +15728,13 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Chinchou
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Larvesta
+Level: 55
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Hariyama
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Toxtricity
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 /*====================== ROUTE 134 TRAINERS ========================================================================================*/
 === TRAINER_JACK ===
@@ -15167,9 +15746,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Gyarados
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Eelektrik
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Greninja
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Toedscruel
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_LAUREL ===
 Name: LAUREL
@@ -15180,13 +15767,17 @@ Music: Swimmer
 Battle Type: Singles
 AI: Check Bad Move
 
-Luvdisc
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Drizzile
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Luvdisc
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tentacruel
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Masquerain
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_ALEX ===
 Name: ALEX
@@ -15198,12 +15789,16 @@ Battle Type: Singles
 AI: Check Bad Move
 
 Natu
-Level: 33
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Swellow
-Level: 33
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Piplup
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Kilowattrel
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_AARON ===
 Name: AARON
@@ -15214,13 +15809,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Bagon
-Level: 34
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Breath
-- Headbutt
-- Focus Energy
-- Ember
+Haxorus
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Gabite
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dragapult
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_HITOSHI ===
 Name: HITOSHI
@@ -15231,13 +15830,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Machop
-Level: 32
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Falinks
+Level: 57
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Machoke
-Level: 32
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Sirfetch’d
+Level: 59
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Cloyster
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_HUDSON ===
 Name: HUDSON
@@ -15248,9 +15851,9 @@ Music: Male
 Battle Type: Singles
 AI: Check Bad Move
 
-Wailmer
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ursaluna-Bloodmoon
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_REYNA ===
 Name: REYNA
@@ -15261,13 +15864,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Meditite
-Level: 33
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Golett
+Level: 56
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Hariyama
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Tinkaton
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Pawmot
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_MARLEY ===
 Name: MARLEY
@@ -15279,13 +15886,25 @@ Items: Hyper Potion
 Battle Type: Singles
 AI: Basic Trainer
 
-Manectric
-Level: 34
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
-- Roar
-- Thunder Wave
-- Thunderbolt
+Slurpuff
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Emboar
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Sableye
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Chandelure
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Ambipom
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KELVIN ===
 Name: KELVIN
@@ -15296,13 +15915,9 @@ Music: Male
 Battle Type: Singles
 AI: Check Bad Move
 
-Machoke
-Level: 33
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-Spheal
-Level: 33
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Gogoat
+Level: 64
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 /*====================== MOSSDEEP CITY TRAINERS ========================================================================================*/
 

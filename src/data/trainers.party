@@ -15931,9 +15931,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Kirlia
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Veluza
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Quaquaval
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dracovish
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_VIRGIL ===
 Name: VIRGIL
@@ -15944,9 +15952,13 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Ralts
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Greninja
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Clawitzer
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_BLAKE ===
 Name: BLAKE
@@ -15957,9 +15969,13 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Girafarig
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Bibarel
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Primarina
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_HANNAH ===
 Name: HANNAH
@@ -15970,9 +15986,21 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Kirlia
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Drednaw
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Gorebyss
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Huntail
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Swampert
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_SAMANTHA ===
 Name: SAMANTHA
@@ -15983,9 +16011,25 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Xatu
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Palafin
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Slowbro
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Toedscruel
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Samurott
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Clodsire
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_MAURA ===
 Name: MAURA
@@ -15996,9 +16040,21 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Kadabra
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Lumineon
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Toxapex
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Slowbro-Galar
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Carracosta
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_SYLVIA ===
 Name: SYLVIA
@@ -16009,9 +16065,17 @@ Music: Suspicious
 Battle Type: Singles
 AI: Check Bad Move
 
-Meditite
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Whiscash
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Samurott-Hisui
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Tentacruel
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_NATE ===
 Name: NATE
@@ -16022,9 +16086,25 @@ Music: Rich
 Battle Type: Singles
 AI: Check Bad Move
 
-Spoink
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ludicolo
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Azumarill
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Cloyster
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Cursola
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dewgong
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_MACEY ===
 Name: MACEY
@@ -16035,9 +16115,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Natu
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Blastoise
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dondozo
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Dondozo
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_CLIFFORD ===
 Name: CLIFFORD
@@ -16048,9 +16136,29 @@ Music: Rich
 Battle Type: Singles
 AI: Check Bad Move
 
-Girafarig
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wugtrio
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Empoleon
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Tatsugiri-Curly
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Tatsugiri-Droopy
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Tatsugiri-Stretchy
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Tatsugiri-Curly
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_NICHOLAS ===
 Name: NICHOLAS
@@ -16061,9 +16169,17 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Wobbuffet
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rotom-Wash
+Level: 62
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Barraskewda
+Level: 60
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Corsola
+Level: 58
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_KATHLEEN ===
 Name: KATHLEEN
@@ -16074,9 +16190,13 @@ Music: Suspicious
 Battle Type: Singles
 AI: Check Bad Move
 
-Kadabra
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Seismitoad
+Level: 63
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
+
+Crawdaunt
+Level: 61
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -20247,11 +20367,73 @@ Pic: Hiker
 Gender: Male
 Music: Hiker
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Totodile
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Politoed @ Rocky Helmet  
+Ability: Drizzle  
+Level: 61  
+EVs: 252 HP / 248 Atk / 4 SpA / 4 Spe  
+Lonely Nature  
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe 
+- Hydro Pump  
+- Whirlpool  
+- Perish Song  
+- Encore  
+
+Lanturn @ Sitrus Berry  
+Ability: Volt Absorb  
+Level: 61  
+EVs: 248 HP / 4 Def / 252 SpA / 4 SpD 
+Modest Nature   
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe 
+- Thunderbolt  
+- Volt Switch  
+- Heal Bell  
+- Ice Beam  
+
+Quagsire @ Leftovers  
+Ability: Unaware  
+Level: 61  
+EVs: 252 HP / 156 Def / 100 SpD
+Relaxed Nature  
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe 
+- Earthquake  
+- Whirlpool  
+- Toxic  
+- Recover  
+
+Kingdra @ Scope Lens  
+Ability: Sniper  
+Level: 61  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe 
+- Draco Meteor  
+- Surf  
+- Weather Ball  
+- Focus Energy  
+
+Feraligatr @ Life Orb  
+Ability: Sheer Force  
+Level: 65  
+Tera Type: Water  
+EVs: 8 HP / 248 Atk / 252 Spe  
+Adamant Nature  
+IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe 
+- Aqua Jet  
+- Crunch  
+- Dragon Dance  
+- Waterfall  
+
+Totodile @ Sitrus Berry  
+Ability: Primordial Sea  
+Level: 80  
+EVs: 252 HP / 252 Atk / 252 Def / 252 SpD / 252 Spe  
+Adamant Nature  
+- Aqua Jet  
+- Flip Turn  
+- Ice Punch  
+- Waterfall  
 
 === TRAINER_NICK_PEA ===
 Name: NICK

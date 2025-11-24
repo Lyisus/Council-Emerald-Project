@@ -46,9 +46,9 @@ bool8 IsMirageIslandPresent(void)
 
     for (i = 0; i < PARTY_SIZE; i++)
         if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) && (GetMonData(&gPlayerParty[i], MON_DATA_PERSONALITY) & 0xFFFF) == rnd)
-            return TRUE;
+            return FALSE;
 
-    return FALSE;
+    return TRUE;
 }
 
 void UpdateShoalTideFlag(void)

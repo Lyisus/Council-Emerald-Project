@@ -5,7 +5,7 @@
 	.align 2
 
 MossdeepCity_House3_ObjectEvents:
-	object_event 1, OBJ_EVENT_GFX_FISHERMAN, 4, 4, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, TRAINER_TYPE_NONE, 0, MossdeepCity_House3_EventScript_SuperRodFisherman, 0
+	object_event 1, OBJ_EVENT_GFX_EXPERT_M, 4, 4, 3, MOVEMENT_TYPE_FACE_RIGHT, 0, 0, TRAINER_TYPE_NONE, 0, MossdeepCity_House3_EventScript_OldMan, 0
 
 MossdeepCity_House3_MapWarps:
 	warp_def 3, 7, 0, 5, MAP_MOSSDEEP_CITY

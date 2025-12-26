@@ -238,6 +238,8 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FromundaMan;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChloeVasiliou;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NickPeace;
+
 // Begin pokemon event objects
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokeBall;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Follower;
@@ -495,6 +497,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_OW_MON] =                   &gObjectEventGraphicsInfo_Follower,
     [OBJ_EVENT_GFX_FROMUNDA_MAN] =             &gObjectEventGraphicsInfo_FromundaMan,
     [OBJ_EVENT_GFX_CHLOE_VASILIOU] =           &gObjectEventGraphicsInfo_ChloeVasiliou,
+    [OBJ_EVENT_GFX_NICK_PEACE] =               &gObjectEventGraphicsInfo_NickPeace,
     [OBJ_EVENT_GFX_LIGHT_SPRITE] =             &gObjectEventGraphicsInfo_BallLight,
 };
 

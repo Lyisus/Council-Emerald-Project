@@ -5,7 +5,7 @@
 	.align 2
 
 SootopolisCity_Gym_1F_ObjectEvents:
-	object_event 1, OBJ_EVENT_GFX_JUAN, 8, 2, 0, MOVEMENT_TYPE_FACE_DOWN, 0, 0, TRAINER_TYPE_NONE, 0, SootopolisCity_Gym_1F_EventScript_Juan, 0
+	object_event 1, OBJ_EVENT_GFX_NICK_PEACE, 8, 2, 0, MOVEMENT_TYPE_FACE_DOWN, 0, 0, TRAINER_TYPE_NONE, 0, SootopolisCity_Gym_1F_EventScript_Juan, 0
 	object_event 2, OBJ_EVENT_GFX_MAN_2, 7, 24, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, TRAINER_TYPE_NONE, 0, SootopolisCity_Gym_1F_EventScript_GymGuide, 0
 
 SootopolisCity_Gym_1F_MapWarps:

@@ -36,11 +36,7 @@ MagmaHideout_4F_EventScript_Maxie::
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
 	setvar VAR_0x8007, 5  @ shake delay
-	special ShakeCamera
-	waitstate
-	delay 20
 	trainerbattle_no_intro TRAINER_MAXIE_GROUDON, MagmaHideout_4F_Text_GroudonDefeat	
-	delay 20
 	applymovement LOCALID_MAGMA_HIDEOUT_4F_GROUDON, MagmaHideout_4F_Movement_GroudonExit
 	waitmovement 0
 	removeobject LOCALID_MAGMA_HIDEOUT_4F_GROUDON

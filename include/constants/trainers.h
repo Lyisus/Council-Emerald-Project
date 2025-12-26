@@ -110,7 +110,8 @@
 #define TRAINER_PIC_RS_MAY                92
 #define TRAINER_PIC_FROMUNDA_MAN          93
 #define TRAINER_PIC_CHLOE_VASILIOU        94
-#define TRAINER_PIC_COUNT                 95
+#define TRAINER_PIC_NICK_PEACE            95
+#define TRAINER_PIC_COUNT                 96
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

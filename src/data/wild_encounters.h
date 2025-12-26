@@ -641,11 +641,11 @@ const struct WildPokemonInfo gSafariZone_South_Morning_LandMonsInfo = { 20, gSaf
 
 const struct WildPokemon gUnderwater_Route126_Morning_WaterMons[] =
 {
-    { 20, 30, SPECIES_CLAMPERL },
-    { 20, 30, SPECIES_CHINCHOU },
-    { 30, 35, SPECIES_CLAMPERL },
-    { 30, 35, SPECIES_RELICANTH },
-    { 30, 35, SPECIES_RELICANTH },
+    { 50, 52, SPECIES_CLAMPERL },
+    { 50, 53, SPECIES_LANTURN },
+    { 51, 53, SPECIES_PINCURCHIN },
+    { 52, 54, SPECIES_RELICANTH },
+    { 52, 55, SPECIES_HUNTAIL },
 };
 const struct WildPokemonInfo gUnderwater_Route126_Morning_WaterMonsInfo = { 4, gUnderwater_Route126_Morning_WaterMons };
 
@@ -1559,246 +1559,246 @@ const struct WildPokemonInfo gAbandonedShip_HiddenFloorCorridors_Morning_Fishing
 
 const struct WildPokemon gSeafloorCavern_Room1_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 50, 53, SPECIES_GOLBAT },
+    { 50, 53, SPECIES_LAIRON },
+    { 51, 54, SPECIES_CROBAT },
+    { 51, 54, SPECIES_AGGRON },
+    { 52, 54, SPECIES_ORTHWORM },
+    { 52, 54, SPECIES_CARRACOSTA },
+    { 52, 55, SPECIES_OMASTAR },
+    { 52, 55, SPECIES_KABUTOPS },
+    { 53, 55, SPECIES_ANORITH },
+    { 53, 55, SPECIES_LILEEP },
+    { 54, 56, SPECIES_ARMALDO },
+    { 54, 56, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room1_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room1_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Room2_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 51, 54, SPECIES_GOLBAT },
+    { 51, 54, SPECIES_LAIRON },
+    { 52, 55, SPECIES_CROBAT },
+    { 52, 55, SPECIES_AGGRON },
+    { 53, 55, SPECIES_ORTHWORM },
+    { 53, 55, SPECIES_CARRACOSTA },
+    { 53, 56, SPECIES_OMASTAR },
+    { 53, 56, SPECIES_KABUTOPS },
+    { 54, 56, SPECIES_ANORITH },
+    { 54, 56, SPECIES_LILEEP },
+    { 55, 57, SPECIES_ARMALDO },
+    { 55, 57, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room2_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room2_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Room3_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 51, 54, SPECIES_GOLBAT },
+    { 51, 54, SPECIES_LAIRON },
+    { 52, 55, SPECIES_CROBAT },
+    { 52, 55, SPECIES_AGGRON },
+    { 53, 55, SPECIES_ORTHWORM },
+    { 53, 55, SPECIES_CARRACOSTA },
+    { 53, 56, SPECIES_OMASTAR },
+    { 53, 56, SPECIES_KABUTOPS },
+    { 54, 56, SPECIES_ANORITH },
+    { 54, 56, SPECIES_LILEEP },
+    { 55, 57, SPECIES_ARMALDO },
+    { 55, 57, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room3_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room3_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Room4_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 52, 55, SPECIES_GOLBAT },
+    { 52, 55, SPECIES_LAIRON },
+    { 53, 56, SPECIES_CROBAT },
+    { 53, 56, SPECIES_AGGRON },
+    { 54, 56, SPECIES_ORTHWORM },
+    { 54, 56, SPECIES_CARRACOSTA },
+    { 54, 57, SPECIES_OMASTAR },
+    { 54, 57, SPECIES_KABUTOPS },
+    { 55, 57, SPECIES_ANORITH },
+    { 55, 57, SPECIES_LILEEP },
+    { 56, 58, SPECIES_ARMALDO },
+    { 56, 58, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room4_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room4_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Room5_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 52, 55, SPECIES_GOLBAT },
+    { 52, 55, SPECIES_LAIRON },
+    { 53, 56, SPECIES_CROBAT },
+    { 53, 56, SPECIES_AGGRON },
+    { 54, 56, SPECIES_ORTHWORM },
+    { 54, 56, SPECIES_CARRACOSTA },
+    { 54, 57, SPECIES_OMASTAR },
+    { 54, 57, SPECIES_KABUTOPS },
+    { 55, 57, SPECIES_ANORITH },
+    { 55, 57, SPECIES_LILEEP },
+    { 56, 58, SPECIES_ARMALDO },
+    { 56, 58, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room5_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room5_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Room6_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 53, 56, SPECIES_GOLBAT },
+    { 53, 56, SPECIES_LAIRON },
+    { 54, 57, SPECIES_CROBAT },
+    { 54, 57, SPECIES_AGGRON },
+    { 55, 57, SPECIES_ORTHWORM },
+    { 55, 57, SPECIES_CARRACOSTA },
+    { 55, 58, SPECIES_OMASTAR },
+    { 55, 58, SPECIES_KABUTOPS },
+    { 56, 58, SPECIES_ANORITH },
+    { 56, 58, SPECIES_LILEEP },
+    { 57, 59, SPECIES_ARMALDO },
+    { 57, 59, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room6_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room6_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Room6_Morning_WaterMons[] =
 {
-    { 5, 35, SPECIES_TENTACOOL },
-    { 5, 35, SPECIES_ZUBAT },
-    { 30, 35, SPECIES_ZUBAT },
-    { 30, 35, SPECIES_GOLBAT },
-    { 30, 35, SPECIES_GOLBAT },
+    { 53, 55, SPECIES_GOLBAT },
+    { 54, 55, SPECIES_TENTACRUEL },
+    { 54, 56, SPECIES_CROBAT },
+    { 55, 57, SPECIES_RELICANTH },
+    { 55, 58, SPECIES_RELICANTH },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room6_Morning_WaterMonsInfo = { 4, gSeafloorCavern_Room6_Morning_WaterMons };
 
 const struct WildPokemon gSeafloorCavern_Room6_Morning_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
-    { 10, 30, SPECIES_MAGIKARP },
-    { 10, 30, SPECIES_TENTACOOL },
-    { 10, 30, SPECIES_WAILMER },
-    { 25, 30, SPECIES_WAILMER },
-    { 30, 35, SPECIES_WAILMER },
-    { 20, 25, SPECIES_WAILMER },
-    { 35, 40, SPECIES_WAILMER },
-    { 40, 45, SPECIES_WAILMER },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_LUVDISC },
+    { 15, 25, SPECIES_MAGIKARP },
+    { 20, 30, SPECIES_LUVDISC },
+    { 20, 30, SPECIES_ALOMOMOLA },
+    { 25, 55, SPECIES_GYARADOS },
+    { 35, 40, SPECIES_LUVDISC },
+    { 35, 40, SPECIES_ALOMOMOLA },
+    { 40, 45, SPECIES_LANTURN },
+    { 40, 45, SPECIES_MILOTIC },
 };
-const struct WildPokemonInfo gSeafloorCavern_Room6_Morning_FishingMonsInfo = { 10, gSeafloorCavern_Room6_Morning_FishingMons };
+const struct WildPokemonInfo gSeafloorCavern_Room6_Morning_FishingMonsInfo = { 30, gSeafloorCavern_Room6_Morning_FishingMons };
 
 const struct WildPokemon gSeafloorCavern_Room7_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 53, 56, SPECIES_GOLBAT },
+    { 53, 56, SPECIES_LAIRON },
+    { 54, 57, SPECIES_CROBAT },
+    { 54, 57, SPECIES_AGGRON },
+    { 55, 57, SPECIES_ORTHWORM },
+    { 55, 57, SPECIES_CARRACOSTA },
+    { 55, 58, SPECIES_OMASTAR },
+    { 55, 58, SPECIES_KABUTOPS },
+    { 56, 58, SPECIES_ANORITH },
+    { 56, 58, SPECIES_LILEEP },
+    { 57, 59, SPECIES_ARMALDO },
+    { 57, 59, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room7_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room7_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Room7_Morning_WaterMons[] =
 {
-    { 5, 35, SPECIES_TENTACOOL },
-    { 5, 35, SPECIES_ZUBAT },
-    { 30, 35, SPECIES_ZUBAT },
-    { 30, 35, SPECIES_GOLBAT },
-    { 30, 35, SPECIES_GOLBAT },
+    { 53, 55, SPECIES_GOLBAT },
+    { 54, 55, SPECIES_TENTACRUEL },
+    { 54, 56, SPECIES_CROBAT },
+    { 55, 57, SPECIES_RELICANTH },
+    { 55, 58, SPECIES_RELICANTH },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room7_Morning_WaterMonsInfo = { 4, gSeafloorCavern_Room7_Morning_WaterMons };
 
 const struct WildPokemon gSeafloorCavern_Room7_Morning_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
-    { 10, 30, SPECIES_MAGIKARP },
-    { 10, 30, SPECIES_TENTACOOL },
-    { 10, 30, SPECIES_WAILMER },
-    { 25, 30, SPECIES_WAILMER },
-    { 30, 35, SPECIES_WAILMER },
-    { 20, 25, SPECIES_WAILMER },
-    { 35, 40, SPECIES_WAILMER },
-    { 40, 45, SPECIES_WAILMER },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_LUVDISC },
+    { 15, 25, SPECIES_MAGIKARP },
+    { 20, 30, SPECIES_LUVDISC },
+    { 20, 30, SPECIES_ALOMOMOLA },
+    { 25, 55, SPECIES_GYARADOS },
+    { 35, 40, SPECIES_LUVDISC },
+    { 35, 40, SPECIES_ALOMOMOLA },
+    { 40, 45, SPECIES_LANTURN },
+    { 40, 45, SPECIES_MILOTIC },
 };
-const struct WildPokemonInfo gSeafloorCavern_Room7_Morning_FishingMonsInfo = { 10, gSeafloorCavern_Room7_Morning_FishingMons };
+const struct WildPokemonInfo gSeafloorCavern_Room7_Morning_FishingMonsInfo = { 30, gSeafloorCavern_Room7_Morning_FishingMons };
 
 const struct WildPokemon gSeafloorCavern_Room8_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 54, 57, SPECIES_GOLBAT },
+    { 54, 57, SPECIES_LAIRON },
+    { 55, 58, SPECIES_CROBAT },
+    { 55, 58, SPECIES_AGGRON },
+    { 56, 58, SPECIES_ORTHWORM },
+    { 56, 58, SPECIES_CARRACOSTA },
+    { 56, 59, SPECIES_OMASTAR },
+    { 56, 59, SPECIES_KABUTOPS },
+    { 57, 59, SPECIES_ANORITH },
+    { 57, 59, SPECIES_LILEEP },
+    { 58, 60, SPECIES_ARMALDO },
+    { 58, 60, SPECIES_CRADILY },
 };
 const struct WildPokemonInfo gSeafloorCavern_Room8_Morning_LandMonsInfo = { 4, gSeafloorCavern_Room8_Morning_LandMons };
 
 const struct WildPokemon gSeafloorCavern_Entrance_Morning_WaterMons[] =
 {
-    { 5, 35, SPECIES_TENTACOOL },
-    { 5, 35, SPECIES_ZUBAT },
-    { 30, 35, SPECIES_ZUBAT },
-    { 30, 35, SPECIES_GOLBAT },
-    { 30, 35, SPECIES_GOLBAT },
+    { 50, 52, SPECIES_GOLBAT },
+    { 51, 52, SPECIES_TENTACRUEL },
+    { 51, 53, SPECIES_CROBAT },
+    { 52, 54, SPECIES_RELICANTH },
+    { 52, 55, SPECIES_RELICANTH },
 };
 const struct WildPokemonInfo gSeafloorCavern_Entrance_Morning_WaterMonsInfo = { 4, gSeafloorCavern_Entrance_Morning_WaterMons };
 
 const struct WildPokemon gSeafloorCavern_Entrance_Morning_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
-    { 10, 30, SPECIES_MAGIKARP },
-    { 10, 30, SPECIES_TENTACOOL },
-    { 10, 30, SPECIES_WAILMER },
-    { 25, 30, SPECIES_WAILMER },
-    { 30, 35, SPECIES_WAILMER },
-    { 20, 25, SPECIES_WAILMER },
-    { 35, 40, SPECIES_WAILMER },
-    { 40, 45, SPECIES_WAILMER },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_LUVDISC },
+    { 15, 25, SPECIES_MAGIKARP },
+    { 20, 30, SPECIES_LUVDISC },
+    { 20, 30, SPECIES_ALOMOMOLA },
+    { 25, 55, SPECIES_GYARADOS },
+    { 35, 40, SPECIES_LUVDISC },
+    { 35, 40, SPECIES_ALOMOMOLA },
+    { 40, 45, SPECIES_LANTURN },
+    { 40, 45, SPECIES_MILOTIC },
 };
-const struct WildPokemonInfo gSeafloorCavern_Entrance_Morning_FishingMonsInfo = { 10, gSeafloorCavern_Entrance_Morning_FishingMons };
+const struct WildPokemonInfo gSeafloorCavern_Entrance_Morning_FishingMonsInfo = { 30, gSeafloorCavern_Entrance_Morning_FishingMons };
 
 const struct WildPokemon gCaveOfOrigin_Entrance_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 33, 33, SPECIES_ZUBAT },
-    { 28, 28, SPECIES_ZUBAT },
-    { 29, 29, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 35, 35, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 50, 53, SPECIES_SWOOBAT },
+    { 50, 53, SPECIES_GLIMMORA },
+    { 51, 54, SPECIES_SABLEYE },
+    { 51, 54, SPECIES_MAWILE },
+    { 52, 54, SPECIES_SOLROCK },
+    { 52, 54, SPECIES_LUNATONE },
+    { 52, 55, SPECIES_SIGILYPH },
+    { 52, 55, SPECIES_EXPLOUD },
+    { 53, 55, SPECIES_NOSEPASS },
+    { 53, 55, SPECIES_STEELIX },
+    { 54, 56, SPECIES_PROBOPASS },
+    { 54, 56, SPECIES_STEELIX },
 };
 const struct WildPokemonInfo gCaveOfOrigin_Entrance_Morning_LandMonsInfo = { 4, gCaveOfOrigin_Entrance_Morning_LandMons };
 
 const struct WildPokemon gCaveOfOrigin_1F_Morning_LandMons[] =
 {
-    { 30, 30, SPECIES_ZUBAT },
-    { 31, 31, SPECIES_ZUBAT },
-    { 32, 32, SPECIES_ZUBAT },
-    { 30, 30, SPECIES_SABLEYE },
-    { 32, 32, SPECIES_SABLEYE },
-    { 34, 34, SPECIES_SABLEYE },
-    { 33, 33, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_ZUBAT },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 33, 33, SPECIES_GOLBAT },
-    { 36, 36, SPECIES_GOLBAT },
+    { 50, 53, SPECIES_SWOOBAT },
+    { 50, 53, SPECIES_GLIMMORA },
+    { 51, 54, SPECIES_SABLEYE },
+    { 51, 54, SPECIES_MAWILE },
+    { 52, 54, SPECIES_SOLROCK },
+    { 52, 54, SPECIES_LUNATONE },
+    { 52, 55, SPECIES_SIGILYPH },
+    { 52, 55, SPECIES_EXPLOUD },
+    { 53, 55, SPECIES_NOSEPASS },
+    { 53, 55, SPECIES_STEELIX },
+    { 54, 56, SPECIES_PROBOPASS },
+    { 54, 56, SPECIES_STEELIX },
 };
 const struct WildPokemonInfo gCaveOfOrigin_1F_Morning_LandMonsInfo = { 4, gCaveOfOrigin_1F_Morning_LandMons };
 
@@ -2471,11 +2471,11 @@ const struct WildPokemonInfo gPetalburgCity_Morning_FishingMonsInfo = { 10, gPet
 
 const struct WildPokemon gUnderwater_Route124_Morning_WaterMons[] =
 {
-    { 20, 30, SPECIES_CLAMPERL },
-    { 20, 30, SPECIES_CHINCHOU },
-    { 30, 35, SPECIES_CLAMPERL },
-    { 30, 35, SPECIES_RELICANTH },
-    { 30, 35, SPECIES_RELICANTH },
+    { 50, 52, SPECIES_CLAMPERL },
+    { 50, 53, SPECIES_LANTURN },
+    { 51, 53, SPECIES_PINCURCHIN },
+    { 52, 54, SPECIES_RELICANTH },
+    { 52, 55, SPECIES_GOREBYSS },
 };
 const struct WildPokemonInfo gUnderwater_Route124_Morning_WaterMonsInfo = { 4, gUnderwater_Route124_Morning_WaterMons };
 
@@ -2498,77 +2498,77 @@ const struct WildPokemonInfo gShoalCave_LowTideIceRoom_Morning_LandMonsInfo = { 
 
 const struct WildPokemon gSkyPillar_1F_Morning_LandMons[] =
 {
-    { 33, 33, SPECIES_SABLEYE },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 34, 34, SPECIES_SABLEYE },
-    { 36, 36, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_BANETTE },
-    { 38, 38, SPECIES_BANETTE },
-    { 36, 36, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_CLAYDOL },
-    { 38, 38, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_CLAYDOL },
-    { 38, 38, SPECIES_CLAYDOL },
+    { 53, 55, SPECIES_MINIOR },
+    { 53, 55, SPECIES_CLAYDOL },
+    { 54, 56, SPECIES_BANETTE },
+    { 54, 56, SPECIES_DRUDDIGON },
+    { 54, 56, SPECIES_ALTARIA },
+    { 54, 56, SPECIES_GLIMMORA },
+    { 55, 57, SPECIES_DUSKNOIR },
+    { 55, 57, SPECIES_DURALUDON },
+    { 55, 57, SPECIES_NOIVERN },
+    { 55, 57, SPECIES_NOIVERN },
+    { 56, 58, SPECIES_DEINO },
+    { 56, 58, SPECIES_BAGON },
 };
 const struct WildPokemonInfo gSkyPillar_1F_Morning_LandMonsInfo = { 10, gSkyPillar_1F_Morning_LandMons };
 
 const struct WildPokemon gSootopolisCity_Morning_WaterMons[] =
 {
-    { 5, 35, SPECIES_MAGIKARP },
-    { 10, 30, SPECIES_MAGIKARP },
-    { 15, 25, SPECIES_MAGIKARP },
-    { 25, 30, SPECIES_MAGIKARP },
-    { 25, 30, SPECIES_MAGIKARP },
+    { 1, 50, SPECIES_MAGIKARP },
+    { 50, 53, SPECIES_PELIPPER },
+    { 51, 54, SPECIES_ALOMOMOLA },
+    { 52, 54, SPECIES_WAILMER },
+    { 52, 55, SPECIES_RELICANTH },
 };
 const struct WildPokemonInfo gSootopolisCity_Morning_WaterMonsInfo = { 1, gSootopolisCity_Morning_WaterMons };
 
 const struct WildPokemon gSootopolisCity_Morning_FishingMons[] =
 {
-    { 5, 10, SPECIES_MAGIKARP },
-    { 5, 10, SPECIES_TENTACOOL },
-    { 10, 30, SPECIES_MAGIKARP },
-    { 10, 30, SPECIES_MAGIKARP },
-    { 10, 30, SPECIES_MAGIKARP },
-    { 30, 35, SPECIES_MAGIKARP },
-    { 30, 35, SPECIES_MAGIKARP },
-    { 35, 40, SPECIES_GYARADOS },
-    { 35, 45, SPECIES_GYARADOS },
-    { 5, 45, SPECIES_GYARADOS },
+    { 1, 15, SPECIES_MAGIKARP },
+    { 10, 20, SPECIES_FINNEON },
+    { 15, 25, SPECIES_MAGIKARP },
+    { 20, 30, SPECIES_FINNEON },
+    { 20, 30, SPECIES_CHINCHOU },
+    { 25, 55, SPECIES_GYARADOS },
+    { 35, 40, SPECIES_LUMINEON },
+    { 35, 40, SPECIES_LANTURN },
+    { 40, 45, SPECIES_OVERQWIL },
+    { 40, 45, SPECIES_BASCULEGION },
 };
-const struct WildPokemonInfo gSootopolisCity_Morning_FishingMonsInfo = { 10, gSootopolisCity_Morning_FishingMons };
+const struct WildPokemonInfo gSootopolisCity_Morning_FishingMonsInfo = { 30, gSootopolisCity_Morning_FishingMons };
 
 const struct WildPokemon gSkyPillar_3F_Morning_LandMons[] =
 {
-    { 33, 33, SPECIES_SABLEYE },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 34, 34, SPECIES_SABLEYE },
-    { 36, 36, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_BANETTE },
-    { 38, 38, SPECIES_BANETTE },
-    { 36, 36, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_CLAYDOL },
-    { 38, 38, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_CLAYDOL },
-    { 38, 38, SPECIES_CLAYDOL },
+    { 55, 57, SPECIES_ALTARIA },
+    { 55, 57, SPECIES_CLAYDOL },
+    { 56, 58, SPECIES_BANETTE },
+    { 56, 58, SPECIES_DRUDDIGON },
+    { 56, 58, SPECIES_NOIVERN },
+    { 56, 58, SPECIES_GLIMMORA },
+    { 57, 59, SPECIES_DUSKNOIR },
+    { 57, 59, SPECIES_DURALUDON },
+    { 57, 59, SPECIES_DEINO },
+    { 57, 59, SPECIES_BAGON },
+    { 58, 60, SPECIES_ZWEILOUS },
+    { 58, 60, SPECIES_SHELGON },
 };
 const struct WildPokemonInfo gSkyPillar_3F_Morning_LandMonsInfo = { 10, gSkyPillar_3F_Morning_LandMons };
 
 const struct WildPokemon gSkyPillar_5F_Morning_LandMons[] =
 {
-    { 33, 33, SPECIES_SABLEYE },
-    { 34, 34, SPECIES_GOLBAT },
-    { 35, 35, SPECIES_GOLBAT },
-    { 34, 34, SPECIES_SABLEYE },
-    { 36, 36, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_BANETTE },
-    { 38, 38, SPECIES_BANETTE },
-    { 36, 36, SPECIES_CLAYDOL },
-    { 37, 37, SPECIES_CLAYDOL },
-    { 38, 38, SPECIES_ALTARIA },
-    { 39, 39, SPECIES_ALTARIA },
-    { 39, 39, SPECIES_ALTARIA },
+    { 57, 59, SPECIES_NOIVERN },
+    { 57, 59, SPECIES_CLAYDOL },
+    { 58, 60, SPECIES_BANETTE },
+    { 58, 60, SPECIES_DRUDDIGON },
+    { 58, 60, SPECIES_BAGON },
+    { 58, 60, SPECIES_DEINO },
+    { 59, 61, SPECIES_DUSKNOIR },
+    { 59, 61, SPECIES_DURALUDON },
+    { 59, 61, SPECIES_ZWEILOUS },
+    { 59, 61, SPECIES_SHELGON },
+    { 60, 62, SPECIES_HYDREIGON },
+    { 60, 62, SPECIES_SALAMENCE },
 };
 const struct WildPokemonInfo gSkyPillar_5F_Morning_LandMonsInfo = { 10, gSkyPillar_5F_Morning_LandMons };
 

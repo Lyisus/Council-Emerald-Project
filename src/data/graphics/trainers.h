@@ -286,6 +286,9 @@ const u16 gTrainerPalette_FromundaMan[] = INCBIN_U16("graphics/trainers/front_pi
 const u32 gTrainerFrontPic_ChloeVasiliou[] = INCBIN_U32("graphics/trainers/front_pics/chloe_vasiliou.4bpp.smol");
 const u16 gTrainerPalette_ChloeVasiliou[] = INCBIN_U16("graphics/trainers/front_pics/chloe_vasiliou.gbapal");
 
+const u32 gTrainerFrontPic_NickPeace[] = INCBIN_U32("graphics/trainers/front_pics/nick_peace.4bpp.smol");
+const u16 gTrainerPalette_NickPeace[] = INCBIN_U16("graphics/trainers/front_pics/nick_peace.gbapal");
+
 const u8 gTrainerBackPic_Brendan[] = INCBIN_U8("graphics/trainers/back_pics/brendan.4bpp");
 const u8 gTrainerBackPic_May[] = INCBIN_U8("graphics/trainers/back_pics/may.4bpp");
 const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red.4bpp");
@@ -409,6 +412,7 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_RS_MAY, gTrainerFrontPic_RubySapphireMay, gTrainerPalette_RubySapphireMay),
     TRAINER_SPRITE(TRAINER_PIC_FROMUNDA_MAN, gTrainerFrontPic_FromundaMan, gTrainerPalette_FromundaMan),
     TRAINER_SPRITE(TRAINER_PIC_CHLOE_VASILIOU, gTrainerFrontPic_ChloeVasiliou, gTrainerPalette_ChloeVasiliou),
+    TRAINER_SPRITE(TRAINER_PIC_NICK_PEACE, gTrainerFrontPic_NickPeace, gTrainerPalette_NickPeace),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

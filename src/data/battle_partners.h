@@ -36,7 +36,7 @@
 #line 14
             TRAINER_ENCOUNTER_MUSIC_MALE,
 #line 16
-        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .aiFlags = AI_FLAG_SMART_TRAINER,
 #line 15
         .trainerBackPic = TRAINER_BACK_PIC_STEVEN,
         .partySize = 3,
@@ -44,65 +44,85 @@
         {
             {
 #line 18
-            .species = SPECIES_METANG,
+            .nickname = COMPOUND_STRING("Mare"),
+#line 18
+            .species = SPECIES_INDEEDEE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 18
+            .heldItem = ITEM_PSYCHIC_SEED,
 #line 22
-            .ev = TRAINER_PARTY_EVS(0, 252, 252, 0, 6, 0),
-#line 21
+            .ev = TRAINER_PARTY_EVS(252, 0, 252, 0, 0, 0),
+#line 23
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-#line 20
-            .lvl = 42,
 #line 19
-            .nature = NATURE_BRAVE,
+            .ability = ABILITY_PSYCHIC_SURGE,
+#line 20
+            .lvl = 61,
+            .nature = NATURE_HARDY,
+#line 21
+            .isShiny = TRUE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 23
-                MOVE_LIGHT_SCREEN,
-                MOVE_PSYCHIC,
-                MOVE_REFLECT,
-                MOVE_METAL_CLAW,
+#line 24
+                MOVE_PROTECT,
+                MOVE_EXPANDING_FORCE,
+                MOVE_TRICK_ROOM,
+                MOVE_HELPING_HAND,
             },
             },
             {
-#line 28
-            .species = SPECIES_SKARMORY,
+#line 29
+            .nickname = COMPOUND_STRING("Orlan"),
+#line 29
+            .species = SPECIES_EMBOAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
+#line 29
+            .heldItem = ITEM_SITRUS_BERRY,
 #line 32
-            .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 6, 252),
-#line 31
+            .ev = TRAINER_PARTY_EVS(252, 252, 0, 0, 0, 0),
+#line 33
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 30
-            .lvl = 43,
-#line 29
-            .nature = NATURE_IMPISH,
+            .ability = ABILITY_RECKLESS,
+#line 31
+            .lvl = 63,
+            .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 33
-                MOVE_TOXIC,
-                MOVE_AERIAL_ACE,
+#line 34
                 MOVE_PROTECT,
-                MOVE_STEEL_WING,
+                MOVE_FLARE_BLITZ,
+                MOVE_WILD_CHARGE,
+                MOVE_DRAIN_PUNCH,
             },
             },
             {
-#line 38
-            .species = SPECIES_AGGRON,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-#line 42
-            .ev = TRAINER_PARTY_EVS(0, 252, 0, 0, 252, 6),
-#line 41
+#line 39
+            .nickname = COMPOUND_STRING("Haku"),
+#line 39
+            .species = SPECIES_LOPUNNY,
+#line 39
+            .gender = TRAINER_MON_MALE,
+#line 39
+            .heldItem = ITEM_LOPUNNITE,
+#line 43
+            .ev = TRAINER_PARTY_EVS(0, 25, 0, 248, 0, 0),
+#line 44
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 40
-            .lvl = 44,
-#line 39
-            .nature = NATURE_ADAMANT,
+            .ability = ABILITY_LIMBER,
+#line 41
+            .lvl = 65,
+            .nature = NATURE_HARDY,
+#line 42
+            .isShiny = TRUE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
-#line 43
-                MOVE_THUNDER,
+#line 45
                 MOVE_PROTECT,
-                MOVE_SOLAR_BEAM,
-                MOVE_DRAGON_CLAW,
+                MOVE_CLOSE_COMBAT,
+                MOVE_RETURN,
+                MOVE_MACH_PUNCH,
             },
             },
         },

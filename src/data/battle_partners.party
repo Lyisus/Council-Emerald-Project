@@ -13,34 +13,36 @@ Pic: Steven
 Gender: Male
 Music: Male
 Back Pic: Steven
-AI: Basic Trainer
+AI: Smart Trainer
 
-Metang
-Brave Nature
-Level: 42
+Mare (Indeedee-F) @ Psychic Seed  
+Ability: Psychic Surge  
+Level: 61  
+Shiny: Yes  
+EVs: 252 HP / 252 Def 
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 Def / 6 SpA
-- Light Screen
-- Psychic
-- Reflect
-- Metal Claw
+- Protect  
+- Expanding Force  
+- Trick Room  
+- Helping Hand  
 
-Skarmory
-Impish Nature
-Level: 43
+Orlan (Emboar) @ Sitrus Berry  
+Ability: Reckless  
+Level: 63  
+EVs: 252 HP / 252 Atk
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 HP / 6 SpA / 252 SpD
-- Toxic
-- Aerial Ace
-- Protect
-- Steel Wing
+- Protect  
+- Flare Blitz  
+- Wild Charge  
+- Drain Punch  
 
-Aggron
-Adamant Nature
-Level: 44
+Haku (Lopunny) (M) @ Lopunnite  
+Ability: Limber  
+Level: 65  
+Shiny: Yes  
+EVs: 25 Atk / 248 Spe 
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-EVs: 252 Atk / 252 SpA / 6 SpD
-- Thunder
-- Protect
-- Solar Beam
-- Dragon Claw
+- Protect  
+- Close Combat  
+- Return  
+- Mach Punch  

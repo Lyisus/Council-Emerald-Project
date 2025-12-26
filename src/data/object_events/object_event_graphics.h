@@ -44,6 +44,9 @@ const u16 gObjectEventPal_FromundaMan[] = INCBIN_U16("graphics/object_events/pic
 const u32 gObjectEventPic_ChloeVasiliou[] = INCBIN_U32("graphics/object_events/pics/people/chloe_vasiliou.4bpp");
 const u16 gObjectEventPal_ChloeVasiliou[] = INCBIN_U16("graphics/object_events/pics/people/chloe_vasiliou.gbapal");
 
+const u32 gObjectEventPic_NickPeace[] = INCBIN_U32("graphics/object_events/pics/people/nick_peace.4bpp");
+const u16 gObjectEventPal_NickPeace[] = INCBIN_U16("graphics/object_events/pics/people/nick_peace.gbapal");
+
 const u16 gUnusedObjectEventPalette[] = INCBIN_U16("graphics/object_events/palettes/unused_palette.gbapal");
 const u16 gObjectEventPal_Null16[16] = {};
 const u16 gObjectEventPal_Null17[16] = {};

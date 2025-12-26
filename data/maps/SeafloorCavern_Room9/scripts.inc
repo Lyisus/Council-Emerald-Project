@@ -60,8 +60,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre::
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
 	setvar VAR_0x8007, 5  @ shake delay
-	special ShakeCamera
-	waitstate
+	trainerbattle_no_intro TRAINER_ARCHIE_KYOGRE, SeafloorCavern_Room9_Text_KyogreDefeat	
 	applymovement LOCALID_SEAFLOOR_CAVERN_KYOGRE, SeafloorCavern_Room9_Movement_KyogreExit
 	waitmovement 0
 	removeobject LOCALID_SEAFLOOR_CAVERN_KYOGRE
@@ -186,6 +185,10 @@ SeafloorCavern_Room9_Movement_KyogreApproach:
 	delay_16
 	delay_16
 	delay_16
+	walk_slow_down
+	delay_16
+	delay_16
+	delay_16
 	step_end
 
 SeafloorCavern_Room9_Movement_KyogreExit:
@@ -249,16 +252,16 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
 	.string "you are truly gifted.\p"
 	.string "But!\n"
 	.string "I have this in my possession!\p"
-	.string "With this RED ORB, I can make KYOGRE…$"
+	.string "With this BLUE ORB, I can make KYOGRE…$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-	.string "The RED ORB suddenly began shining\n"
+	.string "The BLUE ORB suddenly began shining\n"
 	.string "by itself!$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
 	.string "ARCHIE: What?!\p"
-	.string "I didn't do anything.\n"
-	.string "Why did the RED ORB…\p"
+	.string "It didn't do anything.\n"
+	.string "Why did the BLUE ORB…\p"
 	.string "Where did KYOGRE go?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
@@ -283,7 +286,7 @@ SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 
 SeafloorCavern_Room9_Text_ArchieWhyDidKyogreDisappear:
 	.string "ARCHIE: There's something wrong…\p"
-	.string "The RED ORB is supposed to awaken\n"
+	.string "The BLUE ORB is supposed to awaken\n"
 	.string "and control KYOGRE…\p"
 	.string "But… Why?\n"
 	.string "Why did KYOGRE disappear?\p"
@@ -303,7 +306,7 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty:
 	.string "Don't get all high and mighty with me!\p"
 	.string "Wasn't it you, TEAM MAGMA, that\n"
 	.string "infuriated GROUDON?\p"
-	.string "So long as I have this RED ORB,\n"
+	.string "So long as I have this BLUE ORB,\n"
 	.string "I should be able to control KYOGRE…\p"
 	.string "I should be able to control it…$"
 
@@ -317,3 +320,7 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
 	.string "MAXIE: {PLAYER}, come on, you have\n"
 	.string "to get out of here, too!$"
+
+SeafloorCavern_Room9_Text_KyogreDefeat:
+	.string "Kyogre… defeated…\n"
+	.string "Impossible…$"

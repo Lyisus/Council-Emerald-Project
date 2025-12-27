@@ -32,7 +32,7 @@ Route132_EventScript_Darcy::
 	end
 
 Route132_EventScript_Jonathan::
-	trainerbattle_single TRAINER_JONATHAN, Route132_Text_JonathanIntro, Route132_Text_JonathanDefeat
+	trainerbattle_single TRAINER_JACOB_D, Route132_Text_JonathanIntro, Route132_Text_JonathanDefeat
 	msgbox Route132_Text_JonathanPostBattle, MSGBOX_AUTOCLOSE
 	end
 

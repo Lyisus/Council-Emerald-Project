@@ -915,7 +915,7 @@
 #define TRAINER_KIYO                        675
 #define TRAINER_PAXTON                      676
 #define TRAINER_DARCY                       677
-#define TRAINER_JONATHAN                    678
+#define TRAINER_JACOB_D                     678
 #define TRAINER_MAKAYLA                     679
 
 // Route 133 Trainers

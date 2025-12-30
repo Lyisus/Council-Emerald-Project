@@ -636,7 +636,7 @@
 #define TRAINER_KATE_AND_JOY                492
 #define TRAINER_CALE                        493
 #define TRAINER_MYLES                       494
-#define TRAINER_PAT                         495
+#define TRAINER_DAMIEN_B                    495
 #define TRAINER_MARCEL                      496
 #define TRAINER_WALTER_1                    497
 #define TRAINER_WALTER_2                    498
@@ -1021,7 +1021,7 @@
 // Sky Pillar 5F Trainers
 
 // Sky Pillar Top Trainers
-#define TRAINER_RAYQUAZA                    730
+#define TRAINER_RAYQUAZA                    730 //Unused
 
 // Sootopolis City Trainers
 
@@ -1059,7 +1059,7 @@
 #define TRAINER_HALLE                       755
 
 // Victory Road B2F Trainers
-#define TRAINER_VITO                        756
+#define TRAINER_FROMUNDA_MASTER             756
 #define TRAINER_OWEN                        757
 #define TRAINER_CAROLINE                    758
 #define TRAINER_JULIE                       759
@@ -1212,7 +1212,7 @@
 #define TRAINER_ROBERT_MEA                  858
 #define TRAINER_KYLE_BASS                   859
 #define TRAINER_LUKE_COT                    860
-#define TRAINER_LUKE_HEN                    861
+#define TRAINER_LUKE_PRIME                    861
 #define TRAINER_PEYTON_OKA                  862
 #define TRAINER_LUIS_RIE                    863
 

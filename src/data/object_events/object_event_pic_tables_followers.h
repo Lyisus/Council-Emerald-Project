@@ -1404,6 +1404,14 @@ static const struct SpriteFrameImage sPicTable_Meganium[] = {
 static const struct SpriteFrameImage sPicTable_MeganiumF[] = {
     overworld_ascending_frames(gObjectEventPic_MeganiumF, 4, 4),
 };
+#if OW_BATTLE_ONLY_FORMS
+#if P_MEGA_EVOLUTIONS
+static const struct SpriteFrameImage sPicTable_MeganiumMega[] = {
+    overworld_ascending_frames(gObjectEventPic_MeganiumMega, 4, 4),
+};
+#endif // P_MEGA_EVOLUTIONS
+#endif // OW_BATTLE_ONLY_FORMS
+
 #endif //P_GENDER_DIFFERENCES
 #endif //P_FAMILY_CHIKORITA
 

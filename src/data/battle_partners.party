@@ -15,34 +15,35 @@ Music: Male
 Back Pic: Steven
 AI: Smart Trainer
 
-Mare (Indeedee-F) @ Psychic Seed  
-Ability: Psychic Surge  
-Level: 61  
-Shiny: Yes  
-EVs: 252 HP / 252 Def 
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect  
-- Expanding Force  
-- Trick Room  
-- Helping Hand  
-
-Orlan (Emboar) @ Sitrus Berry  
-Ability: Reckless  
+Alakazam @ Focus Sash  
+Ability: Magic Guard  
 Level: 63  
-EVs: 252 HP / 252 Atk
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect  
-- Flare Blitz  
-- Wild Charge  
-- Drain Punch  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Psyshock  
+- Focus Blast  
+- Shadow Ball  
 
-Haku (Lopunny) (M) @ Lopunnite  
-Ability: Limber  
-Level: 65  
+Tyranitar (M) @ Tyranitarite  
+Ability: Sand Stream  
+Level: 66  
 Shiny: Yes  
-EVs: 25 Atk / 248 Spe 
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect  
-- Close Combat  
-- Return  
-- Mach Punch  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Adamant Nature  
+- Knock Off  
+- Stone Edge  
+- Stealth Rock  
+- Dragon Dance  
+
+Excadrill @ Life Orb  
+Ability: Sand Rush  
+Level: 64  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Iron Head  
+- High Horsepower  
+- Rock Slide  
+- Swords Dance  
+

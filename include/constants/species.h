@@ -1646,8 +1646,11 @@
 #define SPECIES_QUILAVA_DELTA                           1528 //Borrowed from Pokemon Insurgence
 #define SPECIES_TYPHLOSION_DELTA                        1529 //Borrowed from Pokemon Insurgence
 
+#define SPECIES_MEGANIUM_MEGA                           1530 //Ported from PLZA
 
-#define SPECIES_EGG                                     (SPECIES_TYPHLOSION_DELTA + 1)
+
+
+#define SPECIES_EGG                                     (SPECIES_MEGANIUM_MEGA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

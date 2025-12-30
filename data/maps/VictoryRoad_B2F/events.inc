@@ -5,7 +5,7 @@
 	.align 2
 
 VictoryRoad_B2F_ObjectEvents:
-	object_event 1, OBJ_EVENT_GFX_MAN_3, 15, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, TRAINER_TYPE_NORMAL, 2, VictoryRoad_B2F_EventScript_Vito, 0
+	object_event 1, OBJ_EVENT_GFX_FROMUNDA_MAN, 15, 6, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, TRAINER_TYPE_NORMAL, 2, VictoryRoad_B2F_EventScript_Vito, 0
 	object_event 2, OBJ_EVENT_GFX_MAN_3, 43, 14, 3, MOVEMENT_TYPE_FACE_UP, 1, 1, TRAINER_TYPE_NORMAL, 4, VictoryRoad_B2F_EventScript_Owen, 0
 	object_event 3, OBJ_EVENT_GFX_WOMAN_5, 2, 17, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, TRAINER_TYPE_NORMAL, 2, VictoryRoad_B2F_EventScript_Caroline, 0
 	object_event 4, OBJ_EVENT_GFX_WOMAN_5, 35, 22, 3, MOVEMENT_TYPE_FACE_LEFT, 1, 1, TRAINER_TYPE_NORMAL, 2, VictoryRoad_B2F_EventScript_Julie, 0

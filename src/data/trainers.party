@@ -11418,32 +11418,32 @@ Kangaskhan
 Level: 51
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-=== TRAINER_PAT ===
-Name: PAT
+=== TRAINER_DAMIEN_B ===
+Name: DAMIEN B
 Class: Pkmn Breeder
-Pic: Pokemon Breeder F
-Gender: Female
-Music: Female
+Pic: Pokemon Breeder M
+Gender: Male
+Music: Male
 Battle Type: Singles
 AI: Check Bad Move
 
-Chewtle
+Hawlucha
 Level: 47
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Sizzlipede
+Sceptile
 Level: 47
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Rufflet
+Kommo-o
 Level: 47
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Minccino
+Lycanroc-Midday
 Level: 49
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
-Audino
+Exodia (Annihilape)
 Level: 49
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe 
 
@@ -17643,7 +17643,7 @@ Meowscarada
 Level: 68
 IVs: 28 HP / 28 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe
 
-/*====================== VICORY ROAD 1F TRAINERS ========================================================================================*/
+/*====================== VICTORY ROAD 1F TRAINERS ========================================================================================*/
 === TRAINER_EDGAR ===
 Name: EDGAR
 Class: Cooltrainer
@@ -17652,15 +17652,26 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Cacturne
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Shiinotic
+Level: 66
 
-Pelipper
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Manectric
+Level: 67
+
+Tyranitar
+Level: 68
+
+Exeggutor-Alola
+Level: 68
+
+Excadrill
+Level: 69
+
+Dachsbun
+Level: 70
+
 
 === TRAINER_ALBERT ===
 Name: ALBERT
@@ -17672,13 +17683,23 @@ Items: Full Restore
 Battle Type: Singles
 AI: Basic Trainer
 
-Magneton
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Jynx
+Level: 66
 
-Muk
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Whimsicott
+Level: 67
+
+Vespiquen
+Level: 68
+
+Arboliva
+Level: 68
+
+Dedenne
+Level: 69
+
+Jellicent (F)
+Level: 70
 
 === TRAINER_HOPE ===
 Name: HOPE
@@ -17688,11 +17709,25 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Roselia
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Jellicent (M)
+Level: 66
+
+Baxcalibur
+Level: 67
+
+Pelipper
+Level: 68
+
+Alomomola
+Level: 68
+
+Dragapult
+Level: 69
+
+Gogoat
+Level: 70
 
 === TRAINER_QUINCY ===
 Name: QUINCY
@@ -17702,23 +17737,25 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Slaking
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Attract
-- Ice Beam
-- Thunderbolt
-- Flamethrower
+Avalugg-Hisui
+Level: 66
 
-Dusclops
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Skill Swap
-- Protect
-- Will O Wisp
-- Toxic
+Zoroark
+Level: 67
+
+Mandibuzz
+Level: 68
+
+Lokix
+Level: 68
+
+Quagsire
+Level: 69
+
+Pawmot
+Level: 70
 
 === TRAINER_KATELYNN ===
 Name: KATELYNN
@@ -17728,25 +17765,27 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Gardevoir
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Skill Swap
-- Psychic
-- Thunderbolt
-- Calm Mind
+Florges
+Level: 66
 
-Slaking
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Earthquake
-- Shadow Ball
-- Aerial Ace
-- Brick Break
+Scrafty
+Level: 67
 
-/*====================== VICORY ROAD B1F TRAINERS ========================================================================================*/
+Eiscue
+Level: 68
+
+Lilligant
+Level: 68
+
+Slowking
+Level: 69
+
+Crustle
+Level: 70
+
+/*====================== VICTORY ROAD B1F TRAINERS ========================================================================================*/
 === TRAINER_SAMUEL ===
 Name: SAMUEL
 Class: Cooltrainer
@@ -17755,19 +17794,25 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Swellow
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Venomoth
+Level: 66
 
-Mawile
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Runerigus
+Level: 67
 
-Kadabra
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Polteageist
+Level: 68
+
+Hydreigon
+Level: 68
+
+Gourgeist
+Level: 69
+
+Sylveon
+Level: 70
 
 === TRAINER_SHANNON ===
 Name: SHANNON
@@ -17777,11 +17822,25 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Claydol
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Delcatty
+Level: 66
+
+Weavile
+Level: 67
+
+Cursola
+Level: 68
+
+Archaludon
+Level: 68
+
+Copperajah
+Level: 69
+
+Mr. Rime
+Level: 70
 
 === TRAINER_MICHELLE ===
 Name: MICHELLE
@@ -17791,19 +17850,25 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Torkoal
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Bellibolt
+Level: 66
 
-Medicham
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Oranguru
+Level: 67
 
-Ludicolo
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Empoleon
+Level: 68
+
+Sceptile
+Level: 68
+
+Rhyperior
+Level: 69
+
+Sandaconda
+Level: 70
 
 === TRAINER_MITCHELL ===
 Name: MITCHELL
@@ -17812,23 +17877,25 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Lunatone
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Explosion
-- Reflect
-- Light Screen
-- Psychic
+Politoed
+Level: 66
 
-Solrock
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Explosion
-- Reflect
-- Light Screen
-- Shadow Ball
+Braviary-Hisui
+Level: 67
+
+Bouffalant
+Level: 68
+
+Thievul
+Level: 68
+
+Ceruledge
+Level: 69
+
+Garchomp
+Level: 70
 
 === TRAINER_HALLE ===
 Name: HALLE
@@ -17838,42 +17905,78 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Sableye
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Golurk
+Level: 66
 
-Absol
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Accelgor
+Level: 67
 
-/*====================== VICORY ROAD B2F TRAINERS ========================================================================================*/
-=== TRAINER_VITO ===
-Name: VITO
-Class: Cooltrainer
-Pic: Cooltrainer M
+Orbeetle
+Level: 68
+
+Cyclizar
+Level: 68
+
+Tangrowth
+Level: 69
+
+Froslass
+Level: 70
+
+/*====================== VICTORY ROAD B2F TRAINERS ========================================================================================*/
+=== TRAINER_FROMUNDA_MASTER ===
+Name: EKUL
+Class: Fromunda Man
+Pic: Fromunda Man
 Gender: Male
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Dodrio
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rotom
+Level: 66
+- Shadow Ball
+- Thunderbolt  
+- Light Screen 
+- Pain Split
 
-Kadabra
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rotom-Frost @ Leftovers
+Level: 67
+- Blizzard  
+- Discharge  
+- Toxic  
+- Protect
 
-Electrode
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rotom-Fan
+Level: 68
+- Air Slash  
+- Thunder  
+- Reflect
+- Thunder Wave
 
-Shiftry
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Rotom-Wash
+Level: 68
+- Hydro Pump  
+- Volt Switch  
+- Rest
+- Sleep Talk
+
+Rotom-Mow @ Choice Scarf
+Level: 69
+- Leaf Storm
+- Electro Ball 
+- Will-O-Wisp
+- Trick
+
+Rotom-Heat
+Level: 70
+- Overheat  
+- Electroweb 
+- Nasty Plot  
+- Substitute
 
 === TRAINER_OWEN ===
 Name: OWEN
@@ -17883,19 +17986,25 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Kecleon
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sinistcha
+Level: 66
 
-Graveler
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Masquerain
+Level: 67
 
-Wailord
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sudowoodo
+Level: 68
+
+Vikavolt
+Level: 68
+
+Cramorant
+Level: 69
+
+Aerodactyl
+Level: 70
 
 === TRAINER_CAROLINE ===
 Name: CAROLINE
@@ -17905,15 +18014,25 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Skarmory
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Dewgong
+Level: 66
 
-Sableye
-Level: 43
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Comfey
+Level: 67
+
+Duraludon @ Eviolite
+Level: 68
+
+Alcremie
+Level: 68
+
+Toxapex
+Level: 69
+
+Ursaluna
+Level: 70
 
 === TRAINER_JULIE ===
 Name: JULIE
@@ -17923,19 +18042,25 @@ Gender: Female
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Sandslash
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Reuniclus
+Level: 66
 
-Ninetales
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Huntail
+Level: 67
 
-Tropius
-Level: 42
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Steelix
+Level: 68
+
+Blissey
+Level: 68
+
+Chandelure
+Level: 69
+
+Cherrim
+Level: 70
 
 === TRAINER_FELIX ===
 Name: FELIX
@@ -17945,18 +18070,25 @@ Gender: Male
 Music: Cool
 Items: Full Restore
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
 
-Medicham
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psychic
+Indeedee (M)
+Level: 66
 
-Claydol
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
+Vaporeon
+Level: 67
+
+Unfezant
+Level: 68
+
+Ludicolo
+Level: 68
+
+Yanmega
+Level: 69
+
+Tyrantrum
+Level: 70
 
 === TRAINER_DIANNE ===
 Name: DIANNE
@@ -17967,17 +18099,23 @@ Music: Cool
 Items: Full Restore
 Battle Type: Singles
 
-Claydol
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
+Gallade
+Level: 66
 
-Lanturn
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunderbolt
-- Earthquake
+Kabutops
+Level: 67
+
+Brambleghast
+Level: 68
+
+Aurorus
+Level: 68
+
+Beheeyem
+Level: 69
+
+Grimmsnarl
+Level: 70
 
 /*====================== ELITE FOUR ========================================================================================*/
 === TRAINER_SIDNEY ===
@@ -20910,68 +21048,249 @@ Timid Nature
 
 === TRAINER_ROBERT_MEA ===
 Name: ROBERT
-Class: Hiker
+Class: Elite Four
 Pic: Hiker
 Gender: Male
-Music: Hiker
+Music: Elite Four
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Blue
 
-Clodsire
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Forretress @ Leftovers  
+Ability: Overcoat  
+Level: 74
+EVs: 252 HP / 252 Def / 4 SpD  
+Careful Nature  
+Tags: Lead
+- Spikes  
+- Protect  
+- Toxic  
+- Explosion  
+
+Araquanid @ Focus Sash  
+Ability: Water Bubble  
+Level: 77  
+Tera Type: Water  
+EVs: 252 HP / 252 Atk / 4 Def  
+Relaxed Nature  
+IVs: 30 SpA 
+- Spider Web  
+- Liquidation  
+- Hidden Power
+- Lunge  
+
+Volcarona @ Heavy-Duty Boots  
+Ability: Flame Body
+Level: 76
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Modest Nature  
+- Quiver Dance  
+- Flamethrower  
+- Psychic  
+- Giga Drain  
+
+Scizor @ Life Orb  
+Ability: Technician  
+Level: 76
+EVs: 120 HP / 252 Atk / 136 Spe  
+Serious Nature  
+- Swords Dance  
+- Bullet Punch  
+- Close Combat  
+- Knock Off  
+
+Beedrill @ Beedrillite  
+Ability: Swarm  
+Level: 78  
+EVs: 252 HP / 4 SpD / 252 Spe  
+Jolly Nature  
+- U-turn  
+- Drill Run  
+- Poison Jab  
+- Knock Off  
+
+Shedinja @ Air Balloon  
+Ability: Wonder Guard  
+Level: 75 
+Tera Type: Electric  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Lonely Nature  
+IVs: 0 Def / 0 SpD  
+- Poltergeist  
+- Toxic  
+- Swords Dance  
+- Will-O-Wisp  
 
 === TRAINER_KYLE_BASS ===
 Name: KYLE
-Class: Hiker
+Class: Elite Four
 Pic: Hiker
 Gender: Male
-Music: Hiker
+Music: Elite Four
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Purple
 
-Lairon
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Gigalith @ Leftovers  
+Ability: Sand Stream  
+Level: 77  
+EVs: 252 HP / 244 Def / 12 SpD  
+Impish Nature  
+- Stealth Rock  
+- Explosion  
+- Body Press  
+- Heavy Slam  
+
+Dracozolt @ Assault Vest  
+Ability: Sand Rush  
+Level: 79  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- High Horsepower  
+- Bolt Beak  
+- Outrage  
+- Dragon Rush  
+
+Lycanroc @ Focus Sash  
+Ability: Sand Rush  
+Level: 78  
+EVs: 248 Atk / 8 SpD / 252 Spe  
+Adamant Nature  
+- Rock Slide  
+- Crunch  
+- Accelerock  
+- Endeavor  
+
+BANG (Lairon) (M) @ Shell Bell  
+Ability: Sturdy  
+Level: 32  
+Shiny: Yes  
+Tera Type: Steel  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Endeavor  
+
+Tyranitar @ Life Orb  
+Ability: Sand Stream  
+Level: 78  
+EVs: 248 HP / 248 Atk / 12 SpD  
+Adamant Nature  
+- Crunch  
+- Rock Slide  
+- Thunder Punch  
+- Fire Punch  
+
+Garchomp @ Garchompite  
+Ability: Rough Skin  
+Level: 80  
+EVs: 248 Atk / 8 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Earthquake  
+- Outrage  
+- Rock Slide  
 
 === TRAINER_LUKE_COT ===
 Name: LUKE
 Class: Fromunda Man
 Pic: Fromunda Man
 Gender: Male
-Music: Male
-Battle Type: Singles
-AI: Basic Trainer
+Music: Elite Four
+Battle Type: Doubles
+AI: Smart Trainer
+Mugshot: Purple
 
 Gyarauno (Gyarados)
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_LUKE_HEN ===
+=== TRAINER_LUKE_PRIME ===
 Name: LUKE H
-Class: Hiker
+Class: Elite Four
 Pic: Hiker
 Gender: Male
-Music: Hiker
+Music: Elite Four
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Purple
 
-Altaria
-Level: 5
+Meganium @ Meganiumite
+Level: 80
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PEYTON_OKA ===
 Name: PEYTON
-Class: Hiker
+Class: Champion
 Pic: Hiker
 Gender: Male
-Music: Hiker
+Music: Male
 Battle Type: Singles
-AI: Basic Trainer
+AI: Smart Trainer
+Mugshot: Purple
 
-Ogerpon-Wellspring
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales-Alola @ Light Clay  
+Ability: Snow Warning  
+Level: 82  
+EVs: 12 HP / 248 SpA / 248 Spe  
+Timid Nature  
+IVs: 0 Atk  
+Tags: Lead
+- Blizzard  
+- Moonblast  
+- Aurora Veil  
+- Encore  
+
+Tyranitar (M) @ Tyranitarite  
+Ability: Sand Stream  
+Level: 86  
+Shiny: Yes  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Adamant Nature  
+- Knock Off  
+- Stone Edge  
+- Stealth Rock  
+- Dragon Dance  
+
+Excadrill @ Life Orb  
+Ability: Sand Rush  
+Level: 84  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Iron Head  
+- High Horsepower  
+- Rock Slide  
+- Swords Dance  
+
+Dragonite @ Loaded Dice  
+Ability: Multiscale  
+Level: 85  
+EVs: 252 HP / 252 Atk / 4 Spe  
+Adamant Nature  
+- Scale Shot  
+- Dual Wingbeat  
+- Extreme Speed  
+- Dragon Dance  
+
+Umbreon @ Leftovers  
+Ability: Synchronize  
+Level: 84  
+EVs: 252 HP / 64 Def / 192 SpD  
+Careful Nature  
+IVs: 0 Atk  
+- Foul Play  
+- Baton Pass  
+- Toxic  
+- Wish  
+
+Alakazam @ Focus Sash  
+Ability: Magic Guard  
+Level: 83  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Psyshock  
+- Focus Blast  
+- Shadow Ball  
 
 === TRAINER_LUIS_RIE ===
 Name: LUIS

@@ -44,85 +44,80 @@
         {
             {
 #line 18
-            .nickname = COMPOUND_STRING("Mare"),
-#line 18
-            .species = SPECIES_INDEEDEE_F,
+            .species = SPECIES_ALAKAZAM,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 18
-            .heldItem = ITEM_PSYCHIC_SEED,
-#line 22
-            .ev = TRAINER_PARTY_EVS(252, 0, 252, 0, 0, 0),
-#line 23
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-#line 19
-            .ability = ABILITY_PSYCHIC_SURGE,
-#line 20
-            .lvl = 61,
-            .nature = NATURE_HARDY,
+            .heldItem = ITEM_FOCUS_SASH,
 #line 21
-            .isShiny = TRUE,
+            .ev = TRAINER_PARTY_EVS(0, 0, 4, 252, 252, 0),
+#line 23
+            .iv = TRAINER_PARTY_IVS(31, 0, 31, 31, 31, 31),
+#line 19
+            .ability = ABILITY_MAGIC_GUARD,
+#line 20
+            .lvl = 63,
+#line 22
+            .nature = NATURE_TIMID,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 24
-                MOVE_PROTECT,
-                MOVE_EXPANDING_FORCE,
-                MOVE_TRICK_ROOM,
-                MOVE_HELPING_HAND,
+                MOVE_PSYCHIC,
+                MOVE_PSYSHOCK,
+                MOVE_FOCUS_BLAST,
+                MOVE_SHADOW_BALL,
             },
             },
             {
 #line 29
-            .nickname = COMPOUND_STRING("Orlan"),
+            .species = SPECIES_TYRANITAR,
 #line 29
-            .species = SPECIES_EMBOAR,
-            .gender = TRAINER_MON_RANDOM_GENDER,
+            .gender = TRAINER_MON_MALE,
 #line 29
-            .heldItem = ITEM_SITRUS_BERRY,
-#line 32
-            .ev = TRAINER_PARTY_EVS(252, 252, 0, 0, 0, 0),
+            .heldItem = ITEM_TYRANITARITE,
 #line 33
+            .ev = TRAINER_PARTY_EVS(252, 4, 0, 252, 0, 0),
+#line 35
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
 #line 30
-            .ability = ABILITY_RECKLESS,
+            .ability = ABILITY_SAND_STREAM,
 #line 31
-            .lvl = 63,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            .moves = {
+            .lvl = 66,
 #line 34
-                MOVE_PROTECT,
-                MOVE_FLARE_BLITZ,
-                MOVE_WILD_CHARGE,
-                MOVE_DRAIN_PUNCH,
-            },
-            },
-            {
-#line 39
-            .nickname = COMPOUND_STRING("Haku"),
-#line 39
-            .species = SPECIES_LOPUNNY,
-#line 39
-            .gender = TRAINER_MON_MALE,
-#line 39
-            .heldItem = ITEM_LOPUNNITE,
-#line 43
-            .ev = TRAINER_PARTY_EVS(0, 25, 0, 248, 0, 0),
-#line 44
-            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
-#line 40
-            .ability = ABILITY_LIMBER,
-#line 41
-            .lvl = 65,
-            .nature = NATURE_HARDY,
-#line 42
+            .nature = NATURE_ADAMANT,
+#line 32
             .isShiny = TRUE,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
+#line 35
+                MOVE_KNOCK_OFF,
+                MOVE_STONE_EDGE,
+                MOVE_STEALTH_ROCK,
+                MOVE_DRAGON_DANCE,
+            },
+            },
+            {
+#line 40
+            .species = SPECIES_EXCADRILL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 40
+            .heldItem = ITEM_LIFE_ORB,
+#line 43
+            .ev = TRAINER_PARTY_EVS(4, 252, 0, 252, 0, 0),
 #line 45
-                MOVE_PROTECT,
-                MOVE_CLOSE_COMBAT,
-                MOVE_RETURN,
-                MOVE_MACH_PUNCH,
+            .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
+#line 41
+            .ability = ABILITY_SAND_RUSH,
+#line 42
+            .lvl = 64,
+#line 44
+            .nature = NATURE_ADAMANT,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 45
+                MOVE_IRON_HEAD,
+                MOVE_HIGH_HORSEPOWER,
+                MOVE_ROCK_SLIDE,
+                MOVE_SWORDS_DANCE,
             },
             },
         },

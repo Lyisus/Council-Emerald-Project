@@ -21211,11 +21211,75 @@ Gender: Male
 Music: Elite Four
 Battle Type: Singles
 AI: Smart Trainer
-Mugshot: Purple
+Mugshot: Yellow
 
-Meganium @ Meganiumite
-Level: 80
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Aurorus @ Focus Sash  
+Ability: Snow Warning  
+Level: 78  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+Tags: Lead
+- Aurora Veil  
+- Blizzard  
+- Meteor Beam  
+- Freeze-Dry  
+
+Exeggutor-Alola @ Starf Berry  
+Ability: Harvest  
+Level: 80  
+Tera Type: Dragon  
+EVs: 252 HP / 252 Def / 4 SpA  
+Relaxed Nature  
+IVs: 0 Atk / 0 Spe  
+- Protect  
+- Draco Meteor  
+- Giga Drain  
+- Sunny Day  
+
+Goodra-Hisui @ Mental Herb  
+Ability: Sap Sipper  
+Level: 80  
+EVs: 252 HP / 4 Atk / 252 SpD  
+Sassy Nature  
+IVs: 0 Spe  
+- Body Press  
+- Draco Meteor  
+- Heavy Slam  
+- Curse  
+
+Farigiraf @ Leftovers  
+Ability: Armor Tail  
+Level: 79  
+EVs: 248 HP / 252 SpA / 8 SpD  
+Quiet Nature  
+IVs: 0 Atk / 0 Spe  
+- Hyper Beam  
+- Expanding Force  
+- Trick Room  
+- Calm Mind  
+
+Meganium @ Meganiumite  
+Ability: Leaf Guard  
+EVs: 252 HP / 252 SpA / 4 SpD  
+Quiet Nature  
+IVs: 0 Atk  
+- Giga Drain  
+- Dazzling Gleam  
+- Leaf Storm  
+- Synthesis  
+
+Neck (Raging Bolt) @ Booster Energy  
+Ability: Protosynthesis  
+Level: 82  
+EVs: 252 HP / 252 Def / 4 SpD  
+Relaxed Nature  
+IVs: 20 Atk / 30 SpA  
+Tags: Ace
+- Thunderclap  
+- Thunderbolt  
+- Draco Meteor  
+- Calm Mind  
 
 === TRAINER_PEYTON_OKA ===
 Name: PEYTON
@@ -21225,7 +21289,7 @@ Gender: Male
 Music: Male
 Battle Type: Singles
 AI: Smart Trainer
-Mugshot: Purple
+Mugshot: Green
 
 Ninetales-Alola @ Light Clay  
 Ability: Snow Warning  

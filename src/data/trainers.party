@@ -17927,7 +17927,7 @@ Level: 70
 
 /*====================== VICTORY ROAD B2F TRAINERS ========================================================================================*/
 === TRAINER_FROMUNDA_MASTER ===
-Name: EKUL
+Name: LUKE 2612
 Class: Fromunda Man
 Pic: Fromunda Man
 Gender: Male
@@ -19025,26 +19025,24 @@ Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 /*====================== UNUSED TRAINERS ========================================================================================*/
-=== TRAINER_DUDLEY ===
-Name: DUDLEY
-Class: Swimmer M
-Pic: Swimmer M
+=== TRAINER_FROMUNDA_SPIRITOMB ===
+Name: LK
+Class: Fromunda Man
+Pic: Fromunda Man
 Gender: Male
-Music: Swimmer
-Battle Type: Singles
-AI: Check Bad Move
+Music: Male
+Battle Type: Doubles
+AI: Basic Trainer
 
-Tentacool
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Wingull
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Tentacruel
-Level: 33
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spiritomb @ Flame Orb  
+Ability: Wonder Guard  
+EVs: 4 Atk / 252 Def / 252 SpD  
+Careful Nature  
+IVs: 0 HP / 0 Atk  
+- Destiny Bond  
+- Disable  
+- Trick  
+- Pain Split
 
 === TRAINER_JUSTIN ===
 Name: JUSTIN
@@ -21199,9 +21197,72 @@ Battle Type: Doubles
 AI: Smart Trainer
 Mugshot: Purple
 
-Gyarauno (Gyarados)
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spiritomb @ Leftovers  
+Ability: Pressure  
+Level: 80  
+Tera Type: Fairy  
+EVs: 252 HP / 4 Def / 252 SpD  
+Sassy Nature  
+IVs: 0 Atk  
+- Protect  
+- Shadow Ball  
+- Trick Room  
+- Destiny Bond  
+
+Pelipper @ Damp Rock  
+Ability: Drizzle  
+Level: 81  
+EVs: 248 HP / 252 Def / 8 SpA  
+Bold Nature  
+IVs: 0 Atk  
+- Protect  
+- Hurricane  
+- Hydro Pump  
+- Roost  
+
+Torkoal @ Eject Pack  
+Ability: Drought  
+Level: 82  
+EVs: 248 HP / 8 SpA / 252 SpD  
+Calm Nature  
+IVs: 0 Atk  
+- Protect  
+- Heat Wave  
+- Overheat  
+- Eruption  
+
+Walking Wake @ Life Orb  
+Ability: Protosynthesis  
+Level: 82  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Protect  
+- Hydro Steam  
+- Flamethrower  
+- Hurricane  
+
+Rotom-Heat @ Expert Belt  
+Ability: Levitate  
+Level: 84  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Protect  
+- Overheat  
+- Thunder  
+- Nasty Plot  
+
+Slowbro @ Slowbronite  
+Ability: Regenerator  
+Level: 83  
+EVs: 252 HP / 252 Def / 4 SpA  
+Relaxed Nature  
+IVs: 0 Atk  
+- Expanding Force  
+- Slack Off  
+- Trick Room  
+- Calm Mind  
 
 === TRAINER_LUKE_PRIME ===
 Name: LUKE H
@@ -21263,7 +21324,7 @@ Meganium @ Meganiumite
 Ability: Leaf Guard  
 EVs: 252 HP / 252 SpA / 4 SpD  
 Quiet Nature  
-IVs: 0 Atk  
+IVs: 0 Atk / 0 Spe   
 - Giga Drain  
 - Dazzling Gleam  
 - Leaf Storm  
@@ -21274,7 +21335,7 @@ Ability: Protosynthesis
 Level: 82  
 EVs: 252 HP / 252 Def / 4 SpD  
 Relaxed Nature  
-IVs: 20 Atk / 30 SpA  
+IVs: 0 Atk / 30 SpA / 0 Spe   
 Tags: Ace
 - Thunderclap  
 - Thunderbolt  

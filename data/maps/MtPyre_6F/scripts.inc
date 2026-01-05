@@ -67,3 +67,40 @@ MtPyre_6F_Text_CedricPostBattle:
 	.string "would be panicked and easy to beat.\p"
 	.string "It's dirty and I won't try it again…$"
 
+MtPyre_6F_EventScript_FromundaSpiritomb::
+	lock
+	faceplayer
+	msgbox MtPyre_6F_Text_YouSureImStrong, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, MtPyre_6F_EventScript_FromundaBattle
+	goto_if_eq VAR_RESULT, NO, MtPyre_6F_EventScript_FromundaDecline
+	end
+
+MtPyre_6F_Text_YouSureImStrong:
+	.string "Oh, how did you find me?\p"
+	.string "Is it because you've heard of me?\n"
+	.string "Is it because you want a battle?\p"
+	.string "I'm willing to battle.\n"
+	.string "I must warn you, I am very strong.$"
+
+MtPyre_6F_EventScript_FromundaBattle::
+	trainerbattle_single TRAINER_FROMUNDA_SPIRITOMB, MtPyre_6F_Text_FromundaIntro, MtPyre_6F_Text_FromundaDefeat
+	msgbox MtPyre_6F_Text_FromundaPostBattle, MSGBOX_AUTOCLOSE	
+	end
+
+MtPyre_6F_Text_FromundaIntro:
+	.string "Do not say I didn't warn you.$"
+
+MtPyre_6F_Text_FromundaDefeat:
+	.string "I only lost because I didn't win…$"
+
+MtPyre_6F_Text_FromundaPostBattle:
+	.string "I never played X & Y…$"
+
+
+MtPyre_6F_EventScript_FromundaDecline::
+	msgbox MtPyre_6F_Text_YoureSmart, MSGBOX_NPC
+	end
+
+MtPyre_6F_Text_YoureSmart:
+	.string "Good.\nYou're one of the smart ones.$"
+

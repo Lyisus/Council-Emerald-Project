@@ -1135,7 +1135,7 @@
 #define TRAINER_LEONARD                     801
 
 // Unused
-#define TRAINER_DUDLEY                      802
+#define TRAINER_FROMUNDA_SPIRITOMB          802
 #define TRAINER_KAYLEE                      803
 #define TRAINER_JUSTIN                      804
 #define TRAINER_ALAN                        805

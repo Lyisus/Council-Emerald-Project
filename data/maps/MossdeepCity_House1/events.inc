@@ -5,7 +5,7 @@
 	.align 2
 
 MossdeepCity_House1_ObjectEvents:
-	object_event 1, OBJ_EVENT_GFX_BLACK_BELT, 3, 3, 3, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 1, 1, TRAINER_TYPE_NONE, 0, MossdeepCity_House1_EventScript_BlackBelt, 0
+	object_event 1, OBJ_EVENT_GFX_BLACK_BELT, 3, 3, 3, MOVEMENT_TYPE_WANDER_UP_AND_DOWN, 1, 1, TRAINER_TYPE_NONE, 0, MossdeepCity_House1_EventScript_Trader_Lucario, 0
 	object_event 2, OBJ_EVENT_GFX_WOMAN_2, 7, 4, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, TRAINER_TYPE_NONE, 0, MossdeepCity_House1_EventScript_Woman, 0
 
 MossdeepCity_House1_MapWarps:

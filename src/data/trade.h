@@ -1163,7 +1163,7 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_LUCARIO] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Riley"),
         .species = SPECIES_LUCARIO,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
@@ -1172,10 +1172,10 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x27, //Male Naive
         .heldItem = ITEM_LUCARIONITE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("WILFORD"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_SLOWPOKE_GALAR
+        .requestedSpecies = SPECIES_ABSOL
     },
     [INGAME_TRADE_SINISTCHA] =
     {

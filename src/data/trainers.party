@@ -6465,13 +6465,14 @@ Music: Intense
 Battle Type: Singles
 AI: Check Bad Move
 
-Altaria
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Goodra
+Level: 63
 
-Altaria
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Hydreigon
+Level: 67
+
+Salamence
+Level: 65
 
 === TRAINER_NICOLAS_2 ===
 Name: NICOLAS
@@ -6558,21 +6559,11 @@ Music: Intense
 Battle Type: Doubles
 AI: Basic Trainer
 
-Medicham
-Level: 39
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Psychic
-- Fire Punch
-- Psych Up
-- Protect
+Milotic
+Level: 65
 
-Hariyama
-Level: 39
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Focus Punch
-- Rock Tomb
-- Rest
-- Belly Drum
+Gyarados
+Level: 65
 
 === TRAINER_JOHN_AND_JAY_2 ===
 Name: JOHN & JAY
@@ -6680,62 +6671,90 @@ IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 /*====================== METEOR FALL STEVEN'S ROOM TRAINERS ========================================================================================*/
 === TRAINER_STEVEN ===
-Name: STEVEN
+Name: LUIS R
 Class: Rival
 Pic: Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
-Battle Type: Singles
-AI: Basic Trainer
+Battle Type: Doubles
+AI: Smart Trainer
 
-Skarmory
-Level: 77
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Aerial Ace
-- Spikes
-- Steel Wing
+Lily (Ninetales-Alola) (F) @ Light Clay  
+Ability: Snow Warning  
+Level: 92  
+Shiny: Yes  
+Tera Type: Fire  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe  
+- Protect  
+- Blizzard  
+- Moonblast  
+- Aurora Veil  
 
-Claydol
-Level: 75
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Reflect
-- Light Screen
-- Ancient Power
-- Earthquake
+Zeke (Arctozolt) @ Life Orb  
+Ability: Slush Rush  
+Level: 94  
+Tera Type: Grass  
+EVs: 44 Atk / 212 SpA / 252 Spe  
+Hasty Nature  
+IVs: 28 HP / 28 Def / 28 SpA / 28 SpD / 28 Spe  
+- Protect  
+- Bolt Beak  
+- Blizzard  
+- Freeze-Dry  
 
-Aggron
-Level: 76
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Earthquake
-- Solar Beam
-- Dragon Claw
+Byleth (Primarina) (M) @ Mystic Water  
+Ability: Liquid Voice  
+Level: 94  
+Shiny: Yes  
+Tera Type: Normal  
+EVs: 248 HP / 252 SpA / 8 SpD  
+Modest Nature  
+IVs: 28 HP / 0 Atk / 28 Def / 28 SpA / 28 SpD / 28 Spe  
+- Protect  
+- Hyper Voice  
+- Moonblast  
+- Icy Wind  
 
-Cradily
-Level: 76
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Ancient Power
-- Ingrain
-- Confuse Ray
+Utgarda (Zoroark-Hisui) (M) @ Choice Specs  
+Ability: Illusion  
+Level: 95  
+Shiny: Yes  
+Tera Type: Normal  
+EVs: 248 SpA / 8 SpD / 252 Spe  
+Timid Nature  
+IVs: 28 HP / 28 Def / 28 SpA / 28 SpD / 28 Spe  
+- Hyper Voice  
+- Tera Blast  
+- Shadow Ball  
+- Hyper Beam  
 
-Armaldo
-Level: 76
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Ancient Power
-- Aerial Ace
-- Slash
+Majo (Mawile) (F) @ Mawilite  
+Ability: Intimidate  
+Level: 96  
+Tera Type: Steel  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+IVs: 28 HP / 28 Def / 28 SpA / 28 SpD / 28 Spe  
+- Protect  
+- Play Rough  
+- Iron Head  
+- Sucker Punch  
 
-Metagross @ Sitrus Berry
-Level: 78
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Meteor Mash
-- Shadow Ball
+Orlan (Emboar) (M) @ Sitrus Berry  
+Ability: Reckless  
+Level: 93  
+Tera Type: Fire  
+EVs: 248 HP / 252 Atk / 8 SpD  
+Adamant Nature  
+IVs: 28 HP / 28 Def / 28 SpA / 28 SpD / 28 Spe  
+- Protect  
+- Flare Blitz  
+- Wild Charge  
+- Drain Punch  
+
 
 /*====================== ROUTE 115 TRAINERS ========================================================================================*/
 === TRAINER_KOICHI ===
@@ -18384,7 +18403,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 /*====================== GABBY & TY ========================================================================================*/
 === TRAINER_GABBY_AND_TY_1 ===
-Name: GABBY & TY
+Name: LISA & TY
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -18392,16 +18411,21 @@ Music: Interviewer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Magnemite
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Espeon
+Level: 28
 
-Whismur
-Level: 17
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Ditto
+Ability: Imposter
+Level: 28
+
+Umbreon
+Level: 28
+
+Snorlax
+Level: 28
 
 === TRAINER_GABBY_AND_TY_2 ===
-Name: GABBY & TY
+Name: LISA & TY
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -18409,16 +18433,21 @@ Music: Interviewer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Magnemite
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Espeon
+Level: 40
 
-Loudred
-Level: 27
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ditto
+Ability: Imposter
+Level: 40
+
+Umbreon
+Level: 40
+
+Snorlax
+Level: 40
 
 === TRAINER_GABBY_AND_TY_3 ===
-Name: GABBY & TY
+Name: LISA & TY
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -18426,16 +18455,21 @@ Music: Interviewer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Magneton
-Level: 30
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Espeon
+Level: 48
 
-Loudred
-Level: 30
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Ditto
+Ability: Imposter
+Level: 48
+
+Umbreon
+Level: 48
+
+Snorlax
+Level: 48
 
 === TRAINER_GABBY_AND_TY_4 ===
-Name: GABBY & TY
+Name: LISA & TY
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -18443,16 +18477,21 @@ Music: Interviewer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Magneton
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Espeon
+Level: 53
 
-Loudred
-Level: 33
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Ditto
+Ability: Imposter
+Level: 53
+
+Umbreon
+Level: 53
+
+Snorlax
+Level: 53
 
 === TRAINER_GABBY_AND_TY_5 ===
-Name: GABBY & TY
+Name: LISA & TY
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -18460,16 +18499,21 @@ Music: Interviewer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Magneton
-Level: 36
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Espeon
+Level: 58
 
-Loudred
-Level: 36
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Ditto
+Ability: Imposter
+Level: 58
+
+Umbreon
+Level: 58
+
+Snorlax
+Level: 58
 
 === TRAINER_GABBY_AND_TY_6 ===
-Name: GABBY & TY
+Name: LISA & TY
 Class: Interviewer
 Pic: Interviewer
 Gender: Male
@@ -18477,21 +18521,18 @@ Music: Interviewer
 Battle Type: Doubles
 AI: Check Bad Move
 
-Magneton
-Level: 39
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sonic Boom
-- Thunder Wave
-- Metal Sound
-- Thunderbolt
+Espeon
+Level: 63
 
-Exploud
-Level: 39
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Astonish
-- Stomp
-- Supersonic
-- Hyper Voice
+Ditto
+Ability: Imposter
+Level: 63
+
+Umbreon
+Level: 63
+
+Snorlax
+Level: 63
 
 /*====================== TRICK HOUSE PUZZLE #1 TRAINERS ========================================================================================*/
 === TRAINER_SALLY ===

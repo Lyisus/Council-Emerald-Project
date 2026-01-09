@@ -17140,9 +17140,9 @@ Level: 80
 
 /*====================== SOOTOPOLIS GYM F1 TRAINERS ========================================================================================*/
 === TRAINER_JUAN_1 ===
-Name: JUAN
+Name: NICK
 Class: Leader
-Pic: Leader Juan
+Pic: Nick Peace
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
@@ -17190,9 +17190,9 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Rest
 
 === TRAINER_JUAN_2 ===
-Name: JUAN
+Name: NICK
 Class: Leader
-Pic: Leader Juan
+Pic: Nick Peace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -17240,9 +17240,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_3 ===
-Name: JUAN
+Name: NICK
 Class: Leader
-Pic: Leader Juan
+Pic: Nick Peace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -17290,9 +17290,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_4 ===
-Name: JUAN
+Name: NICK
 Class: Leader
-Pic: Leader Juan
+Pic: Nick Peace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
@@ -17348,9 +17348,9 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 
 === TRAINER_JUAN_5 ===
-Name: JUAN
+Name: NICK
 Class: Leader
-Pic: Leader Juan
+Pic: Nick Peace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore

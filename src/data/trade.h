@@ -1150,7 +1150,7 @@ static const struct InGameTrade sIngameTrades[] =
         .species = SPECIES_SLOWPOKE_GALAR,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
-        .otId = 00000,
+        .otId = 26384,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x107, //Male Quiet
         .heldItem = ITEM_BLACK_SLUDGE,
@@ -1167,7 +1167,7 @@ static const struct InGameTrade sIngameTrades[] =
         .species = SPECIES_LUCARIO,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
-        .otId = 00000,
+        .otId = 34862,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x27, //Male Naive
         .heldItem = ITEM_LUCARIONITE,
@@ -1179,11 +1179,11 @@ static const struct InGameTrade sIngameTrades[] =
     },
     [INGAME_TRADE_SINISTCHA] =
     {
-        .nickname = _("SEASOR"),
+        .nickname = _("Seasor"),
         .species = SPECIES_SINISTCHA_MASTERPIECE,
         .ivs = {5, 4, 4, 4, 5, 4},
         .abilityNum = 0,
-        .otId = 00000,
+        .otId = 53846,
         .conditions = {5, 5, 5, 5, 30},
         .personality = 0x69, //Bold
         .heldItem = ITEM_WAVE_MAIL,
@@ -1191,23 +1191,23 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("SKYLAR"),
         .otGender = MALE,
         .sheen = 10,
-        .requestedSpecies = SPECIES_LUCARIO
+        .requestedSpecies = SPECIES_SEADRA
     },
     [INGAME_TRADE_SALAZZLE] =
     {
-        .nickname = _("Saur Saur"),
+        .nickname = _("Sally"),
         .species = SPECIES_SALAZZLE,
         .ivs = {20, 20, 20, 20, 20, 20},
         .abilityNum = 3,
         .otId = 00000,
         .conditions = {0, 0, 0, 0, 0},
         .personality = 0x55, //Timid
-        .heldItem = ITEM_VENUSAURITE,
+        .heldItem = ITEM_NONE,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("ASHRAF"),
         .otGender = MALE,
         .sheen = 0,
-        .requestedSpecies = SPECIES_SINISTCHA_MASTERPIECE
+        .requestedSpecies = SPECIES_OBSTAGOON
     },
     [INGAME_TRADE_MEOWTH] =
     {

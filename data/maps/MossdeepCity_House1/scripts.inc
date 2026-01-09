@@ -48,9 +48,9 @@ MossdeepCity_House1_EventScript_TradeCompleted::
 MossdeepCity_House1_Text_StartTrade:
 	.string "That power…\p"
 	.string "You must be capable of using\nMega Evolution…\p"
-	.string "My {STR_VAR_2} has a special item\nthat you could make use of.\p"
-	.string "I still need a POKéMON to continue\nmy own training.\p"
-	.string "I can trade you my {STR_VAR_2}\nfor a {STR_VAR_1}.$"
+	.string "My {STR_VAR_2} has a special item that you \ncould make use of.\p"
+	.string "Thought, I still need a POKéMON to \ncontinue my own training.\p"
+	.string "I can trade you my {STR_VAR_2}\nfor your {STR_VAR_1}.$"
 
 MossdeepCity_House1_Text_Thanks:
 	.string "Excellent.$"

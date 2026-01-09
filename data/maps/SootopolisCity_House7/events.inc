@@ -5,7 +5,7 @@
 	.align 2
 
 SootopolisCity_House7_ObjectEvents:
-	object_event 1, OBJ_EVENT_GFX_OLD_MAN, 5, 3, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, TRAINER_TYPE_NONE, 0, SootopolisCity_House7_EventScript_OldMan, 0
+	object_event 1, OBJ_EVENT_GFX_OLD_MAN, 5, 3, 3, MOVEMENT_TYPE_FACE_LEFT, 0, 0, TRAINER_TYPE_NONE, 0, SootopolisCity_House7_EventScript_Trader_Salazzle, 0
 	object_event 2, OBJ_EVENT_GFX_POKEFAN_F, 1, 4, 3, MOVEMENT_TYPE_WANDER_AROUND, 1, 1, TRAINER_TYPE_NONE, 0, SootopolisCity_House7_EventScript_PokefanF, 0
 
 SootopolisCity_House7_MapWarps:

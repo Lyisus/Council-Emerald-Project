@@ -1,0 +1,49 @@
+=== PARTNER_NONE ===
+Name:
+Class: Pkmn Trainer 1
+Pic: Brendan
+Gender: Male
+Music: Male
+Back Pic: Brendan
+
+=== PARTNER_STEVEN ===
+Name: STEVEN
+Class: Rival
+Pic: Steven
+Gender: Male
+Music: Male
+Back Pic: Steven
+AI: Smart Trainer
+
+Alakazam @ Focus Sash  
+Ability: Magic Guard  
+Level: 63  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Psyshock  
+- Focus Blast  
+- Shadow Ball  
+
+Tyranitar (M) @ Tyranitarite  
+Ability: Sand Stream  
+Level: 66  
+Shiny: Yes  
+EVs: 252 HP / 4 Atk / 252 Spe  
+Adamant Nature  
+- Knock Off  
+- Stone Edge  
+- Stealth Rock  
+- Dragon Dance  
+
+Excadrill @ Life Orb  
+Ability: Sand Rush  
+Level: 64  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Adamant Nature  
+- Iron Head  
+- High Horsepower  
+- Rock Slide  
+- Swords Dance  
+

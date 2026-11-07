@@ -14,9 +14,25 @@ body:
         Describe the issue you are experiencing.
         Attach images/videos if possible.
       placeholder: |
+<<<<<<< HEAD
         Please enter a description of the issue. Here you can also attach log screenshots, gifs or a video
     validations:
       required: true
+=======
+        Provide as much context as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Images / Video
+      description: |
+        Have other projects or games solved this problem? Do you have images or video to show this happening?
+      placeholder: |
+        Here you can also attach logs, screenshots, gifs or a video.
+    validations:
+      required: false
+>>>>>>> 79dd436920845ebc145577649de624f65298c209
   - type: input
     id: contact
     attributes:

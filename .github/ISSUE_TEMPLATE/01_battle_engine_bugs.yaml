@@ -5,7 +5,12 @@ body:
   - type: markdown
     attributes:
       value: |
+<<<<<<< HEAD
         Please fill in all required fields with as many details as possible.
+=======
+        Please fill in all fields with as many details as possible.
+        Once your bug is posted, make sure you and your collaborators are added to `CREDITS.md` by [tagging the bot on GitHub](https://github.com/rh-hideout/pokeemerald-expansion/wiki/CREDITS.md-Frequently-Asked-Questions). EVERY contribution matters, even reporting bugs!
+>>>>>>> 79dd436920845ebc145577649de624f65298c209
   - type: textarea
     id: description
     attributes:
@@ -17,12 +22,36 @@ body:
         Please enter a description of the issue. Here you can also attach log screenshots, gifs or a video
     validations:
       required: true
+<<<<<<< HEAD
+=======
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction Steps
+      description: |
+        What exact steps can somebody else follow in order to recreate the issue on their own?
+      placeholder: |
+        Provide as much context as possible as to what was done to create the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Images / Video
+      description: |
+        Do you have images or videos to show the problem happen?
+      placeholder: |
+        Here you can also attach logs, screenshots, gifs or a video.
+    validations:
+      required: false
+>>>>>>> 79dd436920845ebc145577649de624f65298c209
   - type: dropdown
     id: version
     attributes:
       label: Version
       description: What version of pokeemerald-expansion are you using as a base?
       options:
+<<<<<<< HEAD
         - 1.10.0 (Latest release)
         - master (default, unreleased bugfixes)
         - upcoming (Edge)
@@ -32,6 +61,19 @@ body:
         - 1.9.1
         - 1.9.0
         - pre-1.9.0
+=======
+        - 1.17.2 (Latest release)
+        - master (default, unreleased bugfixes)
+        - upcoming (Edge)
+        - 1.17.1
+        - 1.17.0
+        - 1.16.4
+        - 1.16.3
+        - 1.16.2
+        - 1.16.1
+        - 1.16.0
+        - pre-1.16.0
+>>>>>>> 79dd436920845ebc145577649de624f65298c209
     validations:
       required: true
   - type: input

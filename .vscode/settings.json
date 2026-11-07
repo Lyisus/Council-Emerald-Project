@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "berry_tree_graphics_tables.h": "c",
+        "object_event_graphics_info_pointers.h": "c",
+        "species.h": "c"
+    }
+}
